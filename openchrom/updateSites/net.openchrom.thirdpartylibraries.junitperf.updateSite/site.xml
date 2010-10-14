@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="JUnitPerf" url="http://thirdpartylibraries.openchrom.net/junitperf/update">
+      JUnitPerf for OpenChrom
+   </description>
+   <feature url="features/net.openchrom.thirdpartylibraries.junitperf.feature_1.9.1.jar" id="net.openchrom.thirdpartylibraries.junitperf.feature" version="1.9.1">
+      <category name="ThirdPartyLibraries"/>
+   </feature>
+   <category-def name="ThirdPartyLibraries" label="ThirdPartyLibraries">
+      <description>
+         ThirdPartyLibraries
+      </description>
+   </category-def>
+</site>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="FindBugs" url="http://thirdpartylibraries.openchrom.net/findbugs/update">
+      FindBugs for OpenChrom
+   </description>
+   <feature url="features/net.openchrom.thirdpartylibraries.findbugs.feature_1.3.6.jar" id="net.openchrom.thirdpartylibraries.findbugs.feature" version="1.3.6">
+      <category name="ThirdPartyLibraries"/>
+   </feature>
+   <category-def name="ThirdPartyLibraries" label="ThirdPartyLibraries">
+      <description>
+         ThirdPartyLibraries
+      </description>
+   </category-def>
+</site>

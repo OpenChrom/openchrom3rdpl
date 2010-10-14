@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Eclipse-BuddyPolicy: registered
+Bundle-ManifestVersion: 2
+Bundle-Name: Junitaddons Plug-in
+Bundle-SymbolicName: net.openchrom.thirdpartylibraries.junitaddons
+Bundle-Version: 1.4.0
+Bundle-Activator: net.openchrom.thirdpartylibraries.junitaddons.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.junit4;bundle-version="4.3.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ClassPath: libraries/junit-addons-1.4.jar,
+ .
+Export-Package: junitx.util
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: http://www.openchrom.net

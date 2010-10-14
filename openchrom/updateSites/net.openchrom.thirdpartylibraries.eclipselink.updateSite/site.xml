@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="EclipseLink" url="http://thirdpartylibraries.openchrom.net/eclipselink/update">
+      EclipseLink for OpenChrom
+   </description>
+   <feature url="features/net.openchrom.thirdpartylibraries.eclipselink.feature_1.5.1.jar" id="net.openchrom.thirdpartylibraries.eclipselink.feature" version="1.5.1">
+      <category name="ThirdPartyLibraries"/>
+   </feature>
+   <category-def name="ThirdPartyLibraries" label="ThirdPartyLibraries">
+      <description>
+         ThirdPartyLibraries
+      </description>
+   </category-def>
+</site>

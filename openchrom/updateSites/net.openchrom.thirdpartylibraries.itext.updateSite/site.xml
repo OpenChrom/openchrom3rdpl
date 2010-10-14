@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="iText" url="http://www.openchrom.net/plugins/thirdpartylibraries/update/">
+      iText for OpenChrom
+   </description>
+   <feature url="features/net.openchrom.thirdpartylibraries.itext.feature_5.0.2.jar" id="net.openchrom.thirdpartylibraries.itext.feature" version="5.0.2">
+      <category name="ThirdPartyLibraries"/>
+   </feature>
+   <category-def name="ThirdPartyLibraries" label="ThirdPartyLibraries">
+      <description>
+         ThirdPartyLibraries
+      </description>
+   </category-def>
+</site>

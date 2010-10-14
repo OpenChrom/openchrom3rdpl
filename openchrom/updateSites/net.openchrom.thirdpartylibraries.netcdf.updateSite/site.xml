@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="NetCDF" url="http://www.openchrom.net/plugins/thirdpartylibraries/update">
+      NetCDF for OpenChrom
+   </description>
+   <feature url="features/net.openchrom.thirdpartylibraries.netcdf.feature_2.2.22.jar" id="net.openchrom.thirdpartylibraries.netcdf.feature" version="2.2.22">
+      <category name="ThirdPartyLibraries"/>
+   </feature>
+   <category-def name="ThirdPartyLibraries" label="ThirdPartyLibraries">
+      <description>
+         ThirdPartyLibraries
+      </description>
+   </category-def>
+</site>
