@@ -15,7 +15,8 @@
 	PROPERTIES
   --> 
   <properties>
-    <tycho-version>0.9.0</tycho-version>
+    <tycho-version>0.10.0</tycho-version>
+    <tycho-groupid>org.sonatype.tycho</tycho-groupid>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <!--
@@ -276,7 +277,7 @@
 	Tycho Maven Plugin
       -->
       <plugin>
-        <groupId>org.sonatype.tycho</groupId>
+        <groupId>${tycho-groupid}</groupId>
         <artifactId>tycho-maven-plugin</artifactId>
         <version>${tycho-version}</version>
         <extensions>true</extensions>
@@ -285,7 +286,7 @@
 	Source and target to Java version 1.6, otherwise "method must implement @override" failures will occur.
       -->
       <plugin>
-        <groupId>org.sonatype.tycho</groupId>
+        <groupId>${tycho-groupid}</groupId>
         <artifactId>maven-osgi-compiler-plugin</artifactId>
 	<version>${tycho-version}</version>
         <configuration>
@@ -297,7 +298,7 @@
 	Use the provisioning system p2 from Eclipse.
       -->
       <plugin>
-        <groupId>org.sonatype.tycho</groupId>
+        <groupId>${tycho-groupid}</groupId>
         <artifactId>target-platform-configuration</artifactId>
         <version>${tycho-version}</version>
         <configuration>
@@ -308,7 +309,7 @@
 	Settings of the JUnit-Tests.
       -->
       <plugin>
-        <groupId>org.sonatype.tycho</groupId>
+        <groupId>${tycho-groupid}</groupId>
         <artifactId>maven-osgi-test-plugin</artifactId>
         <configuration>
           <useUIHarness>false</useUIHarness>
