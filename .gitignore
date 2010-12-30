@@ -1,0 +1,15 @@
+openchrom/plugins/net.openchrom.thirdpartylibraries.commons-math/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.dbunit/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.derby/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.easymock/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.eclipselink/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.findbugs/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.itext/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.javabase64/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.jpa/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.junitaddons/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.junitperf/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.log4j/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.netcdf/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.proteomecommons/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.swtchart/bin/*
