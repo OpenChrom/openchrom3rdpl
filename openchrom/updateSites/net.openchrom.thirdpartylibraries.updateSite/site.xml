@@ -33,7 +33,7 @@
    <feature url="features/net.openchrom.thirdpartylibraries.itext.feature_5.0.2.jar" id="net.openchrom.thirdpartylibraries.itext.feature" version="5.0.2">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <category-def name="net.openchrom.thirdpartylibraries" label="Third Party Libraries">
+   <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
       <description>
          Several third party libraries, distributed under different open source licenses.
       </description>
