@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>net.openchrom.thirdpartylibraries.swtchart.feature</artifactId>
-  <version>0.6.0</version>
+  <version>0.7.0</version>
   <packaging>eclipse-feature</packaging>
   
 </project>
