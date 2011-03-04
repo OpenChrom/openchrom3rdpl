@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
+Eclipse-BuddyPolicy: registered
 Bundle-ManifestVersion: 2
 Bundle-Name: Log4j
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.log4j
