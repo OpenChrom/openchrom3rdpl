@@ -3,15 +3,15 @@ Eclipse-BuddyPolicy: registered
 Bundle-ManifestVersion: 2
 Bundle-Name: SWTChart
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.swtchart
-Bundle-Version: 0.6.0
+Bundle-Version: 0.7.0
 Bundle-Activator: net.openchrom.thirdpartylibraries.swtchart.Activator
 Bundle-Vendor: http://www.openchrom.net
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
-Bundle-ClassPath: libraries/org.swtchart_0.6.0.v20090801.jar,
- libraries/org.swtchart.ext_0.6.0.v20090801.jar,
- .
+Bundle-ClassPath: .,
+ libraries/org.swtchart_0.7.0.v20110128.jar,
+ libraries/org.swtchart.ext_0.7.0.v20110128.jar
 Export-Package: org.swtchart,
  org.swtchart.ext,
  org.swtchart.ext.internal,

@@ -24,13 +24,13 @@
    <feature url="features/net.openchrom.thirdpartylibraries.netcdf.feature_2.2.22.jar" id="net.openchrom.thirdpartylibraries.netcdf.feature" version="2.2.22">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.swtchart.feature_0.6.0.jar" id="net.openchrom.thirdpartylibraries.swtchart.feature" version="0.6.0">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.proteomecommons.feature_6.2.1.jar" id="net.openchrom.thirdpartylibraries.proteomecommons.feature" version="6.2.1">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.itext.feature_5.0.2.jar" id="net.openchrom.thirdpartylibraries.itext.feature" version="5.0.2">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.swtchart.feature_0.7.0.jar" id="net.openchrom.thirdpartylibraries.swtchart.feature" version="0.7.0">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
    <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
