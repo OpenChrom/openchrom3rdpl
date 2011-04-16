@@ -13,3 +13,7 @@ openchrom/plugins/net.openchrom.thirdpartylibraries.log4j/bin/*
 openchrom/plugins/net.openchrom.thirdpartylibraries.netcdf/bin/*
 openchrom/plugins/net.openchrom.thirdpartylibraries.proteomecommons/bin/*
 openchrom/plugins/net.openchrom.thirdpartylibraries.swtchart/bin/*
+openchrom/updateSites/net.openchrom.thirdpartylibraries.updateSite/artifacts.jar
+openchrom/updateSites/net.openchrom.thirdpartylibraries.updateSite/content.jar
+openchrom/updateSites/net.openchrom.thirdpartylibraries.updateSite/features/
+openchrom/updateSites/net.openchrom.thirdpartylibraries.updateSite/plugins/
