@@ -32,6 +32,11 @@
   -->  
   <licenses>
     <license>
+      <comments>ApacheCommonsCLI 1.2 (http://commons.apache.org/cli)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
       <comments>ApacheCommonsMath 2.0 (http://commons.apache.org/math)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -125,6 +130,10 @@
 	MODULES
   -->
   <modules>
+    <!-- CommonsCLI -->
+    <module>./plugins/net.openchrom.thirdpartylibraries.commons-lib</module>
+    <module>./features/net.openchrom.thirdpartylibraries.commons-lib.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.commons-lib.updateSite</module>
     <!-- CommonsMath -->
     <module>./plugins/net.openchrom.thirdpartylibraries.commons-math</module>
     <module>./features/net.openchrom.thirdpartylibraries.commons-math.feature</module>

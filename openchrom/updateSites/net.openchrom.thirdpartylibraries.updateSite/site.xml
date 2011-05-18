@@ -33,6 +33,7 @@
    <feature url="features/net.openchrom.thirdpartylibraries.swtchart.feature_0.7.0.jar" id="net.openchrom.thirdpartylibraries.swtchart.feature" version="0.7.0">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.commons_cli.feature_1.2.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.commons_cli.feature" version="1.2.0.qualifier"/>
    <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
       <description>
          Several third party libraries, distributed under different open source licenses.
