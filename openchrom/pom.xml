@@ -131,9 +131,9 @@
   -->
   <modules>
     <!-- CommonsCLI -->
-    <module>./plugins/net.openchrom.thirdpartylibraries.commons-lib</module>
-    <module>./features/net.openchrom.thirdpartylibraries.commons-lib.feature</module>
-    <module>./updateSites/net.openchrom.thirdpartylibraries.commons-lib.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.commons-cli</module>
+    <module>./features/net.openchrom.thirdpartylibraries.commons-cli.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.commons-cli.updateSite</module>
     <!-- CommonsMath -->
     <module>./plugins/net.openchrom.thirdpartylibraries.commons-math</module>
     <module>./features/net.openchrom.thirdpartylibraries.commons-math.feature</module>
