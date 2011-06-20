@@ -3,9 +3,6 @@
    <description name="Third Party Libraries" url="http://www.openchrom.net/plugins/thirdpartylibraries/update">
       This site contains several third party libraries.
    </description>
-   <feature url="features/net.openchrom.thirdpartylibraries.commons_math.feature_2.0.0.jar" id="net.openchrom.thirdpartylibraries.commons_math.feature" version="2.0.0">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.derby.feature_10.5.1.jar" id="net.openchrom.thirdpartylibraries.derby.feature" version="10.5.1">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
@@ -33,7 +30,12 @@
    <feature url="features/net.openchrom.thirdpartylibraries.swtchart.feature_0.7.0.jar" id="net.openchrom.thirdpartylibraries.swtchart.feature" version="0.7.0">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.commons_cli.feature_1.2.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.commons_cli.feature" version="1.2.0.qualifier"/>
+   <feature url="features/net.openchrom.thirdpartylibraries.apache.commons.cli.feature_1.2.0.jar" id="net.openchrom.thirdpartylibraries.apache.commons.cli.feature" version="1.2.0">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.apache.commons.math.feature_2.0.0.jar" id="net.openchrom.thirdpartylibraries.apache.commons.math.feature" version="2.0.0">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
    <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
       <description>
          Several third party libraries, distributed under different open source licenses.

@@ -18,3 +18,5 @@ openchrom/updateSites/net.openchrom.thirdpartylibraries.updateSite/content.jar
 openchrom/updateSites/net.openchrom.thirdpartylibraries.updateSite/features/
 openchrom/updateSites/net.openchrom.thirdpartylibraries.updateSite/plugins/
 openchrom/plugins/net.openchrom.thirdpartylibraries.commons-cli/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.apache.commons.cli/bin/
+openchrom/plugins/net.openchrom.thirdpartylibraries.apache.commons.math/bin/
