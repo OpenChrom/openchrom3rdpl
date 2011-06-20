@@ -131,13 +131,13 @@
   -->
   <modules>
     <!-- CommonsCLI -->
-    <module>./plugins/net.openchrom.thirdpartylibraries.commons-cli</module>
-    <module>./features/net.openchrom.thirdpartylibraries.commons-cli.feature</module>
-    <module>./updateSites/net.openchrom.thirdpartylibraries.commons-cli.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.apache.commons.cli</module>
+    <module>./features/net.openchrom.thirdpartylibraries.apache.commons.cli.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.apache.commons.cli.updateSite</module>
     <!-- CommonsMath -->
-    <module>./plugins/net.openchrom.thirdpartylibraries.commons-math</module>
-    <module>./features/net.openchrom.thirdpartylibraries.commons-math.feature</module>
-    <module>./updateSites/net.openchrom.thirdpartylibraries.commons-math.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.apache.commons.math</module>
+    <module>./features/net.openchrom.thirdpartylibraries.apache.commons.math.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.apache.commons.math.updateSite</module>
     <!-- DBUnit -->
     <module>./plugins/net.openchrom.thirdpartylibraries.dbunit</module>
     <module>./features/net.openchrom.thirdpartylibraries.dbunit.feature</module>

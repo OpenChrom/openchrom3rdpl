@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="CommonsCLI" url="http://www.openchrom.net/plugins/thirdpartylibraries/update">
+      Apache Commons-CLI for OpenChrom
+   </description>
+   <feature url="features/net.openchrom.thirdpartylibraries.apache.commons.cli.feature_1.2.0.jar" id="net.openchrom.thirdpartylibraries.apache.commons.cli.feature" version="1.2.0">
+      <category name="ThirdPartyLibraries"/>
+   </feature>
+   <category-def name="ThirdPartyLibraries" label="ThirdPartyLibraries">
+      <description>
+         ThirdPartyLibraries
+      </description>
+   </category-def>
+</site>
