@@ -20,3 +20,7 @@ openchrom/updateSites/net.openchrom.thirdpartylibraries.updateSite/plugins/
 openchrom/plugins/net.openchrom.thirdpartylibraries.commons-cli/bin/*
 openchrom/plugins/net.openchrom.thirdpartylibraries.apache.commons.cli/bin/
 openchrom/plugins/net.openchrom.thirdpartylibraries.apache.commons.math/bin/
+openchrom/plugins/net.openchrom.thirdpartylibraries.apache.commons.poi/bin/
+openchrom/plugins/net.openchrom.thirdpartylibraries.apache.geronimo.stax/bin/
+openchrom/plugins/net.openchrom.thirdpartylibraries.apache.xmlbeans/bin/
+openchrom/plugins/net.openchrom.thirdpartylibraries.dom4j/bin/
