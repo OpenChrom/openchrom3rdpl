@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/net.openchrom.thirdpartylibraries.apache.xmlbeans.feature_2.5.0.jar" id="net.openchrom.thirdpartylibraries.apache.xmlbeans.feature" version="2.5.0">
+      <category name="ThirdPartyLibraries"/>
+   </feature>
+   <category-def name="ThirdPartyLibraries" label="ThirdPartyLibraries">
+      <description>
+         ThirdPartyLibraries
+      </description>
+   </category-def>
+</site>
