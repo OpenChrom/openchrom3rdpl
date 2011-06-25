@@ -131,6 +131,11 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
+    <license>
+      <comments>SuperCSV 1.52.0 (http://supercsv.sourceforge.net)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
   </licenses> 
   <!--
 	DEVELOPERS
@@ -230,6 +235,10 @@
     <module>./plugins/net.openchrom.thirdpartylibraries.apache.commons.poi</module>
     <module>./features/net.openchrom.thirdpartylibraries.apache.commons.poi.feature</module>
     <module>./updateSites/net.openchrom.thirdpartylibraries.apache.commons.poi.updateSite</module>
+    <!-- SuperCSV -->
+    <module>./plugins/net.openchrom.thirdpartylibraries.supercsv</module>
+    <module>./features/net.openchrom.thirdpartylibraries.supercsv.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.supercsv.updateSite</module>
     <!-- Update Site (Selected third party libraries) -->
     <module>./updateSites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
