@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>net.openchrom.thirdpartylibraries.derby.updateSite</artifactId>
-  <version>10.5.1</version>
+  <version>10.5.1-SNAPSHOT</version>
   <packaging>eclipse-update-site</packaging>
   
 </project>

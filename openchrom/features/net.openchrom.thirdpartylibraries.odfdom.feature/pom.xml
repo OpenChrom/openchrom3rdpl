@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>net.openchrom.thirdpartylibraries.odfdom.feature</artifactId>
-  <version>0.8.7</version>
+  <version>0.8.7-SNAPSHOT</version>
   <packaging>eclipse-feature</packaging>
   
 </project>

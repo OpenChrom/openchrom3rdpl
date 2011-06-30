@@ -2,7 +2,7 @@
 <feature
       id="net.openchrom.thirdpartylibraries.jpa.feature"
       label="JPA"
-      version="1.99.0"
+      version="1.99.0.qualifier"
       provider-name="http://www.openchrom.net">
 
    <description url="http://www.openchrom.net/plugins/thirdpartylibraries">

@@ -2,7 +2,7 @@
 <feature
       id="net.openchrom.thirdpartylibraries.odfdom.feature"
       label="Feature"
-      version="0.8.7"
+      version="0.8.7.qualifier"
       provider-name="http://www.openchrom.net">
 
    <description url="http://www.openchrom.net/plugins/thirdpartylibraries">

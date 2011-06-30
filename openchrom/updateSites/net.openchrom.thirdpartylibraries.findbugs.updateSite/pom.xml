@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>net.openchrom.thirdpartylibraries.findbugs.updateSite</artifactId>
-  <version>1.3.6</version>
+  <version>1.3.6-SNAPSHOT</version>
   <packaging>eclipse-update-site</packaging>
   
 </project>

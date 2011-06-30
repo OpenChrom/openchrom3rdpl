@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>net.openchrom.thirdpartylibraries.jpa.updateSite</artifactId>
-  <version>1.99.0</version>
+  <version>1.99.0-SNAPSHOT</version>
   <packaging>eclipse-update-site</packaging>
   
 </project>

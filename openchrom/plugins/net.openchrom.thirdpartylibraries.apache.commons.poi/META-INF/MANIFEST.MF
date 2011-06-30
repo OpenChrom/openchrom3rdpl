@@ -4,7 +4,7 @@ Eclipse-RegisterBuddy: net.openchrom.thirdpartylibraries.dom4j, net.openchrom.th
 Bundle-ManifestVersion: 2
 Bundle-Name: apache.commons.poi
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.apache.commons.poi
-Bundle-Version: 3.7.0
+Bundle-Version: 3.7.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.apache.commons.poi.Activator
 Bundle-Vendor: http://www.openchrom.net
 Require-Bundle: org.eclipse.core.runtime,

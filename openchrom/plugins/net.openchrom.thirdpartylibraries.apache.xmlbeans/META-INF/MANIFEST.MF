@@ -3,7 +3,7 @@ Eclipse-BuddyPolicy: registered
 Bundle-ManifestVersion: 2
 Bundle-Name: Xmlbeans
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.apache.xmlbeans
-Bundle-Version: 2.5.0
+Bundle-Version: 2.5.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.apache.xmlbeans.Activator
 Bundle-Vendor: http://www.openchrom.net
 Require-Bundle: org.eclipse.core.runtime

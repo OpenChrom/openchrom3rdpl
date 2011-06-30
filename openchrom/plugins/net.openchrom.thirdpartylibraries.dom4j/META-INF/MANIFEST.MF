@@ -3,7 +3,7 @@ Eclipse-BuddyPolicy: registered
 Bundle-ManifestVersion: 2
 Bundle-Name: Dom4j
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.dom4j
-Bundle-Version: 1.6.1
+Bundle-Version: 1.6.1.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.dom4j.Activator
 Bundle-Vendor: http://www.openchrom.net
 Require-Bundle: org.eclipse.core.runtime

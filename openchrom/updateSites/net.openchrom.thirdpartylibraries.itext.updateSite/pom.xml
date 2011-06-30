@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>net.openchrom.thirdpartylibraries.itext.updateSite</artifactId>
-  <version>5.0.2</version>
+  <version>5.0.2-SNAPSHOT</version>
   <packaging>eclipse-update-site</packaging>
   
 </project>

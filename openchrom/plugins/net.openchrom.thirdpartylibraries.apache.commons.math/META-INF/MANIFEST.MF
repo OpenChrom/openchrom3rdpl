@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Commons_math Plug-in
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.apache.commons.math
-Bundle-Version: 2.0.0
+Bundle-Version: 2.0.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.apache.commons.math.Activator
 Require-Bundle: org.eclipse.core.runtime
 Bundle-ActivationPolicy: lazy

@@ -3,7 +3,7 @@ Eclipse-BuddyPolicy: registered
 Bundle-ManifestVersion: 2
 Bundle-Name: Easymock Plug-in
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.easymock
-Bundle-Version: 2.4.0
+Bundle-Version: 2.4.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.easymock.Activator
 Require-Bundle: org.eclipse.core.runtime
 Bundle-ActivationPolicy: lazy

@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Apache.Commons.Cli
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.apache.commons.cli
-Bundle-Version: 1.2.0
+Bundle-Version: 1.2.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.apache.commons.cli.Activator
 Bundle-Vendor: http://www.openchrom.net
 Require-Bundle: org.eclipse.core.runtime

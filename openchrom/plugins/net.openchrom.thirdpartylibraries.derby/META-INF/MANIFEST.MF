@@ -3,7 +3,7 @@ Eclipse-RegisterBuddy: net.openchrom.thirdpartylibraries.eclipselink
 Bundle-ManifestVersion: 2
 Bundle-Name: Derby Plug-in
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.derby
-Bundle-Version: 10.5.1
+Bundle-Version: 10.5.1.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.derby.Activator
 Require-Bundle: org.eclipse.core.runtime
 Bundle-ActivationPolicy: lazy

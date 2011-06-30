@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>net.openchrom.thirdpartylibraries.odfdom.updateSite</artifactId>
-  <version>0.8.7</version>
+  <version>0.8.7-SNAPSHOT</version>
   <packaging>eclipse-update-site</packaging>
   
 </project>
