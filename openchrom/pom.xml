@@ -267,16 +267,6 @@
 	P2 REPOSITORIES
   -->
   <repositories>
-   <repository>
-     <id>forge</id>
-     <url>http://repository.sonatype.org/content/groups/public</url>
-     <snapshots>
-       <enabled>true</enabled>
-     </snapshots>
-     <releases>
-       <enabled>true</enabled>
-     </releases>
-   </repository>
 <!--
    <repository>
      <id>indigo</id>
@@ -303,28 +293,6 @@
   <!--
 	PLUGIN REPOSITORIES
   -->
-  <pluginRepositories>
-    <pluginRepository>
-      <id>forge</id>
-      <url>http://repository.sonatype.org/content/groups/public</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-    </pluginRepository>
-    <pluginRepository>
-      <id>forge1</id>
-      <url>http://repository.sonatype.org/content/repositories/all-001</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-    </pluginRepository>
-  </pluginRepositories>
   <!--
 	SOURCE CODE MANAGEMENT
   -->
