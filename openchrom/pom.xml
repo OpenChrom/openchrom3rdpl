@@ -16,7 +16,7 @@
   --> 
   <properties>
     <tycho-version>0.13.0</tycho-version>
-    <tycho-groupid>org.sonatype.tycho</tycho-groupid>
+    <tycho-groupid>org.eclipse.tycho</tycho-groupid>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <!--
@@ -315,7 +315,7 @@
       <plugin>
 	<groupId>org.apache.maven.plugins</groupId>
 	<artifactId>maven-scm-plugin</artifactId>
-	<version>1.2</version>
+	<version>1.5</version>
 	  <configuration>
 	    <checkoutDirectory>.</checkoutDirectory>
 	  </configuration>
@@ -333,9 +333,9 @@
 	Source and target to Java version 1.6, otherwise "method must implement @override" failures will occur.
       -->
       <plugin>
-        <groupId>${tycho-groupid}</groupId>
+        <groupId>org.sonatype.tycho</groupId>
         <artifactId>maven-osgi-compiler-plugin</artifactId>
-	<version>${tycho-version}</version>
+	<version>0.11.1</version>
         <configuration>
           <source>1.6</source>
           <target>1.6</target>
@@ -356,7 +356,7 @@
 	Settings of the JUnit-Tests.
       -->
       <plugin>
-        <groupId>${tycho-groupid}</groupId>
+        <groupId>org.sonatype.tycho</groupId>
         <artifactId>maven-osgi-test-plugin</artifactId>
         <configuration>
           <useUIHarness>false</useUIHarness>
