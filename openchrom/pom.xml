@@ -317,10 +317,9 @@
       <plugin>
 	<groupId>${maven-groupid}</groupId>
 	<artifactId>maven-scm-plugin</artifactId>
-	<version>1.5</version>
-	  <configuration>
-	    <checkoutDirectory>.</checkoutDirectory>
-	  </configuration>
+	<configuration>
+	  <checkoutDirectory>.</checkoutDirectory>
+	</configuration>
       </plugin>
       <!-- 
 	Tycho Maven Plugin
