@@ -1,6 +1,6 @@
 /*******************************************************************************
  * Copyright (c) 2011 Philip (eselmeister) Wenig.
- *  
+ * 
  * Licensed to the Apache
  * Software Foundation (ASF) under one or more contributor license agreements.
  * See the NOTICE file distributed with this work for additional information
@@ -23,6 +23,7 @@ public class Activator implements BundleActivator {
 	private static BundleContext context;
 
 	static BundleContext getContext() {
+
 		return context;
 	}
 
@@ -31,6 +32,7 @@ public class Activator implements BundleActivator {
 	 * @see org.osgi.framework.BundleActivator#start(org.osgi.framework.BundleContext)
 	 */
 	public void start(BundleContext bundleContext) throws Exception {
+
 		Activator.context = bundleContext;
 	}
 
@@ -39,7 +41,7 @@ public class Activator implements BundleActivator {
 	 * @see org.osgi.framework.BundleActivator#stop(org.osgi.framework.BundleContext)
 	 */
 	public void stop(BundleContext bundleContext) throws Exception {
+
 		Activator.context = null;
 	}
-
 }
