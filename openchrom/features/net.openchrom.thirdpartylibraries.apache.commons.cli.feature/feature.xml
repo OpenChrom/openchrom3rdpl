@@ -6,7 +6,7 @@
       provider-name="http://www.openchrom.net">
 
    <description url="http://www.openchrom.net/plugins/thirdpartylibraries">
-      This feature encapsulates the Apache CommonsMath libraries.
+      This feature encapsulates the Apache CommonsCLI libraries.
    </description>
 
    <copyright url="http://commons.apache.org/cli">
