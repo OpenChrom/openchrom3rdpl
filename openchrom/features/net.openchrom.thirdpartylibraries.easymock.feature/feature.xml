@@ -2,7 +2,7 @@
 <feature
       id="net.openchrom.thirdpartylibraries.easymock.feature"
       label="Feature"
-      version="2.4.0"
+      version="2.4.0.qualifier"
       provider-name="http://www.openchrom.net">
 
    <description url="http://thirdpartylibraries.openchrom.net/easymock">

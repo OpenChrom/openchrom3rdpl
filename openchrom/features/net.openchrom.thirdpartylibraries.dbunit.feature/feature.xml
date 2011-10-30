@@ -2,7 +2,7 @@
 <feature
       id="net.openchrom.thirdpartylibraries.dbunit.feature"
       label="Feature"
-      version="2.4.5"
+      version="2.4.5.qualifier"
       provider-name="http://www.openchrom.net">
 
    <description url="http://thirdpartylibraries.openchrom.net/dbunit">

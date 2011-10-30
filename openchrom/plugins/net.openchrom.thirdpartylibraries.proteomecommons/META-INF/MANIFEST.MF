@@ -3,7 +3,7 @@ Eclipse-BuddyPolicy: registered
 Bundle-ManifestVersion: 2
 Bundle-Name: Proteomecommons
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.proteomecommons
-Bundle-Version: 6.2.1
+Bundle-Version: 6.2.1.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.proteomecommons.Activator
 Bundle-Vendor: http://www.openchrom.net
 Require-Bundle: org.eclipse.core.runtime

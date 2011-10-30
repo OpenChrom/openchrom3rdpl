@@ -3,7 +3,7 @@ Eclipse-BuddyPolicy: registered
 Bundle-ManifestVersion: 2
 Bundle-Name: Junitaddons Plug-in
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.junitaddons
-Bundle-Version: 1.4.0
+Bundle-Version: 1.4.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.junitaddons.Activator
 Require-Bundle: org.eclipse.core.runtime,
  org.junit4;bundle-version="4.3.1"

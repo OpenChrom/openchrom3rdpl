@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>net.openchrom.thirdpartylibraries.dbunit</artifactId>
-  <version>2.4.5</version>
+  <version>2.4.5-SNAPSHOT</version>
   <packaging>eclipse-plugin</packaging>
   
 </project>

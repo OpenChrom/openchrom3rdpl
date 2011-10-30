@@ -2,7 +2,7 @@
 <feature
       id="net.openchrom.thirdpartylibraries.findbugs.feature"
       label="Feature"
-      version="1.3.6"
+      version="1.3.6.qualifier"
       provider-name="http://www.openchrom.net">
 
    <description url="http://thirdpartylibraries.openchrom.net/findbugs">

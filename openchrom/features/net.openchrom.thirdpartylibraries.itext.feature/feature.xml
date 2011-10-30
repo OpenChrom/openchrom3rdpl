@@ -2,7 +2,7 @@
 <feature
       id="net.openchrom.thirdpartylibraries.itext.feature"
       label="iText"
-      version="5.0.2"
+      version="5.0.2.qualifier"
       provider-name="http://www.openchrom.net">
 
    <description url="http://www.openchrom.net/plugins/thirdpartylibraries">

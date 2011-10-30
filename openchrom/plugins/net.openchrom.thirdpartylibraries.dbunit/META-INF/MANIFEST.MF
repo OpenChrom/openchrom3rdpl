@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Dbunit Plug-in
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.dbunit
-Bundle-Version: 2.4.5
+Bundle-Version: 2.4.5.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.dbunit.Activator
 Require-Bundle: org.eclipse.core.runtime
 Bundle-ActivationPolicy: lazy

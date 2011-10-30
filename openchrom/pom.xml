@@ -15,8 +15,10 @@
 	PROPERTIES
   --> 
   <properties>
-    <tycho-version>0.10.0</tycho-version>
-    <tycho-groupid>org.sonatype.tycho</tycho-groupid>
+    <tycho-version>0.13.0</tycho-version>
+    <tycho-groupid>org.eclipse.tycho</tycho-groupid>
+    <sonatype-groupid>org.sonatype.tycho</sonatype-groupid>
+    <maven-groupid>org.apache.maven.plugins</maven-groupid>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <!--
@@ -31,6 +33,11 @@
 	LICENSES
   -->  
   <licenses>
+    <license>
+      <comments>ApacheCommonsCLI 1.2 (http://commons.apache.org/cli)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
     <license>
       <comments>ApacheCommonsMath 2.0 (http://commons.apache.org/math)</comments>
       <name>Apache License v2.0</name>
@@ -106,6 +113,41 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
+    <license>
+      <comments>ApacheGeronimoStax 1.0.0 (http://geronimo.apache.org)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>ApacheXMLBeans 2.5.0 (http://xmlbeans.apache.org)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>dom4j 1.6.1 (http://dom4j.sourceforge.net)</comments>
+      <name>BSD License</name>
+      <url>http://dom4j.sourceforge.net</url>
+    </license>
+    <license>
+      <comments>ApacheCommonsPOI 3.7.0 (http://poi.apache.org)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>SuperCSV 1.52.0 (http://supercsv.sourceforge.net)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>Apache  XercesJ 2.11.0 (http://xerces.apache.org)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>ODFDOM 0.8.7 (http://odftoolkit.org/projects/odfdom)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
   </licenses> 
   <!--
 	DEVELOPERS
@@ -125,10 +167,14 @@
 	MODULES
   -->
   <modules>
+    <!-- CommonsCLI -->
+    <module>./plugins/net.openchrom.thirdpartylibraries.apache.commons.cli</module>
+    <module>./features/net.openchrom.thirdpartylibraries.apache.commons.cli.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.apache.commons.cli.updateSite</module>
     <!-- CommonsMath -->
-    <module>./plugins/net.openchrom.thirdpartylibraries.commons-math</module>
-    <module>./features/net.openchrom.thirdpartylibraries.commons-math.feature</module>
-    <module>./updateSites/net.openchrom.thirdpartylibraries.commons-math.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.apache.commons.math</module>
+    <module>./features/net.openchrom.thirdpartylibraries.apache.commons.math.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.apache.commons.math.updateSite</module>
     <!-- DBUnit -->
     <module>./plugins/net.openchrom.thirdpartylibraries.dbunit</module>
     <module>./features/net.openchrom.thirdpartylibraries.dbunit.feature</module>
@@ -185,8 +231,36 @@
     <module>./plugins/net.openchrom.thirdpartylibraries.proteomecommons</module>
     <module>./features/net.openchrom.thirdpartylibraries.proteomecommons.feature</module>
     <module>./updateSites/net.openchrom.thirdpartylibraries.proteomecommons.updateSite</module>
+    <!-- ApacheGeronimoStax -->
+    <module>./plugins/net.openchrom.thirdpartylibraries.apache.geronimo.stax</module>
+    <module>./features/net.openchrom.thirdpartylibraries.apache.geronimo.stax.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.apache.geronimo.stax.updateSite</module>
+    <!-- ApacheXMLBeans -->
+    <module>./plugins/net.openchrom.thirdpartylibraries.apache.xmlbeans</module>
+    <module>./features/net.openchrom.thirdpartylibraries.apache.xmlbeans.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.apache.xmlbeans.updateSite</module>
+    <!-- dom4j -->
+    <module>./plugins/net.openchrom.thirdpartylibraries.dom4j</module>
+    <module>./features/net.openchrom.thirdpartylibraries.dom4j.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.dom4j.updateSite</module>
+    <!-- CommonsPOI -->
+    <module>./plugins/net.openchrom.thirdpartylibraries.apache.commons.poi</module>
+    <module>./features/net.openchrom.thirdpartylibraries.apache.commons.poi.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.apache.commons.poi.updateSite</module>
+    <!-- SuperCSV -->
+    <module>./plugins/net.openchrom.thirdpartylibraries.supercsv</module>
+    <module>./features/net.openchrom.thirdpartylibraries.supercsv.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.supercsv.updateSite</module>
+    <!-- XercesJ -->
+    <module>./plugins/net.openchrom.thirdpartylibraries.apache.xercesj</module>
+    <module>./features/net.openchrom.thirdpartylibraries.apache.xercesj.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.apache.xercesj.updateSite</module>
+    <!-- ODFDOM -->
+    <module>./plugins/net.openchrom.thirdpartylibraries.odfdom</module>
+    <module>./features/net.openchrom.thirdpartylibraries.odfdom.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.odfdom.updateSite</module>
     <!-- Update Site (Selected third party libraries) -->
-    <module>./updateSites/net.openchrom.thirdpartylibraries.updateSite</module>
+    <!--<module>./updateSites/net.openchrom.thirdpartylibraries.updateSite</module>-->
   </modules>
   <!--
 	DEPENDENCIES
@@ -195,16 +269,13 @@
 	P2 REPOSITORIES
   -->
   <repositories>
+<!--
    <repository>
-     <id>forge</id>
-     <url>http://repository.sonatype.org/content/groups/public</url>
-     <snapshots>
-       <enabled>true</enabled>
-     </snapshots>
-     <releases>
-       <enabled>true</enabled>
-     </releases>
+     <id>indigo</id>
+     <layout>p2</layout>
+     <url>http://download.eclipse.org/releases/indigo</url>
    </repository>
+-->
    <repository>
      <id>helios</id>
      <layout>p2</layout>
@@ -224,28 +295,6 @@
   <!--
 	PLUGIN REPOSITORIES
   -->
-  <pluginRepositories>
-    <pluginRepository>
-      <id>forge</id>
-      <url>http://repository.sonatype.org/content/groups/public</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-    </pluginRepository>
-    <pluginRepository>
-      <id>forge1</id>
-      <url>http://repository.sonatype.org/content/repositories/all-001</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-    </pluginRepository>
-  </pluginRepositories>
   <!--
 	SOURCE CODE MANAGEMENT
   -->
@@ -266,12 +315,11 @@
 	Use the maven source code management plugin.
       -->
       <plugin>
-	<groupId>org.apache.maven.plugins</groupId>
+	<groupId>${maven-groupid}</groupId>
 	<artifactId>maven-scm-plugin</artifactId>
-	<version>1.2</version>
-	  <configuration>
-	    <checkoutDirectory>.</checkoutDirectory>
-	  </configuration>
+	<configuration>
+	  <checkoutDirectory>.</checkoutDirectory>
+	</configuration>
       </plugin>
       <!-- 
 	Tycho Maven Plugin
@@ -286,9 +334,8 @@
 	Source and target to Java version 1.6, otherwise "method must implement @override" failures will occur.
       -->
       <plugin>
-        <groupId>${tycho-groupid}</groupId>
+        <groupId>${sonatype-groupid}</groupId>
         <artifactId>maven-osgi-compiler-plugin</artifactId>
-	<version>${tycho-version}</version>
         <configuration>
           <source>1.6</source>
           <target>1.6</target>
@@ -309,7 +356,7 @@
 	Settings of the JUnit-Tests.
       -->
       <plugin>
-        <groupId>${tycho-groupid}</groupId>
+        <groupId>${sonatype-groupid}</groupId>
         <artifactId>maven-osgi-test-plugin</artifactId>
         <configuration>
           <useUIHarness>false</useUIHarness>

@@ -2,7 +2,7 @@
 <feature
       id="net.openchrom.thirdpartylibraries.netcdf.feature"
       label="NetCDF"
-      version="2.2.22"
+      version="2.2.22.qualifier"
       provider-name="http://www.openchrom.net">
 
    <description url="http://www.openchrom.net/plugins/thirdpartylibraries/">

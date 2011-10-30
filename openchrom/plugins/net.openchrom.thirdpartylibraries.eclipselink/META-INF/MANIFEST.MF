@@ -4,7 +4,7 @@ Eclipse-RegisterBuddy: net.openchrom.thirdpartylibraries.jpa
 Bundle-ManifestVersion: 2
 Bundle-Name: Eclipselink Plug-in
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.eclipselink
-Bundle-Version: 1.5.1
+Bundle-Version: 1.5.1.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.eclipselink.Activator
 Require-Bundle: org.eclipse.core.runtime,
  net.openchrom.thirdpartylibraries.jpa;bundle-version="1.99.0"

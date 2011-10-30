@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>net.openchrom.thirdpartylibraries.log4j</artifactId>
-  <version>1.2.15</version>
+  <version>1.2.15-SNAPSHOT</version>
   <packaging>eclipse-plugin</packaging>
   
 </project>

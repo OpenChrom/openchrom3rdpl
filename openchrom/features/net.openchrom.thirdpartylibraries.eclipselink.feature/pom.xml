@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>net.openchrom.thirdpartylibraries.eclipselink.feature</artifactId>
-  <version>1.5.1</version>
+  <version>1.5.1-SNAPSHOT</version>
   <packaging>eclipse-feature</packaging>
   
 </project>
