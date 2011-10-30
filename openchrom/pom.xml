@@ -260,7 +260,7 @@
     <module>./features/net.openchrom.thirdpartylibraries.odfdom.feature</module>
     <module>./updateSites/net.openchrom.thirdpartylibraries.odfdom.updateSite</module>
     <!-- Update Site (Selected third party libraries) -->
-    <module>./updateSites/net.openchrom.thirdpartylibraries.updateSite</module>
+    <!--<module>./updateSites/net.openchrom.thirdpartylibraries.updateSite</module>-->
   </modules>
   <!--
 	DEPENDENCIES
