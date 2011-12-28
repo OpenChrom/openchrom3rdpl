@@ -148,6 +148,16 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
+    <license>
+      <comments>PDFJet 2.81.0 (http://pdfjet.com/os/edition.html)</comments>
+      <name>Open Source License</name>
+      <url>http://pdfjet.com/os/download.html</url>
+    </license>
+    <license>
+      <comments>OrientDB 1.0.0rc7 (http://www.orientechnologies.com)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
   </licenses> 
   <!--
 	DEVELOPERS
@@ -244,6 +254,7 @@
     <module>./features/net.openchrom.thirdpartylibraries.dom4j.feature</module>
     <module>./updateSites/net.openchrom.thirdpartylibraries.dom4j.updateSite</module>
     <!-- CommonsPOI -->
+
     <module>./plugins/net.openchrom.thirdpartylibraries.apache.commons.poi</module>
     <module>./features/net.openchrom.thirdpartylibraries.apache.commons.poi.feature</module>
     <module>./updateSites/net.openchrom.thirdpartylibraries.apache.commons.poi.updateSite</module>
@@ -259,6 +270,14 @@
     <module>./plugins/net.openchrom.thirdpartylibraries.odfdom</module>
     <module>./features/net.openchrom.thirdpartylibraries.odfdom.feature</module>
     <module>./updateSites/net.openchrom.thirdpartylibraries.odfdom.updateSite</module>
+    <!-- PDFJet -->
+    <module>./plugins/net.openchrom.thirdpartylibraries.pdfjet</module>
+    <module>./features/net.openchrom.thirdpartylibraries.pdfjet.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.pdfjet.updateSite</module>
+    <!-- OrientDB -->
+    <module>./plugins/net.openchrom.thirdpartylibraries.orientdb</module>
+    <module>./features/net.openchrom.thirdpartylibraries.orientdb.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.orientdb.updateSite</module>
     <!-- Update Site (Selected third party libraries) -->
     <!--<module>./updateSites/net.openchrom.thirdpartylibraries.updateSite</module>-->
   </modules>
