@@ -1,5 +1,6 @@
 Manifest-Version: 1.0
 Eclipse-BuddyPolicy: registered
+Eclipse-RegisterBuddy: net.openchrom.thirdpartylibraries.jpa
 Bundle-ManifestVersion: 2
 Bundle-Name: Orientdb
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.orientdb
