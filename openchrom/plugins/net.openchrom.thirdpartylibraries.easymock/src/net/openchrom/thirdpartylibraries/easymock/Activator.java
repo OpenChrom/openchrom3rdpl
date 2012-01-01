@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2008, 2011 Philip (eselmeister) Wenig. This program is made
+ * Copyright (c) 2008, 2012 Philip (eselmeister) Wenig. This program is made
  * available under the terms of the MIT License.
  *******************************************************************************/
 package net.openchrom.thirdpartylibraries.easymock;

@@ -12,7 +12,7 @@ dom4j http://dom4j.sourceforge.net 1.6.1 BSD License
 
    <copyright url="http://thirdpartylibraries.openchrom.net/dom4j">
       /*******************************************************************************
-* Copyright (c) 2011 Philip (eselmeister) Wenig
+* Copyright (c) 2011, 2012 Philip (eselmeister) Wenig
 * under the same license as dom4j.
 * 
 * This feature encapsulated the following libraries:
@@ -70,7 +70,7 @@ ADVISED
 
    <license url="http://thirdpartylibraries.openchrom.net/dom4j">
       /*******************************************************************************
-* Copyright (c) 2011 Philip (eselmeister) Wenig
+* Copyright (c) 2011, 2012 Philip (eselmeister) Wenig
 * under the same license as dom4j.
 *
 * This feature encapsulated the following libraries:

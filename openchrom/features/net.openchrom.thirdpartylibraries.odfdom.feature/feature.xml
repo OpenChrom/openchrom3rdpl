@@ -12,7 +12,7 @@ ODFDOM http://odftoolkit.org/projects/odfdom 0.8.7 Apache License v2.0
 
    <copyright url="http://www.openchrom.net/plugins/thirdpartylibraries">
       /*******************************************************************************
-* Copyright (c) 2011 Philip (eselmeister) Wenig.
+* Copyright (c) 2011, 2012 Philip (eselmeister) Wenig.
 *  
 * This feature encapsulates the following libraries:
 * ODFDOM http://odftoolkit.org/projects/odfdom 0.8.7 Apache License
@@ -43,7 +43,7 @@ language
 
    <license url="http://www.openchrom.net/plugins/thirdpartylibraries">
       /*******************************************************************************
-* Copyright (c) 2011 Philip (eselmeister) Wenig.
+* Copyright (c) 2011, 2012 Philip (eselmeister) Wenig.
 *  
 * This feature encapsulates the following libraries:
 * ODFDOM http://odftoolkit.org/projects/odfdom 0.8.7 Apache License

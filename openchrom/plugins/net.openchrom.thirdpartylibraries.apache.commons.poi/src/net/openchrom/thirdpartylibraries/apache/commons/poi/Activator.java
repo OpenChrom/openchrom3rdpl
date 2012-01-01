@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2011 Philip (eselmeister) Wenig.
+ * Copyright (c) 2011, 2012 Philip (eselmeister) Wenig.
  * 
  * Licensed to the Apache
  * Software Foundation (ASF) under one or more contributor license agreements.

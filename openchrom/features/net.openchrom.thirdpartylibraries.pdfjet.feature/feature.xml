@@ -13,7 +13,7 @@ BSD License
 
    <copyright url="http://www.openchrom.net/plugins/thirdpartylibraries">
       /*******************************************************************************
-* Copyright (c) 2011 Philip (eselmeister) Wenig.
+* Copyright (c) 2011, 2012 Philip (eselmeister) Wenig.
 *  
 * This feature encapsulates the following libraries:
 * PDFJet http://pdfjet.com/os/edition.html 2.81.0
@@ -48,7 +48,7 @@ BSD License
 
    <license url="http://www.example.com/license">
       /*******************************************************************************
-* Copyright (c) 2011 Philip (eselmeister) Wenig.
+* Copyright (c) 2011, 2012 Philip (eselmeister) Wenig.
 *  
 * This feature encapsulates the following libraries:
 * PDFJet http://pdfjet.com/os/edition.html 2.81.0

@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2008, 2011 Philip (eselmeister) Wenig. The JUnit-addons
+ * Copyright (c) 2008, 2012 Philip (eselmeister) Wenig. The JUnit-addons
  * Software License, Version 1.0 (based on the Apache Software License, Version
  * 1.1) Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:

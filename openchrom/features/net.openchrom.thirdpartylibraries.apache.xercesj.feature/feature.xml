@@ -12,7 +12,7 @@ XercesJ http://xerces.apache.org 2.11.0 Apache License v2.0
 
    <copyright url="http://www.openchrom.net/plugins/thirdpartylibraries">
       /*******************************************************************************
-* Copyright (c) 2011 Philip (eselmeister) Wenig.
+* Copyright (c) 2011, 2012 Philip (eselmeister) Wenig.
 *  
 * This feature encapsulates the following libraries:
 * XercesJ http://xerces.apache.org 2.11.0 Apache License v2.0
@@ -42,7 +42,7 @@ language
 
    <license url="http://www.example.com/license">
       /*******************************************************************************
-* Copyright (c) 2011 Philip (eselmeister) Wenig.
+* Copyright (c) 2011, 2012 Philip (eselmeister) Wenig.
 *  
 * This feature encapsulates the following libraries:
 * XercesJ http://xerces.apache.org 2.11.0 Apache License v2.0
