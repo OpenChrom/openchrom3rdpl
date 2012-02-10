@@ -288,6 +288,17 @@
 	P2 REPOSITORIES
   -->
   <repositories>
+   <!-- Use to avoid problems determining the SWT bundle version. -->
+   <repository>
+     <id>swtbothelios</id>
+     <layout>p2</layout>
+     <url>http://download.eclipse.org/technology/swtbot/helios/dev-build/update-site</url>
+   </repository>
+   <repository>
+     <id>swtbotgalileo</id>
+     <layout>p2</layout>
+     <url>http://download.eclipse.org/technology/swtbot/galileo/dev-build/update-site</url>
+   </repository>
    <repository>
      <id>indigo</id>
      <layout>p2</layout>
