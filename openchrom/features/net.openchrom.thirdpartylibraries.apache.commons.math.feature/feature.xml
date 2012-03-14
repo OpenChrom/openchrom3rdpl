@@ -2,7 +2,7 @@
 <feature
       id="net.openchrom.thirdpartylibraries.apache.commons.math.feature"
       label="Apache Commons Math"
-      version="2.0.0.qualifier"
+      version="3.0.0.qualifier"
       provider-name="http://www.openchrom.net">
 
    <description url="http://www.openchrom.net/plugins/thirdpartylibraries">
@@ -11,7 +11,7 @@
 
    <copyright url="http://commons.apache.org/math">
       This feature encapsulates the following libraries:
-Apache CommonsMath http://commons.apache.org/math 2.0  Apache
+Apache CommonsMath http://commons.apache.org/math 3.0  Apache
 License v2.0
    </copyright>
 
