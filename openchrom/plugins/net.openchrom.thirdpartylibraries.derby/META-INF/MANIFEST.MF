@@ -7,7 +7,7 @@ Bundle-Version: 10.5.1.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.derby.Activator
 Require-Bundle: org.eclipse.core.runtime
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ClassPath: libraries/derby.jar,
  .,
  libraries/derbyLocale_cs.jar,

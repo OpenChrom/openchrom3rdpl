@@ -3,7 +3,7 @@
    <description name="SWTChart" url="http://www.openchrom.net/plugins/thirdpartylibraries/update">
       SWTChart for OpenChrom
    </description>
-   <feature url="features/net.openchrom.thirdpartylibraries.swtchart.feature_0.7.0.jar" id="net.openchrom.thirdpartylibraries.swtchart.feature" version="0.7.0">
+   <feature url="features/net.openchrom.thirdpartylibraries.swtchart.feature_0.8.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.swtchart.feature" version="0.8.0.qualifier">
       <category name="ThirdPartyLibraries"/>
    </feature>
    <category-def name="ThirdPartyLibraries" label="ThirdPartyLibraries">

@@ -2,21 +2,21 @@
 <feature
       id="net.openchrom.thirdpartylibraries.swtchart.feature"
       label="SWTChart"
-      version="0.7.0.qualifier"
+      version="0.8.0.qualifier"
       provider-name="http://www.openchrom.net">
 
    <description url="http://www.openchrom.net/plugins/thirdpartylibraries">
       This feature encapsulates the following libraries:
-SWTChart http://www.swtchart.org 0.7.0 EPLv1.0
+SWTChart http://www.swtchart.org 0.8.0 EPLv1.0
    </description>
 
    <copyright url="http://www.swtchart.org">
       This feature encapsulates the following libraries:
-SWTChart http://www.swtchart.org 0.6.0 EPLv1.0
+SWTChart http://www.swtchart.org 0.8.0 EPLv1.0
    </copyright>
 
    <license url="http://www.eclipse.org/legal/epl-v10.html">
-      Copyright (c) 2008, 2011 Philip (eselmeister) Wenig.
+      Copyright (c) 2008, 2012 Philip (eselmeister) Wenig.
 
 This feature encapsulates the following libraries:
 SWTChart 0.7.0

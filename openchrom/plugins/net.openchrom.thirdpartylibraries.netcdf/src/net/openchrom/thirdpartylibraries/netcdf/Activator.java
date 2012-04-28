@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2008, 2011 Philip (eselmeister) Wenig. Copyright 1997-2004
+ * Copyright (c) 2008, 2012 Philip (eselmeister) Wenig. Copyright 1997-2004
  * Unidata Program Center/University Corporation for Atmospheric Research, P.O.
  * Box 3000, Boulder, CO 80307, support@unidata.ucar.edu.
  * 

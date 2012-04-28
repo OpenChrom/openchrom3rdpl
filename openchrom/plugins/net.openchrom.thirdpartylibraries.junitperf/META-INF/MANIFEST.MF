@@ -5,9 +5,9 @@ Bundle-SymbolicName: net.openchrom.thirdpartylibraries.junitperf
 Bundle-Version: 1.9.1.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.junitperf.Activator
 Require-Bundle: org.eclipse.core.runtime,
- org.junit4;bundle-version="4.3.1"
+ org.junit4;bundle-version="4.8.1"
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ClassPath: .,
  libraries/junitperf-1.9.1.jar
 Export-Package: com.clarkware.junitperf
