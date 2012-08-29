@@ -78,6 +78,9 @@
    <feature url="features/net.openchrom.thirdpartylibraries.swtchart.feature_0.8.0.201204281205.jar" id="net.openchrom.thirdpartylibraries.swtchart.feature" version="0.8.0.201204281205">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.swtxygraph.feature_2.0.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.swtxygraph.feature" version="2.0.1.qualifier">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
    <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
       <description>
          Several third party libraries, distributed under different open source licenses.
