@@ -163,6 +163,11 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
+    <license>
+      <comments>Groovy 2.0.2 (http://groovy.codehaus.org)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
   </licenses> 
   <!--
 	DEVELOPERS
@@ -286,6 +291,10 @@
     <module>./plugins/net.openchrom.thirdpartylibraries.orientdb</module>
     <module>./features/net.openchrom.thirdpartylibraries.orientdb.feature</module>
     <module>./updateSites/net.openchrom.thirdpartylibraries.orientdb.updateSite</module>
+    <!-- Groovy -->
+    <module>./plugins/net.openchrom.thirdpartylibraries.groovy</module>
+    <module>./features/net.openchrom.thirdpartylibraries.groovy.feature</module>
+    <module>./updateSites/net.openchrom.thirdpartylibraries.groovy.updateSite</module>
     <!-- Update Site (Selected third party libraries) -->
     <!--<module>./updateSites/net.openchrom.thirdpartylibraries.updateSite</module>-->
   </modules>
