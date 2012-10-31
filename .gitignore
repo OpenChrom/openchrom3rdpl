@@ -29,3 +29,5 @@ openchrom/plugins/net.openchrom.thirdpartylibraries.apache.xercesj/bin/
 openchrom/plugins/net.openchrom.thirdpartylibraries.odfdom/bin/
 openchrom/plugins/net.openchrom.thirdpartylibraries.pdfjet/bin/
 openchrom/plugins/net.openchrom.thirdpartylibraries.orientdb/bin/
+openchrom/plugins/net.openchrom.thirdpartylibraries.swtxygraph/bin/
+openchrom/plugins/net.openchrom.thirdpartylibraries.groovy/bin/
