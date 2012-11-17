@@ -220,115 +220,115 @@
   -->
   <modules>
     <!-- CommonsCLI -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.apache.commons.cli</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.apache.commons.cli.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.apache.commons.cli.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.apache.commons.cli</module>
+    <module>./features/net.openchrom.thirdpartylibraries.apache.commons.cli.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.apache.commons.cli.updateSite</module>
     <!-- CommonsMath -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.apache.commons.math</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.apache.commons.math.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.apache.commons.math.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.apache.commons.math</module>
+    <module>./features/net.openchrom.thirdpartylibraries.apache.commons.math.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.apache.commons.math.updateSite</module>
     <!-- CommonsPOI -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.apache.commons.poi</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.apache.commons.poi.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.apache.commons.poi.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.apache.commons.poi</module>
+    <module>./features/net.openchrom.thirdpartylibraries.apache.commons.poi.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.apache.commons.poi.updateSite</module>
     <!-- ApacheGeronimoStax -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.apache.geronimo.stax</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.apache.geronimo.stax.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.apache.geronimo.stax.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.apache.geronimo.stax</module>
+    <module>./features/net.openchrom.thirdpartylibraries.apache.geronimo.stax.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.apache.geronimo.stax.updateSite</module>
     <!-- XercesJ -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.apache.xercesj</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.apache.xercesj.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.apache.xercesj.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.apache.xercesj</module>
+    <module>./features/net.openchrom.thirdpartylibraries.apache.xercesj.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.apache.xercesj.updateSite</module>
     <!-- ApacheXMLBeans -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.apache.xmlbeans</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.apache.xmlbeans.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.apache.xmlbeans.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.apache.xmlbeans</module>
+    <module>./features/net.openchrom.thirdpartylibraries.apache.xmlbeans.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.apache.xmlbeans.updateSite</module>
     <!-- DBUnit -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.dbunit</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.dbunit.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.dbunit.updateSite</module>    
+    <module>./plugins/net.openchrom.thirdpartylibraries.dbunit</module>
+    <module>./features/net.openchrom.thirdpartylibraries.dbunit.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.dbunit.updateSite</module>    
     <!-- Derby -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.derby</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.derby.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.derby.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.derby</module>
+    <module>./features/net.openchrom.thirdpartylibraries.derby.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.derby.updateSite</module>
     <!-- dom4j -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.dom4j</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.dom4j.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.dom4j.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.dom4j</module>
+    <module>./features/net.openchrom.thirdpartylibraries.dom4j.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.dom4j.updateSite</module>
     <!-- EasyMock -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.easymock</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.easymock.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.easymock.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.easymock</module>
+    <module>./features/net.openchrom.thirdpartylibraries.easymock.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.easymock.updateSite</module>
     <!-- EclipseLink -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.eclipselink</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.eclipselink.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.eclipselink.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.eclipselink</module>
+    <module>./features/net.openchrom.thirdpartylibraries.eclipselink.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.eclipselink.updateSite</module>
     <!-- FindBugs -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.findbugs</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.findbugs.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.findbugs.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.findbugs</module>
+    <module>./features/net.openchrom.thirdpartylibraries.findbugs.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.findbugs.updateSite</module>
     <!-- Groovy -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.groovy</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.groovy.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.groovy.updateSite</module> 
+    <module>./plugins/net.openchrom.thirdpartylibraries.groovy</module>
+    <module>./features/net.openchrom.thirdpartylibraries.groovy.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.groovy.updateSite</module> 
     <!-- iText -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.itext</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.itext.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.itext.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.itext</module>
+    <module>./features/net.openchrom.thirdpartylibraries.itext.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.itext.updateSite</module>
     <!-- JavaBase64 -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.javabase64</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.javabase64.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.javabase64.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.javabase64</module>
+    <module>./features/net.openchrom.thirdpartylibraries.javabase64.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.javabase64.updateSite</module>
     <!-- JPA -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.jpa</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.jpa.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.jpa.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.jpa</module>
+    <module>./features/net.openchrom.thirdpartylibraries.jpa.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.jpa.updateSite</module>
     <!-- JUnitAddons -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.junitaddons</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.junitaddons.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.junitaddons.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.junitaddons</module>
+    <module>./features/net.openchrom.thirdpartylibraries.junitaddons.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.junitaddons.updateSite</module>
     <!-- JUnitPerf -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.junitperf</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.junitperf.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.junitperf.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.junitperf</module>
+    <module>./features/net.openchrom.thirdpartylibraries.junitperf.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.junitperf.updateSite</module>
     <!-- Log4j -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.log4j</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.log4j.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.log4j.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.log4j</module>
+    <module>./features/net.openchrom.thirdpartylibraries.log4j.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.log4j.updateSite</module>
     <!-- NetCDF -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.netcdf</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.netcdf.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.netcdf.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.netcdf</module>
+    <module>./features/net.openchrom.thirdpartylibraries.netcdf.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.netcdf.updateSite</module>
     <!-- ODFDOM -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.odfdom</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.odfdom.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.odfdom.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.odfdom</module>
+    <module>./features/net.openchrom.thirdpartylibraries.odfdom.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.odfdom.updateSite</module>
     <!-- OrientDB -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.orientdb</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.orientdb.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.orientdb.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.orientdb</module>
+    <module>./features/net.openchrom.thirdpartylibraries.orientdb.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.orientdb.updateSite</module>
     <!-- PDFJet -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.pdfjet</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.pdfjet.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.pdfjet.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.pdfjet</module>
+    <module>./features/net.openchrom.thirdpartylibraries.pdfjet.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.pdfjet.updateSite</module>
     <!-- ProteomeCommons -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.proteomecommons</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.proteomecommons.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.proteomecommons.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.proteomecommons</module>
+    <module>./features/net.openchrom.thirdpartylibraries.proteomecommons.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.proteomecommons.updateSite</module>
     <!-- SuperCSV -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.supercsv</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.supercsv.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.supercsv.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.supercsv</module>
+    <module>./features/net.openchrom.thirdpartylibraries.supercsv.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.supercsv.updateSite</module>
     <!-- SWTChart -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.swtchart</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.swtchart.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.swtchart.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.swtchart</module>
+    <module>./features/net.openchrom.thirdpartylibraries.swtchart.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.swtchart.updateSite</module>
     <!-- SWTXYGraph -->
-    <module>./../../plugins/net.openchrom.thirdpartylibraries.swtxygraph</module>
-    <module>./../../features/net.openchrom.thirdpartylibraries.swtxygraph.feature</module>
-    <module>./../../sites/net.openchrom.thirdpartylibraries.swtxygraph.updateSite</module>
+    <module>./plugins/net.openchrom.thirdpartylibraries.swtxygraph</module>
+    <module>./features/net.openchrom.thirdpartylibraries.swtxygraph.feature</module>
+    <module>./sites/net.openchrom.thirdpartylibraries.swtxygraph.updateSite</module>
     <!-- Update Site (Selected third party libraries) -->
-    <!--<module>./../../sites/net.openchrom.thirdpartylibraries.updateSite</module>-->
+    <!--<module>./sites/net.openchrom.thirdpartylibraries.updateSite</module>-->
   </modules>
   <!--
 	DEPENDENCIES
