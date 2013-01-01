@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2008, 2012 Philip (eselmeister) Wenig. Licensed to the Apache
+ * Copyright (c) 2008, 2013 Philip (eselmeister) Wenig. Licensed to the Apache
  * Software Foundation (ASF) under one or more contributor license agreements.
  * See the NOTICE file distributed with this work for additional information
  * regarding copyright ownership. The ASF licenses this file to You under the
