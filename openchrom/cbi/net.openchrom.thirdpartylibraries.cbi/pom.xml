@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Copyright (c) 2012 Eclipse Foundation.
+  Copyright (c) 2012, 2013 Eclipse Foundation.
   All rights reserved. This program and the accompanying materials
   are made available under the terms of the Eclipse Distribution License v1.0
   which accompanies this distribution, and is available at
   http://www.eclipse.org/org/documents/edl-v10.php
  
   Contributors:
-     Philip (eselmeister) Wenig - initial implementation
+     Philip (eselmeister) Wenig - adapted the pom to build the third party libraries
 -->
-
 <project
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
   xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-
   <groupId>net.openchrom</groupId>
   <artifactId>parent</artifactId>
   <version>BUILD-VERSION</version>
@@ -35,7 +33,9 @@
     <sonatype.groupid>org.sonatype.tycho</sonatype.groupid>
     <maven.groupid>org.apache.maven.plugins</maven.groupid>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
+    <!--
+      REPOSITORY URLS
+    -->
     <orbit-repo.url>http://download.eclipse.org/tools/orbit/downloads/drops/R20120526062928/repository/</orbit-repo.url>
     <jetty-repo.url>http://www.eclipse.org/external/jetty/updates/jetty-bundles-8.x/8.1.3.v20120522/</jetty-repo.url>
     <ecf-repo.url>http://download.eclipse.org/rt/ecf/3.5.6/site.p2</ecf-repo.url>
@@ -43,7 +43,6 @@
     <aspectj-repo.url>http://download.eclipse.org/tools/ajdt/aspectj/update</aspectj-repo.url>
     <egit-repo.url>http://download.eclipse.org/egit/updates</egit-repo.url>
     <swtbot-repo.url>http://download.eclipse.org/technology/swtbot/helios/dev-build/update-site</swtbot-repo.url>
-
     <juno-repo.url>http://download.eclipse.org/releases/juno</juno-repo.url>
     <tycho-repo.url>https://oss.sonatype.org/content/groups/public/</tycho-repo.url>
   </properties>
@@ -406,7 +405,6 @@
         <version>${tycho.version}</version>
         <extensions>true</extensions>
       </plugin>
-
       <plugin>
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>target-platform-configuration</artifactId>
@@ -447,7 +445,6 @@
           </filters>
         </configuration>
       </plugin>
-
       <plugin>
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>tycho-source-plugin</artifactId>
@@ -556,6 +553,9 @@
     PROFILES
   -->  
   <profiles>
+    <!--
+      ECLIPSE-SIGN
+    -->  
     <profile>
       <id>eclipse-sign</id>
       <build>
@@ -568,7 +568,6 @@
               <includePackedArtifacts>true</includePackedArtifacts>
             </configuration>
           </plugin>
-
           <plugin>
             <groupId>org.eclipse.tycho.extras</groupId>
             <artifactId>tycho-pack200a-plugin</artifactId>
@@ -582,7 +581,6 @@
               </execution>
             </executions>
           </plugin>
-
           <plugin>
             <groupId>org.eclipse.cbi.maven.plugins</groupId>
             <artifactId>eclipse-jarsigner-plugin</artifactId>
@@ -596,7 +594,6 @@
               </execution>
             </executions>
           </plugin>
-
           <plugin>
             <groupId>org.eclipse.tycho.extras</groupId>
             <artifactId>tycho-pack200b-plugin</artifactId>
@@ -610,7 +607,6 @@
               </execution>
             </executions>
           </plugin>
-
           <plugin>
             <groupId>org.eclipse.tycho</groupId>
             <artifactId>tycho-p2-plugin</artifactId>
@@ -631,7 +627,9 @@
         </plugins>
       </build>
     </profile>
-
+    <!--
+      ECLIPSE-PACK
+    -->  
     <profile>
       <id>eclipse-pack</id>
       <build>
@@ -644,7 +642,6 @@
               <includePackedArtifacts>true</includePackedArtifacts>
             </configuration>
           </plugin>
-
           <plugin>
             <groupId>org.eclipse.tycho.extras</groupId>
             <artifactId>tycho-pack200a-plugin</artifactId>
@@ -658,7 +655,6 @@
               </execution>
             </executions>
           </plugin>
-
           <plugin>
             <groupId>org.eclipse.tycho.extras</groupId>
             <artifactId>tycho-pack200b-plugin</artifactId>
@@ -672,7 +668,6 @@
               </execution>
             </executions>
           </plugin>
-
           <plugin>
             <groupId>org.eclipse.tycho</groupId>
             <artifactId>tycho-p2-plugin</artifactId>
@@ -694,5 +689,4 @@
       </build>
     </profile>
   </profiles>
-
 </project>
