@@ -25,14 +25,6 @@
   </description>
   <url>http://sourceforge.net/projects/openchrom3rdpl</url>
   <!--
-	SOURCE CODE MANAGEMENT
-  -->
-  <scm>
-    <connection>scm:git:git://openchrom3rdpl.git.sourceforge.net/gitroot/openchrom3rdpl/openchrom3rdpl</connection>
-    <developerConnection>scm:git:ssh://openchrom3rdpl.git.sourceforge.net/gitroot/openchrom3rdpl/openchrom3rdpl</developerConnection>
-    <url>http://openchrom3rdpl.git.sourceforge.net/git/gitweb-index.cgi</url>
-  </scm>
-  <!--
 	LICENSES
   -->  
   <licenses>
@@ -307,4 +299,12 @@
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
+  <!--
+	SOURCE CODE MANAGEMENT
+  -->
+  <scm>
+    <connection>scm:git:git://openchrom3rdpl.git.sourceforge.net/gitroot/openchrom3rdpl/openchrom3rdpl</connection>
+    <developerConnection>scm:git:ssh://openchrom3rdpl.git.sourceforge.net/gitroot/openchrom3rdpl/openchrom3rdpl</developerConnection>
+    <url>http://openchrom3rdpl.git.sourceforge.net/git/gitweb-index.cgi</url>
+  </scm>
 </project>
