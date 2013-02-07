@@ -6,7 +6,7 @@ Bundle-Name: Orientdb
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.orientdb
 Bundle-Version: 1.0.1.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.orientdb.Activator
-Bundle-Vendor: http://www.openchrom.net
+Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
