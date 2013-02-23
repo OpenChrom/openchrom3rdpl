@@ -7,7 +7,7 @@ Bundle-Version: 6.2.1.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.proteomecommons.Activator
 Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/ProteomeCommons.org-IO.jar,
  libraries/ProteomeCommons.org-IO-T2D.jar,

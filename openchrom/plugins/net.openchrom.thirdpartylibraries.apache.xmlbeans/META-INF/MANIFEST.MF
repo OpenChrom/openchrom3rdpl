@@ -7,7 +7,7 @@ Bundle-Version: 2.5.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.apache.xmlbeans.Activator
 Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/jsr173_1.0_api.jar,
  libraries/resolver.jar,

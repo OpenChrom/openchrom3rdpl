@@ -8,7 +8,7 @@ Bundle-Version: 1.0.1.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.orientdb.Activator
 Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
  libraries/orient-commons-1.0.1.jar,

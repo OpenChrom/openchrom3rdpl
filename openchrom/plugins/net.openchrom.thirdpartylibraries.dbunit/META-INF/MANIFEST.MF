@@ -6,7 +6,7 @@ Bundle-Version: 2.4.5.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.dbunit.Activator
 Require-Bundle: org.eclipse.core.runtime
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ClassPath: libraries/dbunit-2.4.5.jar,
  .
 Export-Package: org.dbunit,
