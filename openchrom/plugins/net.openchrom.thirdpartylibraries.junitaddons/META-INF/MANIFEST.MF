@@ -6,7 +6,7 @@ Bundle-SymbolicName: net.openchrom.thirdpartylibraries.junitaddons
 Bundle-Version: 1.4.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.junitaddons.Activator
 Require-Bundle: org.eclipse.core.runtime,
- org.junit4;bundle-version="4.8.1"
+ org.junit;bundle-version="4.10.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ClassPath: libraries/junit-addons-1.4.jar,
  .
