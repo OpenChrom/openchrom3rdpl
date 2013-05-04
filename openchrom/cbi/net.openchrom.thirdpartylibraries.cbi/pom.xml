@@ -169,6 +169,11 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
+    <license>
+      <comments>Barcode4J 2.1.0 (http://barcode4j.sourceforge.net)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
   </licenses> 
   <!--
 	DEVELOPERS
@@ -296,6 +301,10 @@
     <module>../../plugins/net.openchrom.thirdpartylibraries.swtxygraph</module>
     <module>../../features/net.openchrom.thirdpartylibraries.swtxygraph.feature</module>
     <module>../../sites/net.openchrom.thirdpartylibraries.swtxygraph.updateSite</module>
+    <!-- Barcode4J -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.barcode4j</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.barcode4j.feature</module>
+    <module>../../sites/net.openchrom.thirdpartylibraries.barcode4j.updateSite</module>
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>

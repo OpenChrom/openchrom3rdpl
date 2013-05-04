@@ -30,6 +30,7 @@ openchrom/plugins/net.openchrom.thirdpartylibraries.odfdom/bin/
 openchrom/plugins/net.openchrom.thirdpartylibraries.pdfjet/bin/
 openchrom/plugins/net.openchrom.thirdpartylibraries.orientdb/bin/
 openchrom/plugins/net.openchrom.thirdpartylibraries.swtxygraph/bin/
+openchrom/plugins/net.openchrom.thirdpartylibraries.barcode4j/bin/
 openchrom/plugins/net.openchrom.thirdpartylibraries.groovy/bin/
 openchrom/features/net.openchrom.thirdpartylibraries.apache.commons.cli.feature/target/
 openchrom/features/net.openchrom.thirdpartylibraries.apache.commons.math.feature/target/
@@ -58,6 +59,7 @@ openchrom/features/net.openchrom.thirdpartylibraries.proteomecommons.feature/tar
 openchrom/features/net.openchrom.thirdpartylibraries.supercsv.feature/target/
 openchrom/features/net.openchrom.thirdpartylibraries.swtchart.feature/target/
 openchrom/features/net.openchrom.thirdpartylibraries.swtxygraph.feature/target/
+openchrom/features/net.openchrom.thirdpartylibraries.barcode4j.feature/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.apache.commons.cli/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.apache.commons.math/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.apache.commons.poi/target/
@@ -85,6 +87,7 @@ openchrom/plugins/net.openchrom.thirdpartylibraries.proteomecommons/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.supercsv/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.swtchart/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.swtxygraph/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.barcode4j/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.apache.commons.cli.updateSite/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.apache.commons.math.updateSite/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.apache.commons.poi.updateSite/target/
@@ -112,4 +115,5 @@ openchrom/sites/net.openchrom.thirdpartylibraries.proteomecommons.updateSite/tar
 openchrom/sites/net.openchrom.thirdpartylibraries.supercsv.updateSite/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.swtchart.updateSite/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.swtxygraph.updateSite/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.barcode4j.updateSite/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.updateSite/target/
