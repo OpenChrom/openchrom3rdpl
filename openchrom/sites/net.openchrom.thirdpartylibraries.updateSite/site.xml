@@ -84,6 +84,7 @@
    <feature url="features/net.openchrom.thirdpartylibraries.swtxygraph.feature_2.0.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.swtxygraph.feature" version="2.0.1.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.barcode4j.feature_2.1.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.barcode4j.feature" version="2.1.0.qualifier"/>
    <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
       <description>
          Several third party libraries, distributed under different open source licenses.
