@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/net.openchrom.thirdpartylibraries.orientdb.feature_1.3.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.orientdb.feature" version="1.3.0.qualifier">
+   <feature url="features/net.openchrom.thirdpartylibraries.orientdb.feature_1.4.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.orientdb.feature" version="1.4.0.qualifier">
       <category name="ThirdPartyLibraries"/>
    </feature>
    <category-def name="ThirdPartyLibraries" label="ThirdPartyLibraries">
