@@ -6,12 +6,12 @@ Bundle-SymbolicName: net.openchrom.thirdpartylibraries.swtchart
 Bundle-Version: 0.8.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.swtchart.Activator
 Bundle-Vendor: OpenChrom
-Require-Bundle: org.eclipse.core.runtime
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.swt;bundle-version="3.102.0",
+ org.eclipse.jface;bundle-version="3.9.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
-Bundle-ClassPath: .,
- libraries/org.swtchart_0.8.0.v20120301.jar,
- libraries/org.swtchart.ext_0.8.0.v20120301.jar
+Bundle-ClassPath: .
 Export-Package: org.swtchart,
  org.swtchart.ext,
  org.swtchart.ext.internal,
