@@ -33,6 +33,7 @@ public class BarSeries extends Series implements IBarSeries {
 	private Color barColor;
 	/** the padding */
 	private int padding;
+	/** the bar width */
 	private int barWidth;
 	/** the initial bar padding in percentage */
 	public static final int INITIAL_PADDING = 20;
@@ -42,6 +43,8 @@ public class BarSeries extends Series implements IBarSeries {
 	private static final int MARGIN_AT_MIN_MAX_PLOT = 6;
 	/** the default bar color */
 	private static final int DEFAULT_BAR_COLOR = SWT.COLOR_CYAN;
+	/** the initial bar width in pixel */
+	private static final int INITIAL_BAR_WIDTH = 0;
 
 	/**
 	 * Constructor.
@@ -58,6 +61,7 @@ public class BarSeries extends Series implements IBarSeries {
 		padding = INITIAL_PADDING;
 		type = SeriesType.BAR;
 		compressor = new CompressBarSeries();
+		barWidth = INITIAL_BAR_WIDTH;
 	}
 
 	/*
@@ -358,9 +362,9 @@ public class BarSeries extends Series implements IBarSeries {
 	protected void draw(GC gc, int width, int height, Axis xAxis, Axis yAxis) {
 
 		boolean drawBarWidth = (barWidth == 0) ? false : true;
+		int zeroRiserY = -5; // Don't make the extra zero riser visible.
 		// draw riser
 		Rectangle[] rs = getBoundsForCompressedSeries();
-		int zeroRiserY = getZeroRiserY(rs);
 		for(int i = 0; i < rs.length; i++) {
 			/*
 			 * Draw only bar width for y values > 0.
@@ -369,15 +373,27 @@ public class BarSeries extends Series implements IBarSeries {
 			 */
 			int riserHeight = rs[i].height;
 			if(riserHeight > 0 && drawBarWidth) {
+				/*
+				 * Draw an adjusted riser.
+				 */
 				int delta = (rs[i].width - barWidth) / 2; // Space before and after
 				if(delta > 0) {
-					drawRiser(gc, rs[i].x, zeroRiserY, delta, 0); // Extra
+					/*
+					 * Add zero risers
+					 */
+					drawRiser(gc, rs[i].x, zeroRiserY, delta, 0); // Extra before
 					drawRiser(gc, rs[i].x + delta, rs[i].y, barWidth, rs[i].height);
-					drawRiser(gc, rs[i].x + delta + barWidth, zeroRiserY, delta, 0); // Extra
+					drawRiser(gc, rs[i].x + delta + barWidth, zeroRiserY, delta, 0); // Extra after
 				} else {
+					/*
+					 * No zero risers needed.
+					 */
 					drawRiser(gc, rs[i].x, rs[i].y, barWidth, rs[i].height);
 				}
 			} else {
+				/*
+				 * Draw the riser as calculated.
+				 */
 				drawRiser(gc, rs[i].x, rs[i].y, rs[i].width, rs[i].height);
 			}
 		}
@@ -399,17 +415,6 @@ public class BarSeries extends Series implements IBarSeries {
 				yErrorBar.draw(gc, h, v, yAxis, indexes[i]);
 			}
 		}
-	}
-
-	private int getZeroRiserY(Rectangle[] rs) {
-
-		int zeroRiserY = 0;
-		for(int i = 0; i < rs.length; i++) {
-			if(rs[i].y > zeroRiserY) {
-				zeroRiserY = rs[i].y;
-			}
-		}
-		return zeroRiserY;
 	}
 
 	/**
