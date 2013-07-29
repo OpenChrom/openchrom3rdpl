@@ -5,9 +5,9 @@ Bundle-Name: Swtxygraph
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.swtxygraph
 Bundle-Version: 2.0.1.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.swtxygraph.Activator
-Bundle-Vendor: http://www.openchrom.net
+Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/org.csstudio.swt.widgets_2.0.1.201207141617.jar,
  libraries/org.csstudio.swt.xygraph_2.0.1.201207141617.jar,

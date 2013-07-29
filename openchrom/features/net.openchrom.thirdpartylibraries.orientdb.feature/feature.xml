@@ -2,27 +2,27 @@
 <feature
       id="net.openchrom.thirdpartylibraries.orientdb.feature"
       label="Feature"
-      version="1.0.1.qualifier"
+      version="1.4.0.qualifier"
       provider-name="http://www.openchrom.net">
 
    <description url="http://www.openchrom.net/plugins/thirdpartylibraries">
       This feature encapsulates the following libraries:
-OrientDB http://www.orientechnologies.com/orient-db.htm 1.0rc7 Apache License
+OrientDB http://www.orientechnologies.com/orient-db.htm 1.4.0 Apache License
 v2.0
    </description>
 
    <copyright url="http://www.openchrom.net/plugins/thirdpartylibraries">
       This feature encapsulates the following libraries:
-OrientDB http://www.orientechnologies.com/orient-db.htm 1.0rc7
+OrientDB http://www.orientechnologies.com/orient-db.htm 1.4.0
 Apache License
 v2.0
    </copyright>
 
    <license url="http://www.openchrom.net/plugins/thirdpartylibraries">
-      Copyright (c) 2011, 2012 Philip (eselmeister) Wenig.
+      Copyright (c) 2011, 2013 Philip (eselmeister) Wenig.
  
 This feature encapsulates the following libraries:
-OrientDB http://www.orientechnologies.com/orient-db.htm 1.0rc7
+OrientDB http://www.orientechnologies.com/orient-db.htm 1.4.0
 Apache License
 v2.0
 

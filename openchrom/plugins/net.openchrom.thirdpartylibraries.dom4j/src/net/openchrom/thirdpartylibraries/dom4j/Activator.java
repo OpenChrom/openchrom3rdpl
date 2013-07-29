@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2011, 2012 Philip (eselmeister) Wenig
+ * Copyright (c) 2011, 2013 Philip (eselmeister) Wenig
  * under the same license as dom4j.
  * 
  * This plug-in contains the dom4j library, licensed by

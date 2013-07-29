@@ -5,9 +5,9 @@ Bundle-Name: Xercesj
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.apache.xercesj
 Bundle-Version: 2.11.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.apache.xercesj.Activator
-Bundle-Vendor: http://www.openchrom.net
+Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/resolver.jar,
  libraries/serializer.jar,

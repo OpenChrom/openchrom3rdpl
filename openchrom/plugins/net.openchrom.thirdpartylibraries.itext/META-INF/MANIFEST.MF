@@ -6,10 +6,10 @@ Bundle-Version: 5.0.2.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.itext.Activator
 Require-Bundle: org.eclipse.core.runtime
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ClassPath: .,
  libraries/iText-5.0.2.jar
-Bundle-Vendor: http://www.openchrom.net
+Bundle-Vendor: OpenChrom
 Export-Package: com.itextpdf.text,
  com.itextpdf.text.error_messages,
  com.itextpdf.text.exceptions,

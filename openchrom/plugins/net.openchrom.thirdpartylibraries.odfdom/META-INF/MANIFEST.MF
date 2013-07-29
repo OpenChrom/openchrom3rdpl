@@ -6,10 +6,10 @@ Bundle-Name: Odfdom
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.odfdom
 Bundle-Version: 0.8.7.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.odfdom.Activator
-Bundle-Vendor: http://www.openchrom.net
+Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime,
  net.openchrom.thirdpartylibraries.apache.xercesj;bundle-version="2.11.0"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/odfdom-java-0.8.7.jar,
  .

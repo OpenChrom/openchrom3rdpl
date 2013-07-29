@@ -6,14 +6,14 @@ Bundle-Name: apache.commons.poi
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.apache.commons.poi
 Bundle-Version: 3.7.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.apache.commons.poi.Activator
-Bundle-Vendor: http://www.openchrom.net
+Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime,
  net.openchrom.thirdpartylibraries.dom4j;bundle-version="1.6.1",
  net.openchrom.thirdpartylibraries.apache.xmlbeans;bundle-version="2.5.0",
  net.openchrom.thirdpartylibraries.apache.geronimo.stax;bundle-version="1.0.0",
  org.apache.commons.logging;bundle-version="1.0.4",
  org.apache.log4j;bundle-version="1.2.15"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
  libraries/poi-3.7-20101029.jar,

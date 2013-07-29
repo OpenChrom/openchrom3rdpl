@@ -5,9 +5,9 @@ Bundle-Name: Groovy
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.groovy
 Bundle-Version: 2.0.2.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.groovy.Activator
-Bundle-Vendor: http://www.openchrom.net
+Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/groovy-all-2.0.2.jar,
  .
