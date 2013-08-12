@@ -4,7 +4,7 @@ Eclipse-RegisterBuddy: net.openchrom.thirdpartylibraries.jpa
 Bundle-ManifestVersion: 2
 Bundle-Name: Orientdb
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.orientdb
-Bundle-Version: 1.4.0.qualifier
+Bundle-Version: 1.5.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.orientdb.Activator
 Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
@@ -12,13 +12,14 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
  libraries/jna-3.5.2.jar,
- libraries/orient-commons-1.4.0.jar,
- libraries/orientdb-client-1.4.0.jar,
- libraries/orientdb-core-1.4.0.jar,
- libraries/orientdb-enterprise-1.4.0.jar,
- libraries/orientdb-nativeos-1.4.0.jar,
- libraries/orientdb-server-1.4.0.jar,
- libraries/orientdb-tools-1.4.0.jar
+ libraries/orient-commons-1.5.0.jar,
+ libraries/orientdb-client-1.5.0.jar,
+ libraries/orientdb-core-1.5.0.jar,
+ libraries/orientdb-enterprise-1.5.0.jar,
+ libraries/orientdb-nativeos-1.5.0.jar,
+ libraries/orientdb-object-1.5.0.jar,
+ libraries/orientdb-server-1.5.0.jar,
+ libraries/orientdb-tools-1.5.0.jar
 Export-Package: com.orientechnologies.common.collection,
  com.orientechnologies.common.comparator,
  com.orientechnologies.common.concur,
@@ -75,6 +76,7 @@ Export-Package: com.orientechnologies.common.collection,
  com.orientechnologies.orient.core.hook,
  com.orientechnologies.orient.core.id,
  com.orientechnologies.orient.core.index,
+ com.orientechnologies.orient.core.index.engine,
  com.orientechnologies.orient.core.index.hashindex.local,
  com.orientechnologies.orient.core.index.hashindex.local.cache,
  com.orientechnologies.orient.core.intent,
@@ -135,11 +137,20 @@ Export-Package: com.orientechnologies.common.collection,
  com.orientechnologies.orient.enterprise.channel,
  com.orientechnologies.orient.enterprise.channel.binary,
  com.orientechnologies.orient.enterprise.channel.text,
+ com.orientechnologies.orient.object.db,
+ com.orientechnologies.orient.object.dictionary,
+ com.orientechnologies.orient.object.enhancement,
+ com.orientechnologies.orient.object.entity,
+ com.orientechnologies.orient.object.enumerations,
+ com.orientechnologies.orient.object.fetch,
+ com.orientechnologies.orient.object.iterator,
+ com.orientechnologies.orient.object.jpa,
+ com.orientechnologies.orient.object.serialization,
  com.orientechnologies.orient.server,
  com.orientechnologies.orient.server.config,
- com.orientechnologies.orient.server.db,
  com.orientechnologies.orient.server.distributed,
  com.orientechnologies.orient.server.distributed.conflict,
+ com.orientechnologies.orient.server.distributed.task,
  com.orientechnologies.orient.server.handler,
  com.orientechnologies.orient.server.journal,
  com.orientechnologies.orient.server.managed,
@@ -157,7 +168,6 @@ Export-Package: com.orientechnologies.common.collection,
  com.orientechnologies.orient.server.network.protocol.http.multipart,
  com.orientechnologies.orient.server.plugin.mail,
  com.orientechnologies.orient.server.schedule,
- com.orientechnologies.orient.server.task,
  com.orientechnologies.orient.server.tx,
  com.sun.jna,
  com.sun.jna.ptr,
