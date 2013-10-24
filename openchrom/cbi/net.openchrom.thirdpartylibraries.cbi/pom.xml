@@ -174,6 +174,11 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
+    <license>
+      <comments>CDK (https://sourceforge.net/projects/cdk)</comments>
+      <name>LGPL v2.1</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>  
+    </license>
   </licenses> 
   <!--
 	DEVELOPERS
@@ -183,6 +188,15 @@
       <id>eselmeister</id>
       <name>Philip Wenig</name>
       <email>philip.wenig [at] gmx.net</email>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>jmwsource</id>
+      <name>Marwin W</name>
+      <email>marwin [at] tüdeelüüd</email>
       <timezone>+1</timezone>
       <roles>
         <role>Developer</role>
@@ -305,6 +319,10 @@
     <module>../../plugins/net.openchrom.thirdpartylibraries.barcode4j</module>
     <module>../../features/net.openchrom.thirdpartylibraries.barcode4j.feature</module>
     <module>../../sites/net.openchrom.thirdpartylibraries.barcode4j.updateSite</module>
+    <!-- CDK -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.cdk</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.cdk.feature</module>
+    <module>../../sites/net.openchrom.thirdpartylibraries.cdk.updateSite</module>
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>

@@ -121,3 +121,7 @@ openchrom/sites/net.openchrom.thirdpartylibraries.updateSite/artifacts.jar
 openchrom/sites/net.openchrom.thirdpartylibraries.updateSite/content.jar
 openchrom/sites/net.openchrom.thirdpartylibraries.updateSite/features/
 openchrom/sites/net.openchrom.thirdpartylibraries.updateSite/plugins/
+openchrom/features/net.openchrom.thirdpartylibraries.cdk.feature/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.cdk.updateSite/plugins/
+openchrom/plugins/net.openchrom.thirdpartylibraries.cdk/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.cdk/bin/*
