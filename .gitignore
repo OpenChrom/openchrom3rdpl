@@ -129,3 +129,7 @@ openchrom/features/net.openchrom.thirdpartylibraries.opsin.feature/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.opsin.updateSite/plugins/
 openchrom/plugins/net.openchrom.thirdpartylibraries.opsin/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.opsin/bin/*
+openchrom/features/net.openchrom.thirdpartylibraries.apache.batik.feature/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.apache.batik.updateSite/plugins/
+openchrom/plugins/net.openchrom.thirdpartylibraries.apache.batik/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.apache.batik/bin/*

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/net.openchrom.thirdpartylibraries.apache.batik.feature_1.7.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.apache.batik.feature" version="1.7.0.qualifier">
+      <category name="ThirdPartyLibraries"/>
+   </feature>
+   <category-def name="ThirdPartyLibraries" label="ThirdPartyLibraries">
+      <description>
+         ThirdPartyLibraries
+      </description>
+   </category-def>
+</site>

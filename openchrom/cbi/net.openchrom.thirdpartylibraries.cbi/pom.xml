@@ -184,6 +184,11 @@
       <name>Artistic v2.0</name>
       <url>http://opensource.org/licenses/Artistic-2.0</url>  
     </license>
+    <license>
+      <comments>Apache Batik 1.7.0 (http://xmlgraphics.apache.org/batik)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
   </licenses> 
   <!--
 	DEVELOPERS
@@ -332,6 +337,10 @@
     <module>../../plugins/net.openchrom.thirdpartylibraries.opsin</module>
     <module>../../features/net.openchrom.thirdpartylibraries.opsin.feature</module>
     <module>../../sites/net.openchrom.thirdpartylibraries.opsin.updateSite</module>
+    <!-- Apache Batik -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.apache.batik</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.apache.batik.feature</module>
+    <module>../../sites/net.openchrom.thirdpartylibraries.apache.batik.updateSite</module>
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
