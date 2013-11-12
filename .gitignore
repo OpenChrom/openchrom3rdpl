@@ -133,3 +133,15 @@ openchrom/features/net.openchrom.thirdpartylibraries.apache.batik.feature/target
 openchrom/sites/net.openchrom.thirdpartylibraries.apache.batik.updateSite/plugins/
 openchrom/plugins/net.openchrom.thirdpartylibraries.apache.batik/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.apache.batik/bin/*
+openchrom/features/net.openchrom.thirdpartylibraries.apache.commons.io.feature/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.apache.commons.io.updateSite/plugins/
+openchrom/plugins/net.openchrom.thirdpartylibraries.apache.commons.io/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.apache.commons.io/bin/*
+openchrom/features/net.openchrom.thirdpartylibraries.jmzml.feature/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.jmzml.updateSite/plugins/
+openchrom/plugins/net.openchrom.thirdpartylibraries.jmzml/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.jmzml/bin/*
+openchrom/features/net.openchrom.thirdpartylibraries.xxindex.feature/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.xxindex.updateSite/plugins/
+openchrom/plugins/net.openchrom.thirdpartylibraries.xxindex/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.xxindex/bin/*

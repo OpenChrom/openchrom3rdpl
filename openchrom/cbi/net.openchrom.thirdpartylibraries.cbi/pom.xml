@@ -189,6 +189,21 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
+    <license>
+      <comments>Apache Commons IO 2.4.0 (http://commons.apache.org/proper/commons-io)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>jmzML 1.6.7 (https://code.google.com/p/jmzml)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>XXindex 0.11.0 (http://code.google.com/p/pride-toolsuite/wiki/XXIndex)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
   </licenses> 
   <!--
 	DEVELOPERS
@@ -341,6 +356,19 @@
     <module>../../plugins/net.openchrom.thirdpartylibraries.apache.batik</module>
     <module>../../features/net.openchrom.thirdpartylibraries.apache.batik.feature</module>
     <module>../../sites/net.openchrom.thirdpartylibraries.apache.batik.updateSite</module>
+    <!-- Apache Commons IO -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.apache.commons.io</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.apache.commons.io.feature</module>
+    <module>../../sites/net.openchrom.thirdpartylibraries.apache.commons.io.updateSite</module>
+    <!-- jmzML -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jmzml</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.jmzml.feature</module>
+    <module>../../sites/net.openchrom.thirdpartylibraries.jmzml.updateSite</module>
+    <!-- XXindex -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.xxindex</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.xxindex.feature</module>
+    <module>../../sites/net.openchrom.thirdpartylibraries.xxindex.updateSite</module>
+
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
