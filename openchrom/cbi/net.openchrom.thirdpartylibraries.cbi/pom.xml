@@ -204,6 +204,11 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
+    <license>
+      <comments>Neuroph 2.8.0 (http://neuroph.sourceforge.net)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>    
   </licenses> 
   <!--
 	DEVELOPERS
@@ -368,7 +373,10 @@
     <module>../../plugins/net.openchrom.thirdpartylibraries.xxindex</module>
     <module>../../features/net.openchrom.thirdpartylibraries.xxindex.feature</module>
     <module>../../sites/net.openchrom.thirdpartylibraries.xxindex.updateSite</module>
-
+    <!-- Neuroph -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.neuroph</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.neuroph.feature</module>
+    <module>../../sites/net.openchrom.thirdpartylibraries.neuroph.updateSite</module>    
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>

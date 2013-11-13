@@ -145,3 +145,7 @@ openchrom/features/net.openchrom.thirdpartylibraries.xxindex.feature/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.xxindex.updateSite/plugins/
 openchrom/plugins/net.openchrom.thirdpartylibraries.xxindex/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.xxindex/bin/*
+openchrom/features/net.openchrom.thirdpartylibraries.neuroph.feature/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.neuroph.updateSite/plugins/
+openchrom/plugins/net.openchrom.thirdpartylibraries.neuroph/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.neuroph/bin/*
