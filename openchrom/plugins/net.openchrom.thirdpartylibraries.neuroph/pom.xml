@@ -4,12 +4,12 @@
 
   <parent>
     <groupId>net.openchrom</groupId>
-    <artifactId>net.openchrom.sites.parent</artifactId>
+    <artifactId>net.openchrom.plugins.parent</artifactId>
     <version>BUILD-VERSION</version>
   </parent>
 
-  <artifactId>net.openchrom.thirdpartylibraries.neuroph.updateSite</artifactId>
+  <artifactId>net.openchrom.thirdpartylibraries.neuroph</artifactId>
   <version>2.8.0-SNAPSHOT</version>
-  <packaging>eclipse-update-site</packaging>
+  <packaging>eclipse-plugin</packaging>
   
 </project>
