@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>net.openchrom.thirdpartylibraries.netcdf</artifactId>
-  <version>2.2.22-SNAPSHOT</version>
+  <version>4.3.19-SNAPSHOT</version>
   <packaging>eclipse-plugin</packaging>
   
 </project>

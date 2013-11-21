@@ -3,7 +3,7 @@
    <description name="NetCDF" url="http://www.openchrom.net/plugins/thirdpartylibraries/update">
       NetCDF for OpenChrom
    </description>
-   <feature url="features/net.openchrom.thirdpartylibraries.netcdf.feature_2.2.22.jar" id="net.openchrom.thirdpartylibraries.netcdf.feature" version="2.2.22">
+   <feature url="features/net.openchrom.thirdpartylibraries.netcdf.feature_4.3.19.qualifier.jar" id="net.openchrom.thirdpartylibraries.netcdf.feature" version="4.3.19.qualifier">
       <category name="ThirdPartyLibraries"/>
    </feature>
    <category-def name="ThirdPartyLibraries" label="ThirdPartyLibraries">

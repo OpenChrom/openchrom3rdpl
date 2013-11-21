@@ -160,9 +160,9 @@
       <url>http://www.clarkware.com/software/license.txt</url>
     </license>
     <license>
-      <comments>NetCDF 2.2.22 (http://www.unidata.ucar.edu/software/netcdf-java)</comments>
-      <name>LGPL v2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
+      <comments>NetCDF 4.3.19 (http://www.unidata.ucar.edu/software/netcdf-java)</comments>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url> 
     </license>
     <license>
       <comments>ODFDOM 0.8.7 (http://odftoolkit.org/projects/odfdom)</comments>

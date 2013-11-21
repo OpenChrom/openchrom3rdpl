@@ -63,9 +63,6 @@
    <feature url="features/net.openchrom.thirdpartylibraries.log4j.feature_1.2.15.qualifier.jar" id="net.openchrom.thirdpartylibraries.log4j.feature" version="1.2.15.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.netcdf.feature_2.2.22.qualifier.jar" id="net.openchrom.thirdpartylibraries.netcdf.feature" version="2.2.22.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.odfdom.feature_0.8.7.qualifier.jar" id="net.openchrom.thirdpartylibraries.odfdom.feature" version="0.8.7.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
@@ -99,11 +96,16 @@
    <feature url="features/net.openchrom.thirdpartylibraries.jmzml.feature_1.6.7.qualifier.jar" id="net.openchrom.thirdpartylibraries.jmzml.feature" version="1.6.7.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.xxindex.feature_0.11.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.xxindex.feature" version="0.11.0.qualifier"/>
-   <feature url="features/net.openchrom.thirdpartylibraries.apache.commons.io.feature_2.4.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.apache.commons.io.feature" version="2.4.0.qualifier"/>
+   <feature url="features/net.openchrom.thirdpartylibraries.xxindex.feature_0.11.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.xxindex.feature" version="0.11.0.qualifier">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.apache.commons.io.feature_2.4.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.apache.commons.io.feature" version="2.4.0.qualifier">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.neuroph.feature_2.8.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.neuroph.feature" version="2.8.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.netcdf.feature_4.3.19.qualifier.jar" id="net.openchrom.thirdpartylibraries.netcdf.feature" version="4.3.19.qualifier"/>
    <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
       <description>
          Several third party libraries, distributed under different open source licenses.

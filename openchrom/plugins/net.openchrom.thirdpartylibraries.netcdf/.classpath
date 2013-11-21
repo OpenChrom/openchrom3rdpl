@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry exported="true" kind="lib" path="libraries/visadNoDods.jar"/>
-	<classpathentry exported="true" kind="lib" path="libraries/grib-6.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="libraries/slf4j-log4j12-1.5.10.jar"/>
-	<classpathentry exported="true" kind="lib" path="libraries/netcdf-2.2.22.jar"/>
-	<classpathentry exported="true" kind="lib" path="libraries/slf4j-jdk14.jar"/>
-	<classpathentry exported="true" kind="lib" path="libraries/bufr-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/netcdfAll-4.3.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src"/>
