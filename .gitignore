@@ -149,3 +149,7 @@ openchrom/features/net.openchrom.thirdpartylibraries.neuroph.feature/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.neuroph.updateSite/plugins/
 openchrom/plugins/net.openchrom.thirdpartylibraries.neuroph/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.neuroph/bin/*
+openchrom/features/net.openchrom.thirdpartylibraries.imagej.feature/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.imagej.updateSite/plugins/
+openchrom/plugins/net.openchrom.thirdpartylibraries.imagej/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.imagej/bin/*

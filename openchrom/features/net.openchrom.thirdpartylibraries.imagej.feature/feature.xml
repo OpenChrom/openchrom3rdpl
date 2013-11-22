@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.openchrom.thirdpartylibraries.imagej.feature"
+      label="Feature"
+      version="1.47.0.qualifier"
+      provider-name="OpenChrom">
+
+   <description url="http://www.openchrom.net/plugins/thirdpartylibraries">
+      This feature encapsulates the following libraries:
+ImageJ http://rsb.info.nih.gov/ij 1.47.0 Public Domain
+   </description>
+
+   <copyright url="http://www.openchrom.net/plugins/thirdpartylibraries">
+      This feature encapsulates the following libraries:
+ImageJ http://rsb.info.nih.gov/ij 1.47.0 Public Domain
+   </copyright>
+
+   <license url="http://www.openchrom.net/plugins/thirdpartylibraries">
+Copyright (c) 2013 Dr. Philip Wenig.
+ 
+This feature encapsulates the following libraries:
+ImageJ http://rsb.info.nih.gov/ij 1.47.0 Public Domain
+*
+Public Domain
+   </license>
+
+   <url>
+      <discovery label="OpenChrom ThirdPartyLibraries" url="http://www.openchrom.net/plugins/thirdpartylibraries"/>
+      <discovery label="ImageJ" url="http://rsb.info.nih.gov/ij"/>
+   </url>
+
+   <plugin
+         id="net.openchrom.thirdpartylibraries.imagej"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

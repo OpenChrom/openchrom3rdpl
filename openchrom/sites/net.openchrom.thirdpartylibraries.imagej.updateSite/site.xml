@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/net.openchrom.thirdpartylibraries.imagej.feature_1.47.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.imagej.feature" version="1.47.0.qualifier">
+      <category name="ThirdPartyLibraries"/>
+   </feature>
+   <category-def name="ThirdPartyLibraries" label="ThirdPartyLibraries">
+      <description>
+         ThirdPartyLibraries
+      </description>
+   </category-def>
+</site>

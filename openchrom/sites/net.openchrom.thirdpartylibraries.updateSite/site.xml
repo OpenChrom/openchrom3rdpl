@@ -105,7 +105,12 @@
    <feature url="features/net.openchrom.thirdpartylibraries.neuroph.feature_2.8.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.neuroph.feature" version="2.8.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.netcdf.feature_4.3.19.qualifier.jar" id="net.openchrom.thirdpartylibraries.netcdf.feature" version="4.3.19.qualifier"/>
+   <feature url="features/net.openchrom.thirdpartylibraries.netcdf.feature_4.3.19.qualifier.jar" id="net.openchrom.thirdpartylibraries.netcdf.feature" version="4.3.19.qualifier">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.imagej.feature_1.47.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.imagej.feature" version="1.47.0.qualifier">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
    <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
       <description>
          Several third party libraries, distributed under different open source licenses.
