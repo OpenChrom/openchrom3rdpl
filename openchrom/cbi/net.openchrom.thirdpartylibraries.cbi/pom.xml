@@ -208,7 +208,19 @@
       <comments>Neuroph 2.8.0 (http://neuroph.sourceforge.net)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>    
+    </license>
+  
+    <license>
+      <comments>ImageJ 1.47.0 (rsb.info.nih.gov/ij)</comments>
+      <name>Public Domain</name>
+      <url>http://en.wikipedia.org/wiki/Public_domain</url>
+    </license>
+    <license>
+      <comments>Matlabcontrol 4.1.0 (http://code.google.com/p/matlabcontrol)</comments>
+      <name>BSD License</name>
+      <url>http://opensource.org/licenses/BSD-3-Clause</url>
+    </license>         
+       
   </licenses> 
   <!--
 	DEVELOPERS
@@ -218,15 +230,6 @@
       <id>eselmeister</id>
       <name>Philip Wenig</name>
       <email>philip.wenig [at] gmx.net</email>
-      <timezone>+1</timezone>
-      <roles>
-        <role>Developer</role>
-      </roles>
-    </developer>
-    <developer>
-      <id>jmwsource</id>
-      <name>Marwin W</name>
-      <email>marwin [at] tüdeelüüd</email>
       <timezone>+1</timezone>
       <roles>
         <role>Developer</role>
@@ -376,7 +379,15 @@
     <!-- Neuroph -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.neuroph</module>
     <module>../../features/net.openchrom.thirdpartylibraries.neuroph.feature</module>
-    <module>../../sites/net.openchrom.thirdpartylibraries.neuroph.updateSite</module>    
+    <module>../../sites/net.openchrom.thirdpartylibraries.neuroph.updateSite</module>
+    <!-- ImageJ -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.imagej</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.imagej.feature</module>
+    <module>../../sites/net.openchrom.thirdpartylibraries.imagej.updateSite</module>
+    <!-- Matlabcontrol -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.matlabcontrol</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.matlabcontrol.feature</module>
+    <module>../../sites/net.openchrom.thirdpartylibraries.matlabcontrol.updateSite</module>        
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>

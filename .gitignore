@@ -153,3 +153,7 @@ openchrom/features/net.openchrom.thirdpartylibraries.imagej.feature/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.imagej.updateSite/plugins/
 openchrom/plugins/net.openchrom.thirdpartylibraries.imagej/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.imagej/bin/*
+openchrom/features/net.openchrom.thirdpartylibraries.matlabcontrol.feature/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.matlabcontrol.updateSite/plugins/
+openchrom/plugins/net.openchrom.thirdpartylibraries.matlabcontrol/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.matlabcontrol/bin/*

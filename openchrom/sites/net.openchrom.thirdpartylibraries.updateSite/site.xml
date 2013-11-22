@@ -111,6 +111,9 @@
    <feature url="features/net.openchrom.thirdpartylibraries.imagej.feature_1.47.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.imagej.feature" version="1.47.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.matlabcontrol.feature_4.1.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.matlabcontrol.feature" version="4.1.0.qualifier">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
    <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
       <description>
          Several third party libraries, distributed under different open source licenses.
