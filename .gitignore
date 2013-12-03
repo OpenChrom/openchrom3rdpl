@@ -157,3 +157,11 @@ openchrom/features/net.openchrom.thirdpartylibraries.matlabcontrol.feature/targe
 openchrom/sites/net.openchrom.thirdpartylibraries.matlabcontrol.updateSite/plugins/
 openchrom/plugins/net.openchrom.thirdpartylibraries.matlabcontrol/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.matlabcontrol/bin/*
+openchrom/features/net.openchrom.thirdpartylibraries.biojava.feature/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.biojava.updateSite/plugins/
+openchrom/plugins/net.openchrom.thirdpartylibraries.biojava/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.biojava/bin/*
+openchrom/features/net.openchrom.thirdpartylibraries.jmol.feature/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.jmol.updateSite/plugins/
+openchrom/plugins/net.openchrom.thirdpartylibraries.jmol/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.jmol/bin/*

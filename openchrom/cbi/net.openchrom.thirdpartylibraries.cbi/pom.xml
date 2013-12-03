@@ -219,8 +219,18 @@
       <comments>Matlabcontrol 4.1.0 (http://code.google.com/p/matlabcontrol)</comments>
       <name>BSD License</name>
       <url>http://opensource.org/licenses/BSD-3-Clause</url>
-    </license>         
-       
+    </license>
+
+    <license>
+      <comments>BioJava 3.0.7 (http://www.biojava.org)</comments>
+      <name>LGPL v2.1</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
+    </license>     
+    <license>
+      <comments>Jmol 13.0.8 (http://jmol.sourceforge.net)</comments>
+      <name>LGPL v2.1</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
+    </license>       
   </licenses> 
   <!--
 	DEVELOPERS
@@ -387,7 +397,15 @@
     <!-- Matlabcontrol -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.matlabcontrol</module>
     <module>../../features/net.openchrom.thirdpartylibraries.matlabcontrol.feature</module>
-    <module>../../sites/net.openchrom.thirdpartylibraries.matlabcontrol.updateSite</module>        
+    <module>../../sites/net.openchrom.thirdpartylibraries.matlabcontrol.updateSite</module>
+    <!-- BioJava -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.biojava</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.biojava.feature</module>
+    <module>../../sites/net.openchrom.thirdpartylibraries.biojava.updateSite</module>   
+    <!-- Jmol -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jmol</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.jmol.feature</module>
+    <module>../../sites/net.openchrom.thirdpartylibraries.jmol.updateSite</module>       
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/net.openchrom.thirdpartylibraries.biojava.feature_3.0.7.qualifier.jar" id="net.openchrom.thirdpartylibraries.biojava.feature" version="3.0.7.qualifier">
+      <category name="ThirdPartyLibraries"/>
+   </feature>
+   <category-def name="ThirdPartyLibraries" label="ThirdPartyLibraries">
+      <description>
+         ThirdPartyLibraries
+      </description>
+   </category-def>
+</site>
