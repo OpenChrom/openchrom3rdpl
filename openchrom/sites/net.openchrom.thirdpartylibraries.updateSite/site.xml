@@ -114,6 +114,12 @@
    <feature url="features/net.openchrom.thirdpartylibraries.matlabcontrol.feature_4.1.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.matlabcontrol.feature" version="4.1.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.jmol.feature_13.2.8.qualifier.jar" id="net.openchrom.thirdpartylibraries.jmol.feature" version="13.2.8.qualifier">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.biojava.feature_3.0.7.qualifier.jar" id="net.openchrom.thirdpartylibraries.biojava.feature" version="3.0.7.qualifier">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
    <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
       <description>
          Several third party libraries, distributed under different open source licenses.
