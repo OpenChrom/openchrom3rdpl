@@ -165,3 +165,7 @@ openchrom/features/net.openchrom.thirdpartylibraries.jmol.feature/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.jmol.updateSite/plugins/
 openchrom/plugins/net.openchrom.thirdpartylibraries.jmol/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.jmol/bin/*
+openchrom/features/net.openchrom.thirdpartylibraries.ejml.feature/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.ejml.updateSite/plugins/
+openchrom/plugins/net.openchrom.thirdpartylibraries.ejml/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.ejml/bin/*

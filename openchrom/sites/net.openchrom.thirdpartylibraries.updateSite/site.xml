@@ -120,6 +120,9 @@
    <feature url="features/net.openchrom.thirdpartylibraries.biojava.feature_3.0.7.qualifier.jar" id="net.openchrom.thirdpartylibraries.biojava.feature" version="3.0.7.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.ejml.feature_0.24.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.ejml.feature" version="0.24.0.qualifier">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
    <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
       <description>
          Several third party libraries, distributed under different open source licenses.

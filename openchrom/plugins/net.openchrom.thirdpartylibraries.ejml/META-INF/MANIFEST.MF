@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ejml
+Bundle-SymbolicName: net.openchrom.thirdpartylibraries.ejml
+Bundle-Version: 0.24.0.qualifier
+Bundle-Activator: net.openchrom.thirdpartylibraries.ejml.Activator
+Bundle-Vendor: OpenChrom
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy

@@ -209,7 +209,6 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
-  
     <license>
       <comments>ImageJ 1.47.0 (rsb.info.nih.gov/ij)</comments>
       <name>Public Domain</name>
@@ -230,7 +229,12 @@
       <comments>Jmol 13.0.8 (http://jmol.sourceforge.net)</comments>
       <name>LGPL v2.1</name>
       <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
-    </license>       
+    </license>
+    <license>
+      <comments>EJML 0.24.0 (https://code.google.com/p/efficient-java-matrix-library)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
   </licenses> 
   <!--
 	DEVELOPERS
