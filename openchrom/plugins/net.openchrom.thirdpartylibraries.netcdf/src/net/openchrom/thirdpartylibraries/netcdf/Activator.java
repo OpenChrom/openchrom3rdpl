@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2013 Dr. Philip Wenig.
+ * Copyright (c) 2013, 2014 Dr. Philip Wenig.
  * Copyright 1998-2008 University Corporation for Atmospheric Research/Unidata
  * 
  * Portions of this software were developed by the Unidata Program at the

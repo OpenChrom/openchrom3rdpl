@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2013 Dr. Philip Wenig.
+ * Copyright (c) 2013, 2014 Dr. Philip Wenig.
  * 
  * This library is free
  * software; you can redistribute it and/or modify it under the terms of the GNU
