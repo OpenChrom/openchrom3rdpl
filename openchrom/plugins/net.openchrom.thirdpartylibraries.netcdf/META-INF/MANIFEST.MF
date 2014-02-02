@@ -17,4 +17,3 @@ Export-Package: edu.wisc.ssec.mcidas,
  ucar.grib.grib2,
  ucar.ma2,
  ucar.nc2
-Import-Package: org.apache.log4j

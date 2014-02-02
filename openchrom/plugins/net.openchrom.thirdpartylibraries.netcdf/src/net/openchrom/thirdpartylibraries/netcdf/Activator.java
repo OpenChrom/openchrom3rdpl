@@ -33,7 +33,6 @@
  *******************************************************************************/
 package net.openchrom.thirdpartylibraries.netcdf;
 
-import org.apache.log4j.PropertyConfigurator;
 import org.eclipse.core.runtime.Plugin;
 import org.osgi.framework.BundleContext;
 
@@ -63,7 +62,6 @@ public class Activator extends Plugin {
 
 		super.start(context);
 		plugin = this;
-		initLogger();
 	}
 
 	/*
@@ -85,13 +83,5 @@ public class Activator extends Plugin {
 	public static Activator getDefault() {
 
 		return plugin;
-	}
-
-	/**
-	 * Reading the log4j properties.
-	 */
-	private void initLogger() {
-
-		PropertyConfigurator.configure(getBundle().getEntry("/log4j.properties"));
 	}
 }
