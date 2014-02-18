@@ -6,13 +6,13 @@ package org.swtchart.ext;
 public class Messages {
 
 	/** the menu group for adjust axis range menus */
-	public static final String ADJUST_AXIS_RANGE_GROUP = "&Adjust Axis Range";
+	public static final String ADJUST_AXIS_RANGE_GROUP = "Unzoom";
 	/** the menu for adjust axis range */
-	public static final String ADJUST_AXIS_RANGE = "&Adjust Axis Range";
+	public static final String ADJUST_AXIS_RANGE = "Reset 1:1";
 	/** the menu for adjust X axis range */
-	public static final String ADJUST_X_AXIS_RANGE = "Adjust &X Axis Range";
+	public static final String ADJUST_X_AXIS_RANGE = "Unzoom X-Axis";
 	/** the menu for adjust Y axis range */
-	public static final String ADJUST_Y_AXIS_RANGE = "Adjust &Y Axis Range";
+	public static final String ADJUST_Y_AXIS_RANGE = "Unzoom Y-Axis";
 	/** the menu group for zoom in menus */
 	public static final String ZOOMIN_GROUP = "Zoom &In";
 	/** the menu for zoom in */
@@ -32,7 +32,7 @@ public class Messages {
 	/** the menu for save as */
 	public static final String SAVE_AS = "Save As...";
 	/** the menu for opening properties dialog */
-	public static final String PROPERTIES = "P&roperties...";
+	public static final String PROPERTIES = "Properties";
 	/** the title for save as dialog */
 	public static final String SAVE_AS_DIALOG_TITLE = "Save As";
 }

@@ -86,6 +86,9 @@ public class InteractiveChart extends Chart implements PaintListener {
 
 		Menu menu = new Menu(getPlotArea());
 		getPlotArea().setMenu(menu);
+		/*
+		 * Unzoom
+		 */
 		// adjust axis range menu group
 		MenuItem menuItem = new MenuItem(menu, SWT.CASCADE);
 		menuItem.setText(Messages.ADJUST_AXIS_RANGE_GROUP);
@@ -104,46 +107,49 @@ public class InteractiveChart extends Chart implements PaintListener {
 		menuItem.setText(Messages.ADJUST_Y_AXIS_RANGE);
 		menuItem.addListener(SWT.Selection, this);
 		menuItem = new MenuItem(menu, SWT.SEPARATOR);
-		// zoom in menu group
-		menuItem = new MenuItem(menu, SWT.CASCADE);
-		menuItem.setText(Messages.ZOOMIN_GROUP);
-		Menu zoomInMenu = new Menu(menuItem);
-		menuItem.setMenu(zoomInMenu);
-		// zoom in both axes
-		menuItem = new MenuItem(zoomInMenu, SWT.PUSH);
-		menuItem.setText(Messages.ZOOMIN);
-		menuItem.addListener(SWT.Selection, this);
-		// zoom in X axis
-		menuItem = new MenuItem(zoomInMenu, SWT.PUSH);
-		menuItem.setText(Messages.ZOOMIN_X);
-		menuItem.addListener(SWT.Selection, this);
-		// zoom in Y axis
-		menuItem = new MenuItem(zoomInMenu, SWT.PUSH);
-		menuItem.setText(Messages.ZOOMIN_Y);
-		menuItem.addListener(SWT.Selection, this);
-		// zoom out menu group
-		menuItem = new MenuItem(menu, SWT.CASCADE);
-		menuItem.setText(Messages.ZOOMOUT_GROUP);
-		Menu zoomOutMenu = new Menu(menuItem);
-		menuItem.setMenu(zoomOutMenu);
-		// zoom out both axes
-		menuItem = new MenuItem(zoomOutMenu, SWT.PUSH);
-		menuItem.setText(Messages.ZOOMOUT);
-		menuItem.addListener(SWT.Selection, this);
-		// zoom out X axis
-		menuItem = new MenuItem(zoomOutMenu, SWT.PUSH);
-		menuItem.setText(Messages.ZOOMOUT_X);
-		menuItem.addListener(SWT.Selection, this);
-		// zoom out Y axis
-		menuItem = new MenuItem(zoomOutMenu, SWT.PUSH);
-		menuItem.setText(Messages.ZOOMOUT_Y);
-		menuItem.addListener(SWT.Selection, this);
-		menuItem = new MenuItem(menu, SWT.SEPARATOR);
+		/*
+		 * Zoom.
+		 */
+		// // zoom in menu group
+		// menuItem = new MenuItem(menu, SWT.CASCADE);
+		// menuItem.setText(Messages.ZOOMIN_GROUP);
+		// Menu zoomInMenu = new Menu(menuItem);
+		// menuItem.setMenu(zoomInMenu);
+		// // zoom in both axes
+		// menuItem = new MenuItem(zoomInMenu, SWT.PUSH);
+		// menuItem.setText(Messages.ZOOMIN);
+		// menuItem.addListener(SWT.Selection, this);
+		// // zoom in X axis
+		// menuItem = new MenuItem(zoomInMenu, SWT.PUSH);
+		// menuItem.setText(Messages.ZOOMIN_X);
+		// menuItem.addListener(SWT.Selection, this);
+		// // zoom in Y axis
+		// menuItem = new MenuItem(zoomInMenu, SWT.PUSH);
+		// menuItem.setText(Messages.ZOOMIN_Y);
+		// menuItem.addListener(SWT.Selection, this);
+		// // zoom out menu group
+		// menuItem = new MenuItem(menu, SWT.CASCADE);
+		// menuItem.setText(Messages.ZOOMOUT_GROUP);
+		// Menu zoomOutMenu = new Menu(menuItem);
+		// menuItem.setMenu(zoomOutMenu);
+		// // zoom out both axes
+		// menuItem = new MenuItem(zoomOutMenu, SWT.PUSH);
+		// menuItem.setText(Messages.ZOOMOUT);
+		// menuItem.addListener(SWT.Selection, this);
+		// // zoom out X axis
+		// menuItem = new MenuItem(zoomOutMenu, SWT.PUSH);
+		// menuItem.setText(Messages.ZOOMOUT_X);
+		// menuItem.addListener(SWT.Selection, this);
+		// // zoom out Y axis
+		// menuItem = new MenuItem(zoomOutMenu, SWT.PUSH);
+		// menuItem.setText(Messages.ZOOMOUT_Y);
+		// menuItem.addListener(SWT.Selection, this);
+		// menuItem = new MenuItem(menu, SWT.SEPARATOR);
 		// save as
-		menuItem = new MenuItem(menu, SWT.PUSH);
-		menuItem.setText(Messages.SAVE_AS);
-		menuItem.addListener(SWT.Selection, this);
-		menuItem = new MenuItem(menu, SWT.SEPARATOR);
+		// menuItem = new MenuItem(menu, SWT.PUSH);
+		// menuItem.setText(Messages.SAVE_AS);
+		// menuItem.addListener(SWT.Selection, this);
+		// menuItem = new MenuItem(menu, SWT.SEPARATOR);
 		// properties
 		menuItem = new MenuItem(menu, SWT.PUSH);
 		menuItem.setText(Messages.PROPERTIES);
