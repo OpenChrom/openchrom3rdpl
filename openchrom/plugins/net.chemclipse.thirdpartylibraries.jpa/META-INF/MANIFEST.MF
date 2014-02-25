@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Eclipse-BuddyPolicy: registered
+Bundle-ManifestVersion: 2
+Bundle-Name: Jpa Plug-in
+Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.jpa
+Bundle-Version: 1.99.0.qualifier
+Bundle-Activator: net.chemclipse.thirdpartylibraries.jpa.Activator
+Require-Bundle: org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: javax.persistence,
+ javax.persistence.osgi,
+ javax.persistence.spi
+Bundle-Vendor: ChemClipse
+Bundle-ClassPath: libraries/jpa/javax.persistence_1.0.0.v200905011740.jar,
+ libraries/jpa/javax.persistence_1.99.0.v200906021518.jar

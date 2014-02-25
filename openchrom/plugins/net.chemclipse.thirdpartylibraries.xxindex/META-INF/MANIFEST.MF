@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Eclipse-BuddyPolicy: registered
+Bundle-ManifestVersion: 2
+Bundle-Name: Xxindex
+Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.xxindex
+Bundle-Version: 0.11.0.qualifier
+Bundle-Activator: net.chemclipse.thirdpartylibraries.xxindex.Activator
+Bundle-Vendor: ChemClipse
+Require-Bundle: org.eclipse.core.runtime,
+ org.apache.commons.logging;bundle-version="1.1.1",
+ net.chemclipse.thirdpartylibraries.apache.commons.io;bundle-version="2.4.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: libraries/xxindex-0.11.jar,
+ .
+Export-Package: psidev.psi.tools.xxindex,
+ psidev.psi.tools.xxindex.index

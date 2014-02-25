@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Findbugs Plug-in
+Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.findbugs
+Bundle-Version: 1.3.6.qualifier
+Bundle-Activator: net.chemclipse.thirdpartylibraries.findbugs.Activator
+Require-Bundle: org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ClassPath: .,
+ libraries/findbugs.jar
+Export-Package: edu.umd.cs.findbugs.annotations
+Bundle-Vendor: ChemClipse
