@@ -9,8 +9,8 @@ Bundle-Vendor: ChemClipse
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
-Bundle-ClassPath: libraries/cdk-1.4.19.jar,
- .
+Bundle-ClassPath: .,
+ libraries/cdk-1.4.19.jar
 Export-Package: com.hp.hpl.jena,
  com.hp.hpl.jena.assembler,
  com.hp.hpl.jena.assembler.acceptance,
