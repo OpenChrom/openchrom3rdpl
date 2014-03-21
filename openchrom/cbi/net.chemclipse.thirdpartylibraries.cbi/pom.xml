@@ -32,7 +32,7 @@
 	  Plug-ins that are part of compilation.
     --> 
     <license>
-      <comments>ApacheCommonsCLI 1.2 (http://commons.apache.org/cli)</comments>
+      <comments>Apache Commons CLI 1.2 (http://commons.apache.org/cli)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
@@ -52,12 +52,12 @@
       <url>http://www.eclipse.org/legal/epl-v10.html</url>
     </license>
     <license>
-      <comments>ApacheCommonsPOI 3.7.0 (http://poi.apache.org)</comments>
+      <comments>Apache Commons POI 3.7.0 (http://poi.apache.org)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
     <license>
-      <comments>ApacheGeronimoStax 1.0.0 (http://geronimo.apache.org)</comments>
+      <comments>Apache Geronimo Stax 1.0.0 (http://geronimo.apache.org)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
@@ -67,7 +67,7 @@
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
     <license>
-      <comments>ApacheXMLBeans 2.5.0 (http://xmlbeans.apache.org)</comments>
+      <comments>Apache XML Beans 2.5.0 (http://xmlbeans.apache.org)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
@@ -105,7 +105,7 @@
 	  Plug-ins that are not part of compilation.
     --> 
     <license>
-      <comments>ApacheCommonsMath 2.0 (http://commons.apache.org/math)</comments>
+      <comments>Apache Commons Math 3.2 (http://commons.apache.org/math)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
