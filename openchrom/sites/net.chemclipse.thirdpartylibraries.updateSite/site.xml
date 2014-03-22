@@ -6,7 +6,7 @@
    <feature url="features/net.chemclipse.thirdpartylibraries.apache.commons.cli.feature_1.2.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.apache.commons.cli.feature" version="1.2.0.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.chemclipse.thirdpartylibraries.apache.commons.math.feature_3.0.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.apache.commons.math.feature" version="3.0.0.qualifier">
+   <feature url="features/net.chemclipse.thirdpartylibraries.apache.commons.math.feature_3.2.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.apache.commons.math.feature" version="3.2.0.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.chemclipse.thirdpartylibraries.apache.commons.poi.feature_3.7.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.apache.commons.poi.feature" version="3.7.0.qualifier">
