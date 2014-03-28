@@ -2,24 +2,24 @@
 <feature
       id="net.chemclipse.thirdpartylibraries.swtchart.feature"
       label="SWTChart"
-      version="0.8.0.qualifier"
+      version="0.9.0.qualifier"
       provider-name="http://www.chemclipse.net">
 
    <description url="http://www.chemclipse.net/plugins/thirdpartylibraries">
       This feature encapsulates the following libraries:
-SWTChart http://www.swtchart.org 0.8.0 EPLv1.0
+SWTChart http://www.swtchart.org 0.9.0 EPLv1.0
    </description>
 
    <copyright url="http://www.swtchart.org">
       This feature encapsulates the following libraries:
-SWTChart http://www.swtchart.org 0.8.0 EPLv1.0
+SWTChart http://www.swtchart.org 0.9.0 EPLv1.0
    </copyright>
 
    <license url="http://www.eclipse.org/legal/epl-v10.html">
       Copyright (c) 2008, 2014 Philip (eselmeister) Wenig.
 
 This feature encapsulates the following libraries:
-SWTChart 0.8.0
+SWTChart 0.9.0
 http://www.swtchart.org
 EPLv1.0
 
