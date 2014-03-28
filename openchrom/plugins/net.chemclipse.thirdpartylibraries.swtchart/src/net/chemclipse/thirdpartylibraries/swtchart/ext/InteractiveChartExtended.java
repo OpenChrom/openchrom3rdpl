@@ -26,6 +26,7 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 
 	protected SelectionRectangle selectionRectangle;
 	private long clickedTimeInMilliseconds;
+	private int xStart;
 	//
 	private static final String ADJUST_AXIS_RANGE_GROUP = "Unzoom";
 	private static final String ADJUST_AXIS_RANGE = "Reset 1:1";
@@ -146,6 +147,7 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 	private void handleMouseDownEvent(Event event) {
 
 		if(event.button == 1) {
+			xStart = event.x;
 			selectionRectangle.setStartPoint(event.x, event.y);
 			clickedTimeInMilliseconds = System.currentTimeMillis();
 		}
@@ -154,15 +156,33 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 	private void handleMouseUpEvent(Event event) {
 
 		if(event.button == 1 && System.currentTimeMillis() - clickedTimeInMilliseconds > 100) {
-			for(IAxis axis : getAxisSet().getAxes()) {
-				Point range = null;
-				if((getOrientation() == SWT.HORIZONTAL && axis.getDirection() == Direction.X) || (getOrientation() == SWT.VERTICAL && axis.getDirection() == Direction.Y)) {
-					range = selectionRectangle.getHorizontalRange();
-				} else {
-					range = selectionRectangle.getVerticalRange();
-				}
-				if(range != null && range.x != range.y) {
-					setRange(range, axis);
+			/*
+			 * If the selection is too narrow, skip it.
+			 * That prevents unwanted zooming.
+			 */
+			Composite plotArea = getPlotArea();
+			int minSelectedWidth = plotArea.getBounds().width / 30;
+			int deltaWidth = Math.abs(xStart - event.x);
+			if(deltaWidth >= minSelectedWidth) {
+				/*
+				 * Calculate the range for each axis.
+				 */
+				for(IAxis axis : getAxisSet().getAxes()) {
+					/*
+					 * Get the range.
+					 */
+					Point range = null;
+					if((getOrientation() == SWT.HORIZONTAL && axis.getDirection() == Direction.X) || (getOrientation() == SWT.VERTICAL && axis.getDirection() == Direction.Y)) {
+						range = selectionRectangle.getHorizontalRange();
+					} else {
+						range = selectionRectangle.getVerticalRange();
+					}
+					/*
+					 * Set the range.
+					 */
+					if(range != null && range.x != range.y) {
+						setRange(range, axis);
+					}
 				}
 			}
 		}
