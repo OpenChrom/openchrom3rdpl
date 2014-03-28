@@ -24,8 +24,7 @@ import org.swtchart.ext.internal.SelectionRectangle;
 
 public class InteractiveChartExtended extends Chart implements PaintListener {
 
-	/** the selection rectangle for zoom in/out */
-	protected SelectionRectangle selection;
+	protected SelectionRectangle selectionRectangle;
 	private long clickedTimeInMilliseconds;
 	//
 	private static final String ADJUST_AXIS_RANGE_GROUP = "Unzoom";
@@ -36,26 +35,15 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 	private static final String PROPERTIES_SHOW_LEGEND = "Show Legend";
 	private static final String PROPERTIES_HIDE_LEGEND = "Hide Legend";
 
-	/**
-	 * Constructor.
-	 * 
-	 * @param parent
-	 *            the parent composite
-	 * @param style
-	 *            the style
-	 */
 	public InteractiveChartExtended(Composite parent, int style) {
 
 		super(parent, style);
 		init();
 	}
 
-	/**
-	 * Initializes.
-	 */
 	private void init() {
 
-		selection = new SelectionRectangle();
+		selectionRectangle = new SelectionRectangle();
 		Composite plot = getPlotArea();
 		plot.addListener(SWT.Resize, this);
 		plot.addListener(SWT.MouseMove, this);
@@ -67,9 +55,6 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 		createMenuItems();
 	}
 
-	/**
-	 * Creates menu items.
-	 */
 	private void createMenuItems() {
 
 		Menu menu = new Menu(getPlotArea());
@@ -110,17 +95,12 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 		menuItem.addListener(SWT.Selection, this);
 	}
 
-	/*
-	 * @see PaintListener#paintControl(PaintEvent)
-	 */
+	@Override
 	public void paintControl(PaintEvent e) {
 
-		selection.draw(e.gc);
+		selectionRectangle.draw(e.gc);
 	}
 
-	/*
-	 * @see Listener#handleEvent(Event)
-	 */
 	@Override
 	public void handleEvent(Event event) {
 
@@ -149,74 +129,47 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 		}
 	}
 
-	/*
-	 * @see Chart#dispose()
-	 */
 	@Override
 	public void dispose() {
 
 		super.dispose();
 	}
 
-	/**
-	 * Handles mouse move event.
-	 * 
-	 * @param event
-	 *            the mouse move event
-	 */
 	private void handleMouseMoveEvent(Event event) {
 
-		if(!selection.isDisposed()) {
-			selection.setEndPoint(event.x, event.y);
+		if(!selectionRectangle.isDisposed()) {
+			selectionRectangle.setEndPoint(event.x, event.y);
 			redraw();
 		}
 	}
 
-	/**
-	 * Handles the mouse down event.
-	 * 
-	 * @param event
-	 *            the mouse down event
-	 */
 	private void handleMouseDownEvent(Event event) {
 
 		if(event.button == 1) {
-			selection.setStartPoint(event.x, event.y);
+			selectionRectangle.setStartPoint(event.x, event.y);
 			clickedTimeInMilliseconds = System.currentTimeMillis();
 		}
 	}
 
-	/**
-	 * Handles the mouse up event.
-	 * 
-	 * @param event
-	 *            the mouse up event
-	 */
 	private void handleMouseUpEvent(Event event) {
 
 		if(event.button == 1 && System.currentTimeMillis() - clickedTimeInMilliseconds > 100) {
 			for(IAxis axis : getAxisSet().getAxes()) {
 				Point range = null;
 				if((getOrientation() == SWT.HORIZONTAL && axis.getDirection() == Direction.X) || (getOrientation() == SWT.VERTICAL && axis.getDirection() == Direction.Y)) {
-					range = selection.getHorizontalRange();
+					range = selectionRectangle.getHorizontalRange();
 				} else {
-					range = selection.getVerticalRange();
+					range = selectionRectangle.getVerticalRange();
 				}
 				if(range != null && range.x != range.y) {
 					setRange(range, axis);
 				}
 			}
 		}
-		selection.dispose();
+		selectionRectangle.dispose();
 		redraw();
 	}
 
-	/**
-	 * Handles mouse wheel event.
-	 * 
-	 * @param event
-	 *            the mouse wheel event
-	 */
 	private void handleMouseWheel(Event event) {
 
 		for(IAxis axis : getAxes(SWT.HORIZONTAL)) {
@@ -238,12 +191,6 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 		redraw();
 	}
 
-	/**
-	 * Handles the key down event.
-	 * 
-	 * @param event
-	 *            the key down event
-	 */
 	private void handleKeyDownEvent(Event event) {
 
 		if(event.keyCode == SWT.ARROW_DOWN) {
@@ -277,13 +224,6 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 		}
 	}
 
-	/**
-	 * Gets the axes for given orientation.
-	 * 
-	 * @param orientation
-	 *            the orientation
-	 * @return the axes
-	 */
 	private IAxis[] getAxes(int orientation) {
 
 		IAxis[] axes;
@@ -295,12 +235,6 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 		return axes;
 	}
 
-	/**
-	 * Handles the selection event.
-	 * 
-	 * @param event
-	 *            the event
-	 */
 	private void handleSelectionEvent(Event event) {
 
 		if(!(event.widget instanceof MenuItem)) {
@@ -325,14 +259,6 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 		redraw();
 	}
 
-	/**
-	 * Sets the axis range.
-	 * 
-	 * @param range
-	 *            the axis range in pixels
-	 * @param axis
-	 *            the axis to set range
-	 */
 	private void setRange(Point range, IAxis axis) {
 
 		if(range == null) {
