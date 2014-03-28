@@ -31,9 +31,9 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 	private static final String ADJUST_AXIS_RANGE = "Reset 1:1";
 	private static final String ADJUST_X_AXIS_RANGE = "Unzoom X-Axis";
 	private static final String ADJUST_Y_AXIS_RANGE = "Unzoom Y-Axis";
-	private static final String PROPERTIES = "Properties";
-	private static final String PROPERTIES_SHOW_LEGEND = "Show Legend";
-	private static final String PROPERTIES_HIDE_LEGEND = "Hide Legend";
+	private static final String LEGEND = "Legend";
+	private static final String LEGEND_SHOW = "Show Legend";
+	private static final String LEGEND_HIDE = "Hide Legend";
 
 	public InteractiveChartExtended(Composite parent, int style) {
 
@@ -82,16 +82,16 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 		 * Properties
 		 */
 		menuItem = new MenuItem(menu, SWT.CASCADE);
-		menuItem.setText(PROPERTIES);
+		menuItem.setText(LEGEND);
 		Menu legendMenu = new Menu(menuItem);
 		menuItem.setMenu(legendMenu);
 		//
 		menuItem = new MenuItem(legendMenu, SWT.PUSH);
-		menuItem.setText(PROPERTIES_SHOW_LEGEND);
+		menuItem.setText(LEGEND_SHOW);
 		menuItem.addListener(SWT.Selection, this);
 		//
 		menuItem = new MenuItem(legendMenu, SWT.PUSH);
-		menuItem.setText(PROPERTIES_HIDE_LEGEND);
+		menuItem.setText(LEGEND_HIDE);
 		menuItem.addListener(SWT.Selection, this);
 	}
 
@@ -251,9 +251,9 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 			for(IAxis axis : getAxisSet().getYAxes()) {
 				axis.adjustRange();
 			}
-		} else if(menuItem.getText().equals(PROPERTIES_SHOW_LEGEND)) {
+		} else if(menuItem.getText().equals(LEGEND_SHOW)) {
 			getLegend().setVisible(true);
-		} else if(menuItem.getText().equals(PROPERTIES_HIDE_LEGEND)) {
+		} else if(menuItem.getText().equals(LEGEND_HIDE)) {
 			getLegend().setVisible(false);
 		}
 		redraw();
