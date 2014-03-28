@@ -21,16 +21,12 @@ import org.swtchart.IAxis;
 import org.swtchart.Range;
 import org.swtchart.IAxis.Direction;
 import org.swtchart.ext.internal.SelectionRectangle;
-import org.swtchart.ext.internal.properties.PropertiesResources;
 
 public class InteractiveChartExtended extends Chart implements PaintListener {
 
 	/** the selection rectangle for zoom in/out */
 	protected SelectionRectangle selection;
-	/** the clicked time in milliseconds */
-	private long clickedTime;
-	/** the resources created with properties dialog */
-	private PropertiesResources resources;
+	private long clickedTimeInMilliseconds;
 	//
 	private static final String ADJUST_AXIS_RANGE_GROUP = "Unzoom";
 	private static final String ADJUST_AXIS_RANGE = "Reset 1:1";
@@ -60,7 +56,6 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 	private void init() {
 
 		selection = new SelectionRectangle();
-		resources = new PropertiesResources();
 		Composite plot = getPlotArea();
 		plot.addListener(SWT.Resize, this);
 		plot.addListener(SWT.MouseMove, this);
@@ -101,16 +96,17 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 		/*
 		 * Properties
 		 */
-		menuItem = new MenuItem(menu, SWT.PUSH);
+		menuItem = new MenuItem(menu, SWT.CASCADE);
+		menuItem.setText(PROPERTIES);
+		Menu legendMenu = new Menu(menuItem);
+		menuItem.setMenu(legendMenu);
+		//
+		menuItem = new MenuItem(legendMenu, SWT.PUSH);
 		menuItem.setText(PROPERTIES_SHOW_LEGEND);
 		menuItem.addListener(SWT.Selection, this);
 		//
-		menuItem = new MenuItem(menu, SWT.PUSH);
+		menuItem = new MenuItem(legendMenu, SWT.PUSH);
 		menuItem.setText(PROPERTIES_HIDE_LEGEND);
-		menuItem.addListener(SWT.Selection, this);
-		//
-		menuItem = new MenuItem(menu, SWT.PUSH);
-		menuItem.setText(PROPERTIES);
 		menuItem.addListener(SWT.Selection, this);
 	}
 
@@ -160,7 +156,6 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 	public void dispose() {
 
 		super.dispose();
-		resources.dispose();
 	}
 
 	/**
@@ -187,7 +182,7 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 
 		if(event.button == 1) {
 			selection.setStartPoint(event.x, event.y);
-			clickedTime = System.currentTimeMillis();
+			clickedTimeInMilliseconds = System.currentTimeMillis();
 		}
 	}
 
@@ -199,7 +194,7 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 	 */
 	private void handleMouseUpEvent(Event event) {
 
-		if(event.button == 1 && System.currentTimeMillis() - clickedTime > 100) {
+		if(event.button == 1 && System.currentTimeMillis() - clickedTimeInMilliseconds > 100) {
 			for(IAxis axis : getAxisSet().getAxes()) {
 				Point range = null;
 				if((getOrientation() == SWT.HORIZONTAL && axis.getDirection() == Direction.X) || (getOrientation() == SWT.VERTICAL && axis.getDirection() == Direction.Y)) {
@@ -326,7 +321,6 @@ public class InteractiveChartExtended extends Chart implements PaintListener {
 			getLegend().setVisible(true);
 		} else if(menuItem.getText().equals(PROPERTIES_HIDE_LEGEND)) {
 			getLegend().setVisible(false);
-		} else if(menuItem.getText().equals(PROPERTIES)) {
 		}
 		redraw();
 	}
