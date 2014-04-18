@@ -3,7 +3,7 @@
       id="net.chemclipse.thirdpartylibraries.odfdom.feature"
       label="Feature"
       version="0.8.7.qualifier"
-      provider-name="http://www.chemclipse.net">
+      provider-name="OpenChrom">
 
    <description url="http://www.chemclipse.net/plugins/thirdpartylibraries">
       This feature encapsulates the following libraries:

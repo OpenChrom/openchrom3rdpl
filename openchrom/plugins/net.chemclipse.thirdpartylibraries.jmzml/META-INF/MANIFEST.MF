@@ -5,7 +5,7 @@ Bundle-Name: Jmzml
 Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.jmzml
 Bundle-Version: 1.6.7.qualifier
 Bundle-Activator: net.chemclipse.thirdpartylibraries.jmzml.Activator
-Bundle-Vendor: ChemClipse
+Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy

@@ -10,4 +10,4 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ClassPath: .,
  libraries/findbugs.jar
 Export-Package: edu.umd.cs.findbugs.annotations
-Bundle-Vendor: ChemClipse
+Bundle-Vendor: OpenChrom

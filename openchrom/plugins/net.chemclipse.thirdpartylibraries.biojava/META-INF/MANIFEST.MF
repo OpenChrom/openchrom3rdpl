@@ -4,7 +4,7 @@ Bundle-Name: Biojava
 Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.biojava
 Bundle-Version: 3.0.7.qualifier
 Bundle-Activator: net.chemclipse.thirdpartylibraries.biojava.Activator
-Bundle-Vendor: ChemClipse
+Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy

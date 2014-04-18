@@ -4,7 +4,7 @@ Bundle-Name: Apache.Commons.Cli
 Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.apache.commons.cli
 Bundle-Version: 1.2.0.qualifier
 Bundle-Activator: net.chemclipse.thirdpartylibraries.apache.commons.cli.Activator
-Bundle-Vendor: ChemClipse
+Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy

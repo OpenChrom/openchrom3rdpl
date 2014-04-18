@@ -3,7 +3,7 @@
       id="net.chemclipse.thirdpartylibraries.dbunit.feature"
       label="Feature"
       version="2.4.5.qualifier"
-      provider-name="http://www.chemclipse.net">
+      provider-name="OpenChrom">
 
    <description url="http://thirdpartylibraries.chemclipse.net/dbunit">
       This feature encapsulates the following libraries:

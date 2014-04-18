@@ -3,7 +3,7 @@
       id="net.chemclipse.thirdpartylibraries.easymock.feature"
       label="Feature"
       version="2.4.0.qualifier"
-      provider-name="http://www.chemclipse.net">
+      provider-name="OpenChrom">
 
    <description url="http://thirdpartylibraries.chemclipse.net/easymock">
       This feature encapsulated the following libraries:

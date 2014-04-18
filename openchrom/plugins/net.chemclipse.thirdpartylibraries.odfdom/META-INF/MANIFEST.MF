@@ -6,7 +6,7 @@ Bundle-Name: Odfdom
 Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.odfdom
 Bundle-Version: 0.8.7.qualifier
 Bundle-Activator: net.chemclipse.thirdpartylibraries.odfdom.Activator
-Bundle-Vendor: ChemClipse
+Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime,
  net.chemclipse.thirdpartylibraries.apache.xercesj;bundle-version="2.11.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6

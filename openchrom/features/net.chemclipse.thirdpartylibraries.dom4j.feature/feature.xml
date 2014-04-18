@@ -3,7 +3,7 @@
       id="net.chemclipse.thirdpartylibraries.dom4j.feature"
       label="Feature"
       version="1.6.1.qualifier"
-      provider-name="http://www.chemclipse.net">
+      provider-name="OpenChrom">
 
    <description url="http://thirdpartylibraries.chemclipse.net/dom4j">
       This feature encapsulated the following libraries:

@@ -5,7 +5,7 @@ Bundle-Name: Barcode4j
 Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.barcode4j
 Bundle-Version: 2.1.0.qualifier
 Bundle-Activator: net.chemclipse.thirdpartylibraries.barcode4j.Activator
-Bundle-Vendor: ChemClipse
+Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy

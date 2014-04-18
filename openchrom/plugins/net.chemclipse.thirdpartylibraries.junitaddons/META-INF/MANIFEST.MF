@@ -12,4 +12,4 @@ Bundle-ClassPath: libraries/junit-addons-1.4.jar,
  .
 Export-Package: junitx.util
 Bundle-ActivationPolicy: lazy
-Bundle-Vendor: ChemClipse
+Bundle-Vendor: OpenChrom

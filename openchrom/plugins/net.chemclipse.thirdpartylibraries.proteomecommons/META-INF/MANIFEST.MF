@@ -5,7 +5,7 @@ Bundle-Name: Proteomecommons
 Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.proteomecommons
 Bundle-Version: 6.2.1.qualifier
 Bundle-Activator: net.chemclipse.thirdpartylibraries.proteomecommons.Activator
-Bundle-Vendor: ChemClipse
+Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy

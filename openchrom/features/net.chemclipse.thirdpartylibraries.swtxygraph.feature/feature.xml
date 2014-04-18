@@ -3,7 +3,7 @@
       id="net.chemclipse.thirdpartylibraries.swtxygraph.feature"
       label="SWTXYGraph"
       version="2.0.1.qualifier"
-      provider-name="http://www.chemclipse.net">
+      provider-name="OpenChrom">
 
    <description url="http://www.chemclipse.net/plugins/thirdpartylibraries">
       This feature encapsulates the following libraries:

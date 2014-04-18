@@ -3,7 +3,7 @@
       id="net.chemclipse.thirdpartylibraries.proteomecommons.feature"
       label="Feature"
       version="6.2.1.qualifier"
-      provider-name="http://www.chemclipse.net">
+      provider-name="OpenChrom">
 
    <description url="http://thirdpartylibraries.chemclipse.net/proteomecommons">
       This feature encapsulates the proteome commons io libraries.

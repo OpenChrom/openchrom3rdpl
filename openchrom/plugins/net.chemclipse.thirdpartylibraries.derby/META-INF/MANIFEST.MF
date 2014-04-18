@@ -119,4 +119,4 @@ Export-Package: org.apache.derby.authentication,
  org.apache.derby.shared.common.sanity,
  org.apache.derby.tools,
  org.apache.derby.vti
-Bundle-Vendor: ChemClipse
+Bundle-Vendor: OpenChrom
