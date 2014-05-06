@@ -5,7 +5,7 @@
       version="4.3.19.qualifier"
       provider-name="OpenChrom">
 
-   <description url="http://www.chemclipse.net/plugins/thirdpartylibraries/">
+   <description url="https://marketplace.openchrom.net/">
       This feature encapsulates the following libraries:
 netCDF 4.3.19 http://www.unidata.ucar.edu/downloads/netcdf/netcdf-java-4/index.jsp MIT
    </description>

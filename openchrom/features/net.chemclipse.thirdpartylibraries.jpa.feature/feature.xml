@@ -5,7 +5,7 @@
       version="1.99.0.qualifier"
       provider-name="OpenChrom">
 
-   <description url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <description url="https://marketplace.openchrom.net">
       This feature encapsulates the following libraries:
 JPA http://www.eclipse.org/eclipselink/jpa.php 1.99.0.v200906021518
 EPLv1.0

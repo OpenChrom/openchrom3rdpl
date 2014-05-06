@@ -5,18 +5,18 @@
       version="0.24.0.qualifier"
       provider-name="ChemClipse">
 
-   <description url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <description url="https://marketplace.openchrom.net">
       This feature encapsulates the following libraries:
 EJML https://code.google.com/p/efficient-java-matrix-library 0.24.0 Apache License
 v2.0
    </description>
 
-   <copyright url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <copyright url="https://marketplace.openchrom.net">
 EJML https://code.google.com/p/efficient-java-matrix-library 0.24.0 Apache License
 v2.0
    </copyright>
 
-   <license url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <license url="https://marketplace.openchrom.net">
       Copyright (c) 2013, 2014 Dr. Philip Wenig.
  
 EJML https://code.google.com/p/efficient-java-matrix-library 0.24.0 Apache License
@@ -46,7 +46,7 @@ governing permissions and limitations under the License.
 
    <url>
       <discovery label="EJML" url="https://code.google.com/p/efficient-java-matrix-library"/>
-      <discovery label="ChemClipse ThirdPartyLibraries OrientDB" url="http://www.chemclipse.net/plugins/thirdpartylibraries"/>
+      <discovery label="ChemClipse ThirdPartyLibraries OrientDB" url="https://marketplace.openchrom.net"/>
    </url>
 
    <plugin

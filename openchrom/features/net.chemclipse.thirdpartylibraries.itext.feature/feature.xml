@@ -5,7 +5,7 @@
       version="5.0.2.qualifier"
       provider-name="OpenChrom">
 
-   <description url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <description url="https://marketplace.openchrom.net">
       This feature encapsulates the following libraries:
 iText http://itextpdf.com 5.0.2 AGPL v3
    </description>

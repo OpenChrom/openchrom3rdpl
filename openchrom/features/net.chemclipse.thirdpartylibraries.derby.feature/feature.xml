@@ -5,7 +5,7 @@
       version="10.5.1.qualifier"
       provider-name="OpenChrom">
 
-   <description url="http://www.chemclipse.net/plugins/thirdpartylibraries/update/">
+   <description url="https://marketplace.openchrom.net/update/">
       This feature encapsulates the following libraries:
 Derby http://db.apache.org/derby 10.5.1.1 Apache License v2.0
    </description>

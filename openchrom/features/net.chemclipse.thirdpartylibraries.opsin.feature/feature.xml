@@ -5,17 +5,17 @@
       version="1.5.0.qualifier"
       provider-name="ChemClipse">
 
-   <description url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <description url="https://marketplace.openchrom.net">
       This feature encapsulates the following libraries:
 Opsin http://opsin.ch.cam.ac.uk 1.5.0 Artistic License 2.0
    </description>
 
-   <copyright url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <copyright url="https://marketplace.openchrom.net">
       This feature encapsulates the following libraries:
 Opsin http://opsin.ch.cam.ac.uk 1.5.0 Artistic License 2.0
    </copyright>
 
-   <license url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <license url="https://marketplace.openchrom.net">
       Copyright 2013 Dr. Philip Wenig.
  
 This feature encapsulates the following libraries:
@@ -99,7 +99,7 @@ General Provisions
 
    <url>
       <discovery label="Opsin" url="http://opsin.ch.cam.ac.uk"/>
-      <discovery label="ChemClipse ThirdPartyLibraries OrientDB" url="http://www.chemclipse.net/plugins/thirdpartylibraries"/>
+      <discovery label="ChemClipse ThirdPartyLibraries OrientDB" url="https://marketplace.openchrom.net"/>
    </url>
 
    <plugin

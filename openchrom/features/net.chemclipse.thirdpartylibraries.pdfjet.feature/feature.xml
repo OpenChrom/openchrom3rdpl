@@ -5,13 +5,13 @@
       version="2.81.0.qualifier"
       provider-name="OpenChrom">
 
-   <description url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <description url="https://marketplace.openchrom.net">
       This feature encapsulates the following libraries:
 PDFJet http://pdfjet.com/os/edition.html 2.81.0
 BSD License
    </description>
 
-   <copyright url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <copyright url="https://marketplace.openchrom.net">
 This feature encapsulates the following libraries:
 PDFJet http://pdfjet.com/os/edition.html 2.81.0
 BSD License
@@ -51,7 +51,7 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
    </license>
 
    <url>
-      <discovery label="ChemClipse ThirdPartyLibraries" url="http://www.chemclipse.net/plugins/thirdpartylibraries"/>
+      <discovery label="ChemClipse ThirdPartyLibraries" url="https://marketplace.openchrom.net"/>
       <discovery label="PDFJet Open Source Edition" url="http://pdfjet.com/os/edition.html"/>
    </url>
 

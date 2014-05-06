@@ -5,12 +5,12 @@
       version="1.5.1.qualifier"
       provider-name="OpenChrom">
 
-   <description url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <description url="https://marketplace.openchrom.net">
       This feature encapsulates the following libraries:
 EclipseLink http://www.eclipse.org/eclipselink 1.5.1 EPLv1.0
    </description>
 
-   <copyright url="http://www.chemclipse.net/plugins/thirdpartylibraries/">
+   <copyright url="https://marketplace.openchrom.net/">
       This feature encapsulates the following libraries:
 EclipseLink http://www.eclipse.org/eclipselink 1.5.1 EPLv1.0
    </copyright>

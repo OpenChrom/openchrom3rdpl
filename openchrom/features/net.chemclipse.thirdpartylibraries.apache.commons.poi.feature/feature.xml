@@ -5,19 +5,19 @@
       version="3.7.0.qualifier"
       provider-name="OpenChrom">
 
-   <description url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <description url="https://marketplace.openchrom.net">
       This feature encapsulates the following libraries:
 Apache POI http://poi.apache.org 3.7.0
 Apache License v2.0
    </description>
 
-   <copyright url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <copyright url="https://marketplace.openchrom.net">
       This feature encapsulates the following libraries:
 Apache POI http://poi.apache.org 3.7.0
 Apache License v2.0
    </copyright>
 
-   <license url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <license url="https://marketplace.openchrom.net">
       Copyright (c) 2011, 2014 Philip (eselmeister) Wenig.
  
 This feature encapsulates the following libraries:
@@ -47,7 +47,7 @@ governing permissions and limitations under the License.
    </license>
 
    <url>
-      <discovery label="ChemClipse ThirdPartyLibraries" url="http://www.chemclipse.net/plugins/thirdpartylibraries"/>
+      <discovery label="ChemClipse ThirdPartyLibraries" url="https://marketplace.openchrom.net"/>
       <discovery label="Apache POI" url="http://poi.apache.org"/>
    </url>
 

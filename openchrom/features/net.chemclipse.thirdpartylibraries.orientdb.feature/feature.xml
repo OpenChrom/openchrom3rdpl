@@ -5,20 +5,20 @@
       version="1.7.0.qualifier"
       provider-name="OpenChrom">
 
-   <description url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <description url="https://marketplace.openchrom.net">
       This feature encapsulates the following libraries:
 OrientDB http://www.orientechnologies.com/orient-db.htm 1.7.0 Apache License
 v2.0
    </description>
 
-   <copyright url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <copyright url="https://marketplace.openchrom.net">
       This feature encapsulates the following libraries:
 OrientDB http://www.orientechnologies.com/orient-db.htm 1.7.0
 Apache License
 v2.0
    </copyright>
 
-   <license url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <license url="https://marketplace.openchrom.net">
       Copyright (c) 2011, 2014 Philip (eselmeister) Wenig.
  
 This feature encapsulates the following libraries:
@@ -50,7 +50,7 @@ governing permissions and limitations under the License.
 
    <url>
       <discovery label="OrientDB" url="http://www.orientechnologies.com/orient-db.htm"/>
-      <discovery label="ChemClipse ThirdPartyLibraries OrientDB" url="http://www.chemclipse.net/plugins/thirdpartylibraries"/>
+      <discovery label="ChemClipse ThirdPartyLibraries OrientDB" url="https://marketplace.openchrom.net"/>
    </url>
 
    <plugin

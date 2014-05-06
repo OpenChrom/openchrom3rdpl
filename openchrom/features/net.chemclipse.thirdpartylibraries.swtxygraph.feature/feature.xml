@@ -5,7 +5,7 @@
       version="2.0.1.qualifier"
       provider-name="OpenChrom">
 
-   <description url="http://www.chemclipse.net/plugins/thirdpartylibraries">
+   <description url="https://marketplace.openchrom.net">
       This feature encapsulates the following libraries:
 SWTXYGraph https://code.google.com/p/swt-xy-graph 2.0.1 EPLv1.0
    </description>
