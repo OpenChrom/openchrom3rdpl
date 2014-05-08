@@ -8,6 +8,9 @@
  *******************************************************************************/
 package net.chemclipse.thirdpartylibraries.swtchart.ext;
 
+import org.eclipse.jface.preference.PreferenceDialog;
+import org.eclipse.jface.preference.PreferenceManager;
+import org.eclipse.jface.preference.PreferenceNode;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.KeyEvent;
 import org.eclipse.swt.events.KeyListener;
@@ -22,15 +25,21 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Event;
 import org.eclipse.swt.widgets.Menu;
 import org.eclipse.swt.widgets.MenuItem;
-import org.swtchart.Chart;
 import org.swtchart.IAxis;
 import org.swtchart.Range;
 import org.swtchart.IAxis.Direction;
-import org.swtchart.ext.internal.SelectionRectangle;
+import org.swtchart.ext.InteractiveChart;
+import org.swtchart.ext.internal.properties.AxisPage;
+import org.swtchart.ext.internal.properties.AxisTickPage;
+import org.swtchart.ext.internal.properties.ChartPage;
+import org.swtchart.ext.internal.properties.GridPage;
+import org.swtchart.ext.internal.properties.LegendPage;
+import org.swtchart.ext.internal.properties.PropertiesResources;
+import org.swtchart.ext.internal.properties.SeriesLabelPage;
+import org.swtchart.ext.internal.properties.SeriesPage;
 
-public class InteractiveChartExtended extends Chart implements PaintListener, KeyListener, MouseListener, MouseMoveListener, MouseWheelListener {
+public class InteractiveChartExtended extends InteractiveChart implements PaintListener, KeyListener, MouseListener, MouseMoveListener, MouseWheelListener {
 
-	protected SelectionRectangle selectionRectangle;
 	private long clickedTimeInMilliseconds;
 	private int xStart;
 	//
@@ -41,28 +50,41 @@ public class InteractiveChartExtended extends Chart implements PaintListener, Ke
 	public static final String LEGEND = "Legend";
 	public static final String LEGEND_SHOW = "Show Legend";
 	public static final String LEGEND_HIDE = "Hide Legend";
+	public static final String GRAPH = "Graph";
+	public static final String GRAPH_SETTINGS = "Settings";
+	//
+	private static final String X_AXIS = "Axis(x)";
+	private static final String GRID = "Grid";
+	private static final String TICK = "Tick";
+	private static final String Y_AXIS = "Axis(y)";
+	private static final String SERIES = "Series";
+	private static final String LABEL = "Label";
+	//
+	private PropertiesResources resources;
 
 	public InteractiveChartExtended(Composite parent, int style) {
 
 		super(parent, style);
+		resources = new PropertiesResources();
 		init();
 	}
 
 	@Override
 	public void handleEvent(Event event) {
 
-		super.handleEvent(event);
 		switch(event.type) {
 			case SWT.Selection:
 				widgetSelected(event);
 				break;
+			default:
+				super.handleEvent(event);
 		}
 	}
 
 	@Override
 	public void paintControl(PaintEvent e) {
 
-		selectionRectangle.draw(e.gc);
+		selection.draw(e.gc);
 	}
 
 	@Override
@@ -81,7 +103,7 @@ public class InteractiveChartExtended extends Chart implements PaintListener, Ke
 
 		if(e.button == 1) {
 			xStart = e.x;
-			selectionRectangle.setStartPoint(e.x, e.y);
+			selection.setStartPoint(e.x, e.y);
 			clickedTimeInMilliseconds = System.currentTimeMillis();
 		}
 	}
@@ -107,9 +129,9 @@ public class InteractiveChartExtended extends Chart implements PaintListener, Ke
 					 */
 					Point range = null;
 					if((getOrientation() == SWT.HORIZONTAL && axis.getDirection() == Direction.X) || (getOrientation() == SWT.VERTICAL && axis.getDirection() == Direction.Y)) {
-						range = selectionRectangle.getHorizontalRange();
+						range = selection.getHorizontalRange();
 					} else {
-						range = selectionRectangle.getVerticalRange();
+						range = selection.getVerticalRange();
 					}
 					/*
 					 * Set the range.
@@ -120,15 +142,15 @@ public class InteractiveChartExtended extends Chart implements PaintListener, Ke
 				}
 			}
 		}
-		selectionRectangle.dispose();
+		selection.dispose();
 		redraw();
 	}
 
 	@Override
 	public void mouseMove(MouseEvent e) {
 
-		if(!selectionRectangle.isDisposed()) {
-			selectionRectangle.setEndPoint(e.x, e.y);
+		if(!selection.isDisposed()) {
+			selection.setEndPoint(e.x, e.y);
 			redraw();
 		}
 	}
@@ -214,8 +236,69 @@ public class InteractiveChartExtended extends Chart implements PaintListener, Ke
 			getLegend().setVisible(true);
 		} else if(menuItem.getText().equals(LEGEND_HIDE)) {
 			getLegend().setVisible(false);
+		} else if(menuItem.getText().equals(GRAPH_SETTINGS)) {
+			openSettingsDialog();
 		}
 		redraw();
+	}
+
+	/**
+	 * Opens the properties dialog.
+	 */
+	private void openSettingsDialog() {
+
+		/*
+		 * Create the preferences dialog.
+		 */
+		PreferenceManager manager = new PreferenceManager();
+		PreferenceNode chartNode = new PreferenceNode(GRAPH);
+		//
+		chartNode.setPage(new ChartPage(this, resources, GRAPH));
+		manager.addToRoot(chartNode);
+		//
+		PreferenceNode legendNode = new PreferenceNode(LEGEND);
+		legendNode.setPage(new LegendPage(this, resources, LEGEND));
+		manager.addTo(GRAPH, legendNode);
+		//
+		PreferenceNode xAxisNode = new PreferenceNode(X_AXIS);
+		xAxisNode.setPage(new AxisPage(this, resources, Direction.X, X_AXIS));
+		manager.addTo(GRAPH, xAxisNode);
+		//
+		PreferenceNode xGridNode = new PreferenceNode(GRID);
+		xGridNode.setPage(new GridPage(this, resources, Direction.X, GRID));
+		manager.addTo(GRAPH + "." + X_AXIS, xGridNode);
+		//
+		PreferenceNode xTickNode = new PreferenceNode(TICK);
+		xTickNode.setPage(new AxisTickPage(this, resources, Direction.X, TICK));
+		manager.addTo(GRAPH + "." + X_AXIS, xTickNode);
+		//
+		PreferenceNode yAxisNode = new PreferenceNode(Y_AXIS);
+		yAxisNode.setPage(new AxisPage(this, resources, Direction.Y, Y_AXIS));
+		manager.addTo(GRAPH, yAxisNode);
+		//
+		PreferenceNode yGridNode = new PreferenceNode(GRID);
+		yGridNode.setPage(new GridPage(this, resources, Direction.Y, GRID));
+		manager.addTo(GRAPH + "." + Y_AXIS, yGridNode);
+		//
+		PreferenceNode yTickNode = new PreferenceNode(TICK);
+		yTickNode.setPage(new AxisTickPage(this, resources, Direction.Y, TICK));
+		manager.addTo(GRAPH + "." + Y_AXIS, yTickNode);
+		//
+		PreferenceNode plotNode = new PreferenceNode(SERIES);
+		plotNode.setPage(new SeriesPage(this, resources, SERIES));
+		manager.addTo(GRAPH, plotNode);
+		//
+		PreferenceNode labelNode = new PreferenceNode(LABEL);
+		labelNode.setPage(new SeriesLabelPage(this, resources, LABEL));
+		manager.addTo(GRAPH + "." + SERIES, labelNode);
+		/*
+		 * Create and show the dialog.
+		 */
+		PreferenceDialog preferenceDialog = new PreferenceDialog(getShell(), manager);
+		preferenceDialog.create();
+		preferenceDialog.getShell().setText(GRAPH_SETTINGS);
+		preferenceDialog.getTreeViewer().expandAll();
+		preferenceDialog.open();
 	}
 
 	private IAxis[] getAxes(int orientation) {
@@ -241,8 +324,6 @@ public class InteractiveChartExtended extends Chart implements PaintListener, Ke
 
 	private void init() {
 
-		selectionRectangle = new SelectionRectangle();
-		//
 		Composite plotArea = getPlotArea();
 		plotArea.addPaintListener(this);
 		plotArea.addKeyListener(this);
@@ -257,7 +338,9 @@ public class InteractiveChartExtended extends Chart implements PaintListener, Ke
 
 		Menu menu = new Menu(getPlotArea());
 		getPlotArea().setMenu(menu);
-		//
+		/*
+		 * Adjust Ranges
+		 */
 		MenuItem menuItem = new MenuItem(menu, SWT.CASCADE);
 		menuItem.setText(ADJUST_AXIS_RANGE_GROUP);
 		Menu adjustAxisRangeMenu = new Menu(menuItem);
@@ -274,10 +357,12 @@ public class InteractiveChartExtended extends Chart implements PaintListener, Ke
 		menuItem = new MenuItem(adjustAxisRangeMenu, SWT.PUSH);
 		menuItem.setText(ADJUST_Y_AXIS_RANGE);
 		menuItem.addListener(SWT.Selection, this);
-		//
+		/*
+		 * Separator
+		 */
 		menuItem = new MenuItem(menu, SWT.SEPARATOR);
 		/*
-		 * Properties
+		 * Legend
 		 */
 		menuItem = new MenuItem(menu, SWT.CASCADE);
 		menuItem.setText(LEGEND);
@@ -290,6 +375,21 @@ public class InteractiveChartExtended extends Chart implements PaintListener, Ke
 		//
 		menuItem = new MenuItem(legendMenu, SWT.PUSH);
 		menuItem.setText(LEGEND_HIDE);
+		menuItem.addListener(SWT.Selection, this);
+		/*
+		 * Separator
+		 */
+		menuItem = new MenuItem(menu, SWT.SEPARATOR);
+		/*
+		 * Graph
+		 */
+		menuItem = new MenuItem(menu, SWT.CASCADE);
+		menuItem.setText(GRAPH);
+		Menu graphMenu = new Menu(menuItem);
+		menuItem.setMenu(graphMenu);
+		//
+		menuItem = new MenuItem(graphMenu, SWT.PUSH);
+		menuItem.setText(GRAPH_SETTINGS);
 		menuItem.addListener(SWT.Selection, this);
 	}
 }
