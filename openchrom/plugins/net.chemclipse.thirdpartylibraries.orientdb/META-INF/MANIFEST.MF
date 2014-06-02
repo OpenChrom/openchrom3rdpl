@@ -12,14 +12,14 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
  libraries/jna-4.0.0.jar,
- libraries/orient-commons-1.7-rc2.jar,
- libraries/orientdb-client-1.7-rc2.jar,
- libraries/orientdb-core-1.7-rc2.jar,
- libraries/orientdb-enterprise-1.7-rc2.jar,
- libraries/orientdb-nativeos-1.7-rc2.jar,
- libraries/orientdb-object-1.7-rc2.jar,
- libraries/orientdb-server-1.7-rc2.jar,
- libraries/orientdb-tools-1.7-rc2.jar
+ libraries/orient-commons-1.7.jar,
+ libraries/orientdb-client-1.7.jar,
+ libraries/orientdb-core-1.7.jar,
+ libraries/orientdb-enterprise-1.7.jar,
+ libraries/orientdb-nativeos-1.7.jar,
+ libraries/orientdb-object-1.7.jar,
+ libraries/orientdb-server-1.7.jar,
+ libraries/orientdb-tools-1.7.jar
 Export-Package: com.orientechnologies.common.collection,
  com.orientechnologies.common.comparator,
  com.orientechnologies.common.concur,
