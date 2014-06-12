@@ -76,8 +76,13 @@ public class InteractiveChartExtended extends InteractiveChart implements PaintL
 			case SWT.Selection:
 				widgetSelected(event);
 				break;
+			case SWT.Resize:
+				updateLayout();
+				redraw();
+				break;
 			default:
-				super.handleEvent(event);
+				break;
+		// super.handleEvent(event);
 		}
 	}
 
