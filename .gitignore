@@ -169,3 +169,11 @@ openchrom/features/net.openchrom.thirdpartylibraries.ejml.feature/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.ejml.updateSite/plugins/
 openchrom/plugins/net.openchrom.thirdpartylibraries.ejml/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.ejml/bin/*
+openchrom/features/net.openchrom.thirdpartylibraries.jna.feature/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.jna.updateSite/plugins/
+openchrom/plugins/net.openchrom.thirdpartylibraries.jna/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.jna/bin/*
+openchrom/features/net.openchrom.thirdpartylibraries.concurrentlinkedhashmap.feature/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.concurrentlinkedhashmap.updateSite/plugins/
+openchrom/plugins/net.openchrom.thirdpartylibraries.concurrentlinkedhashmap/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.concurrentlinkedhashmap/bin/*

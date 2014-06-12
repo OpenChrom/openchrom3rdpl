@@ -235,6 +235,16 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
+    <license>
+      <comments>ConcurrentLinkedHashMap 1.4.0 (https://code.google.com/p/concurrentlinkedhashmap)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>JNA 4.0.0 (https://github.com/twall/jna)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license> 
   </licenses> 
   <!--
 	DEVELOPERS
@@ -243,7 +253,7 @@
     <developer>
       <id>eselmeister</id>
       <name>Philip Wenig</name>
-      <email>philip.wenig [at] gmx.net</email>
+      <email>philip.wenig [at] openchrom.net</email>
       <timezone>+1</timezone>
       <roles>
         <role>Developer</role>
@@ -374,6 +384,12 @@
     <!-- EJML -->
     <module>../../plugins/net.chemclipse.thirdpartylibraries.ejml</module>
     <module>../../features/net.chemclipse.thirdpartylibraries.ejml.feature</module>
+    <!-- ConcurrentLinkedHashMap -->
+    <module>../../plugins/net.chemclipse.thirdpartylibraries.concurrentlinkedhashmap</module>
+    <module>../../features/net.chemclipse.thirdpartylibraries.concurrentlinkedhashmap.feature</module>
+    <!-- JNA -->
+    <module>../../plugins/net.chemclipse.thirdpartylibraries.jna</module>
+    <module>../../features/net.chemclipse.thirdpartylibraries.jna.feature</module>   
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.chemclipse.thirdpartylibraries.updateSite</module>
   </modules>

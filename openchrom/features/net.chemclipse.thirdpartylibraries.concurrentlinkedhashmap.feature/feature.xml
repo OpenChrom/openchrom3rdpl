@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="net.chemclipse.thirdpartylibraries.orientdb.feature"
-      label="Feature"
-      version="1.7.2.qualifier"
+      id="net.chemclipse.thirdpartylibraries.concurrentlinkedhashmap.feature"
+      label="Concurrent Linked HashMap"
+      version="1.4.0.qualifier"
       provider-name="OpenChrom">
 
    <description url="https://marketplace.openchrom.net">
       This feature encapsulates the following libraries:
-OrientDB http://www.orientechnologies.com/orient-db.htm 1.7.2 Apache License
+ConcurrentLinkedHashMap https://code.google.com/p/concurrentlinkedhashmap 1.4.0 Apache License
 v2.0
    </description>
 
    <copyright url="https://marketplace.openchrom.net">
       This feature encapsulates the following libraries:
-OrientDB http://www.orientechnologies.com/orient-db.htm 1.7.2
+ConcurrentLinkedHashMap https://code.google.com/p/concurrentlinkedhashmap 1.4.0
 Apache License
 v2.0
    </copyright>
 
    <license url="https://marketplace.openchrom.net">
-      Copyright (c) 2011, 2014 Philip (eselmeister) Wenig.
+      Copyright (c) 2014 Dr. Philip Wenig.
  
 This feature encapsulates the following libraries:
-OrientDB http://www.orientechnologies.com/orient-db.htm 1.7.2
+ConcurrentLinkedHashMap https://code.google.com/p/concurrentlinkedhashmap 1.4.0
 Apache License
 v2.0
 
@@ -49,12 +49,12 @@ governing permissions and limitations under the License.
    </license>
 
    <url>
-      <discovery label="OrientDB" url="http://www.orientechnologies.com/orient-db.htm"/>
-      <discovery label="ChemClipse ThirdPartyLibraries OrientDB" url="https://marketplace.openchrom.net"/>
+      <discovery label="ConcurrentLinkedHashMap" url="https://code.google.com/p/concurrentlinkedhashmap"/>
+      <discovery label="OpenChrom Marketplace" url="https://marketplace.openchrom.net"/>
    </url>
 
    <plugin
-         id="net.chemclipse.thirdpartylibraries.orientdb"
+         id="net.chemclipse.thirdpartylibraries.concurrentlinkedhashmap"
          download-size="0"
          install-size="0"
          version="0.0.0"

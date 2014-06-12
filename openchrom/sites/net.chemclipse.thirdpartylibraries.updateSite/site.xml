@@ -102,9 +102,6 @@
    <feature url="features/net.chemclipse.thirdpartylibraries.opsin.feature_1.5.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.opsin.feature" version="1.5.0.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.chemclipse.thirdpartylibraries.orientdb.feature_1.7.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.orientdb.feature" version="1.7.0.qualifier">
-      <category name="net.chemclipse.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.chemclipse.thirdpartylibraries.pdfjet.feature_2.81.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.pdfjet.feature" version="2.81.0.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
@@ -121,6 +118,15 @@
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.chemclipse.thirdpartylibraries.xxindex.feature_0.11.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.xxindex.feature" version="0.11.0.qualifier">
+      <category name="net.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.chemclipse.thirdpartylibraries.jna.feature_4.0.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.jna.feature" version="4.0.0.qualifier">
+      <category name="net.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.chemclipse.thirdpartylibraries.concurrentlinkedhashmap.feature_1.4.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.concurrentlinkedhashmap.feature" version="1.4.0.qualifier">
+      <category name="net.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.chemclipse.thirdpartylibraries.orientdb.feature_1.7.2.qualifier.jar" id="net.chemclipse.thirdpartylibraries.orientdb.feature" version="1.7.2.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
    <category-def name="net.chemclipse.thirdpartylibraries" label="Third Party Libraries">
