@@ -38,7 +38,7 @@ import org.swtchart.ext.internal.properties.PropertiesResources;
 import org.swtchart.ext.internal.properties.SeriesLabelPage;
 import org.swtchart.ext.internal.properties.SeriesPage;
 
-public class InteractiveChartExtended extends InteractiveChart implements PaintListener, KeyListener, MouseListener, MouseMoveListener, MouseWheelListener {
+public class InteractiveChartExtended extends InteractiveChart implements PaintListener, KeyListener, MouseListener, MouseMoveListener, MouseWheelListener, IResetUpdateListener {
 
 	private long clickedTimeInMilliseconds;
 	private int xStart;
@@ -228,7 +228,7 @@ public class InteractiveChartExtended extends InteractiveChart implements PaintL
 		}
 		MenuItem menuItem = (MenuItem)e.widget;
 		if(menuItem.getText().equals(ADJUST_AXIS_RANGE)) {
-			getAxisSet().adjustRange();
+			adjustRange();
 		} else if(menuItem.getText().equals(ADJUST_X_AXIS_RANGE)) {
 			for(IAxis axis : getAxisSet().getXAxes()) {
 				axis.adjustRange();
@@ -245,6 +245,12 @@ public class InteractiveChartExtended extends InteractiveChart implements PaintL
 			openSettingsDialog();
 		}
 		redraw();
+	}
+
+	@Override
+	public void adjustRange() {
+
+		getAxisSet().adjustRange();
 	}
 
 	/**
