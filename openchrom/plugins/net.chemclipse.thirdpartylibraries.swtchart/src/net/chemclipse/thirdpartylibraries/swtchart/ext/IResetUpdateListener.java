@@ -17,4 +17,10 @@ public interface IResetUpdateListener {
 	 * Resets the selection to 1:1.
 	 */
 	void adjustRange();
+
+	void adjustXRange();
+
+	void adjustYRange();
+
+	void adjustPreviousRange();
 }

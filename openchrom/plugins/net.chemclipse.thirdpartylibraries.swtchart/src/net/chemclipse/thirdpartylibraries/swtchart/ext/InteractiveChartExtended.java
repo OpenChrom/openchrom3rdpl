@@ -47,6 +47,7 @@ public class InteractiveChartExtended extends InteractiveChart implements PaintL
 	public static final String ADJUST_AXIS_RANGE = "Reset 1:1";
 	public static final String ADJUST_X_AXIS_RANGE = "Unzoom X-Axis";
 	public static final String ADJUST_Y_AXIS_RANGE = "Unzoom Y-Axis";
+	public static final String ADJUST_PREVIOUS_AXIS_RANGE = "Previous Selection";
 	public static final String LEGEND = "Legend";
 	public static final String LEGEND_SHOW = "Show Legend";
 	public static final String LEGEND_HIDE = "Hide Legend";
@@ -230,13 +231,11 @@ public class InteractiveChartExtended extends InteractiveChart implements PaintL
 		if(menuItem.getText().equals(ADJUST_AXIS_RANGE)) {
 			adjustRange();
 		} else if(menuItem.getText().equals(ADJUST_X_AXIS_RANGE)) {
-			for(IAxis axis : getAxisSet().getXAxes()) {
-				axis.adjustRange();
-			}
+			adjustXRange();
 		} else if(menuItem.getText().equals(ADJUST_Y_AXIS_RANGE)) {
-			for(IAxis axis : getAxisSet().getYAxes()) {
-				axis.adjustRange();
-			}
+			adjustYRange();
+		} else if(menuItem.getText().equals(ADJUST_PREVIOUS_AXIS_RANGE)) {
+			adjustPreviousRange();
 		} else if(menuItem.getText().equals(LEGEND_SHOW)) {
 			getLegend().setVisible(true);
 		} else if(menuItem.getText().equals(LEGEND_HIDE)) {
@@ -249,6 +248,28 @@ public class InteractiveChartExtended extends InteractiveChart implements PaintL
 
 	@Override
 	public void adjustRange() {
+
+		getAxisSet().adjustRange();
+	}
+
+	@Override
+	public void adjustXRange() {
+
+		for(IAxis axis : getAxisSet().getXAxes()) {
+			axis.adjustRange();
+		}
+	}
+
+	@Override
+	public void adjustYRange() {
+
+		for(IAxis axis : getAxisSet().getYAxes()) {
+			axis.adjustRange();
+		}
+	}
+
+	@Override
+	public void adjustPreviousRange() {
 
 		getAxisSet().adjustRange();
 	}
@@ -367,6 +388,10 @@ public class InteractiveChartExtended extends InteractiveChart implements PaintL
 		//
 		menuItem = new MenuItem(adjustAxisRangeMenu, SWT.PUSH);
 		menuItem.setText(ADJUST_Y_AXIS_RANGE);
+		menuItem.addListener(SWT.Selection, this);
+		//
+		menuItem = new MenuItem(adjustAxisRangeMenu, SWT.PUSH);
+		menuItem.setText(ADJUST_PREVIOUS_AXIS_RANGE);
 		menuItem.addListener(SWT.Selection, this);
 		/*
 		 * Separator
