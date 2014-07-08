@@ -73,6 +73,7 @@ public class InteractiveChartExtended extends InteractiveChart implements PaintL
 	@Override
 	public void handleEvent(Event event) {
 
+		// super.handleEvent(event);
 		switch(event.type) {
 			case SWT.Selection:
 				widgetSelected(event);
@@ -83,7 +84,6 @@ public class InteractiveChartExtended extends InteractiveChart implements PaintL
 				break;
 			default:
 				break;
-		// super.handleEvent(event);
 		}
 	}
 
