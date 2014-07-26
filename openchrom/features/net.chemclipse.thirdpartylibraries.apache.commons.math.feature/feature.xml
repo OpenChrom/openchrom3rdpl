@@ -2,7 +2,7 @@
 <feature
       id="net.chemclipse.thirdpartylibraries.apache.commons.math.feature"
       label="Apache Commons Math"
-      version="3.2.0.qualifier"
+      version="3.3.0.qualifier"
       provider-name="OpenChrom">
 
    <description url="https://marketplace.openchrom.net">
@@ -11,7 +11,7 @@
 
    <copyright url="http://commons.apache.org/math">
       This feature encapsulates the following libraries:
-Apache CommonsMath http://commons.apache.org/math 3.2  Apache
+Apache CommonsMath http://commons.apache.org/math 3.3  Apache
 License v2.0
    </copyright>
 
@@ -20,7 +20,7 @@ License v2.0
 
 This feature encapsulates the following libraries:
 Apache CommonsMath
-http://commons.apache.org/math 3.2
+http://commons.apache.org/math 3.3
 Apache License v2.0
 
 Licensed to the Apache Software Foundation (ASF) under one

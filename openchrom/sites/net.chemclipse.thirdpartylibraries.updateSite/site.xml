@@ -12,9 +12,6 @@
    <feature url="features/net.chemclipse.thirdpartylibraries.apache.commons.io.feature_2.4.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.apache.commons.io.feature" version="2.4.0.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.chemclipse.thirdpartylibraries.apache.commons.math.feature_3.2.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.apache.commons.math.feature" version="3.2.0.qualifier">
-      <category name="net.chemclipse.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.chemclipse.thirdpartylibraries.apache.commons.poi.feature_3.7.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.apache.commons.poi.feature" version="3.7.0.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
@@ -127,6 +124,9 @@
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.chemclipse.thirdpartylibraries.orientdb.feature_1.7.2.qualifier.jar" id="net.chemclipse.thirdpartylibraries.orientdb.feature" version="1.7.2.qualifier">
+      <category name="net.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.chemclipse.thirdpartylibraries.apache.commons.math.feature_3.3.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.apache.commons.math.feature" version="3.3.0.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
    <category-def name="net.chemclipse.thirdpartylibraries" label="Third Party Libraries">

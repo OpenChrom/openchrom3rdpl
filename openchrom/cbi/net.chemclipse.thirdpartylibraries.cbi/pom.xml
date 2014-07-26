@@ -101,14 +101,14 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
+    <license>
+      <comments>Apache Commons Math 3.3 (http://commons.apache.org/math)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>    
     <!--
 	  Plug-ins that are not part of compilation.
     --> 
-    <license>
-      <comments>Apache Commons Math 3.2 (http://commons.apache.org/math)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
     <license>
       <comments>DBUnit (http://www.dbunit.org)</comments>
       <name>LGPL v2.1</name>
