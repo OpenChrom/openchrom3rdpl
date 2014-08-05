@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>net.chemclipse</groupId>
+    <artifactId>net.chemclipse.plugins.parent</artifactId>
+    <version>BUILD-VERSION</version>
+  </parent>
+
+  <artifactId>net.chemclipse.thirdpartylibraries.dom4j</artifactId>
+  <version>1.6.1-SNAPSHOT</version>
+  <packaging>eclipse-plugin</packaging>
+  
+</project>

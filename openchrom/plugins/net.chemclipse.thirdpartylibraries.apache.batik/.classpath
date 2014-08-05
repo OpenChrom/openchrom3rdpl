@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-anim.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-awt-util.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-bridge.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-codec.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-css.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-dom.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-ext.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-extension.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-gui-util.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-gvt.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-parser.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-script.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-svg-dom.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-svggen.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-swing.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-transcoder.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-util.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/batik-xml.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/js.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/pdf-transcoder.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/xalan-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/xerces_2_5_0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/xml-apis-ext.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/additional/xml-apis.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/batik-rasterizer.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/batik-slideshow.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/batik-squiggle.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/batik-svgpp.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/batik-ttf2svg.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/batik.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
