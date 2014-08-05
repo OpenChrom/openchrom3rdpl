@@ -3,7 +3,7 @@ Eclipse-BuddyPolicy: registered
 Bundle-ManifestVersion: 2
 Bundle-Name: SWTChart
 Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.swtchart
-Bundle-Version: 0.9.0.qualifier
+Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: net.chemclipse.thirdpartylibraries.swtchart.Activator
 Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime,
