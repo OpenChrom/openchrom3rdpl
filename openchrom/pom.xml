@@ -28,8 +28,8 @@
   --> 
   <properties>
     <!-- VERSIONS -->
-    <tycho.version>0.20.0</tycho.version>
-    <tycho-extras.version>0.20.0</tycho-extras.version>
+    <tycho.version>0.21.0</tycho.version>
+    <tycho-extras.version>0.21.0</tycho-extras.version>
     <pmd.version>2.7.1</pmd.version>
     <checkstyle.version>2.9.1</checkstyle.version>
     <!-- IDS -->
@@ -43,6 +43,7 @@
     <mars-repo.url>http://download.eclipse.org/releases/mars</mars-repo.url>
     <mars-updates-repo.url>http://download.eclipse.org/eclipse/updates/4.5</mars-updates-repo.url>
     <mars-repo-m1.url>http://download.eclipse.org/eclipse/updates/4.5milestones/S-4.5M1-201408062000</mars-repo-m1.url>
+    <eclipse-staging.url>http://download.eclipse.org/releases/staging</eclipse-staging.url>
     <jetty-repo.url>http://download.eclipse.org/jetty/updates/jetty-bundles-8.x</jetty-repo.url>
     <egit-repo.url>http://download.eclipse.org/egit/updates</egit-repo.url>
     <e4-tools.url>http://download.eclipse.org/e4/downloads/drops/S-0.16-201408072200/repository</e4-tools.url>
@@ -54,7 +55,6 @@
 	P2 REPOSITORIES
   -->
   <repositories>
-
     <repository>
       <id>juno</id>
       <url>${juno-repo.url}</url>
@@ -78,6 +78,11 @@
     <repository>
       <id>marsm1</id>
       <url>${mars-repo-m1.url}</url>
+      <layout>p2</layout>
+    </repository>
+    <repository>
+      <id>staging</id>
+      <url>${eclipse-staging.url}</url>
       <layout>p2</layout>
     </repository>
     <repository>
