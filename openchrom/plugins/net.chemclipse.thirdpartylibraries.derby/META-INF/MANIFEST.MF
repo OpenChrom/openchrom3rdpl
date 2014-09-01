@@ -1,5 +1,4 @@
 Manifest-Version: 1.0
-Eclipse-RegisterBuddy: net.chemclipse.thirdpartylibraries.eclipselink
 Bundle-ManifestVersion: 2
 Bundle-Name: Derby Plug-in
 Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.derby

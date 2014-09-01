@@ -108,12 +108,7 @@
     </license>    
     <!--
 	  Plug-ins that are not part of compilation.
-    --> 
-    <license>
-      <comments>DBUnit (http://www.dbunit.org)</comments>
-      <name>LGPL v2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>  
-    </license>
+    -->
     <license>
       <comments>Derby 10.5.1.1 (http://db.apache.org/derby)</comments>
       <name>Apache License v2.0</name>
@@ -123,16 +118,6 @@
       <comments>EasyMock 2.4 (http://easymock.org)</comments>
       <name>MIT License</name>
       <url>http://www.opensource.org/licenses/mit-license.php</url>
-    </license>
-    <license>
-      <comments>EclipseLink 1.5.1 (http://www.eclipse.org/eclipselink)</comments>
-      <name>EPL v1.0</name>
-      <url>http://www.eclipse.org/legal/epl-v10.html</url>
-    </license>
-    <license>
-      <comments>Findbugs 1.3.6 (http://findbugs.sourceforge.net)</comments>
-      <name>LGPL v2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
     </license>
     <license>
       <comments>iText 5.0.2 (http://itextpdf.com)</comments>
@@ -282,9 +267,6 @@
     <!-- ApacheXMLBeans -->
     <module>../../plugins/net.chemclipse.thirdpartylibraries.apache.xmlbeans</module>
     <module>../../features/net.chemclipse.thirdpartylibraries.apache.xmlbeans.feature</module>
-    <!-- DBUnit -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.dbunit</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.dbunit.feature</module>  
     <!-- Derby -->
     <module>../../plugins/net.chemclipse.thirdpartylibraries.derby</module>
     <module>../../features/net.chemclipse.thirdpartylibraries.derby.feature</module>
@@ -294,12 +276,6 @@
     <!-- EasyMock -->
     <module>../../plugins/net.chemclipse.thirdpartylibraries.easymock</module>
     <module>../../features/net.chemclipse.thirdpartylibraries.easymock.feature</module>
-    <!-- EclipseLink -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.eclipselink</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.eclipselink.feature</module>
-    <!-- FindBugs -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.findbugs</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.findbugs.feature</module>
     <!-- Groovy -->
     <module>../../plugins/net.chemclipse.thirdpartylibraries.groovy</module>
     <module>../../features/net.chemclipse.thirdpartylibraries.groovy.feature</module>
