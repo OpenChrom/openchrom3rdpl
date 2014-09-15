@@ -3,19 +3,19 @@
       id="net.chemclipse.thirdpartylibraries.apache.xercesj.feature"
       label="Feature"
       version="2.11.0.qualifier"
-      provider-name="OpenChrom">
+      provider-name="ChemClipse">
 
-   <description url="https://marketplace.openchrom.net">
+   <description url="http://www.chemclipse.net">
       This feature encapsulates the following libraries:
 XercesJ http://xerces.apache.org 2.11.0 Apache License v2.0
    </description>
 
-   <copyright url="https://marketplace.openchrom.net">
+   <copyright url="http://www.chemclipse.net">
 This feature encapsulates the following libraries:
 XercesJ http://xerces.apache.org 2.11.0 Apache License v2.0
    </copyright>
 
-   <license url="http://www.openchrom.net">
+   <license url="http://www.chemclipse.net">
 Copyright (c) 2011, 2014 Philip (eselmeister) Wenig.
  
 This feature encapsulates the following libraries:
@@ -44,7 +44,7 @@ governing permissions and limitations under the License.
    </license>
 
    <url>
-      <discovery label="ChemClipse ThirdPartyLibraries XercesJ" url="https://marketplace.openchrom.net"/>
+      <discovery label="ChemClipse ThirdPartyLibraries XercesJ" url="http://www.chemclipse.net"/>
       <discovery label="Apache XercesJ" url="http://xerces.apache.org"/>
    </url>
 

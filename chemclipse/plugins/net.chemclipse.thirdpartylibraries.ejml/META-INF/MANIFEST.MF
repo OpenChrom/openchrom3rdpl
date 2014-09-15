@@ -4,7 +4,7 @@ Bundle-Name: Ejml
 Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.ejml
 Bundle-Version: 0.24.0.qualifier
 Bundle-Activator: net.chemclipse.thirdpartylibraries.ejml.Activator
-Bundle-Vendor: OpenChrom
+Bundle-Vendor: ChemClipse
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy

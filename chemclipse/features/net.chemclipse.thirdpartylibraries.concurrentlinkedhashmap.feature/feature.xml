@@ -3,22 +3,22 @@
       id="net.chemclipse.thirdpartylibraries.concurrentlinkedhashmap.feature"
       label="Concurrent Linked HashMap"
       version="1.4.0.qualifier"
-      provider-name="OpenChrom">
+      provider-name="ChemClipse">
 
-   <description url="https://marketplace.openchrom.net">
+   <description url="http://www.chemclipse.net">
       This feature encapsulates the following libraries:
 ConcurrentLinkedHashMap https://code.google.com/p/concurrentlinkedhashmap 1.4.0 Apache License
 v2.0
    </description>
 
-   <copyright url="https://marketplace.openchrom.net">
+   <copyright url="http://www.chemclipse.net">
       This feature encapsulates the following libraries:
 ConcurrentLinkedHashMap https://code.google.com/p/concurrentlinkedhashmap 1.4.0
 Apache License
 v2.0
    </copyright>
 
-   <license url="https://marketplace.openchrom.net">
+   <license url="http://www.chemclipse.net">
       Copyright (c) 2014 Dr. Philip Wenig.
  
 This feature encapsulates the following libraries:
@@ -50,7 +50,7 @@ governing permissions and limitations under the License.
 
    <url>
       <discovery label="ConcurrentLinkedHashMap" url="https://code.google.com/p/concurrentlinkedhashmap"/>
-      <discovery label="OpenChrom Marketplace" url="https://marketplace.openchrom.net"/>
+      <discovery label="ChemClipse Marketplace" url="http://www.chemclipse.net"/>
    </url>
 
    <plugin

@@ -6,7 +6,7 @@ Bundle-Name: Orientdb
 Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.orientdb
 Bundle-Version: 1.7.2.qualifier
 Bundle-Activator: net.chemclipse.thirdpartylibraries.orientdb.Activator
-Bundle-Vendor: OpenChrom
+Bundle-Vendor: ChemClipse
 Require-Bundle: org.eclipse.core.runtime,
  net.chemclipse.thirdpartylibraries.jna;bundle-version="4.0.0",
  net.chemclipse.thirdpartylibraries.concurrentlinkedhashmap;bundle-version="1.4.0"

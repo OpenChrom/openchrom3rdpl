@@ -3,7 +3,7 @@
       id="net.chemclipse.thirdpartylibraries.derby.feature"
       label="Derby"
       version="10.5.1.qualifier"
-      provider-name="OpenChrom">
+      provider-name="ChemClipse">
 
    <description url="https://marketplace.openchrom.net/update/">
       This feature encapsulates the following libraries:

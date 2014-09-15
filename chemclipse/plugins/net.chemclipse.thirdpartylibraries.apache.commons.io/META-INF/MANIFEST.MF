@@ -4,7 +4,7 @@ Bundle-Name: Io
 Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.apache.commons.io
 Bundle-Version: 2.4.0.qualifier
 Bundle-Activator: net.chemclipse.thirdpartylibraries.apache.commons.io.Activator
-Bundle-Vendor: OpenChrom
+Bundle-Vendor: ChemClipse
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy

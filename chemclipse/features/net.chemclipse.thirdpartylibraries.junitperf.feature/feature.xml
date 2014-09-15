@@ -3,7 +3,7 @@
       id="net.chemclipse.thirdpartylibraries.junitperf.feature"
       label="Feature"
       version="1.9.1.qualifier"
-      provider-name="OpenChrom">
+      provider-name="ChemClipse">
 
    <description url="http://thirdpartylibraries.chemclipse.net/junitperf">
       This feature encapsulates the following libraries:
@@ -16,7 +16,7 @@ JunitPerf http://clarkware.com/software/JUnitPerf.html 1.9.1
 Copyright (C) 2001 Clarkware Consulting, Inc.
    </copyright>
 
-   <license url="https://marketplace.openchrom.net/">
+   <license url="http://www.chemclipse.net">
       Copyright (c) 2008, 2014 Philip (eselmeister) Wenig.
 
 This feature encapsulates the following libraries:

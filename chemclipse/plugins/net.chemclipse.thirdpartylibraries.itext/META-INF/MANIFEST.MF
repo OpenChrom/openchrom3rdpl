@@ -9,7 +9,7 @@ Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ClassPath: .,
  libraries/iText-5.0.2.jar
-Bundle-Vendor: OpenChrom
+Bundle-Vendor: ChemClipse
 Export-Package: com.itextpdf.text,
  com.itextpdf.text.error_messages,
  com.itextpdf.text.exceptions,

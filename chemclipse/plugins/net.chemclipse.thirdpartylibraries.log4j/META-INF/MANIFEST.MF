@@ -8,7 +8,7 @@ Bundle-Activator: net.chemclipse.thirdpartylibraries.log4j.Activator
 Require-Bundle: org.eclipse.core.runtime
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Bundle-Vendor: OpenChrom
+Bundle-Vendor: ChemClipse
 Bundle-ClassPath: libraries/log4j-1.2.15.jar,
  .
 Export-Package: org.apache.log4j,

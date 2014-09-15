@@ -3,9 +3,9 @@
       id="net.chemclipse.thirdpartylibraries.swtchart.feature"
       label="SWTChart"
       version="0.9.0.qualifier"
-      provider-name="OpenChrom">
+      provider-name="ChemClipse">
 
-   <description url="https://marketplace.openchrom.net">
+   <description url="http://www.chemclipse.net">
       This feature encapsulates the following libraries:
 SWTChart http://www.swtchart.org 0.9.0 EPLv1.0
    </description>

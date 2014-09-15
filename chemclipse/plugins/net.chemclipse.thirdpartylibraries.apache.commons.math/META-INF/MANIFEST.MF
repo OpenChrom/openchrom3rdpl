@@ -7,7 +7,7 @@ Bundle-Activator: net.chemclipse.thirdpartylibraries.apache.commons.math.Activat
 Require-Bundle: org.eclipse.core.runtime
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Bundle-Vendor: OpenChrom
+Bundle-Vendor: ChemClipse
 Bundle-ClassPath: .,
  libraries/commons-math3-3.3.jar
 Export-Package: org.apache.commons.math3,

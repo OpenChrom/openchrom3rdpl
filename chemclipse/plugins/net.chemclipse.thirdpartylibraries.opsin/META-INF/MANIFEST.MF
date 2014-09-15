@@ -5,7 +5,7 @@ Bundle-Name: Opsin
 Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.opsin
 Bundle-Version: 1.5.0.qualifier
 Bundle-Activator: net.chemclipse.thirdpartylibraries.opsin.Activator
-Bundle-Vendor: OpenChrom
+Bundle-Vendor: ChemClipse
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy

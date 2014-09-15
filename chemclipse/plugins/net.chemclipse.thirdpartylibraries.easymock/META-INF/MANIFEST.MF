@@ -13,4 +13,4 @@ Bundle-ClassPath: .,
  libraries/easymockclassextension.jar
 Export-Package: org.easymock,
  org.easymock.classextension
-Bundle-Vendor: OpenChrom
+Bundle-Vendor: ChemClipse

@@ -3,20 +3,20 @@
       id="net.chemclipse.thirdpartylibraries.odfdom.feature"
       label="Feature"
       version="0.8.7.qualifier"
-      provider-name="OpenChrom">
+      provider-name="ChemClipse">
 
-   <description url="https://marketplace.openchrom.net">
+   <description url="http://www.chemclipse.net">
       This feature encapsulates the following libraries:
 ODFDOM http://odftoolkit.org/projects/odfdom 0.8.7 Apache License v2.0
    </description>
 
-   <copyright url="https://marketplace.openchrom.net">
+   <copyright url="http://www.chemclipse.net">
 This feature encapsulates the following libraries:
 ODFDOM http://odftoolkit.org/projects/odfdom 0.8.7 Apache License
 v2.0
    </copyright>
 
-   <license url="https://marketplace.openchrom.net">
+   <license url="http://www.chemclipse.net">
 Copyright (c) 2011, 2014 Philip (eselmeister) Wenig.
  
 This feature encapsulates the following libraries:
@@ -46,7 +46,7 @@ governing permissions and limitations under the License.
    </license>
 
    <url>
-      <discovery label="ChemClipse ThirdPartyLibraries ODFDOM" url="https://marketplace.openchrom.net"/>
+      <discovery label="ChemClipse ThirdPartyLibraries ODFDOM" url="http://www.chemclipse.net"/>
       <discovery label="ODFDOM" url="http://odftoolkit.org/projects/odfdom/pages/Home"/>
    </url>
 

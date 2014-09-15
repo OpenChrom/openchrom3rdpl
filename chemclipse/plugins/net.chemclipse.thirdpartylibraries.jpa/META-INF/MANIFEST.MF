@@ -11,6 +11,6 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: javax.persistence,
  javax.persistence.osgi,
  javax.persistence.spi
-Bundle-Vendor: OpenChrom
+Bundle-Vendor: ChemClipse
 Bundle-ClassPath: libraries/jpa/javax.persistence_1.0.0.v200905011740.jar,
  libraries/jpa/javax.persistence_1.99.0.v200906021518.jar

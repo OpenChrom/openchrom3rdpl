@@ -5,7 +5,7 @@ Bundle-Name: Swtxygraph
 Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.swtxygraph
 Bundle-Version: 2.0.1.qualifier
 Bundle-Activator: net.chemclipse.thirdpartylibraries.swtxygraph.Activator
-Bundle-Vendor: OpenChrom
+Bundle-Vendor: ChemClipse
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy

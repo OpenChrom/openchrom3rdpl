@@ -6,7 +6,7 @@ Bundle-Name: apache.commons.poi
 Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.apache.commons.poi
 Bundle-Version: 3.7.0.qualifier
 Bundle-Activator: net.chemclipse.thirdpartylibraries.apache.commons.poi.Activator
-Bundle-Vendor: OpenChrom
+Bundle-Vendor: ChemClipse
 Require-Bundle: org.eclipse.core.runtime,
  net.chemclipse.thirdpartylibraries.dom4j;bundle-version="1.6.1",
  net.chemclipse.thirdpartylibraries.apache.xmlbeans;bundle-version="2.5.0",

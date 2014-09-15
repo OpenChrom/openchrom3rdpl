@@ -10,7 +10,7 @@ Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ClassPath: .,
  libraries/netcdfAll-4.3.jar
-Bundle-Vendor: OpenChrom
+Bundle-Vendor: ChemClipse
 Export-Package: edu.wisc.ssec.mcidas,
  ucar.grib,
  ucar.grib.grib1,

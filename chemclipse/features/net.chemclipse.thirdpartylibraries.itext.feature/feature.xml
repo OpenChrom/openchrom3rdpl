@@ -3,9 +3,9 @@
       id="net.chemclipse.thirdpartylibraries.itext.feature"
       label="iText"
       version="5.0.2.qualifier"
-      provider-name="OpenChrom">
+      provider-name="ChemClipse">
 
-   <description url="https://marketplace.openchrom.net">
+   <description url="http://www.chemclipse.net">
       This feature encapsulates the following libraries:
 iText http://itextpdf.com 5.0.2 AGPL v3
    </description>
@@ -15,7 +15,7 @@ iText http://itextpdf.com 5.0.2 AGPL v3
 iText http://itextpdf.com 5.0.2 AGPL v3
    </copyright>
 
-   <license url="http://www.openchrom.net">
+   <license url="http://www.chemclipse.net">
       Copyright (c) 2008, 2014 Philip (eselmeister) Wenig.
 
 This program is free software: you can redistribute it and/or

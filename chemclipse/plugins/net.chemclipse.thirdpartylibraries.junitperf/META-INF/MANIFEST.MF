@@ -11,4 +11,4 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ClassPath: .,
  libraries/junitperf-1.9.1.jar
 Export-Package: com.clarkware.junitperf
-Bundle-Vendor: OpenChrom
+Bundle-Vendor: ChemClipse

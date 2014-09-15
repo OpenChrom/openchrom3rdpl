@@ -3,9 +3,9 @@
       id="net.chemclipse.thirdpartylibraries.apache.commons.math.feature"
       label="Apache Commons Math"
       version="3.3.0.qualifier"
-      provider-name="OpenChrom">
+      provider-name="ChemClipse">
 
-   <description url="https://marketplace.openchrom.net">
+   <description url="http://www.chemclipse.net">
       This feature encapsulates the Apache CommonsMath libraries.
    </description>
 

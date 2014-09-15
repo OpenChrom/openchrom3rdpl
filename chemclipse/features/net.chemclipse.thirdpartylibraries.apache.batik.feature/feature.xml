@@ -5,7 +5,7 @@
       version="1.7.0.qualifier"
       provider-name="ChemClipse">
 
-   <description url="https://marketplace.openchrom.net">
+   <description url="http://www.chemclipse.net">
       This feature encapsulates the Apache Batik libraries.
    </description>
 

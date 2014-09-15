@@ -3,7 +3,7 @@
       id="net.chemclipse.thirdpartylibraries.apache.xmlbeans.feature"
       label="Feature"
       version="2.5.0.qualifier"
-      provider-name="OpenChrom">
+      provider-name="ChemClipse">
 
    <description url="http://thirdpartylibraries.chemclipse.net/xmlbeans">
       This feature encapsulates the following libraries:

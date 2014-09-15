@@ -3,9 +3,9 @@
       id="net.chemclipse.thirdpartylibraries.log4j.feature"
       label="log4j"
       version="1.2.15.qualifier"
-      provider-name="OpenChrom">
+      provider-name="ChemClipse">
 
-   <description url="https://marketplace.openchrom.net">
+   <description url="http://www.chemclipse.net">
       This feature encapsulates the Apache log4j libraries.
    </description>
 

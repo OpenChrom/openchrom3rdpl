@@ -3,7 +3,7 @@
       id="net.chemclipse.thirdpartylibraries.junitaddons.feature"
       label="Feature"
       version="1.4.0.qualifier"
-      provider-name="OpenChrom">
+      provider-name="ChemClipse">
 
    <description url="http://thirdpartylibraries.chemclipse.net/junit-addons">
       This feature encapsulates the following libraries:

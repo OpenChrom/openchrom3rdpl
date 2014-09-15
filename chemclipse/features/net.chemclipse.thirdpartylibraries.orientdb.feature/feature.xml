@@ -3,22 +3,22 @@
       id="net.chemclipse.thirdpartylibraries.orientdb.feature"
       label="Feature"
       version="1.7.2.qualifier"
-      provider-name="OpenChrom">
+      provider-name="ChemClipse">
 
-   <description url="https://marketplace.openchrom.net">
+   <description url="http://www.chemclipse.net">
       This feature encapsulates the following libraries:
 OrientDB http://www.orientechnologies.com/orient-db.htm 1.7.2 Apache License
 v2.0
    </description>
 
-   <copyright url="https://marketplace.openchrom.net">
+   <copyright url="http://www.chemclipse.net">
       This feature encapsulates the following libraries:
 OrientDB http://www.orientechnologies.com/orient-db.htm 1.7.2
 Apache License
 v2.0
    </copyright>
 
-   <license url="https://marketplace.openchrom.net">
+   <license url="http://www.chemclipse.net">
       Copyright (c) 2011, 2014 Philip (eselmeister) Wenig.
  
 This feature encapsulates the following libraries:
@@ -50,7 +50,7 @@ governing permissions and limitations under the License.
 
    <url>
       <discovery label="OrientDB" url="http://www.orientechnologies.com/orient-db.htm"/>
-      <discovery label="ChemClipse ThirdPartyLibraries OrientDB" url="https://marketplace.openchrom.net"/>
+      <discovery label="ChemClipse ThirdPartyLibraries OrientDB" url="http://www.chemclipse.net"/>
    </url>
 
    <plugin
