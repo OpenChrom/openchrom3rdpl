@@ -10,7 +10,7 @@ Bundle-Vendor: ChemClipse
 Require-Bundle: org.eclipse.core.runtime,
  net.chemclipse.thirdpartylibraries.dom4j;bundle-version="1.6.1",
  net.chemclipse.thirdpartylibraries.apache.xmlbeans;bundle-version="2.5.0",
- net.chemclipse.thirdpartylibraries.apache.geronimo.stax;bundle-version="1.0.0",
+ net.chemclipse.thirdpartylibraries.apache.geronimo.stax;bundle-version="0.7.0",
  org.apache.commons.logging;bundle-version="1.0.4",
  org.apache.log4j;bundle-version="1.2.15"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
