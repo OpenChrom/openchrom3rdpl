@@ -107,11 +107,6 @@
       <url>http://sourceforge.net/projects/junit-addons</url>
     </license>
     <license>
-      <comments>JunitPerf 1.9.1 (http://clarkware.com/software/JUnitPerf.html)</comments>
-      <name>BSD License</name>
-      <url>http://www.clarkware.com/software/license.txt</url>
-    </license>
-    <license>
       <comments>NetCDF 4.3.19 (http://www.unidata.ucar.edu/software/netcdf-java)</comments>
       <name>MIT</name>
       <url>http://opensource.org/licenses/MIT</url> 
@@ -239,9 +234,6 @@
     <!-- JUnitAddons -->
     <module>../../plugins/net.chemclipse.thirdpartylibraries.junitaddons</module>
     <module>../../features/net.chemclipse.thirdpartylibraries.junitaddons.feature</module>
-    <!-- JUnitPerf -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.junitperf</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.junitperf.feature</module>
     <!-- NetCDF -->
     <module>../../plugins/net.chemclipse.thirdpartylibraries.netcdf</module>
     <module>../../features/net.chemclipse.thirdpartylibraries.netcdf.feature</module>

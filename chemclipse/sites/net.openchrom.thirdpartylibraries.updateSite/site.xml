@@ -63,9 +63,6 @@
    <feature url="features/net.chemclipse.thirdpartylibraries.junitaddons.feature_1.4.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.junitaddons.feature" version="1.4.0.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.chemclipse.thirdpartylibraries.junitperf.feature_1.9.1.qualifier.jar" id="net.chemclipse.thirdpartylibraries.junitperf.feature" version="1.9.1.qualifier">
-      <category name="net.chemclipse.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.chemclipse.thirdpartylibraries.matlabcontrol.feature_4.1.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.matlabcontrol.feature" version="4.1.0.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
