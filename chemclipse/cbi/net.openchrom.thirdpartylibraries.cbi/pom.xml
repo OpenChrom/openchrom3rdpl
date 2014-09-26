@@ -102,11 +102,6 @@
       <url>http://www.eclipse.org/legal/epl-v10.html</url>
     </license>
     <license>
-      <comments>JunitAddons 1.4 (http://sourceforge.net/projects/junit-addons)</comments>
-      <name>JUnit-addons Software License, Version 1.0</name>
-      <url>http://sourceforge.net/projects/junit-addons</url>
-    </license>
-    <license>
       <comments>NetCDF 4.3.19 (http://www.unidata.ucar.edu/software/netcdf-java)</comments>
       <name>MIT</name>
       <url>http://opensource.org/licenses/MIT</url> 
@@ -231,9 +226,6 @@
     <!-- JPA -->
     <module>../../plugins/net.chemclipse.thirdpartylibraries.jpa</module>
     <module>../../features/net.chemclipse.thirdpartylibraries.jpa.feature</module>
-    <!-- JUnitAddons -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.junitaddons</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.junitaddons.feature</module>
     <!-- NetCDF -->
     <module>../../plugins/net.chemclipse.thirdpartylibraries.netcdf</module>
     <module>../../features/net.chemclipse.thirdpartylibraries.netcdf.feature</module>
