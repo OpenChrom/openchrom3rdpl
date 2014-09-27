@@ -245,8 +245,8 @@
     <module>../../plugins/net.chemclipse.thirdpartylibraries.barcode4j</module>
     <module>../../features/net.chemclipse.thirdpartylibraries.barcode4j.feature</module>
     <!-- CDK -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.cdk.feature</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.cdk.feature.feature</module>
+    <module>../../plugins/net.openchrom.thirdpartylibraries.cdk</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.cdk.feature</module>
     <!-- OPSIN -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.opsin</module>
     <module>../../features/net.openchrom.thirdpartylibraries.opsin.feature</module>
