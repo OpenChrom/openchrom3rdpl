@@ -30,18 +30,7 @@
   <licenses>
     <!--
 	  Plug-ins that are part of compilation.
-    --> 
-
-    <license>
-      <comments>Apache Commons POI 3.7.0 (http://poi.apache.org)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
-      <comments>Apache Geronimo Stax 1.0.0 (http://geronimo.apache.org)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
+    -->
     <license>
       <comments>Groovy 2.0.2 (http://groovy.codehaus.org)</comments>
       <name>Apache License v2.0</name>
@@ -56,26 +45,10 @@
       <comments>SuperCSV 1.52.0 (http://supercsv.sourceforge.net)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
-      <comments>ProteomeCommons 6.21 (http://proteomecommons.org/current/531)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-  
+    </license>  
     <!--
 	  Plug-ins that are not part of compilation.
     -->
-    <license>
-      <comments>JPA 1.99.0.v200906021518 (http://www.eclipse.org/eclipselink/jpa.php)</comments>
-      <name>EPL v1.0</name>
-      <url>http://www.eclipse.org/legal/epl-v10.html</url>
-    </license>
-    <license>
-      <comments>NetCDF 4.3.19 (http://www.unidata.ucar.edu/software/netcdf-java)</comments>
-      <name>MIT</name>
-      <url>http://opensource.org/licenses/MIT</url> 
-    </license>
     <license>
       <comments>ODFDOM 0.8.7 (http://odftoolkit.org/projects/odfdom)</comments>
       <name>Apache License v2.0</name>
@@ -97,21 +70,6 @@
       <url>http://opensource.org/licenses/Artistic-2.0</url>  
     </license>
     <license>
-      <comments>Apache Commons IO 2.4.0 (http://commons.apache.org/proper/commons-io)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
-      <comments>jmzML 1.6.7 (https://code.google.com/p/jmzml)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
-      <comments>XXindex 0.11.0 (http://code.google.com/p/pride-toolsuite/wiki/XXIndex)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
       <comments>Neuroph 2.8.0 (http://neuroph.sourceforge.net)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -126,7 +84,6 @@
       <name>BSD License</name>
       <url>http://opensource.org/licenses/BSD-3-Clause</url>
     </license>
-
     <license>
       <comments>BioJava 3.0.7 (http://www.biojava.org)</comments>
       <name>LGPL v2.1</name>
@@ -136,11 +93,6 @@
       <comments>Jmol 13.0.8 (http://jmol.sourceforge.net)</comments>
       <name>LGPL v2.1</name>
       <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
-    </license>
-    <license>
-      <comments>EJML 0.24.0 (https://code.google.com/p/efficient-java-matrix-library)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
   </licenses> 
   <!--
@@ -161,30 +113,15 @@
 	MODULES
   -->
   <modules>
-    <!-- CommonsPOI -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.apache.commons.poi</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.apache.commons.poi.feature</module>
-    <!-- ApacheGeronimoStax -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.apache.geronimo.stax</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.apache.geronimo.stax.feature</module>
     <!-- Groovy -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.groovy</module>
     <module>../../features/net.openchrom.thirdpartylibraries.groovy.feature</module>
-    <!-- JPA -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.jpa</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.jpa.feature</module>
-    <!-- NetCDF -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.netcdf</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.netcdf.feature</module>
     <!-- ODFDOM -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.odfdom</module>
     <module>../../features/net.openchrom.thirdpartylibraries.odfdom.feature</module>
     <!-- PDFJet -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.pdfjet</module>
     <module>../../features/net.openchrom.thirdpartylibraries.pdfjet.feature</module>
-    <!-- ProteomeCommons -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.proteomecommons</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.proteomecommons.feature</module>
     <!-- SuperCSV -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.supercsv</module>
     <module>../../features/net.openchrom.thirdpartylibraries.supercsv.feature</module>
@@ -197,15 +134,6 @@
     <!-- OPSIN -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.opsin</module>
     <module>../../features/net.openchrom.thirdpartylibraries.opsin.feature</module>
-    <!-- Apache Commons IO -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.apache.commons.io</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.apache.commons.io.feature</module>
-    <!-- jmzML -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.jmzml</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.jmzml.feature</module>
-    <!-- XXindex -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.xxindex</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.xxindex.feature</module>
     <!-- Neuroph -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.neuroph</module>
     <module>../../features/net.openchrom.thirdpartylibraries.neuroph.feature</module>
@@ -221,9 +149,6 @@
     <!-- Jmol -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jmol</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jmol.feature</module>
-    <!-- EJML -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.ejml</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.ejml.feature</module>
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
