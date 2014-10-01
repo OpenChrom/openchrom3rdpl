@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="net.chemclipse.thirdpartylibraries.derby.feature"
+      id="net.openchrom.thirdpartylibraries.derby.feature"
       label="Derby"
       version="10.5.1.qualifier"
       provider-name="ChemClipse">
@@ -52,7 +52,7 @@ limitations under the License.
    </url>
 
    <plugin
-         id="net.chemclipse.thirdpartylibraries.derby"
+         id="net.openchrom.thirdpartylibraries.derby"
          download-size="0"
          install-size="0"
          version="0.0.0"

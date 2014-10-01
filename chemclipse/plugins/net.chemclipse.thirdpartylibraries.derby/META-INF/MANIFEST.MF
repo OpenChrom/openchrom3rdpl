@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Derby Plug-in
-Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.derby
+Bundle-SymbolicName: net.openchrom.thirdpartylibraries.derby
 Bundle-Version: 10.5.1.qualifier
-Bundle-Activator: net.chemclipse.thirdpartylibraries.derby.Activator
+Bundle-Activator: net.openchrom.thirdpartylibraries.derby.Activator
 Require-Bundle: org.eclipse.core.runtime
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
