@@ -43,16 +43,6 @@
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
     <license>
-      <comments>Apache  XercesJ 2.11.0 (http://xerces.apache.org)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
-      <comments>Apache XML Beans 2.5.0 (http://xmlbeans.apache.org)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
       <comments>Groovy 2.0.2 (http://groovy.codehaus.org)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -177,12 +167,6 @@
     <!-- ApacheGeronimoStax -->
     <module>../../plugins/net.chemclipse.thirdpartylibraries.apache.geronimo.stax</module>
     <module>../../features/net.chemclipse.thirdpartylibraries.apache.geronimo.stax.feature</module>
-    <!-- XercesJ -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.apache.xercesj</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.apache.xercesj.feature</module>
-    <!-- ApacheXMLBeans -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.apache.xmlbeans</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.apache.xmlbeans.feature</module>
     <!-- Groovy -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.groovy</module>
     <module>../../features/net.openchrom.thirdpartylibraries.groovy.feature</module>

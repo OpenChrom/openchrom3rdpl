@@ -12,12 +12,6 @@
    <feature url="features/net.chemclipse.thirdpartylibraries.apache.geronimo.stax.feature_1.0.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.apache.geronimo.stax.feature" version="1.0.0.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.chemclipse.thirdpartylibraries.apache.xercesj.feature_2.11.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.apache.xercesj.feature" version="2.11.0.qualifier">
-      <category name="net.chemclipse.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.chemclipse.thirdpartylibraries.apache.xmlbeans.feature_2.5.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.apache.xmlbeans.feature" version="2.5.0.qualifier">
-      <category name="net.chemclipse.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.barcode4j.feature_2.1.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.barcode4j.feature" version="2.1.0.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
