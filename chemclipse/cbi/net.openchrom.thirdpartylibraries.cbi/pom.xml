@@ -234,9 +234,6 @@
     <!-- OPSIN -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.opsin</module>
     <module>../../features/net.openchrom.thirdpartylibraries.opsin.feature</module>
-    <!-- Apache Batik -->
-    <module>../../plugins/net.chemclipse.thirdpartylibraries.apache.batik</module>
-    <module>../../features/net.chemclipse.thirdpartylibraries.apache.batik.feature</module>
     <!-- Apache Commons IO -->
     <module>../../plugins/net.chemclipse.thirdpartylibraries.apache.commons.io</module>
     <module>../../features/net.chemclipse.thirdpartylibraries.apache.commons.io.feature</module>

@@ -3,9 +3,6 @@
    <description name="Third Party Libraries" url="http://www.chemclipse.net/plugins/thirdpartylibraries/update">
       This site contains several third party libraries.
    </description>
-   <feature url="features/net.chemclipse.thirdpartylibraries.apache.batik.feature_1.7.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.apache.batik.feature" version="1.7.0.qualifier">
-      <category name="net.chemclipse.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.chemclipse.thirdpartylibraries.apache.commons.io.feature_2.4.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.apache.commons.io.feature" version="2.4.0.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
