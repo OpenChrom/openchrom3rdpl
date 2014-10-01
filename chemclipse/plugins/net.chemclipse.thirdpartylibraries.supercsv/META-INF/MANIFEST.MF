@@ -2,9 +2,9 @@ Manifest-Version: 1.0
 Eclipse-BuddyPolicy: registered
 Bundle-ManifestVersion: 2
 Bundle-Name: Supercsv
-Bundle-SymbolicName: net.chemclipse.thirdpartylibraries.supercsv
+Bundle-SymbolicName: net.openchrom.thirdpartylibraries.supercsv
 Bundle-Version: 1.52.0.qualifier
-Bundle-Activator: net.chemclipse.thirdpartylibraries.supercsv.Activator
+Bundle-Activator: net.openchrom.thirdpartylibraries.supercsv.Activator
 Bundle-Vendor: ChemClipse
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6

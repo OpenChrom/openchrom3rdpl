@@ -8,7 +8,7 @@
     <version>BUILD-VERSION</version>
   </parent>
 
-  <artifactId>net.chemclipse.thirdpartylibraries.supercsv.feature</artifactId>
+  <artifactId>net.openchrom.thirdpartylibraries.supercsv.feature</artifactId>
   <version>1.52.0-SNAPSHOT</version>
   <packaging>eclipse-feature</packaging>
   

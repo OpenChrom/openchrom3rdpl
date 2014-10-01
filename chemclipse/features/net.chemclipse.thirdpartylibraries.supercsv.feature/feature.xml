@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="net.chemclipse.thirdpartylibraries.supercsv.feature"
+      id="net.openchrom.thirdpartylibraries.supercsv.feature"
       label="Feature"
       version="1.52.0.qualifier"
       provider-name="ChemClipse">
@@ -50,7 +50,7 @@ language governing permissions and limitations under the License.
    </url>
 
    <plugin
-         id="net.chemclipse.thirdpartylibraries.supercsv"
+         id="net.openchrom.thirdpartylibraries.supercsv"
          download-size="0"
          install-size="0"
          version="0.0.0"

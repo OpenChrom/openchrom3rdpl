@@ -54,7 +54,6 @@ governing permissions and limitations under the License.
    <requires>
       <import feature="net.chemclipse.thirdpartylibraries.apache.geronimo.stax.feature" version="1.0.0.qualifier"/>
       <import feature="net.chemclipse.thirdpartylibraries.apache.xmlbeans.feature" version="2.5.0.qualifier"/>
-      <import feature="net.chemclipse.thirdpartylibraries.dom4j.feature" version="1.6.1.qualifier"/>
    </requires>
 
    <plugin

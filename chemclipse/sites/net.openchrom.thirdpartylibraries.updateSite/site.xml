@@ -27,9 +27,6 @@
    <feature url="features/net.openchrom.thirdpartylibraries.cdk.feature_1.4.19.qualifier.jar" id="net.openchrom.thirdpartylibraries.cdk.feature" version="1.4.19.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.chemclipse.thirdpartylibraries.dom4j.feature_1.6.1.qualifier.jar" id="net.chemclipse.thirdpartylibraries.dom4j.feature" version="1.6.1.qualifier">
-      <category name="net.chemclipse.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.chemclipse.thirdpartylibraries.ejml.feature_0.24.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.ejml.feature" version="0.24.0.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
@@ -37,9 +34,6 @@
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.imagej.feature_1.47.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.imagej.feature" version="1.47.0.qualifier">
-      <category name="net.chemclipse.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.chemclipse.thirdpartylibraries.javabase64.feature_1.3.1.qualifier.jar" id="net.chemclipse.thirdpartylibraries.javabase64.feature" version="1.3.1.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.jmol.feature_13.2.8.qualifier.jar" id="net.openchrom.thirdpartylibraries.jmol.feature" version="13.2.8.qualifier">
@@ -72,7 +66,7 @@
    <feature url="features/net.chemclipse.thirdpartylibraries.proteomecommons.feature_6.2.1.qualifier.jar" id="net.chemclipse.thirdpartylibraries.proteomecommons.feature" version="6.2.1.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.chemclipse.thirdpartylibraries.supercsv.feature_1.52.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.supercsv.feature" version="1.52.0.qualifier">
+   <feature url="features/net.openchrom.thirdpartylibraries.supercsv.feature_1.52.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.supercsv.feature" version="1.52.0.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.chemclipse.thirdpartylibraries.xxindex.feature_0.11.0.qualifier.jar" id="net.chemclipse.thirdpartylibraries.xxindex.feature" version="0.11.0.qualifier">
