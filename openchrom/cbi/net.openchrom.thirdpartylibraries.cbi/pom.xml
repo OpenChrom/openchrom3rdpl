@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <!--
+	PARENT
+  -->
+  <parent>
+    <groupId>net.openchrom</groupId>
+    <artifactId>master</artifactId>
+    <version>BUILD-VERSION</version>
+    <relativePath>../../pom.xml</relativePath>
+  </parent>
+  <!--
+	ARTIFACT
+  -->
+  <groupId>net.openchrom</groupId>
+  <artifactId>parent</artifactId>
+  <packaging>pom</packaging>
+  <!--
+	DESCRIPTION
+  --> 
+  <name>OpenChrom Third-Party Libraries</name>
+  <description>
+	This bundle offers several third party libraries.
+  </description>
+  <url>http://sourceforge.net/projects/openchrom3rdpl</url>
+  <!--
+	LICENSES
+  -->  
+  <licenses>
+    <!--
+	  Plug-ins that are part of compilation.
+    -->
+    <license>
+      <comments>Groovy 2.0.2 (http://groovy.codehaus.org)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>PDFJet 2.81.0 (http://pdfjet.com/os/edition.html)</comments>
+      <name>Open Source License</name>
+      <url>http://pdfjet.com/os/download.html</url>
+    </license>
+    <license>
+      <comments>SuperCSV 1.52.0 (http://supercsv.sourceforge.net)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>  
+    <!--
+	  Plug-ins that are not part of compilation.
+    -->
+    <license>
+      <comments>ODFDOM 0.8.7 (http://odftoolkit.org/projects/odfdom)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>Barcode4J 2.1.0 (http://barcode4j.sourceforge.net)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>CDK (https://sourceforge.net/projects/cdk)</comments>
+      <name>LGPL v2.1</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>  
+    </license>
+    <license>
+      <comments>OPSIN (http://opsin.ch.cam.ac.uk)</comments>
+      <name>Artistic v2.0</name>
+      <url>http://opensource.org/licenses/Artistic-2.0</url>  
+    </license>
+    <license>
+      <comments>Neuroph 2.8.0 (http://neuroph.sourceforge.net)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>ImageJ 1.47.0 (rsb.info.nih.gov/ij)</comments>
+      <name>Public Domain</name>
+      <url>http://en.wikipedia.org/wiki/Public_domain</url>
+    </license>
+    <license>
+      <comments>Matlabcontrol 4.1.0 (http://code.google.com/p/matlabcontrol)</comments>
+      <name>BSD License</name>
+      <url>http://opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+    <license>
+      <comments>BioJava 3.0.7 (http://www.biojava.org)</comments>
+      <name>LGPL v2.1</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
+    </license>     
+    <license>
+      <comments>Jmol 13.0.8 (http://jmol.sourceforge.net)</comments>
+      <name>LGPL v2.1</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
+    </license>
+  </licenses> 
+  <!--
+	DEVELOPERS
+  -->
+  <developers>
+    <developer>
+      <id>eselmeister</id>
+      <name>Philip Wenig</name>
+      <email>philip.wenig [at] openchrom.net</email>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <!--
+	MODULES
+  -->
+  <modules>
+    <!-- Groovy -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.groovy</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.groovy.feature</module>
+    <!-- ODFDOM -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.odfdom</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.odfdom.feature</module>
+    <!-- PDFJet -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.pdfjet</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.pdfjet.feature</module>
+    <!-- SuperCSV -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.supercsv</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.supercsv.feature</module>
+    <!-- Barcode4J -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.barcode4j</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.barcode4j.feature</module>
+    <!-- CDK -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.cdk</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.cdk.feature</module>
+    <!-- OPSIN -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.opsin</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.opsin.feature</module>
+    <!-- Neuroph -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.neuroph</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.neuroph.feature</module>
+    <!-- ImageJ -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.imagej</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.imagej.feature</module>
+    <!-- Matlabcontrol -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.matlabcontrol</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.matlabcontrol.feature</module>
+    <!-- BioJava -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.biojava</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.biojava.feature</module>   
+    <!-- Jmol -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jmol</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.jmol.feature</module>
+    <!-- Update Site (Selected third party libraries) -->
+    <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
+  </modules>
+</project>
