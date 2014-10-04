@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="net.openchrom.thirdpartylibraries.barcode4j.feature"
-      label="Feature"
+      label="Barcode4J"
       version="2.1.0.qualifier"
       provider-name="ChemClipse">
 

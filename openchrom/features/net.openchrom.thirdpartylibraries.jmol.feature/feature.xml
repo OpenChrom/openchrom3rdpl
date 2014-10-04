@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="net.openchrom.thirdpartylibraries.jmol.feature"
-      label="Feature"
+      label="JMol"
       version="13.2.8.qualifier"
       provider-name="ChemClipse">
 
