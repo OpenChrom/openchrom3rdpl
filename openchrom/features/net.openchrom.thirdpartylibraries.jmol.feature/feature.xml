@@ -3,7 +3,7 @@
       id="net.openchrom.thirdpartylibraries.jmol.feature"
       label="JMol"
       version="13.2.8.qualifier"
-      provider-name="ChemClipse">
+      provider-name="OpenChrom">
 
    <description url="http://thirdpartylibraries.chemclipse.net/jmol">
       This feature encapsulates the following libraries:
