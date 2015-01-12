@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Macosx
+Bundle-NativeCode: libraries/libgluegen-rt.jnilib; libraries/libjogl_desktop.jnilib; libraries/libnativewindow_awt.jnilib; libraries/libnativewindow_x11.jnilib; libraries/libnewt.jnilib; osname=Mac OS X; processor=x86, libraries/libgluegen-rt.jnilib; libraries/libjogl_desktop.jnilib; libraries/libnativewindow_awt.jnilib; libraries/libnativewindow_x11.jnilib; libraries/libnewt.jnilib; osname=Mac OS X; processor=x86_64, *
+Bundle-SymbolicName: net.openchrom.thirdpartylibraries.jzy3d.macosx
+Bundle-Version: 0.9.1.qualifier
+Fragment-Host: net.openchrom.thirdpartylibraries.jzy3d;bundle-version="0.9.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

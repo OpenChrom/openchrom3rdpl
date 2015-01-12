@@ -45,7 +45,12 @@
       <comments>SuperCSV 1.52.0 (http://supercsv.sourceforge.net)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>  
+    </license>
+    <license>
+      <comments>jzy3d 0.9.1 (http://jzy3d.org)</comments>
+      <name>BSD License</name>
+      <url>http://opensource.org/licenses/BSD-3-Clause</url>
+    </license>      
     <!--
 	  Plug-ins that are not part of compilation.
     -->
@@ -125,6 +130,15 @@
     <!-- SuperCSV -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.supercsv</module>
     <module>../../features/net.openchrom.thirdpartylibraries.supercsv.feature</module>
+    <!-- jzy3d -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jzy3d</module>
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jzy3d.linux.x86</module>
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jzy3d.linux.x86_64</module>
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jzy3d.macosx</module>  
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jzy3d.solaris.x86</module>
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jzy3d.win32.x86_64</module>
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jzy3d.win32.x86</module>  
+    <module>../../features/net.openchrom.thirdpartylibraries.jzy3d.feature</module>    
     <!-- Barcode4J -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.barcode4j</module>
     <module>../../features/net.openchrom.thirdpartylibraries.barcode4j.feature</module>
