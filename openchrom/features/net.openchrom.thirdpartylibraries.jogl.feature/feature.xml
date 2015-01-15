@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="net.openchrom.thirdpartylibraries.jzy3d.feature"
-      label="Feature"
-      version="0.9.1.qualifier"
+      id="net.openchrom.thirdpartylibraries.jogl.feature"
+      label="JOGL"
+      version="2.0.0.qualifier"
       provider-name="OpenChrom">
 
    <description url="http://www.openchrom.net">
       This feature encapsulates the following libraries:
-jzy3d http://jzy3d.org 0.9.1 New-BSD
+JOGL http://jogamp.org/jogl/www 2.0.0 New-BSD
    </description>
 
    <copyright url="http://www.openchrom.net">
       This feature encapsulates the following libraries:
-jzy3d http://jzy3d.org 0.9.1 New-BSD
+JOGL http://jogamp.org/jogl/www 2.0.0 New-BSD
    </copyright>
 
    <license url="http://opensource.org/licenses/BSD-3-Clause">
@@ -43,15 +43,59 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    </license>
 
-   <requires>
-      <import feature="net.openchrom.thirdpartylibraries.jogl.feature" version="2.0.0.qualifier"/>
-   </requires>
-
    <plugin
-         id="net.openchrom.thirdpartylibraries.jzy3d"
+         id="net.openchrom.thirdpartylibraries.jogl"
          download-size="0"
          install-size="0"
          version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.thirdpartylibraries.jogl.linux.x86_64"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.thirdpartylibraries.jogl.linux.x86"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.thirdpartylibraries.jogl.macosx"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.thirdpartylibraries.jogl.solaris.x86"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.thirdpartylibraries.jogl.win32.x86"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.thirdpartylibraries.jogl.win32.x86_64"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
          unpack="false"/>
 
 </feature>

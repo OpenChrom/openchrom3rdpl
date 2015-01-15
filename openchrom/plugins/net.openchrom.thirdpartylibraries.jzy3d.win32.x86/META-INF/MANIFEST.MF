@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: X86
-Bundle-NativeCode: libraries/libgluegen-rt.dll; libraries/libjogl_desktop.dll; libraries/libnativewindow_awt.dll; libraries/libnativewindow_x11.dll; libraries/libnewt.dll; osname=Win32; processor=x86, *
-Bundle-SymbolicName: net.openchrom.thirdpartylibraries.jzy3d.win32.x86
-Bundle-Version: 0.9.1.qualifier
-Fragment-Host: net.openchrom.thirdpartylibraries.jzy3d;bundle-version="0.9.1"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
