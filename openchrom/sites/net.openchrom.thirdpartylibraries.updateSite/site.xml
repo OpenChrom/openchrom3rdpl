@@ -45,6 +45,9 @@
    <feature url="features/net.openchrom.thirdpartylibraries.jzy3d.feature_0.9.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.jzy3d.feature" version="0.9.1.qualifier">
       <category name="net.chemclipse.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.lzf.feature_1.0.4.qualifier.jar" id="net.openchrom.thirdpartylibraries.lzf.feature" version="1.0.4.qualifier">
+      <category name="net.chemclipse.thirdpartylibraries"/>
+   </feature>
    <category-def name="net.chemclipse.thirdpartylibraries" label="Third Party Libraries">
       <description>
          Several third party libraries, distributed under different open source licenses.

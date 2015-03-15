@@ -280,3 +280,6 @@ openchrom/plugins/net.openchrom.thirdpartylibraries.jogl.win32.x86_64/bin/*
 openchrom/features/net.openchrom.thirdpartylibraries.jzy3d.feature/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.jzy3d/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.jzy3d/bin/*
+openchrom/features/net.openchrom.thirdpartylibraries.lzf.feature/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.lzf/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.lzf/bin/*

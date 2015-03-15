@@ -55,7 +55,12 @@
       <comments>jzy3d 0.9.1 (http://jzy3d.org)</comments>
       <name>BSD License</name>
       <url>http://opensource.org/licenses/BSD-3-Clause</url>
-    </license>      
+    </license>
+    <license>
+      <comments>LZF Java (https://github.com/ning/compress)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>    
     <!--
 	  Plug-ins that are not part of compilation.
     -->
@@ -171,6 +176,9 @@
     <!-- Jmol -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jmol</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jmol.feature</module>
+    <!-- LZF -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.lzf</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.lzf.feature</module>    
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
