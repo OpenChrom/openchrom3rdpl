@@ -5,8 +5,8 @@ Bundle-SymbolicName: net.openchrom.thirdpartylibraries.jogl;singleton:=true
 Bundle-Version: 2.0.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.jzy3d.Activator
 Require-Bundle: org.eclipse.core.runtime,
- org.eclipse.swt;bundle-version="3.104.0",
- org.apache.log4j;bundle-version="1.2.15"
+ org.apache.log4j;bundle-version="1.2.15",
+ org.eclipse.swt;bundle-version="3.103.2"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
