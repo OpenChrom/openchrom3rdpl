@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.eclipse.chemclipse.thirdpartylibraries.netcdf.feature"
+      id="net.openchrom.thirdpartylibraries.netcdf.feature"
       label="NetCDF"
       version="4.3.19.qualifier"
       provider-name="ChemClipse">
