@@ -32,6 +32,11 @@
 	  Plug-ins that are part of compilation.
     -->
     <license>
+      <comments>NetCDF 4.3.19 (http://www.unidata.ucar.edu/software/netcdf-java)</comments>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url> 
+    </license>
+    <license>
       <comments>Groovy 2.0.2 (http://groovy.codehaus.org)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -60,7 +65,7 @@
       <comments>LZF Java (https://github.com/ning/compress)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>    
+    </license>
     <!--
 	  Plug-ins that are not part of compilation.
     -->
@@ -128,6 +133,9 @@
 	MODULES
   -->
   <modules>
+    <!-- NetCDF -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.netcdf</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.netcdf.feature</module>
     <!-- Groovy -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.groovy</module>
     <module>../../features/net.openchrom.thirdpartylibraries.groovy.feature</module>
