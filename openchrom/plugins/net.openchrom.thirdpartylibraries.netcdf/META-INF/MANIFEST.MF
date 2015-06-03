@@ -12,7 +12,6 @@ Bundle-ClassPath: .,
  libraries/netcdfAll-4.3.jar
 Bundle-Vendor: ChemClipse
 Export-Package: edu.wisc.ssec.mcidas,
- net.sf.ehcache.util,
  ucar.grib,
  ucar.grib.grib1,
  ucar.grib.grib2,
