@@ -114,6 +114,11 @@
       <name>LGPL v2.1</name>
       <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
     </license>
+    <license>
+      <comments>Jython 2.7.0 (http://www.jython.org)</comments>
+      <name>Python Software Foundation License v2.0</name>
+      <url>http://opensource.org/licenses/Python-2.0</url> 
+    </license>
   </licenses> 
   <!--
 	DEVELOPERS
@@ -186,7 +191,10 @@
     <module>../../features/net.openchrom.thirdpartylibraries.jmol.feature</module>
     <!-- LZF -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.lzf</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.lzf.feature</module>    
+    <module>../../features/net.openchrom.thirdpartylibraries.lzf.feature</module>
+    <!-- Jython -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jython</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.jython.feature</module>
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
