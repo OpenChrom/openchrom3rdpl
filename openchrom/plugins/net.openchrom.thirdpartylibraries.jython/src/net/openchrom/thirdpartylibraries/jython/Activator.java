@@ -17,8 +17,18 @@
  *******************************************************************************/
 package net.openchrom.thirdpartylibraries.jython;
 
+import java.io.IOException;
+import java.net.URL;
+import java.util.Properties;
+
+import org.eclipse.core.runtime.FileLocator;
+import org.eclipse.core.runtime.IPath;
+import org.eclipse.core.runtime.Path;
+import org.eclipse.core.runtime.Platform;
+import org.osgi.framework.Bundle;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
+import org.python.util.PythonInterpreter;
 
 public class Activator implements BundleActivator {
 
@@ -36,6 +46,11 @@ public class Activator implements BundleActivator {
 	public void start(BundleContext bundleContext) throws Exception {
 
 		Activator.context = bundleContext;
+		Properties properties = new Properties();
+		String path = getAbsolutePath("libraries/jython-standalone-2.7.0.jar");
+		properties.setProperty("python.home", path);
+		Properties systemProperties = System.getProperties();
+		PythonInterpreter.initialize(systemProperties, properties, new String[]{""});
 	}
 
 	/*
@@ -45,5 +60,18 @@ public class Activator implements BundleActivator {
 	public void stop(BundleContext bundleContext) throws Exception {
 
 		Activator.context = null;
+	}
+
+	public String getAbsolutePath(String string) {
+
+		Bundle bundle = Platform.getBundle(Activator.getContext().getBundle().getSymbolicName());
+		IPath path = new Path(string);
+		URL url = FileLocator.find(bundle, path, null);
+		try {
+			return FileLocator.resolve(url).getPath();
+		} catch(IOException e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
 }
