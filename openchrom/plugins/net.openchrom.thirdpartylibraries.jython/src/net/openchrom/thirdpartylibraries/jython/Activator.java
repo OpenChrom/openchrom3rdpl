@@ -33,6 +33,7 @@ import org.python.util.PythonInterpreter;
 public class Activator implements BundleActivator {
 
 	private static BundleContext context;
+	private String identifier = "net.openchrom.thirdpartylibraries.jython";
 
 	static BundleContext getContext() {
 
@@ -47,8 +48,9 @@ public class Activator implements BundleActivator {
 
 		Activator.context = bundleContext;
 		Properties properties = new Properties();
-		String path = getAbsolutePath("libraries/jython-standalone-2.7.0.jar");
-		properties.setProperty("python.home", path);
+		String jythonPath = getAbsolutePath("libraries/jython-standalone-2.7.0.jar");
+		properties.setProperty("python.home", jythonPath);
+		properties.setProperty("python.cachedir.skip", "true");
 		Properties systemProperties = System.getProperties();
 		PythonInterpreter.initialize(systemProperties, properties, new String[]{""});
 	}
