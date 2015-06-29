@@ -19,7 +19,6 @@ package net.openchrom.thirdpartylibraries.jython;
 
 import java.io.IOException;
 import java.net.URL;
-import java.util.Properties;
 
 import org.eclipse.core.runtime.FileLocator;
 import org.eclipse.core.runtime.IPath;
@@ -28,7 +27,6 @@ import org.eclipse.core.runtime.Platform;
 import org.osgi.framework.Bundle;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
-import org.python.util.PythonInterpreter;
 
 public class Activator implements BundleActivator {
 
@@ -47,12 +45,6 @@ public class Activator implements BundleActivator {
 	public void start(BundleContext bundleContext) throws Exception {
 
 		Activator.context = bundleContext;
-		Properties properties = new Properties();
-		String jythonPath = getAbsolutePath("libraries/jython-standalone-2.7.0.jar");
-		properties.setProperty("python.home", jythonPath);
-		properties.setProperty("python.cachedir.skip", "true");
-		Properties systemProperties = System.getProperties();
-		PythonInterpreter.initialize(systemProperties, properties, new String[]{""});
 	}
 
 	/*
