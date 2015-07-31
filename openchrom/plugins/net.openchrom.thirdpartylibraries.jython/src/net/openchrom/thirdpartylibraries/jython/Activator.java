@@ -57,7 +57,8 @@ public class Activator implements BundleActivator {
 
 	public static String getJythonPath() {
 
-		return getAbsolutePath("libraries/jython-standalone-2.7.0.jar");
+		IPath path = new Path(getAbsolutePath("libraries/jython-standalone-2.7.0.jar"));
+		return path.toString();
 	}
 
 	public static String getAbsolutePath(String string) {
