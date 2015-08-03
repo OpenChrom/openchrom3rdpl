@@ -142,3 +142,4 @@ Export-Package: com.jogamp.common,
  jogamp.opengl.windows.wgl.awt,
  jogamp.opengl.x11.glx,
  net.highteq.nativetaglet
+Bundle-Vendor: OpenChrom
