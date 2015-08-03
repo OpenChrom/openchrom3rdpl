@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: X86_64
+Bundle-NativeCode: libraries/libgluegen-rt.so; libraries/libjogl_desktop.so; libraries/libnativewindow_awt.so; libraries/libnativewindow_x11.so; libraries/libnewt.so; osname=Linux; processor=x86_64, *
+Bundle-SymbolicName: net.openchrom.thirdpartylibraries.jogl.linux.x86_64
+Bundle-Version: 2.0.0.qualifier
+Fragment-Host: net.openchrom.thirdpartylibraries.jogl;bundle-version="0.9.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: OpenChrom

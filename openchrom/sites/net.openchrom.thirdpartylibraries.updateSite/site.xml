@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Third Party Libraries" url="http://www.chemclipse.net/plugins/thirdpartylibraries/update">
+      This site contains several third party libraries.
+   </description>
+   <feature url="features/net.openchrom.thirdpartylibraries.barcode4j.feature_2.1.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.barcode4j.feature" version="2.1.0.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.biojava.feature_3.0.7.qualifier.jar" id="net.openchrom.thirdpartylibraries.biojava.feature" version="3.0.7.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.cdk.feature_1.4.19.qualifier.jar" id="net.openchrom.thirdpartylibraries.cdk.feature" version="1.4.19.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.groovy.feature_2.0.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.groovy.feature" version="2.0.2.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.imagej.feature_1.47.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.imagej.feature" version="1.47.0.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.jmol.feature_13.2.8.qualifier.jar" id="net.openchrom.thirdpartylibraries.jmol.feature" version="13.2.8.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.matlabcontrol.feature_4.1.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.matlabcontrol.feature" version="4.1.0.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.neuroph.feature_2.8.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.neuroph.feature" version="2.8.0.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.odfdom.feature_0.8.7.qualifier.jar" id="net.openchrom.thirdpartylibraries.odfdom.feature" version="0.8.7.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.opsin.feature_1.5.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.opsin.feature" version="1.5.0.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.pdfjet.feature_2.81.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.pdfjet.feature" version="2.81.0.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.supercsv.feature_1.52.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.supercsv.feature" version="1.52.0.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.jogl.feature_2.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jogl.feature" version="2.0.0.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.jzy3d.feature_0.9.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.jzy3d.feature" version="0.9.1.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.lzf.feature_1.0.4.qualifier.jar" id="net.openchrom.thirdpartylibraries.lzf.feature" version="1.0.4.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.netcdf.feature_4.3.19.qualifier.jar" id="net.openchrom.thirdpartylibraries.netcdf.feature" version="4.3.19.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.jython.feature_2.7.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jython.feature" version="2.7.0.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <category-def name="org.eclipse.chemclipse.thirdpartylibraries" label="Third Party Libraries">
+      <description>
+         Several third party libraries, distributed under different open source licenses.
+      </description>
+   </category-def>
+</site>

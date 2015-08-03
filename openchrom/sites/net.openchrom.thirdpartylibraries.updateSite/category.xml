@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <category-def name="org.eclipse.chemclipse.thirdpartylibraries" label="ChemClipse Third Party Libraries">
+      <description>
+         This update site provides third party libraries.
+      </description>
+   </category-def>
+</site>

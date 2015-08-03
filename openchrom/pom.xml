@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Copyright (c) 2012, 2014 Dr. Philip Wenig.
-  All rights reserved. This program and the accompanying materials
-  are made available under the terms of the Eclipse Distribution License v1.0
-  which accompanies this distribution, and is available at
-  http://www.eclipse.org/org/documents/edl-v10.php
+  Copyright (c) 2012, 2015 Dr. Philip Wenig.
+
+  All rights reserved.
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v1.0 which accompanies this distribution,
+  and is available at http://www.eclipse.org/legal/epl-v10.html
  
   Contributors:
      Dr. Philip Wenig - created the pom to build the plug-ins
@@ -13,7 +14,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
   xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>net.chemclipse</groupId>
+  <groupId>net.openchrom</groupId>
   <artifactId>master</artifactId>
   <version>BUILD-VERSION</version>
   <packaging>pom</packaging>
@@ -28,8 +29,8 @@
   --> 
   <properties>
     <!-- VERSIONS -->
-    <tycho.version>0.20.0</tycho.version>
-    <tycho-extras.version>0.20.0</tycho-extras.version>
+    <tycho.version>0.22.0</tycho.version>
+    <tycho-extras.version>0.22.0</tycho-extras.version>
     <pmd.version>2.7.1</pmd.version>
     <checkstyle.version>2.9.1</checkstyle.version>
     <!-- IDS -->
@@ -38,15 +39,15 @@
     <maven.groupid>org.apache.maven.plugins</maven.groupid>
     <!-- REPOSITORY URLS -->
     <tycho-repo.url>https://oss.sonatype.org/content/groups/public</tycho-repo.url>
-    <kepler-repo.url>http://download.eclipse.org/releases/kepler</kepler-repo.url>
-    <kepler-updates-repo.url>http://download.eclipse.org/eclipse/updates/4.3</kepler-updates-repo.url>
-    <orbit-repo.url>http://download.eclipse.org/tools/orbit/downloads/drops/R20130517111416/repository</orbit-repo.url>
-    <e4-tools.url>http://download.eclipse.org/e4/downloads/drops/R-0.14-201306242200/repository</e4-tools.url>
-    <juno-repo.url>http://download.eclipse.org/releases/juno</juno-repo.url>
+    <luna-repo.url>http://download.eclipse.org/releases/luna</luna-repo.url>
+    <luna-updates-repo.url>http://download.eclipse.org/eclipse/updates/4.4</luna-updates-repo.url>
     <jetty-repo.url>http://download.eclipse.org/jetty/updates/jetty-bundles-8.x</jetty-repo.url>
-    <ecf-repo.url>http://download.eclipse.org/rt/ecf/3.6.1/site.p2</ecf-repo.url>
     <egit-repo.url>http://download.eclipse.org/egit/updates</egit-repo.url>
-    <swtbot-repo.url>http://download.eclipse.org/technology/swtbot/releases/latest</swtbot-repo.url>
+    <e4-tools.url>http://download.eclipse.org/e4/downloads/drops/S-0.16-201408072200/repository</e4-tools.url>
+    <orbit-repo.url>http://download.eclipse.org/tools/orbit/downloads/drops/R20150124073747/repository</orbit-repo.url>
+    <ecf-repo.url>http://download.eclipse.org/rt/ecf/3.8.1/site.p2</ecf-repo.url>
+    <nebula-repo.url>http://download.eclipse.org/technology/nebula/snapshot</nebula-repo.url>
+    <pydev-repo.url>http://pydev.org/updates</pydev-repo.url>
     <!-- ENCODING -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -55,13 +56,23 @@
   -->
   <repositories>
     <repository>
-      <id>kepler</id>
-      <url>${kepler-repo.url}</url>
+      <id>luna</id>
+      <url>${luna-repo.url}</url>
       <layout>p2</layout>
     </repository>
     <repository>
-      <id>kepler-updates</id>
-      <url>${kepler-updates-repo.url}</url>
+      <id>luna-updates</id>
+      <url>${luna-updates-repo.url}</url>
+      <layout>p2</layout>
+    </repository>
+    <repository>
+      <id>jetty</id>
+      <url>${jetty-repo.url}</url>
+      <layout>p2</layout>
+    </repository>
+    <repository>
+      <id>egit</id>
+      <url>${egit-repo.url}</url>
       <layout>p2</layout>
     </repository>
     <repository>
@@ -75,30 +86,20 @@
       <layout>p2</layout>
     </repository>
     <repository>
-      <id>juno</id>
-      <url>${juno-repo.url}</url>
-      <layout>p2</layout>
-    </repository>
-    <repository>
       <id>ecf</id>
       <url>${ecf-repo.url}</url>
       <layout>p2</layout>
     </repository>
     <repository>
-      <id>jetty</id>
-      <url>${jetty-repo.url}</url>
+      <id>nebula</id>
+      <url>${nebula-repo.url}</url>
       <layout>p2</layout>
     </repository>
     <repository>
-      <id>egit</id>
-      <url>${egit-repo.url}</url>
+      <id>pydev</id>
+      <url>${pydev-repo.url}</url>
       <layout>p2</layout>
-    </repository> 
-    <repository>
-      <id>swtbot</id>
-      <url>${swtbot-repo.url}</url>
-      <layout>p2</layout>
-    </repository> 
+    </repository>
   </repositories>
   <!--
 	PLUGIN REPOSITORIES
@@ -119,6 +120,30 @@
 	PLUGINS
     -->  
     <plugins>
+      <plugin>
+        <groupId>${tycho.groupid}</groupId>
+        <artifactId>tycho-packaging-plugin</artifactId>
+        <version>${tycho.version}</version>
+        <configuration>
+          <archive>
+            <addMavenDescriptor>false</addMavenDescriptor>
+          </archive>
+        </configuration>
+      </plugin>
+      <!--
+	  The third party libraries don't change.
+	  Hence, use e.g. v2015 as a qualifier.
+	  If a library is updated it would change from e.g.:
+	  3.2.0.v2015 -> 3.2.1.v2015
+      --> 
+      <plugin>
+        <groupId>${tycho.groupid}</groupId>
+        <artifactId>tycho-packaging-plugin</artifactId>
+        <version>${tycho.version}</version>
+        <configuration>
+          <format>'v'yyyy</format>
+        </configuration>
+      </plugin>
       <plugin>
         <groupId>${tycho.groupid}</groupId>
         <artifactId>tycho-maven-plugin</artifactId>
@@ -154,17 +179,7 @@
             <environment>
               <os>macosx</os>
               <ws>cocoa</ws>
-              <arch>x86</arch>
-            </environment>
-            <environment>
-              <os>macosx</os>
-              <ws>cocoa</ws>
               <arch>x86_64</arch>
-            </environment>
-            <environment>
-              <os>macosx</os>
-              <ws>cocoa</ws>
-              <arch>ppc</arch>
             </environment>
             <environment>
               <os>solaris</os>
