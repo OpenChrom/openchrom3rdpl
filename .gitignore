@@ -286,3 +286,4 @@ openchrom/plugins/net.openchrom.thirdpartylibraries.lzf/bin/*
 openchrom/features/net.openchrom.thirdpartylibraries.jython.feature/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.jython/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.jython/bin/*
+openchrom/plugins/net.openchrom.thirdpartylibraries.jython/libraries/Lib/*py.class
