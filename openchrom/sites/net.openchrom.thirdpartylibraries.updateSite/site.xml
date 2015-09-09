@@ -54,6 +54,9 @@
    <feature url="features/net.openchrom.thirdpartylibraries.jython.feature_2.7.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jython.feature" version="2.7.0.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.pdfbox.feature_1.8.7.qualifier.jar" id="net.openchrom.thirdpartylibraries.pdfbox.feature" version="1.8.7.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
    <category-def name="org.eclipse.chemclipse.thirdpartylibraries" label="Third Party Libraries">
       <description>
          Several third party libraries, distributed under different open source licenses.

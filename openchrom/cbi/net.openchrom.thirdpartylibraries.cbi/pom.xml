@@ -119,6 +119,11 @@
       <name>Python Software Foundation License v2.0</name>
       <url>http://opensource.org/licenses/Python-2.0</url> 
     </license>
+    <license>
+      <comments>Apache PDFBox 1.8.7 (https://pdfbox.apache.org)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
   </licenses> 
   <!--
 	DEVELOPERS
@@ -195,6 +200,9 @@
     <!-- Jython -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jython</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jython.feature</module>
+    <!-- PDFBox -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.pdfbox</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.pdfbox.feature</module>      
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>

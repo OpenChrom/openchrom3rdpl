@@ -287,3 +287,7 @@ openchrom/features/net.openchrom.thirdpartylibraries.jython.feature/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.jython/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.jython/bin/*
 openchrom/plugins/net.openchrom.thirdpartylibraries.jython/libraries/Lib/*py.class
+openchrom/plugins/net.openchrom.thirdpartylibraries.pdfbox/bin/
+openchrom/features/net.openchrom.thirdpartylibraries.pdfbox.feature/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.pdfbox/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.pdfbox.updateSite/target/
