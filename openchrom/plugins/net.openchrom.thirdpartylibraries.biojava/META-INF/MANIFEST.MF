@@ -6,7 +6,7 @@ Bundle-Version: 3.0.7.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.biojava.Activator
 Bundle-Vendor: ChemClipse
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/biojava3-aa-prop-3.0.7.jar,
  libraries/biojava3-alignment-3.0.7.jar,

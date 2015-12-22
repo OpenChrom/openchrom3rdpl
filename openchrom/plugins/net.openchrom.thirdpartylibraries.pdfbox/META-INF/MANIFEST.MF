@@ -7,7 +7,7 @@ Bundle-Activator: net.openchrom.thirdpartylibraries.pdfbox.Activator
 Bundle-Vendor: Lablicate UG (haftungsbeschränkt)
 Require-Bundle: org.eclipse.core.runtime,
  org.apache.commons.logging;bundle-version="1.1.1"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/pdfbox-1.8.7.jar,
  .,

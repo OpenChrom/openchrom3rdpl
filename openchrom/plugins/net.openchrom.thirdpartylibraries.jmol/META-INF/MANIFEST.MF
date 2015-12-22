@@ -6,7 +6,7 @@ Bundle-Version: 13.2.8.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.jmol.Activator
 Bundle-Vendor: ChemClipse
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/Jmol.jar,
  .
