@@ -245,9 +245,12 @@
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>tycho-compiler-plugin</artifactId>
         <version>${tycho.version}</version>
-        <configuration>
-          <encoding>${project.build.sourceEncoding}</encoding>
-        </configuration>
+          <configuration>
+	    <compilerArgument>-err:-forbidden</compilerArgument>
+            <compilerArguments>
+              <encoding>${project.build.sourceEncoding}</encoding>
+            </compilerArguments>
+          </configuration>
       </plugin>
       <plugin>
         <groupId>${tycho.groupid}</groupId>
