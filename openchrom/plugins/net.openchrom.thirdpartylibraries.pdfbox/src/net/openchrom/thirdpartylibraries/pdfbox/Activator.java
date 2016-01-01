@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2014, 2015 Dr. Philip Wenig.
+ * Copyright (c) 2014, 2016 Dr. Philip Wenig.
  * 
  * Licensed to the Apache
  * Software Foundation (ASF) under one or more contributor license agreements.

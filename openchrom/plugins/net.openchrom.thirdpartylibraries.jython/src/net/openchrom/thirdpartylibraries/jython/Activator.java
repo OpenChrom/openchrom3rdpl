@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2015 Dr. Philip Wenig.
+ * Copyright (c) 2015, 2016 Dr. Philip Wenig.
  *
  * PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2
  * 1. This LICENSE AGREEMENT is between the Python Software Foundation ("PSF"), and the Individual or Organization ("Licensee") accessing and otherwise using this software ("Jython") in source or binary form and its associated documentation.
