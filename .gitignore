@@ -28,7 +28,7 @@ chemclipse/plugins/net.openchrom.thirdpartylibraries.supercsv/bin/
 chemclipse/plugins/net.openchrom.thirdpartylibraries.apache.xercesj/bin/
 chemclipse/plugins/net.openchrom.thirdpartylibraries.odfdom/bin/
 chemclipse/plugins/net.openchrom.thirdpartylibraries.pdfjet/bin/
-chemclipse/plugins/net.openchrom.thirdpartylibraries.orientdb/bin/
+chemclipse/plugins/net.openchrom.thirdpartylibraries.orientdb/bin/*
 chemclipse/plugins/net.openchrom.thirdpartylibraries.swtxygraph/bin/
 chemclipse/plugins/net.openchrom.thirdpartylibraries.barcode4j/bin/
 chemclipse/plugins/net.openchrom.thirdpartylibraries.groovy/bin/

@@ -66,6 +66,11 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
+    <license>
+      <comments>OrientDB 2.1.16 (http://www.orientechnologies.com)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>    
     <!--
 	  Plug-ins that are not part of compilation.
     -->
@@ -202,7 +207,10 @@
     <module>../../features/net.openchrom.thirdpartylibraries.jython.feature</module>
     <!-- PDFBox -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.pdfbox</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.pdfbox.feature</module>      
+    <module>../../features/net.openchrom.thirdpartylibraries.pdfbox.feature</module>
+    <!-- OrientDB -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.orientdb</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.orientdb.feature</module> 
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
