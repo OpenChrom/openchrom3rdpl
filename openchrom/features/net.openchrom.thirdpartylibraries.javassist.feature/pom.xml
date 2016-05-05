@@ -4,7 +4,7 @@
 
   <parent>
     <groupId>net.openchrom</groupId>
-    <artifactId>net.openchrom.plugins.parent</artifactId>
+    <artifactId>net.openchrom.features.parent</artifactId>
     <version>BUILD-VERSION</version>
   </parent>
 
