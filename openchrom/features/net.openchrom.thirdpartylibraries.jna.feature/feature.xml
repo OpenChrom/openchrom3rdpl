@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="net.openchrom.thirdpartylibraries.orientdb.feature"
+      id="net.openchrom.thirdpartylibraries.jna.feature"
       label="Feature"
-      version="2.1.16.qualifier"
+      version="4.2.2.qualifier"
       provider-name="OpenChrom">
 
    <description url="http://www.openchrom.net">
@@ -13,7 +13,7 @@ v2.0
 
    <copyright url="http://www.openchrom.net">
       This feature encapsulates the following libraries:
-OrientDB http://www.orientechnologies.com/orient-db.htm 2.1.16
+JNA https://github.com/java-native-access/jna 4.2.2
 Apache License
 v2.0
    </copyright>
@@ -22,7 +22,7 @@ v2.0
       Copyright (c) 2016 Lablicate UG (haftungsbeschränkt).
  
 This feature encapsulates the following libraries:
-OrientDB http://www.orientechnologies.com/orient-db.htm 2.1.16
+JNA https://github.com/java-native-access/jna 4.2.2
 Apache License
 v2.0
 
@@ -48,18 +48,8 @@ language
 governing permissions and limitations under the License.
    </license>
 
-   <url>
-      <discovery label="OrientDB" url="http://www.orientechnologies.com/orient-db.htm"/>
-   </url>
-
-   <requires>
-      <import feature="net.openchrom.thirdpartylibraries.jna.feature" version="4.2.2.qualifier"/>
-      <import feature="net.openchrom.thirdpartylibraries.concurrentlinkedhashmap.feature" version="1.4.1.qualifier"/>
-      <import feature="net.openchrom.thirdpartylibraries.javassist.feature" version="3.20.0.qualifier"/>
-   </requires>
-
    <plugin
-         id="net.openchrom.thirdpartylibraries.orientdb"
+         id="net.openchrom.thirdpartylibraries.jna"
          download-size="0"
          install-size="0"
          version="0.0.0"

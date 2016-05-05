@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="net.openchrom.thirdpartylibraries.orientdb.feature"
+      id="net.openchrom.thirdpartylibraries.concurrentlinkedhashmap.feature"
       label="Feature"
-      version="2.1.16.qualifier"
+      version="1.4.1.qualifier"
       provider-name="OpenChrom">
 
    <description url="http://www.openchrom.net">
       This feature encapsulates the following libraries:
-OrientDB http://www.orientechnologies.com/orient-db.htm 2.1.16 Apache License
+ConcurrentLinkedHashMap https://code.google.com/p/concurrentlinkedhashmap 1.4.0 Apache License
 v2.0
    </description>
 
-   <copyright url="http://www.openchrom.net">
+   <copyright url="http://www.chemclipse.net">
       This feature encapsulates the following libraries:
-OrientDB http://www.orientechnologies.com/orient-db.htm 2.1.16
+ConcurrentLinkedHashMap https://code.google.com/p/concurrentlinkedhashmap 1.4.2
 Apache License
 v2.0
    </copyright>
 
-   <license url="http://www.openchrom.net">
-      Copyright (c) 2016 Lablicate UG (haftungsbeschränkt).
+   <license url="http://www.chemclipse.net">
+      Copyright (c) 2014, 2016 Dr. Philip Wenig.
  
 This feature encapsulates the following libraries:
-OrientDB http://www.orientechnologies.com/orient-db.htm 2.1.16
+ConcurrentLinkedHashMap https://code.google.com/p/concurrentlinkedhashmap 1.4.2
 Apache License
 v2.0
 
@@ -49,17 +49,11 @@ governing permissions and limitations under the License.
    </license>
 
    <url>
-      <discovery label="OrientDB" url="http://www.orientechnologies.com/orient-db.htm"/>
+      <discovery label="ConcurrentLinkedHashMap" url="https://code.google.com/p/concurrentlinkedhashmap"/>
    </url>
 
-   <requires>
-      <import feature="net.openchrom.thirdpartylibraries.jna.feature" version="4.2.2.qualifier"/>
-      <import feature="net.openchrom.thirdpartylibraries.concurrentlinkedhashmap.feature" version="1.4.1.qualifier"/>
-      <import feature="net.openchrom.thirdpartylibraries.javassist.feature" version="3.20.0.qualifier"/>
-   </requires>
-
    <plugin
-         id="net.openchrom.thirdpartylibraries.orientdb"
+         id="net.openchrom.thirdpartylibraries.concurrentlinkedhashmap"
          download-size="0"
          install-size="0"
          version="0.0.0"

@@ -70,6 +70,21 @@
       <comments>OrientDB 2.1.16 (http://www.orientechnologies.com)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>JNA 4.2.2 (https://github.com/java-native-access/jna)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>ConcurrentLinkedHashMap 1.4.1 (https://code.google.com/p/concurrentlinkedhashmap)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>Javassist 3.20.0 (https://github.com/jboss-javassist/javassist/releases)</comments>
+      <name>MPL v1.1</name>
+      <url>https://www.mozilla.org/MPL/1.1</url>
     </license>    
     <!--
 	  Plug-ins that are not part of compilation.
@@ -211,6 +226,15 @@
     <!-- OrientDB -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.orientdb</module>
     <module>../../features/net.openchrom.thirdpartylibraries.orientdb.feature</module> 
+    <!-- JNA -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jna</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.jna.feature</module>
+    <!-- ConcurrentLinkedHashMap -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.concurrentlinkedhashmap</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.concurrentlinkedhashmap.feature</module>
+    <!-- Javassist -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.javassist</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.javassist.feature</module>          
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>

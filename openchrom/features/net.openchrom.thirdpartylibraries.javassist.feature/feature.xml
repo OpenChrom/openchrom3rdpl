@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.openchrom.thirdpartylibraries.javassist.feature"
+      label="Feature"
+      version="3.20.0.qualifier"
+      provider-name="OpenChrom">
+
+   <description url="http://www.openchrom.net">
+      This feature encapsulates the following libraries:
+Javassist https://github.com/jboss-javassist/javassist/releases 3.20.0 MPL
+v1.1
+   </description>
+
+   <copyright url="http://www.openchrom.net">
+      This feature encapsulates the following libraries:
+Javassist https://github.com/jboss-javassist/javassist/releases 3.20.0 MPL
+v1.1
+   </copyright>
+
+   <license url="http://www.openchrom.net">
+      Copyright (c) 2016 Lablicate UG (haftungsbeschränkt).
+ 
+      This feature encapsulates the following libraries:
+Javassist https://github.com/jboss-javassist/javassist/releases 3.20.0 MPL
+v1.1
+
+All Rights Reserved.
+The contents of this file are subject to the Mozilla Public License Version
+1.1 (the &quot;License&quot;); you may not use this file except in compliance with
+the License. Alternatively, the contents of this file may be used under
+the terms of the GNU Lesser General Public License Version 2.1 or later,
+or the Apache License Version 2.0.
+Software distributed under the License is distributed on an &quot;AS IS&quot; basis,
+WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+for the specific language governing rights and limitations under the
+License.
+   </license>
+
+   <url>
+      <discovery label="Javassist" url="https://github.com/jboss-javassist/javassist/releases"/>
+   </url>
+
+   <plugin
+         id="net.openchrom.thirdpartylibraries.javassist"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
