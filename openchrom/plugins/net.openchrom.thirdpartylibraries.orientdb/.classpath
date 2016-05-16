@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry exported="true" kind="lib" path="libraries/orientdb-client-2.1.16.jar"/>
-	<classpathentry exported="true" kind="lib" path="libraries/orientdb-core-2.1.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/orientdb-core-2.1.16.jar" sourcepath="sources/orientdb-2.1.16.zip"/>
 	<classpathentry exported="true" kind="lib" path="libraries/orientdb-enterprise-2.1.16.jar"/>
 	<classpathentry exported="true" kind="lib" path="libraries/orientdb-object-2.1.16.jar"/>
 	<classpathentry exported="true" kind="lib" path="libraries/orientdb-server-2.1.16.jar"/>
