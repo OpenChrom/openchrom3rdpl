@@ -36,9 +36,6 @@
    <feature url="features/net.openchrom.thirdpartylibraries.pdfjet.feature_2.81.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.pdfjet.feature" version="2.81.0.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.supercsv.feature_1.52.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.supercsv.feature" version="1.52.0.qualifier">
-      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.jogl.feature_2.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jogl.feature" version="2.0.0.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
@@ -67,6 +64,9 @@
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.javassist.feature_3.20.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.javassist.feature" version="3.20.0.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.supercsv.feature_2.4.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.supercsv.feature" version="2.4.0.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
    <category-def name="org.eclipse.chemclipse.thirdpartylibraries" label="Third Party Libraries">
