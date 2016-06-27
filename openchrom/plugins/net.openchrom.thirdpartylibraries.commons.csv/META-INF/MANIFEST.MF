@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons CSV
+Bundle-SymbolicName: net.openchrom.thirdpartylibraries.commons.csv
+Bundle-Version: 1.4.0.qualifier
+Bundle-Activator: net.openchrom.thirdpartylibraries.commons.csv.Activator
+Bundle-Vendor: OpenChrom
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: libraries/commons-csv-1.4.jar,
+ .
+Export-Package: org.apache.commons.csv

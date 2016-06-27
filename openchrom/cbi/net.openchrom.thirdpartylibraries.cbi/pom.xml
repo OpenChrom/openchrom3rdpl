@@ -85,10 +85,38 @@
       <comments>Javassist 3.20.0 (https://github.com/jboss-javassist/javassist/releases)</comments>
       <name>MPL v1.1</name>
       <url>https://www.mozilla.org/MPL/1.1</url>
+    </license>
+    <license>
+      <comments>Jython 2.7.0 (http://www.jython.org)</comments>
+      <name>Python Software Foundation License v2.0</name>
+      <url>http://opensource.org/licenses/Python-2.0</url> 
+    </license>
+    <license>
+      <comments>Apache Commons CSV 1.4.0 (https://commons.apache.org/proper/commons-csv)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>            
+    <!--
+	  Plug-ins that are part of extras feature.
+    -->
+    <license>
+      <comments>CDK (https://sourceforge.net/projects/cdk)</comments>
+      <name>LGPL v2.1</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>  
+    </license>
+    <license>
+      <comments>BioJava 4.2.2 (http://www.biojava.org)</comments>
+      <name>LGPL v2.1</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
+    </license>     
+    <license>
+      <comments>Jmol 13.0.8 (http://jmol.sourceforge.net)</comments>
+      <name>LGPL v2.1</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
     </license>    
     <!--
 	  Plug-ins that are not part of compilation.
-    -->
+    -->        
     <license>
       <comments>ODFDOM 0.8.7 (http://odftoolkit.org/projects/odfdom)</comments>
       <name>Apache License v2.0</name>
@@ -98,11 +126,6 @@
       <comments>Barcode4J 2.1.0 (http://barcode4j.sourceforge.net)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
-      <comments>CDK (https://sourceforge.net/projects/cdk)</comments>
-      <name>LGPL v2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>  
     </license>
     <license>
       <comments>OPSIN (http://opsin.ch.cam.ac.uk)</comments>
@@ -123,21 +146,6 @@
       <comments>Matlabcontrol 4.1.0 (http://code.google.com/p/matlabcontrol)</comments>
       <name>BSD License</name>
       <url>http://opensource.org/licenses/BSD-3-Clause</url>
-    </license>
-    <license>
-      <comments>BioJava 4.2.2 (http://www.biojava.org)</comments>
-      <name>LGPL v2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
-    </license>     
-    <license>
-      <comments>Jmol 13.0.8 (http://jmol.sourceforge.net)</comments>
-      <name>LGPL v2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
-    </license>
-    <license>
-      <comments>Jython 2.7.0 (http://www.jython.org)</comments>
-      <name>Python Software Foundation License v2.0</name>
-      <url>http://opensource.org/licenses/Python-2.0</url> 
     </license>
     <license>
       <comments>Apache PDFBox 1.8.7 (https://pdfbox.apache.org)</comments>
@@ -178,6 +186,9 @@
     <!-- SuperCSV -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.supercsv</module>
     <module>../../features/net.openchrom.thirdpartylibraries.supercsv.feature</module>
+    <!-- Commons CSV -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.commons.csv</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.commons.csv.feature</module>    
     <!-- JOGL -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl</module>
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.linux.x86</module>

@@ -291,3 +291,7 @@ openchrom/plugins/net.openchrom.thirdpartylibraries.pdfbox/bin/
 openchrom/features/net.openchrom.thirdpartylibraries.pdfbox.feature/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.pdfbox/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.pdfbox.updateSite/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.commons.csv/bin/
+openchrom/features/net.openchrom.thirdpartylibraries.commons.csv.feature/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.commons.csv/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.commons.csv.updateSite/target/
