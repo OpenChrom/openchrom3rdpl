@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.openchrom.thirdpartylibraries.jettison.feature"
+      label="Jettison"
+      version="1.1.0.qualifier"
+      provider-name="OpenChrom">
+
+   <description url="https://www.openchrom.net">
+	This feature encapsulates the following libraries:
+Jettison https://github.com/codehaus/jettison 1.1.0
+Apache License v2.0
+   </description>
+
+   <copyright url="https://www.openchrom.net">
+	This feature encapsulates the following libraries:
+Jettison https://github.com/codehaus/jettison 1.1.0
+Apache License v2.0
+   </copyright>
+
+   <license url="https://www.openchrom.net">
+      Copyright (c) 2016 Lablicate GmbH.
+ 
+This feature encapsulates the following libraries:
+Jettison https://github.com/codehaus/jettison 1.1.0
+Apache License v2.0
+*
+Licensed to the Apache
+Software Foundation (ASF) under one or more contributor license
+agreements.
+See the NOTICE file distributed with this work for additional
+information
+regarding copyright ownership. The ASF licenses this file to
+You under the
+Apache License, Version 2.0 (the &quot;License&quot;); you may not use
+this file except
+in compliance with the License. You may obtain a copy of the
+License at
+http://www.apache.org/licenses/LICENSE-2.0 Unless required
+by applicable law
+or agreed to in writing, software distributed under the License
+is
+distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS
+OF ANY
+KIND, either express or implied. See the License for the specific
+language
+governing permissions and limitations under the License.
+   </license>
+
+   <url>
+      <discovery label="Jettison" url="https://github.com/codehaus/jettison"/>
+   </url>
+
+   <plugin
+         id="net.openchrom.thirdpartylibraries.jettison"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

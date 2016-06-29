@@ -95,7 +95,12 @@
       <comments>Apache Commons CSV 1.4.0 (https://commons.apache.org/proper/commons-csv)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>            
+    </license>   
+    <license>
+      <comments>Jettison 1.1.0 (https://github.com/codehaus/jettison)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>             
     <!--
 	  Plug-ins that are part of extras feature.
     -->
@@ -245,7 +250,10 @@
     <module>../../features/net.openchrom.thirdpartylibraries.concurrentlinkedhashmap.feature</module>
     <!-- Javassist -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.javassist</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.javassist.feature</module>          
+    <module>../../features/net.openchrom.thirdpartylibraries.javassist.feature</module>  
+    <!-- Jettison -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jettison</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.jettison.feature</module>    
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
