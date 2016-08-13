@@ -1,11 +1,14 @@
 Manifest-Version: 1.0
+Eclipse-BuddyPolicy: registered
 Bundle-ManifestVersion: 2
 Bundle-Name: Biojava
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.biojava
 Bundle-Version: 4.2.4.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.biojava.Activator
 Bundle-Vendor: ChemClipse
-Require-Bundle: org.eclipse.core.runtime
+Require-Bundle: org.eclipse.core.runtime,
+ org.apache.log4j;bundle-version="1.2.15",
+ org.slf4j.api;bundle-version="1.7.2"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
@@ -72,6 +75,7 @@ Export-Package: org.biojava.nbio.aaproperties,
  org.biojava.nbio.protmod.io,
  org.biojava.nbio.protmod.structure,
  org.biojava.nbio.ronn,
+ org.biojava.nbio.sequencing.io.fastq,
  org.biojava.nbio.structure,
  org.biojava.nbio.structure.align,
  org.biojava.nbio.structure.align.ce,
