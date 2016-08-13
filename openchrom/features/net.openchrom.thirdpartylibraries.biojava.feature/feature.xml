@@ -2,24 +2,24 @@
 <feature
       id="net.openchrom.thirdpartylibraries.biojava.feature"
       label="BioJava"
-      version="4.2.2.qualifier"
+      version="4.2.4.qualifier"
       provider-name="ChemClipse">
 
    <description url="http://thirdpartylibraries.chemclipse.net/biojava">
       This feature encapsulates the following libraries:
-BioJava http://www.biojava.org 4.2.2 LGPL v2.1
+BioJava http://www.biojava.org 4.2.4 LGPL v2.1
    </description>
 
    <copyright url="http://www.biojava.org">
       This feature encapsulates the following libraries:
-BioJava http://www.biojava.org 4.2.2 LGPL v2.1
+BioJava http://www.biojava.org 4.2.4 LGPL v2.1
    </copyright>
 
    <license url="http://www.gnu.org/licenses/lgpl-2.1.html">
       Copyright (c) 2013, 2016 Dr. Philip Wenig.
 
       This feature encapsulates the following libraries:
-BioJava http://www.biojava.org 4.2.2 LGPL v2.1
+BioJava http://www.biojava.org 4.2.4 LGPL v2.1
 
 This library is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
