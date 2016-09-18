@@ -157,6 +157,11 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
+    <license>
+      <comments>JHDF5 14.12.6 (https://wiki-bsse.ethz.ch/pages/viewpage.action?pageId=26609113)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
   </licenses> 
   <!--
 	DEVELOPERS
@@ -253,7 +258,10 @@
     <module>../../features/net.openchrom.thirdpartylibraries.javassist.feature</module>  
     <!-- Jettison -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jettison</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.jettison.feature</module>    
+    <module>../../features/net.openchrom.thirdpartylibraries.jettison.feature</module>
+    <!-- JHDF5 -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jhdf5</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.jhdf5.feature</module>    
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
