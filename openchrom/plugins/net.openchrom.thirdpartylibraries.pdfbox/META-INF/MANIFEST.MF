@@ -4,7 +4,7 @@ Bundle-Name: Apache PDFBox
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.pdfbox
 Bundle-Version: 1.8.7.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.pdfbox.Activator
-Bundle-Vendor: Lablicate UG (haftungsbeschränkt)
+Bundle-Vendor: Lablicate GmbH
 Require-Bundle: org.eclipse.core.runtime,
  org.apache.commons.logging;bundle-version="1.1.1"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2015, 2016 Lablicate UG (haftungsbeschränkt).
+ * Copyright (c) 2015, 2016 Lablicate GmbH.
  * 
  * All Rights Reserved.
  * The contents of this file are subject to the Mozilla Public License Version
