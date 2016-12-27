@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2013, 2016 Dr. Philip Wenig.
+ * Copyright (c) 2013, 2016 Lablicate GmbH.
  * 
  * This library is free
  * software; you can redistribute it and/or modify it under the terms of the GNU

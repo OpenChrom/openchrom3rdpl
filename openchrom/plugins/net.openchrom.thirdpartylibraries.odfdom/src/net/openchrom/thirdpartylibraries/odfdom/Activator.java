@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2011, 2016 Dr. Philip Wenig.
+ * Copyright (c) 2011, 2016 Lablicate GmbH.
  * 
  * Licensed to the Apache
  * Software Foundation (ASF) under one or more contributor license agreements.
