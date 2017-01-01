@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2013, 2016 Lablicate GmbH.
+ * Copyright (c) 2013, 2017 Lablicate GmbH.
  * 
  * Artistic License 2.0
  * Copyright (c) 2000-2006, The Perl Foundation.

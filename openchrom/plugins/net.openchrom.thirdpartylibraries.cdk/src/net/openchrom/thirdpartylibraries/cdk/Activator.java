@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2013, 2016 Dr. Philip Wenig, Marwin Wollschläger.
+ * Copyright (c) 2013, 2017 Dr. Philip Wenig, Marwin Wollschläger.
  * 
  * This library is free
  * software; you can redistribute it and/or modify it under the terms of the GNU

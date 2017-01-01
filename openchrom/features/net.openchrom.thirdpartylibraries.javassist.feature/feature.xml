@@ -18,7 +18,7 @@ v1.1
    </copyright>
 
    <license url="http://www.openchrom.net">
-      Copyright (c) 2016 Lablicate GmbH.
+      Copyright (c) 2016, 2017 Lablicate GmbH.
  
       This feature encapsulates the following libraries:
 Javassist https://github.com/jboss-javassist/javassist/releases 3.20.0 MPL

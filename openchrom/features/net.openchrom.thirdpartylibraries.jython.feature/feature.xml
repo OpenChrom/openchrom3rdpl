@@ -16,7 +16,7 @@ Jython http://www.jython.org 2.7.0 Python Software Foundation License v2.0
    </copyright>
 
    <license url="http://opensource.org/licenses/Python-2.0">
-      Copyright (c) 2015, 2016 Lablicate GmbH.
+      Copyright (c) 2015, 2017 Lablicate GmbH.
  * PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2
  * 1. This LICENSE AGREEMENT is between the Python Software Foundation ("PSF"), and the Individual or Organization ("Licensee") accessing and otherwise using this software ("Jython") in source or binary form and its associated documentation.
  * 2. Subject to the terms and conditions of this License Agreement, PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Jython alone or in any derivative version, provided, however, that PSF's License Agreement and PSF's notice of copyright, i.e., "Copyright (c) 2007 Python Software Foundation; All Rights Reserved" are retained in Jython alone or in any

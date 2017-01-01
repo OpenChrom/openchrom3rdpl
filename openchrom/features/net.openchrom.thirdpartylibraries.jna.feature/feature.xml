@@ -19,7 +19,7 @@ v2.0
    </copyright>
 
    <license url="http://www.openchrom.net">
-      Copyright (c) 2016 Lablicate GmbH.
+      Copyright (c) 2016, 2017 Lablicate GmbH.
  
 This feature encapsulates the following libraries:
 JNA https://github.com/java-native-access/jna 4.2.2
