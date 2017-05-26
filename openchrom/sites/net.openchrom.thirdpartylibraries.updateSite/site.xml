@@ -78,6 +78,9 @@
    <feature url="features/net.openchrom.thirdpartylibraries.jhdf5.feature_14.12.6.qualifier.jar" id="net.openchrom.thirdpartylibraries.jhdf5.feature" version="14.12.6.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.rserve.feature_1.8.5.qualifier.jar" id="net.openchrom.thirdpartylibraries.rserve.feature" version="1.8.5.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
    <category-def name="org.eclipse.chemclipse.thirdpartylibraries" label="Third Party Libraries">
       <description>
          Several third party libraries, distributed under different open source licenses.

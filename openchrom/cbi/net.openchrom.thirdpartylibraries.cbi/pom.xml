@@ -118,7 +118,7 @@
       <comments>Jmol 13.0.8 (http://jmol.sourceforge.net)</comments>
       <name>LGPL v2.1</name>
       <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
-    </license>    
+    </license>  
     <!--
 	  Plug-ins that are not part of compilation.
     -->        
@@ -162,7 +162,15 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
-  </licenses> 
+    <!--
+	  DON'T BUNDLE -> GPL, AGPL
+    -->    
+    <license>
+      <comments>Rserve 1.8.5 (https://www.rforge.net/Rserve)</comments>
+      <name>GPL v2.0</name>
+      <url>http://www.gnu.org/licenses/gpl-2.0.html</url> 
+    </license>       
+  </licenses>    
   <!--
 	DEVELOPERS
   -->
@@ -261,7 +269,10 @@
     <module>../../features/net.openchrom.thirdpartylibraries.jettison.feature</module>
     <!-- JHDF5 -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jhdf5</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.jhdf5.feature</module>    
+    <module>../../features/net.openchrom.thirdpartylibraries.jhdf5.feature</module>
+    <!-- JHDF5 -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.rserve</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.rserve.feature</module>    
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>

@@ -299,3 +299,7 @@ openchrom/plugins/net.openchrom.thirdpartylibraries.jettison/bin/
 openchrom/features/net.openchrom.thirdpartylibraries.jettison.feature/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.jettison/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.jettison.updateSite/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.rserve/bin/
+openchrom/features/net.openchrom.thirdpartylibraries.rserve.feature/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.rserve/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.rserve.updateSite/target/
