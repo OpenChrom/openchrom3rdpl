@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Apache PDFBox
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.pdfbox
-Bundle-Version: 2.0.4.qualifier
+Bundle-Version: 2.0.6.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.pdfbox.Activator
 Bundle-Vendor: Lablicate GmbH
 Require-Bundle: org.eclipse.core.runtime,
@@ -10,10 +10,10 @@ Require-Bundle: org.eclipse.core.runtime,
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
- libraries/fontbox-2.0.4.jar,
- libraries/pdfbox-2.0.4.jar,
- libraries/preflight-2.0.4.jar,
- libraries/xmpbox-2.0.4.jar
+ libraries/fontbox-2.0.6.jar,
+ libraries/pdfbox-2.0.6.jar,
+ libraries/preflight-2.0.6.jar,
+ libraries/xmpbox-2.0.6.jar
 Export-Package: org.apache.fontbox,
  org.apache.fontbox.afm,
  org.apache.fontbox.cff,

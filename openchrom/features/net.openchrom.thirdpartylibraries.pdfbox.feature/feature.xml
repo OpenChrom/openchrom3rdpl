@@ -2,18 +2,18 @@
 <feature
       id="net.openchrom.thirdpartylibraries.pdfbox.feature"
       label="Apache PDFBox"
-      version="2.0.4.qualifier"
+      version="2.0.6.qualifier"
       provider-name="Lablicate GmbH">
 
    <description url="https://www.openchrom.net">
       This feature encapsulates the following libraries:
-Apache PDFBox https://pdfbox.apache.org 2.0.4
+Apache PDFBox https://pdfbox.apache.org 2.0.6
 Apache License v2.0
    </description>
 
    <copyright url="https://www.openchrom.net">
       This feature encapsulates the following libraries:
-Apache PDFBox https://pdfbox.apache.org 2.0.4
+Apache PDFBox https://pdfbox.apache.org 2.0.6
 Apache License v2.0
    </copyright>
 
@@ -21,7 +21,7 @@ Apache License v2.0
       Copyright (c) 2014, 2017 Lablicate GmbH.
  
 This feature encapsulates the following libraries:
-Apache PDFBox https://pdfbox.apache.org 2.0.4
+Apache PDFBox https://pdfbox.apache.org 2.0.6
 Apache License v2.0
 *
 Licensed to the Apache
