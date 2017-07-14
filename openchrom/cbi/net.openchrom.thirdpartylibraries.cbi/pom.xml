@@ -92,11 +92,6 @@
       <url>http://opensource.org/licenses/Python-2.0</url> 
     </license>
     <license>
-      <comments>Apache Commons CSV 1.4.0 (https://commons.apache.org/proper/commons-csv)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>   
-    <license>
       <comments>Jettison 1.1.0 (https://github.com/codehaus/jettison)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -204,9 +199,6 @@
     <!-- SuperCSV -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.supercsv</module>
     <module>../../features/net.openchrom.thirdpartylibraries.supercsv.feature</module>
-    <!-- Commons CSV -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.commons.csv</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.commons.csv.feature</module>    
     <!-- JOGL -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl</module>
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.linux.x86</module>
