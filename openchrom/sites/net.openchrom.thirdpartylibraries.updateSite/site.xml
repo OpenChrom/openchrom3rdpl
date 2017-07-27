@@ -78,6 +78,12 @@
    <feature url="features/net.openchrom.thirdpartylibraries.rserve.feature_1.8.5.qualifier.jar" id="net.openchrom.thirdpartylibraries.rserve.feature" version="1.8.5.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.easymock.feature_3.4.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.easymock.feature" version="3.4.0.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.mockito.feature_2.0.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.mockito.feature" version="2.0.2.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
    <category-def name="org.eclipse.chemclipse.thirdpartylibraries" label="Third Party Libraries">
       <description>
          Several third party libraries, distributed under different open source licenses.

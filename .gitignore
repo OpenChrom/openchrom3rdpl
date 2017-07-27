@@ -303,3 +303,11 @@ openchrom/plugins/net.openchrom.thirdpartylibraries.rserve/bin/
 openchrom/features/net.openchrom.thirdpartylibraries.rserve.feature/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.rserve/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.rserve.updateSite/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.easymock/bin/
+openchrom/features/net.openchrom.thirdpartylibraries.easymock.feature/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.easymock/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.easymock.updateSite/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.mockito/bin/
+openchrom/features/net.openchrom.thirdpartylibraries.mockito.feature/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.mockito/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.mockito.updateSite/target/

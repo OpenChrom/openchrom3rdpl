@@ -157,6 +157,18 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
+    
+    <license>
+      <comments>EasyMock 3.4.0 (http://easymock.org)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>Mockito 2.0.2 (https://github.com/mockito)</comments>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url> 
+    </license>        
+    
     <!--
 	  DON'T BUNDLE -> GPL, AGPL
     -->    
@@ -262,9 +274,15 @@
     <!-- JHDF5 -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jhdf5</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jhdf5.feature</module>
-    <!-- JHDF5 -->
+    <!-- RServe -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.rserve</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.rserve.feature</module>    
+    <module>../../features/net.openchrom.thirdpartylibraries.rserve.feature</module> 
+    <!-- EasyMock -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.easymock</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.easymock.feature</module> 
+    <!-- Mockito -->
+    <module>../../plugins/ net.openchrom.thirdpartylibraries.mockito</module>
+    <module>../../features/ net.openchrom.thirdpartylibraries.mockito.feature</module> 
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
