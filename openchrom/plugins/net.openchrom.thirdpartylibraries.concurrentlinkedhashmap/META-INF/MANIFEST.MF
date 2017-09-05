@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Concurrentlinkedhashmap
+Bundle-SymbolicName: net.openchrom.thirdpartylibraries.concurrentlinkedhashmap
+Bundle-Version: 1.4.1.qualifier
+Bundle-Activator: net.openchrom.thirdpartylibraries.concurrentlinkedhashmap.Activator
+Bundle-Vendor: OpenChrom
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: libraries/concurrentlinkedhashmap-lru-1.4.1.jar,
+ .
+Export-Package: com.googlecode.concurrentlinkedhashmap

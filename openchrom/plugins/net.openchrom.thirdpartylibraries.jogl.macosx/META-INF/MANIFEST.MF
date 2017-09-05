@@ -5,5 +5,5 @@ Bundle-NativeCode: libraries/libgluegen-rt.jnilib; libraries/libjogl_desktop.jni
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.jogl.macosx
 Bundle-Version: 2.0.0.qualifier
 Fragment-Host: net.openchrom.thirdpartylibraries.jogl;bundle-version="0.9.1"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Vendor: OpenChrom

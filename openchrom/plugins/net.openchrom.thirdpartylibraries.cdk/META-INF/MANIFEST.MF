@@ -7,7 +7,7 @@ Bundle-Version: 1.4.19.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.cdk.Activator
 Bundle-Vendor: ChemClipse
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
  libraries/cdk-1.4.19.jar

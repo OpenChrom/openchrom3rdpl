@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Eclipse-BuddyPolicy: registered
+Bundle-ManifestVersion: 2
+Bundle-Name: Rserve
+Bundle-SymbolicName: net.openchrom.thirdpartylibraries.rserve
+Bundle-Version: 1.8.5.qualifier
+Bundle-Activator: net.openchrom.thirdpartylibraries.rserve.Activator
+Bundle-Vendor: OpenChrom
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ libraries/REngine.jar,
+ libraries/Rserve.jar
+Export-Package: org.rosuda.REngine,
+ org.rosuda.REngine.Rserve,
+ org.rosuda.REngine.Rserve.protocol

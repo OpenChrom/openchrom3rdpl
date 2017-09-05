@@ -6,7 +6,7 @@ Bundle-Version: 1.0.4.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.lzf.Activator
 Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/compress-lzf-1.0.4.jar,
  .
