@@ -311,3 +311,7 @@ openchrom/plugins/net.openchrom.thirdpartylibraries.mockito/bin/
 openchrom/features/net.openchrom.thirdpartylibraries.mockito.feature/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.mockito/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.mockito.updateSite/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.vectorgraphics2d/bin/
+openchrom/features/net.openchrom.thirdpartylibraries.vectorgraphics2d.feature/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.vectorgraphics2d/target/
+openchrom/sites/net.openchrom.thirdpartylibraries.vectorgraphics2d.updateSite/target/

@@ -113,7 +113,12 @@
       <comments>Jmol 13.0.8 (http://jmol.sourceforge.net)</comments>
       <name>LGPL v2.1</name>
       <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
-    </license>  
+    </license>
+    <license>
+      <comments>VectorGraphics 0.13.0 (https://github.com/eseifert/vectorgraphics2d)</comments>
+      <name>LGPL v3.0</name>
+      <url>http://www.gnu.org/licenses/lgpl-3.0.html</url> 
+    </license>      
     <!--
 	  Plug-ins that are not part of compilation.
     -->        
