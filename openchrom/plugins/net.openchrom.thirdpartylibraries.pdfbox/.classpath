@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry exported="true" kind="lib" path="libraries/fontbox-2.0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="libraries/fontbox-2.0.6.jar" sourcepath="/tmp/.org.sf.feeling.decompiler1505810871103/source/fontbox-2.0.6-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="libraries/pdfbox-2.0.6.jar"/>
 	<classpathentry exported="true" kind="lib" path="libraries/preflight-2.0.6.jar"/>
 	<classpathentry exported="true" kind="lib" path="libraries/xmpbox-2.0.6.jar"/>
