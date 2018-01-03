@@ -2,7 +2,7 @@
 <feature
       id="net.openchrom.thirdpartylibraries.jzy3d.feature"
       label="Feature"
-      version="0.9.1.qualifier"
+      version="1.0.1.qualifier"
       provider-name="OpenChrom">
 
    <description url="http://www.openchrom.net">
