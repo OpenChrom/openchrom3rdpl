@@ -39,7 +39,7 @@
    <feature url="features/net.openchrom.thirdpartylibraries.jogl.feature_2.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jogl.feature" version="2.0.0.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.jzy3d.feature_1.0.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.jzy3d.feature" version="0.9.1.qualifier">
+   <feature url="features/net.openchrom.thirdpartylibraries.jzy3d.feature_1.0.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.jzy3d.feature" version="1.0.1.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.lzf.feature_1.0.4.qualifier.jar" id="net.openchrom.thirdpartylibraries.lzf.feature" version="1.0.4.qualifier">

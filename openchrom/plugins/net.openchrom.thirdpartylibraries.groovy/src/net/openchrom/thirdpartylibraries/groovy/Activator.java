@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2012, 2017 Lablicate GmbH.
+ * Copyright (c) 2012, 2018 Lablicate GmbH.
  * 
  * Licensed to the Apache
  * Software Foundation (ASF) under one or more contributor license agreements.
