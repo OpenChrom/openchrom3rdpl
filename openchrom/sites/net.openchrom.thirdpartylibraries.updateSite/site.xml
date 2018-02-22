@@ -87,6 +87,9 @@
    <feature url="features/net.openchrom.thirdpartylibraries.vectorgraphics2d.feature_0.13.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.vectorgraphics2d.feature" version="0.13.0.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.xzing.feature_3.3.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.xzing.feature" version="3.3.2.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
    <category-def name="org.eclipse.chemclipse.thirdpartylibraries" label="Third Party Libraries">
       <description>
          Several third party libraries, distributed under different open source licenses.

@@ -153,6 +153,10 @@ chemclipse/features/net.openchrom.thirdpartylibraries.imagej.feature/target/
 chemclipse/sites/net.openchrom.thirdpartylibraries.imagej.updateSite/plugins/
 chemclipse/plugins/net.openchrom.thirdpartylibraries.imagej/target/
 chemclipse/plugins/net.openchrom.thirdpartylibraries.imagej/bin/*
+chemclipse/features/net.openchrom.thirdpartylibraries.xzing.feature/target/
+chemclipse/sites/net.openchrom.thirdpartylibraries.xzing.updateSite/plugins/
+chemclipse/plugins/net.openchrom.thirdpartylibraries.xzing/target/
+chemclipse/plugins/net.openchrom.thirdpartylibraries.xzing/bin/*
 chemclipse/features/net.openchrom.thirdpartylibraries.matlabcontrol.feature/target/
 chemclipse/sites/net.openchrom.thirdpartylibraries.matlabcontrol.updateSite/plugins/
 chemclipse/plugins/net.openchrom.thirdpartylibraries.matlabcontrol/target/
