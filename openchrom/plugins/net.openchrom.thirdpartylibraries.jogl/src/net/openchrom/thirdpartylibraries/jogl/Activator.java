@@ -24,7 +24,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *******************************************************************************/
-package net.openchrom.thirdpartylibraries.jzy3d;
+package net.openchrom.thirdpartylibraries.jogl;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
