@@ -36,12 +36,6 @@
    <feature url="features/net.openchrom.thirdpartylibraries.pdfjet.feature_2.81.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.pdfjet.feature" version="2.81.0.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.jogl.feature_2.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jogl.feature" version="2.0.0.qualifier">
-      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.jzy3d.feature_1.0.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.jzy3d.feature" version="1.0.1.qualifier">
-      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.lzf.feature_1.0.4.qualifier.jar" id="net.openchrom.thirdpartylibraries.lzf.feature" version="1.0.4.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
@@ -88,6 +82,12 @@
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.xzing.feature_3.3.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.xzing.feature" version="3.3.2.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.jogl.feature_2.4.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jogl.feature" version="2.4.0.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.jzy3d.feature_1.0.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.jzy3d.feature" version="1.0.2.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
    <category-def name="org.eclipse.chemclipse.thirdpartylibraries" label="Third Party Libraries">
