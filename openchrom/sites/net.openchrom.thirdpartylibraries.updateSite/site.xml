@@ -60,9 +60,6 @@
    <feature url="features/net.openchrom.thirdpartylibraries.javassist.feature_3.20.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.javassist.feature" version="3.20.0.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.supercsv.feature_2.4.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.supercsv.feature" version="2.4.0.qualifier">
-      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.jettison.feature_1.1.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jettison.feature" version="1.1.0.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>

@@ -47,11 +47,6 @@
       <url>http://pdfjet.com/os/download.html</url>
     </license>
     <license>
-      <comments>SuperCSV 2.4.0 (http://supercsv.sourceforge.net)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
       <comments>JOGL 2.0.0 (http://jogamp.org/jogl/www)</comments>
       <name>BSD License</name>
       <url>http://opensource.org/licenses/BSD-2-Clause</url>
@@ -218,9 +213,6 @@
     <!-- PDFJet -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.pdfjet</module>
     <module>../../features/net.openchrom.thirdpartylibraries.pdfjet.feature</module>
-    <!-- SuperCSV -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.supercsv</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.supercsv.feature</module>
     <!-- JOGL -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl</module>
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.linux.x86</module>
