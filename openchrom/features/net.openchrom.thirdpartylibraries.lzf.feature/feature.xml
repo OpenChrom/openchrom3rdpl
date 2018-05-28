@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="net.openchrom.thirdpartylibraries.lzf.feature"
-      label="Feature"
+      label="LZF Compression"
       version="1.0.4.qualifier"
       provider-name="OpenChrom">
 

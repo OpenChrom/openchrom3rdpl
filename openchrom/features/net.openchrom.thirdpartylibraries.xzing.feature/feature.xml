@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="net.openchrom.thirdpartylibraries.xzing.feature"
-      label="Feature"
+      label="XZING"
       version="3.3.2.qualifier"
       provider-name="OpenChrom">
 

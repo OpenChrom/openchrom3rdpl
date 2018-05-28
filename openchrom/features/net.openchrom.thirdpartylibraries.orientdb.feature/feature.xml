@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="net.openchrom.thirdpartylibraries.orientdb.feature"
-      label="Feature"
+      label="OrientDB"
       version="2.1.16.qualifier"
       provider-name="OpenChrom">
 

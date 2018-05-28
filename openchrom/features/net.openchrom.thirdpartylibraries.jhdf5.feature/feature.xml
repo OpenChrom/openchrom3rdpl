@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="net.openchrom.thirdpartylibraries.jhdf5.feature"
-      label="Feature"
+      label="JHDF5"
       version="14.12.6.qualifier"
       provider-name="OpenChrom">
 

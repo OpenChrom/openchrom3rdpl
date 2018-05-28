@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="net.openchrom.thirdpartylibraries.jna.feature"
-      label="Feature"
+      label="JNA"
       version="4.2.2.qualifier"
       provider-name="OpenChrom">
 

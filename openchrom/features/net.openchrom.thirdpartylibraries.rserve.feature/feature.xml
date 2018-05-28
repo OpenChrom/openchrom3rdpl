@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="net.openchrom.thirdpartylibraries.rserve.feature"
-      label="Feature"
+      label="RServe"
       version="1.8.5.qualifier"
       provider-name="OpenChrom">
 

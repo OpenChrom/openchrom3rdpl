@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="net.openchrom.thirdpartylibraries.jogl.feature"
-      label="Feature"
+      label="JOGL"
       version="2.4.0.qualifier"
       provider-name="OpenChrom">
 

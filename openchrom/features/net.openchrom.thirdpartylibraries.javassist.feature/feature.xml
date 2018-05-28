@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="net.openchrom.thirdpartylibraries.javassist.feature"
-      label="Feature"
+      label="Javassist"
       version="3.20.0.qualifier"
       provider-name="OpenChrom">
 
