@@ -153,11 +153,6 @@
       <url>http://opensource.org/licenses/BSD-3-Clause</url>
     </license>
     <license>
-      <comments>Apache PDFBox 2.0.6 (https://pdfbox.apache.org)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
       <comments>JHDF5 14.12.6 (https://wiki-bsse.ethz.ch/pages/viewpage.action?pageId=26609113)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -255,9 +250,6 @@
     <!-- Jython -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jython</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jython.feature</module>
-    <!-- PDFBox -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.pdfbox</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.pdfbox.feature</module>
     <!-- OrientDB -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.orientdb</module>
     <module>../../features/net.openchrom.thirdpartylibraries.orientdb.feature</module> 
