@@ -8,8 +8,6 @@ Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
-Bundle-ClassPath: libraries/VectorGraphics2D-0.13-22-ga104715.jar,
- .
 Export-Package: de.erichseifert.vectorgraphics2d,
  de.erichseifert.vectorgraphics2d.eps,
  de.erichseifert.vectorgraphics2d.intermediate,
