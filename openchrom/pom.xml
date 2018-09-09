@@ -140,19 +140,12 @@
           <archive>
             <addMavenDescriptor>false</addMavenDescriptor>
           </archive>
-        </configuration>
-      </plugin>
-      <!--
-	  The third party libraries don't change.
-	  Hence, use e.g. v2015 as a qualifier.
-	  If a library is updated it would change from e.g.:
-	  3.2.0.v2015 -> 3.2.1.v2015
-      --> 
-      <plugin>
-        <groupId>${tycho.groupid}</groupId>
-        <artifactId>tycho-packaging-plugin</artifactId>
-        <version>${tycho.version}</version>
-        <configuration>
+	      <!--
+		  The third party libraries don't change.
+		  Hence, use e.g. v2015 as a qualifier.
+		  If a library is updated it would change from e.g.:
+		  3.2.0.v2015 -> 3.2.1.v2015
+	      --> 
           <format>'v'yyyy</format>
         </configuration>
       </plugin>
