@@ -13,14 +13,15 @@ pipeline {
 
 		stage('build') {
 			steps {
-				sh 'mvn -B -Dmaven.repo.local=.repository -f openchrom/cbi/net.openchrom.thirdpartylibraries.cbi/pom.xml install'
+				sh 'mvn -B -Dmaven.repo.local=.repository -f openchrom/cbi/thirdpartylibraries.targetplatform/pom.xml clean install'
+				sh 'mvn -B -Dmaven.repo.local=.repository -f openchrom/cbi/net.openchrom.thirdpartylibraries.cbi/pom.xml clean install'
 			}
 		}
 		stage('deploy') {
 			when { branch 'develop' }
 			steps {
 				withCredentials([string(credentialsId: 'DEPLOY_HOST', variable: 'DEPLOY_HOST')]) {
-				    sh 'scp -r openchrom/sites/net.openchrom.thirdpartylibraries.updateSite/target/site/* '+"${DEPLOY_HOST}community/latest/3rdparty"
+				    sh 'scp -r openchrom/sites/net.openchrom.thirdpartylibraries.updateSite/target/repository/* '+"${DEPLOY_HOST}community/latest/3rdparty"
 				}
 			}
 		}
