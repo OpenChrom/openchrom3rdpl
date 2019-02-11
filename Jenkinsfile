@@ -21,7 +21,7 @@ pipeline {
 			when { branch 'develop' }
 			steps {
 				withCredentials([string(credentialsId: 'DEPLOY_HOST', variable: 'DEPLOY_HOST')]) {
-				    sh 'scp -r openchrom/sites/net.openchrom.thirdpartylibraries.updateSite/target/site/* '+"${DEPLOY_HOST}community/latest/3rdparty"
+				    sh 'scp -r openchrom/sites/net.openchrom.thirdpartylibraries.updateSite/target/repository/* '+"${DEPLOY_HOST}community/latest/3rdparty"
 				}
 			}
 		}
