@@ -196,6 +196,8 @@
 	MODULES
   -->
   <modules>
+  	<module>../../plugins</module>
+  	<module>../../features</module>
     <!-- NetCDF -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.netcdf</module>
     <module>../../features/net.openchrom.thirdpartylibraries.netcdf.feature</module>
