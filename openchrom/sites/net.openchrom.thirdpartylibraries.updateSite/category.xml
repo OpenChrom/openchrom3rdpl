@@ -81,6 +81,9 @@
    <feature url="features/net.openchrom.thirdpartylibraries.jzy3d.feature_1.0.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.jzy3d.feature" version="1.0.2.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.nd4j_1.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.nd4j" version="1.0.0.qualifier">
+      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
+   </feature>
    <category-def name="org.eclipse.chemclipse.thirdpartylibraries" label="ChemClipse Third Party Libraries">
       <description>
          This update site provides third party libraries.
