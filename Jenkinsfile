@@ -13,7 +13,8 @@ pipeline {
 
 		stage('build') {
 			steps {
-				sh 'mvn -B -Dmaven.repo.local=.repository -f openchrom/cbi/net.openchrom.thirdpartylibraries.cbi/pom.xml install'
+				sh 'mvn -B -Dmaven.repo.local=.repository -f openchrom/cbi/thirdpartylibraries.targetplatform/pom.xml clean install'
+				sh 'mvn -B -Dmaven.repo.local=.repository -f openchrom/cbi/net.openchrom.thirdpartylibraries.cbi/pom.xml clean install'
 			}
 		}
 		stage('deploy') {
