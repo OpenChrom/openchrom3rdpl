@@ -13,6 +13,6 @@
 		<groupId>net.openchrom</groupId>
 		<artifactId>master</artifactId>
 		<version>BUILD-VERSION</version>
-		<relativePath>../pom.xml</relativePath>
+		<relativePath>../../pom.xml</relativePath>
 	</parent>
 </project>
