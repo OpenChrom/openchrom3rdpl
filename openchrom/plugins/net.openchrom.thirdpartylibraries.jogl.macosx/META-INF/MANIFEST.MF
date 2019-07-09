@@ -7,3 +7,4 @@ Bundle-Version: 2.4.0.qualifier
 Fragment-Host: net.openchrom.thirdpartylibraries.jogl;bundle-version="0.9.1"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Vendor: OpenChrom
+Eclipse-BundleShape: dir
