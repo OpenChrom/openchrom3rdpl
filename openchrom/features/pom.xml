@@ -15,5 +15,6 @@
 
 	<modules>
 		<module>net.openchrom.thirdpartylibraries.nd4j</module>
+		<module>net.openchrom.thirdpartylibraries.jcampdx.feature</module>
 	</modules>
 </project>

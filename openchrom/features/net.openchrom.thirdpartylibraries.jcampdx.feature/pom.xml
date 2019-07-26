@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>net.openchrom</groupId>
+		<artifactId>net.openchrom.features.parent</artifactId>
+		<version>BUILD-VERSION</version>
+	</parent>
+
+	<artifactId>net.openchrom.thirdpartylibraries.jcampdx.feature</artifactId>
+	<version>0.9.5-SNAPSHOT</version>
+	<packaging>eclipse-feature</packaging>
+	<dependencies>
+		<dependency>
+			<artifactId>jcamp-dx</artifactId>
+			<groupId>com.github.fracpete</groupId>
+			<version>0.9.5-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>
