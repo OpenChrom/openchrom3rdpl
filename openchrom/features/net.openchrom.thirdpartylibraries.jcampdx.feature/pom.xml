@@ -15,7 +15,7 @@
 		<dependency>
 			<artifactId>jcamp-dx</artifactId>
 			<groupId>com.github.fracpete</groupId>
-			<version>0.9.5-SNAPSHOT</version>
+			<version>${jacamp-dx-version}</version>
 		</dependency>
 	</dependencies>
 </project>
