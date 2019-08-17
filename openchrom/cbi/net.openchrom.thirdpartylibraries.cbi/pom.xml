@@ -252,9 +252,6 @@
     <!-- Jython -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jython</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jython.feature</module>
-    <!-- OrientDB -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.orientdb</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.orientdb.feature</module> 
     <!-- JNA -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jna</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jna.feature</module>
