@@ -42,9 +42,6 @@
    <feature url="features/net.openchrom.thirdpartylibraries.jython.feature_2.7.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jython.feature" version="2.7.0.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.orientdb.feature_2.1.16.qualifier.jar" id="net.openchrom.thirdpartylibraries.orientdb.feature" version="2.1.16.qualifier">
-      <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.jna.feature_4.2.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.jna.feature" version="4.2.2.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
