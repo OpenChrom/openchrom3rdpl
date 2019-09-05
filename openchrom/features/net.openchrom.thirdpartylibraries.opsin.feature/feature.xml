@@ -2,8 +2,8 @@
 <feature
       id="net.openchrom.thirdpartylibraries.opsin.feature"
       label="OPSIN"
-      version="1.5.0.qualifier"
-      provider-name="ChemClipse">
+      version="2.4.0.qualifier"
+      provider-name="OpenChrom">
 
    <description url="http://www.chemclipse.net">
       This feature encapsulates the following libraries:
