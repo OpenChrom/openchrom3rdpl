@@ -1,16 +1,16 @@
 Manifest-Version: 1.0
 Eclipse-BuddyPolicy: registered
 Bundle-ManifestVersion: 2
-Bundle-Name: Opsin
+Bundle-Name: OPSIN
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.opsin
-Bundle-Version: 1.5.0.qualifier
+Bundle-Version: 2.4.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.opsin.Activator
-Bundle-Vendor: ChemClipse
+Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
-Bundle-ClassPath: libraries/opsin-1.5.0-jar-with-dependencies.jar,
- .
+Bundle-ClassPath: .,
+ libraries/opsin-2.4.0-jar-with-dependencies.jar
 Export-Package: dk.brics.automaton,
  net.sf.jnati,
  net.sf.jnati.config,
@@ -20,22 +20,6 @@ Export-Package: dk.brics.automaton,
  net.sf.jnati.deploy.resolver,
  net.sf.jnati.deploy.source,
  net.sf.jniinchi,
- nu.xom,
- nu.xom.canonical,
- nu.xom.converters,
- nu.xom.jaxen,
- nu.xom.jaxen.expr,
- nu.xom.jaxen.expr.iter,
- nu.xom.jaxen.function,
- nu.xom.jaxen.function.ext,
- nu.xom.jaxen.function.xslt,
- nu.xom.jaxen.saxpath,
- nu.xom.jaxen.saxpath.base,
- nu.xom.jaxen.saxpath.helpers,
- nu.xom.jaxen.util,
- nu.xom.tests,
- nu.xom.xinclude,
- nu.xom.xslt,
  org.apache.commons.cli,
  org.apache.commons.io,
  org.apache.commons.io.comparator,
@@ -63,5 +47,4 @@ Export-Package: dk.brics.automaton,
  org.apache.log4j.spi,
  org.apache.log4j.varia,
  org.apache.log4j.xml,
- org.w3c.dom,
  uk.ac.cam.ch.wwmm.opsin
