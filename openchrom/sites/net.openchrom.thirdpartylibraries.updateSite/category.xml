@@ -6,7 +6,7 @@
    <feature url="features/net.openchrom.thirdpartylibraries.biojava.feature_4.2.4.qualifier.jar" id="net.openchrom.thirdpartylibraries.biojava.feature" version="4.2.4.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.cdk.feature_1.4.19.qualifier.jar" id="net.openchrom.thirdpartylibraries.cdk.feature" version="1.4.19.qualifier">
+   <feature url="features/net.openchrom.thirdpartylibraries.cdk.feature_2.3.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.cdk.feature" version="2.3.0.qualifier">
       <category name="org.eclipse.chemclipse.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.groovy.feature_2.0.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.groovy.feature" version="2.0.2.qualifier">
