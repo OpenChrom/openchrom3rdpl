@@ -6,9 +6,6 @@
 	<name>Target Project</name>
 	<description>This contains the target definition used to build openchrom 3rpl</description>
 	<packaging>eclipse-target-definition</packaging>
-	<properties>
-		<tycho.version>1.1.0</tycho.version>
-	</properties>
 	<parent>
 		<groupId>net.openchrom</groupId>
 		<artifactId>master</artifactId>

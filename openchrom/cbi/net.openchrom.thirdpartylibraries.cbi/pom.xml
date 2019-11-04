@@ -196,6 +196,8 @@
 	MODULES
   -->
   <modules>
+  	<module>../thirdpartylibraries.targetplatform</module>
+<!--   	<module>../../../../jcamp-dx</module> -->
   	<module>../../plugins</module>
   	<module>../../features</module>
     <!-- NetCDF -->
