@@ -16,5 +16,6 @@
 	<modules>
 		<module>net.openchrom.thirdpartylibraries.nd4j</module>
 		<module>net.openchrom.thirdpartylibraries.jcampdx.feature</module>
+		<module>net.openchrom.thirdpartylibraries.jdbc.feature</module>
 	</modules>
 </project>

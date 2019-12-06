@@ -8,7 +8,7 @@
 		<version>BUILD-VERSION</version>
 	</parent>
 
-	<artifactId>net.openchrom.thirdpartylibraries.jcampdx.feature</artifactId>
-	<version>0.9.5-SNAPSHOT</version>
+	<artifactId>net.openchrom.thirdpartylibraries.jdbc.feature</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>eclipse-feature</packaging>
 </project>

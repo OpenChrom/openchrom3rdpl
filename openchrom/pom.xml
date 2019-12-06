@@ -23,7 +23,6 @@
 		<tycho.target.artifactId>thirdpartylibraries.targetplatform</tycho.target.artifactId>
 		<tycho.target.version>1.0.0-SNAPSHOT</tycho.target.version>
 		<skip.install>false</skip.install>
-	    <jacamp-dx-version>0.9.7-SNAPSHOT</jacamp-dx-version>
 	</properties>
 	<build>
 		<plugins>
@@ -72,4 +71,45 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.service.jdbc</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<artifactId>jcamp-dx</artifactId>
+			<groupId>com.github.fracpete</groupId>
+			<version>0.9.7-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>8.1.0.jre8-preview</version>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.200</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mariadb.jdbc</groupId>
+			<artifactId>mariadb-java-client</artifactId>
+			<version>2.5.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.2.8</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.18</version>
+		</dependency>
+
+
+	</dependencies>
+
 </project>
