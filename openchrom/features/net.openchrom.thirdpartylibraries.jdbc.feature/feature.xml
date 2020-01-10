@@ -7,17 +7,14 @@
 
    <description url="http://www.chemclipse.net">
       Copyright (c) 2019 Lablicate GmbH.
- 
 This feature encapsulates the following libraries:
-
 - H2 Database Engine: https://www.h2database.com
 - Microsoft JDBC-Treiber für SQL Server: https://docs.microsoft.com/de-de/sql/connect/jdbc/microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15
 - MariaDB Connector/J: https://mariadb.com/kb/en/library/mariadb-connector-j/
 - PostgreSQL JDBC Driver: https://jdbc.postgresql.org/
 - JDBC Driver for MySQL (Connector/J): https://www.mysql.com/de/products/connector/
-
+- Oracle-JDBC Wrapper: A wrapper that allows to drop in Oracle JDBC wich can be obtained from https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html
    </description>
-
 
    <plugin
          id="com.microsoft.sqlserver.mssql-jdbc"
@@ -25,34 +22,33 @@ This feature encapsulates the following libraries:
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
    <plugin
          id="org.osgi.service.jdbc"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
    <plugin
          id="com.h2database"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-<!-- Disabled because of https://github.com/MariaDB/mariadb-connector-j/pull/149	<plugin
-         id="org.mariadb.jdbc"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>  -->
-     <plugin
+
+   <plugin
          id="org.postgresql.jdbc42"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>      
-      <plugin
+         unpack="false"/>
+
+   <plugin
          id="com.mysql.cj"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>             
+         unpack="false"/>
+
 </feature>
