@@ -30,6 +30,7 @@ import org.osgi.util.tracker.ServiceTracker;
 
 public class OracleDataSourceFactoryActivator implements BundleActivator {
 
+	private static final String ORACLE_JDBC_LIB_PATH = "ORACLE_JDBC_LIB_PATH";
 	private OracleDataSourceFactory oracleDataSourceFactory;
 
 	/*
@@ -41,7 +42,7 @@ public class OracleDataSourceFactoryActivator implements BundleActivator {
 
 		ServiceTracker<LogService, LogService> tracker = new ServiceTracker<>(bundleContext, LogService.class, null);
 		try {
-			File dataFile = bundleContext.getDataFile("");
+			File dataFile = getLibPath(bundleContext);
 			log(tracker, LogService.LOG_INFO, "Searching for Oracle JDBC libraries @ " + dataFile.getAbsolutePath());
 			List<URL> urls = new ArrayList<>();
 			if(dataFile.isDirectory()) {
@@ -65,7 +66,7 @@ public class OracleDataSourceFactoryActivator implements BundleActivator {
 				properties.put(DataSourceFactory.OSGI_JDBC_DRIVER_CLASS, driver.getClass().getName());
 				properties.put(DataSourceFactory.OSGI_JDBC_DRIVER_NAME, driver.getClass().getSimpleName());
 				properties.put(DataSourceFactory.OSGI_JDBC_DRIVER_VERSION, driver.getMajorVersion() + "." + driver.getMinorVersion());
-				log(tracker, LogService.LOG_INFO, "Register service with proerties " + properties);
+				log(tracker, LogService.LOG_INFO, "Register OracleDataSourceFactory service with properties " + properties);
 				bundleContext.registerService(DataSourceFactory.class, oracleDataSourceFactory, properties);
 			} catch(SQLException e) {
 				log(tracker, LogService.LOG_ERROR, "Can't create driver, OracleDataSourceFactory service will not be avaiable (" + e.getCause() + ")");
@@ -73,6 +74,19 @@ public class OracleDataSourceFactoryActivator implements BundleActivator {
 		} finally {
 			tracker.close();
 		}
+	}
+
+	private File getLibPath(BundleContext bundleContext) {
+
+		String property = System.getProperty(ORACLE_JDBC_LIB_PATH);
+		if(property != null && !property.isEmpty()) {
+			return new File(property.replace("@user.home", System.getProperty("user.home")));
+		}
+		String env = System.getenv(ORACLE_JDBC_LIB_PATH);
+		if(env != null && !env.isEmpty()) {
+			return new File(env);
+		}
+		return bundleContext.getDataFile("");
 	}
 
 	private void log(ServiceTracker<LogService, LogService> tracker, int level, String message) {
