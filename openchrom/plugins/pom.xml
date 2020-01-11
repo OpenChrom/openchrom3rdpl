@@ -15,6 +15,7 @@
 
 	<modules>
 		<module>nd4j</module>
+		<module>net.openchrom.thirdpartylibraries.oracle</module>
 	</modules>
 
 </project>
