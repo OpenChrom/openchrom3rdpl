@@ -14,6 +14,8 @@ This feature encapsulates the following libraries:
 - PostgreSQL JDBC Driver: https://jdbc.postgresql.org/
 - JDBC Driver for MySQL (Connector/J): https://www.mysql.com/de/products/connector/
 - Oracle-JDBC Wrapper: A wrapper that allows to drop in Oracle JDBC wich can be obtained from https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html
+- Jackcess: https://jackcess.sourceforge.io/
+
    </description>
 
    <plugin
@@ -53,6 +55,12 @@ This feature encapsulates the following libraries:
 
    <plugin
          id="net.openchrom.thirdpartylibraries.oracle"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+   <plugin
+         id="com.healthmarketscience.jackcess"
          download-size="0"
          install-size="0"
          version="0.0.0"
