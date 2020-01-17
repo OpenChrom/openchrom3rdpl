@@ -15,6 +15,7 @@ This feature encapsulates the following libraries:
 - JDBC Driver for MySQL (Connector/J): https://www.mysql.com/de/products/connector/
 - Oracle-JDBC Wrapper: A wrapper that allows to drop in Oracle JDBC wich can be obtained from https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html
 - Jackcess: https://jackcess.sourceforge.io/
+- SQLite : https://www.sqlite.org/
 
    </description>
 
