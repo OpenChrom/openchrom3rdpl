@@ -87,7 +87,9 @@
    <feature url="features/net.openchrom.thirdpartylibraries.jdbc.feature_1.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jdbc.feature" version="1.0.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.unirest.feature_1.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.unirest.feature" version="1.0.0.qualifier"/>
+   <feature url="features/net.openchrom.thirdpartylibraries.unirest.feature_1.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.unirest.feature" version="1.0.0.qualifier">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
    <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
       <description>
          This update site provides third party libraries.
