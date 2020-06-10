@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
+Automatic-Module-Name: net.openchrom.thirdpartylibraries.javassist
 Bundle-ManifestVersion: 2
 Bundle-Name: Javassist
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.javassist

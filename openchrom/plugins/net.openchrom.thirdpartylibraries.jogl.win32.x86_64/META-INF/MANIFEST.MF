@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
+Automatic-Module-Name: net.openchrom.thirdpartylibraries.jogl.win32.x86_64
 Bundle-ManifestVersion: 2
 Bundle-Name: Win32_x86_64
 Bundle-NativeCode: libraries/libgluegen-rt.dll; libraries/libjogl_desktop.dll; libraries/libnativewindow_awt.dll; libraries/libnativewindow_x11.dll; libraries/libnewt.dll; osname=Win32; processor=x86_64, *

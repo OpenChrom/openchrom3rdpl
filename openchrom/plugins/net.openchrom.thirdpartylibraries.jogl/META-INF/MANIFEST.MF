@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
+Automatic-Module-Name: net.openchrom.thirdpartylibraries.jogl
 Bundle-ManifestVersion: 2
 Bundle-Name: Jogl
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.jogl;singleton:=true

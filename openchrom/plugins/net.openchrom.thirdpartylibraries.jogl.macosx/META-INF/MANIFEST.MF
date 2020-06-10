@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
+Automatic-Module-Name: net.openchrom.thirdpartylibraries.jogl.macosx
 Bundle-ManifestVersion: 2
 Bundle-Name: Macosx
 Bundle-NativeCode: libraries/libgluegen-rt.jnilib; libraries/libjogl_desktop.jnilib; libraries/libnativewindow_awt.jnilib; libraries/libnativewindow_x11.jnilib; libraries/libnewt.jnilib; osname=Mac OS X; processor=x86, libraries/libgluegen-rt.jnilib; libraries/libjogl_desktop.jnilib; libraries/libnativewindow_awt.jnilib; libraries/libnativewindow_x11.jnilib; libraries/libnewt.jnilib; osname=Mac OS X; processor=x86_64, *

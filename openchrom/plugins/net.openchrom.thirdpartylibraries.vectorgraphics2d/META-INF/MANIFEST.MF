@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
+Automatic-Module-Name: net.openchrom.thirdpartylibraries.vectorgraphics2d
 Bundle-ManifestVersion: 2
 Bundle-Name: Vectorgraphics2d
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.vectorgraphics2d

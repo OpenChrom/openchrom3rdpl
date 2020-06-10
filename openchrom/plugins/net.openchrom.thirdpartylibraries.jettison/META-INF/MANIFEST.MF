@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
+Automatic-Module-Name: net.openchrom.thirdpartylibraries.jettison
 Bundle-ManifestVersion: 2
 Bundle-Name: Jettison
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.jettison

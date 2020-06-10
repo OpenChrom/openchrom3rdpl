@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
+Automatic-Module-Name: net.openchrom.thirdpartylibraries.xzing
 Bundle-ManifestVersion: 2
 Bundle-Name: ZXing-Core ("Zebra Crossing") barcode scanning library
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.xzing

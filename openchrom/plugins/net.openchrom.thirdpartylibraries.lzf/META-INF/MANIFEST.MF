@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
+Automatic-Module-Name: net.openchrom.thirdpartylibraries.lzf
 Bundle-ManifestVersion: 2
 Bundle-Name: Lzf
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.lzf
