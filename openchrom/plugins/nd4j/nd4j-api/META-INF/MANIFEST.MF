@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
+Automatic-Module-Name: nd4j-api
 Bundle-ManifestVersion: 2
 Bundle-Name: Nd4j-api
 Bundle-SymbolicName: nd4j-api

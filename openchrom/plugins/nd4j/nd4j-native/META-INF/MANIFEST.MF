@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
+Automatic-Module-Name: nd4j-native
 Bundle-ManifestVersion: 2
 Bundle-Name: Nd4j-native
 Bundle-SymbolicName: nd4j-native
