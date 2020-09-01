@@ -18,6 +18,5 @@
 		<module>net.openchrom.thirdpartylibraries.jcampdx.feature</module>
 		<module>net.openchrom.thirdpartylibraries.jdbc.feature</module>
 		<module>net.openchrom.thirdpartylibraries.unirest.feature</module>
-		<module>net.openchrom.thirdpartylibraries.eclipselink.feature</module>
 	</modules>
 </project>
