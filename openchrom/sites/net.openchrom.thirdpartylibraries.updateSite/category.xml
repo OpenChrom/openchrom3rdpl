@@ -78,6 +78,9 @@
    <feature url="features/net.openchrom.thirdpartylibraries.jzy3d.feature_1.0.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.jzy3d.feature" version="1.0.2.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.nd4j_1.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.nd4j" version="1.0.0.qualifier">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.jcampdx.feature_0.9.5.qualifier.jar" id="net.openchrom.thirdpartylibraries.jcampdx.feature" version="0.9.5.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
