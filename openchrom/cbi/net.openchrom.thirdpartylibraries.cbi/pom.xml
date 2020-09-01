@@ -283,7 +283,13 @@
     <module>../../features/net.openchrom.thirdpartylibraries.vectorgraphics2d.feature</module>     
     <!-- XZing -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.xzing</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.xzing.feature</module>         
+    <module>../../features/net.openchrom.thirdpartylibraries.xzing.feature</module>
+    <!-- Derby -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.derby</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.derby.feature</module>
+    <!-- EclipseLink -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.eclipselink</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.eclipselink.feature</module>
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
