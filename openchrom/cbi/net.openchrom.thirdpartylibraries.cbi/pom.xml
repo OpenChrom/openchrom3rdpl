@@ -290,6 +290,9 @@
     <!-- EclipseLink -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.eclipselink</module>
     <module>../../features/net.openchrom.thirdpartylibraries.eclipselink.feature</module>
+    <!-- Matlab File Library -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.mfl</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.mfl.feature</module>
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>

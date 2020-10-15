@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.openchrom.thirdpartylibraries.mfl.feature"
+      label="MFL"
+      version="0.5.6.qualifier"
+      provider-name="OpenChrom">
+
+   <description url="https://github.com/HebiRobotics/MFL">
+      This feature encapsulates the following libraries:
+MFL 0.5.6 Apache License v2.0
+   </description>
+
+   <copyright url="https://github.com/HebiRobotics/">
+      This feature encapsulates the following libraries:
+MFL 0.5.6 Apache License v2.0
+   </copyright>
+
+   <license url="https://www.apache.org/licenses/LICENSE-2.0">
+MAT File Library - a Java library for reading and writing MAT Files
+   
+     Copyright (C) 2018  HEBI Robotics.
+
+     This library is free software; you can redistribute it and/or
+     modify it under the terms of the Apache 2.0 License as published
+     by the Apache Software Foundation.
+
+     This library is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</license>
+
+   <plugin
+         id="net.openchrom.thirdpartylibraries.mfl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
