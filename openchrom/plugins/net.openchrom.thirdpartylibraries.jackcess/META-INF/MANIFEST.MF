@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Healthmarketscience Jackcess
+Bundle-SymbolicName: net.openchrom.thirdpartylibraries.jackcess
+Bundle-Version: 3.5.1.qualifier
+Bundle-Activator: net.openchrom.thirdpartylibraries.jackcess.Activator
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: net.openchrom.thirdpartylibraries.jackcess
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Lablicate GmbH
+Bundle-ClassPath: libraries/jackcess-3.5.1.jar,
+ .
+Export-Package: com.healthmarketscience.jackcess,
+ com.healthmarketscience.jackcess.complex,
+ com.healthmarketscience.jackcess.expr,
+ com.healthmarketscience.jackcess.impl,
+ com.healthmarketscience.jackcess.impl.complex,
+ com.healthmarketscience.jackcess.impl.expr,
+ com.healthmarketscience.jackcess.impl.query,
+ com.healthmarketscience.jackcess.query,
+ com.healthmarketscience.jackcess.util

@@ -92,7 +92,12 @@
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>      
     <license>
-      <comments>XZing 3.3.2 ( https://github.com/zxing/zxing)</comments>
+      <comments>XZing 3.3.2 (https://github.com/zxing/zxing)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+    <license>
+      <comments>Jackcess 3.2.1 (https://github.com/jahlborn/jackcess)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
@@ -293,6 +298,9 @@
     <!-- Matlab File Library -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.mfl</module>
     <module>../../features/net.openchrom.thirdpartylibraries.mfl.feature</module>
+    <!-- Healthmarketscience Jackcess -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jackcess</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.jackcess.feature</module>
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
