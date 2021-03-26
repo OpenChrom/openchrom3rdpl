@@ -99,6 +99,9 @@
    <feature url="features/net.openchrom.thirdpartylibraries.jackcess.feature_3.5.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.jackcess.feature" version="3.5.1.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.imaging.feature_1.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.imaging.feature" version="1.0.0.qualifier">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
    <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
       <description>
          This update site provides third party libraries.
