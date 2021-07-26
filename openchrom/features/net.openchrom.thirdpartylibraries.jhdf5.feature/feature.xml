@@ -5,42 +5,28 @@
       version="14.12.6.qualifier"
       provider-name="OpenChrom">
 
-   <description url="http://www.openchrom.net">
-      This feature encapsulates the following libraries:
-JHDF5 14.12.6 Apache License v2.0
+   <description url="https://sissource.ethz.ch/sispub/jhdf5/">
+      This feature encapsulates the JHDF5 libraries.
    </description>
 
-   <copyright url="http://www.openchrom.net">
-      This feature encapsulates the following libraries:
-JHDF5 14.12.6 Apache License v2.0
+   <copyright url="https://sissource.ethz.ch/sispub/jhdf5/-/blob/master/dist/COPYING">
+      JHDF5 is distributed under the terms of the Apache License v2.0
    </copyright>
 
-   <license url="http://www.openchrom.net">
-      Copyright (c) 2016, 2018 Lablicate GmbH.
- 
-This feature encapsulates the following libraries:
-JHDF5 14.12.6 Apache License v2.0
+   <license url="http://www.apache.org/licenses/LICENSE-2.0">
+      Copyright 2007 - 2018 ETH Zuerich, CISD and SIS.
 
-Licensed to the Apache
-Software Foundation (ASF) under one or more contributor license
-agreements.
-See the NOTICE file distributed with this work for additional
-information
-regarding copyright ownership. The ASF licenses this file to
-You under the
-Apache License, Version 2.0 (the &quot;License&quot;); you may not use
-this file except
-in compliance with the License. You may obtain a copy of the
-License at
-http://www.apache.org/licenses/LICENSE-2.0 Unless required
-by applicable law
-or agreed to in writing, software distributed under the License
-is
-distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS
-OF ANY
-KIND, either express or implied. See the License for the specific
-language
-governing permissions and limitations under the License.
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
    </license>
 
    <plugin
