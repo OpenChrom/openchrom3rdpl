@@ -6,11 +6,13 @@ Bundle-SymbolicName: net.openchrom.thirdpartylibraries.jhdf5
 Bundle-Version: 14.12.6.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.jhdf5.Activator
 Bundle-Vendor: SISD
-Require-Bundle: org.eclipse.core.runtime
+Require-Bundle: org.eclipse.core.runtime,
+ org.apache.commons.lang;bundle-version="2.4.0",
+ org.apache.commons.io;bundle-version="1.4.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
- libraries/sis-jhdf5-batteries_included.jar
+ libraries/jhdf5-14.12.6.jar
 Export-Package: ch.systemsx.cisd.args4j,
  ch.systemsx.cisd.args4j.spi,
  ch.systemsx.cisd.base,
@@ -32,18 +34,4 @@ Export-Package: ch.systemsx.cisd.args4j,
  ncsa.hdf.hdf5lib,
  ncsa.hdf.hdf5lib.callbacks,
  ncsa.hdf.hdf5lib.exceptions,
- ncsa.hdf.hdf5lib.structs,
- org.apache.commons.io,
- org.apache.commons.io.comparator,
- org.apache.commons.io.filefilter,
- org.apache.commons.io.input,
- org.apache.commons.io.output,
- org.apache.commons.lang,
- org.apache.commons.lang.builder,
- org.apache.commons.lang.enum,
- org.apache.commons.lang.enums,
- org.apache.commons.lang.exception,
- org.apache.commons.lang.math,
- org.apache.commons.lang.mutable,
- org.apache.commons.lang.text,
- org.apache.commons.lang.time
+ ncsa.hdf.hdf5lib.structs
