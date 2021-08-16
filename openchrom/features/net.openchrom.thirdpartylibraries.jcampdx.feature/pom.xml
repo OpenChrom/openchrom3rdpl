@@ -9,6 +9,6 @@
 	</parent>
 
 	<artifactId>net.openchrom.thirdpartylibraries.jcampdx.feature</artifactId>
-	<version>0.9.5-SNAPSHOT</version>
+	<version>0.9.7-SNAPSHOT</version>
 	<packaging>eclipse-feature</packaging>
 </project>
