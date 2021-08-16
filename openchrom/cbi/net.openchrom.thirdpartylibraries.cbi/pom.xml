@@ -37,6 +37,11 @@
       <url>http://opensource.org/licenses/MIT</url> 
     </license>
     <license>
+      <comments>JCAMP-DX 0.9.7 (https://github.com/fracpete/jcamp-dx)</comments>
+      <name>LGPL v2</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.0.html</url>
+    </license>
+    <license>
       <comments>Groovy 2.0.2 (http://groovy.codehaus.org)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -107,7 +112,7 @@
     <license>
       <comments>CDK (https://sourceforge.net/projects/cdk)</comments>
       <name>LGPL v2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>  
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
     </license>
     <license>
       <comments>BioJava 4.2.2 (http://www.biojava.org)</comments>
@@ -145,7 +150,7 @@
     <license>
       <comments>OPSIN (http://opsin.ch.cam.ac.uk)</comments>
       <name>Artistic v2.0</name>
-      <url>http://opensource.org/licenses/Artistic-2.0</url>  
+      <url>http://opensource.org/licenses/Artistic-2.0</url>
     </license>
     <license>
       <comments>Neuroph 2.9.2 (http://neuroph.sourceforge.net)</comments>
@@ -167,7 +172,6 @@
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
-    
     <license>
       <comments>EasyMock 3.4.0 (http://easymock.org)</comments>
       <name>Apache License v2.0</name>
@@ -178,7 +182,7 @@
       <name>MIT</name>
       <url>http://opensource.org/licenses/MIT</url> 
     </license>        
-    
+
     <!--
 	  DON'T BUNDLE -> GPL, AGPL
     -->    
@@ -206,9 +210,12 @@
 	MODULES
   -->
   <modules>
-  	<module>../thirdpartylibraries.targetplatform</module>
-  	<module>../../plugins</module>
-  	<module>../../features</module>
+    <module>../thirdpartylibraries.targetplatform</module>
+    <module>../../plugins</module>
+    <module>../../features</module>
+    <!-- JCAMP-DX -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jcampdx</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.jcampdx.feature</module>
     <!-- NetCDF -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.netcdf</module>
     <module>../../features/net.openchrom.thirdpartylibraries.netcdf.feature</module>
