@@ -5,17 +5,9 @@
       version="1.0.0.qualifier"
       provider-name="OpenChrom">
 
-   <description url="http://www.chemclipse.net">
+   <description url="https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/">
       Copyright (c) 2019, 2021 Lablicate GmbH.
-This feature mihgt encapsulate the following libraries:
-- H2 Database Engine: https://www.h2database.com
-- Microsoft JDBC-Treiber für SQL Server: https://docs.microsoft.com/de-de/sql/connect/jdbc/microsoft-jdbc-driver-for-sql-server?view=sql-server-ver15
-- MariaDB Connector/J: https://mariadb.com/kb/en/library/mariadb-connector-j/
-- PostgreSQL JDBC Driver: https://jdbc.postgresql.org/
-- JDBC Driver for MySQL (Connector/J): https://www.mysql.com/de/products/connector/
-- Oracle-JDBC Wrapper: A wrapper that allows to drop in Oracle JDBC wich can be obtained from https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html
-- Jackcess: https://jackcess.sourceforge.io/
-- SQLite : https://www.sqlite.org/
+This feature encapsulates libraries acting as JDBC drivers.
    </description>
 
    <plugin
@@ -34,6 +26,13 @@ This feature mihgt encapsulate the following libraries:
 
    <plugin
          id="net.openchrom.thirdpartylibraries.derby"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.thirdpartylibraries.sqlite"
          download-size="0"
          install-size="0"
          version="0.0.0"
