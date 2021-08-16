@@ -78,9 +78,6 @@
    <feature url="features/net.openchrom.thirdpartylibraries.jzy3d.feature_1.0.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.jzy3d.feature" version="1.0.2.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.jcampdx.feature_0.9.7.qualifier.jar" id="net.openchrom.thirdpartylibraries.jcampdx.feature" version="0.9.7.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.jdbc.feature_1.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jdbc.feature" version="1.0.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
@@ -100,6 +97,12 @@
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.imaging.feature_1.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.imaging.feature" version="1.0.0.qualifier">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.sqlite.feature_3.36.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.sqlite.feature" version="3.36.1.qualifier">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.jcampdx.feature_0.9.7.qualifier.jar" id="net.openchrom.thirdpartylibraries.jcampdx.feature" version="0.9.7.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
    <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
