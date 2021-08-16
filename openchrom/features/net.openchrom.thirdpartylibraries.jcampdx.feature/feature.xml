@@ -505,7 +505,7 @@ That&apos;s all there is to it!
    </url>
 
    <plugin
-         id="jcamp-dx"
+         id="net.openchrom.thirdpartylibraries.jcampdx"
          download-size="0"
          install-size="0"
          version="0.0.0"
