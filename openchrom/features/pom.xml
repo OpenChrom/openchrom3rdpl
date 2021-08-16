@@ -13,9 +13,4 @@
 	<packaging>pom</packaging>
 	<name>features</name>
 
-	<modules>
-		<module>net.openchrom.thirdpartylibraries.jcampdx.feature</module>
-		<module>net.openchrom.thirdpartylibraries.jdbc.feature</module>
-		<module>net.openchrom.thirdpartylibraries.unirest.feature</module>
-	</modules>
 </project>
