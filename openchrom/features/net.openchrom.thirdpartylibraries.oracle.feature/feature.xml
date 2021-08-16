@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="net.openchrom.thirdpartylibraries.oracledb.feature"
+      id="net.openchrom.thirdpartylibraries.oracle.feature"
       label="Oracle DB"
       version="1.0.0.qualifier"
       provider-name="OpenChrom">
