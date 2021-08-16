@@ -317,6 +317,9 @@
     <!-- SQLite driver -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.sqlite</module>
     <module>../../features/net.openchrom.thirdpartylibraries.sqlite.feature</module>
+    <!-- Oracle database driver finder -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.oracle</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.oracle.feature</module>
     <!-- Apache Imaging -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.imaging</module>
     <module>../../features/net.openchrom.thirdpartylibraries.imaging.feature</module>
