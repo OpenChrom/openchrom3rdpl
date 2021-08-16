@@ -13,9 +13,4 @@
 	<packaging>pom</packaging>
 	<name>plugins</name>
 
-	<modules>
-		<module>net.openchrom.thirdpartylibraries.oracle</module>
-		<module>net.openchrom.thirdpartylibraries.unirest</module>
-	</modules>
-
 </project>
