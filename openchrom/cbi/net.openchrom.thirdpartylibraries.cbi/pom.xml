@@ -312,6 +312,9 @@
     <!-- Healthmarketscience Jackcess -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jackcess</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jackcess.feature</module>
+    <!-- JDBC meta bundle -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jdbc</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.jdbc.feature</module>
     <!-- Apache Imaging -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.imaging</module>
     <module>../../features/net.openchrom.thirdpartylibraries.imaging.feature</module>
