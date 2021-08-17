@@ -81,7 +81,7 @@
    <feature url="features/net.openchrom.thirdpartylibraries.jdbc.feature_1.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jdbc.feature" version="1.0.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.unirest.feature_1.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.unirest.feature" version="1.0.0.qualifier">
+   <feature url="features/net.openchrom.thirdpartylibraries.unirest.feature_3.3.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.unirest.feature" version="3.3.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.derby.feature_10.14.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.derby.feature" version="10.14.2.qualifier">
