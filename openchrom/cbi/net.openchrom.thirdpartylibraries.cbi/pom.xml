@@ -323,6 +323,9 @@
     <!-- Apache Imaging -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.imaging</module>
     <module>../../features/net.openchrom.thirdpartylibraries.imaging.feature</module>
+    <!-- Unirest -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.unirest</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.unirest.feature</module>
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
