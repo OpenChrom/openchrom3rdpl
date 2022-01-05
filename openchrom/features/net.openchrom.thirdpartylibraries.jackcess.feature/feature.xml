@@ -2,7 +2,7 @@
 <feature
       id="net.openchrom.thirdpartylibraries.jackcess.feature"
       label="Healthmarketscience Jackcess"
-      version="3.5.1.qualifier"
+      version="4.0.1.qualifier"
       provider-name="Lablicate GmbH">
 
    <description url="https://github.com/jahlborn/jackcess">
