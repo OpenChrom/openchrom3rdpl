@@ -4,17 +4,13 @@ Eclipse-BuddyPolicy: registered
 Bundle-ManifestVersion: 2
 Bundle-Name: Netcdf
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.netcdf
-Bundle-Version: 4.3.19.qualifier
+Bundle-Version: 5.5.1.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.netcdf.Activator
 Require-Bundle: org.eclipse.core.runtime
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-ClassPath: .,
- libraries/netcdfAll-4.3.jar
+ libraries/netcdfAll-5.5.1.jar
 Bundle-Vendor: ChemClipse
-Export-Package: edu.wisc.ssec.mcidas,
- ucar.grib,
- ucar.grib.grib1,
- ucar.grib.grib2,
- ucar.ma2,
+Export-Package: ucar.ma2,
  ucar.nc2
