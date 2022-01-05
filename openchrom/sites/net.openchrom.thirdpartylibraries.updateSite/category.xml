@@ -93,7 +93,7 @@
    <feature url="features/net.openchrom.thirdpartylibraries.mfl.feature_0.5.6.qualifier.jar" id="net.openchrom.thirdpartylibraries.mfl.feature" version="0.5.6.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.jackcess.feature_4.0.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.jackcess.feature" version="3.5.1.qualifier">
+   <feature url="features/net.openchrom.thirdpartylibraries.jackcess.feature_4.0.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.jackcess.feature" version="4.0.1.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.imaging.feature_1.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.imaging.feature" version="1.0.0.qualifier">
