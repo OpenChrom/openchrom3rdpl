@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>net.openchrom.thirdpartylibraries.splash.feature</artifactId>
-  <version>1.8-SNAPSHOT</version>
+  <version>1.8.0-SNAPSHOT</version>
   <packaging>eclipse-feature</packaging>
   
 </project>
