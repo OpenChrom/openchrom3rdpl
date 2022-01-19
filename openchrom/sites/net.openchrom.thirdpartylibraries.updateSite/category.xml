@@ -105,6 +105,9 @@
    <feature url="features/net.openchrom.thirdpartylibraries.jcampdx.feature_0.9.7.qualifier.jar" id="net.openchrom.thirdpartylibraries.jcampdx.feature" version="0.9.7.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
+   <feature url="features/net.openchrom.thirdpartylibraries.splash.feature_1.8.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.splash.feature" version="1.8.0.qualifier">
+      <category name="net.openchrom.thirdpartylibraries"/>
+   </feature>
    <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
       <description>
          This update site provides third party libraries.
