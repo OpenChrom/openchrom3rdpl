@@ -5,7 +5,7 @@ Bundle-Name: Vectorgraphics2d
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.vectorgraphics2d
 Bundle-Version: 0.13.0.qualifier
 Bundle-Vendor: OpenChrom
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-ActivationPolicy: lazy
 Export-Package: de.erichseifert.vectorgraphics2d,
  de.erichseifert.vectorgraphics2d.eps,

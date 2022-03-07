@@ -6,7 +6,7 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.imaging.Activator
 Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Automatic-Module-Name: net.openchrom.thirdpartylibraries.imaging
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/commons-imaging-1.0-alpha2.jar,
