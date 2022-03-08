@@ -5,7 +5,7 @@ Bundle-Name: ZXing-Core ("Zebra Crossing") barcode scanning library
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.xzing
 Bundle-Version: 3.3.2.qualifier
 Bundle-Vendor: https://github.com/zxing/zxing
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-DocURL: https://github.com/zxing/zxing/wiki
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
 Bundle-ClassPath: libraries/core-3.3.2.jar,

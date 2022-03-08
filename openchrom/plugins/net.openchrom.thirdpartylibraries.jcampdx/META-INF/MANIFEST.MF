@@ -7,7 +7,7 @@ Bundle-Version: 0.9.7.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.jcampdx.Activator
 Bundle-Vendor: Peter Reutemann
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
  libraries/jcamp-dx-0.9.7.jar,

@@ -8,7 +8,7 @@ Bundle-Version: 2.0.2.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.groovy.Activator
 Bundle-Vendor: ChemClipse
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/groovy-all-2.0.2.jar,
  .

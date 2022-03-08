@@ -8,7 +8,7 @@ Bundle-Version: 4.2.2.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.jna.Activator
 Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
  libraries/jna-4.2.2.jar,

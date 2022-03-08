@@ -6,7 +6,7 @@ Bundle-SymbolicName: net.openchrom.thirdpartylibraries.derby
 Bundle-Version: 10.14.2.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.derby.Activator
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/derby.jar,
  .

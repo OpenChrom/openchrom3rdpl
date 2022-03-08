@@ -6,7 +6,7 @@ Bundle-SymbolicName: net.openchrom.thirdpartylibraries.sqlite
 Bundle-Version: 3.36.1.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.sqlite.Activator
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/sqlite-jdbc-3.36.0.1.jar,
  .
