@@ -2,37 +2,25 @@
 <feature
       id="net.openchrom.thirdpartylibraries.eclipselink.feature"
       label="Feature"
-      version="2.7.7.qualifier"
+      version="2.7.10.qualifier"
       provider-name="OpenChrom">
 
-   <description url="https://www.openchrom.net">
-      This feature encapsulates the following libraries:
-EclipseLink https://www.eclipse.org/eclipselink 2.7.7
- Eclipse Public License v1.0
+   <description url="https://www.eclipse.org/eclipselink">
+      Comprehensive open-source Java persistence solution
+      addressing relational, XML, and database web services.
    </description>
 
-   <copyright url="https://www.openchrom.net">
-      This feature encapsulates the following libraries:
-EclipseLink https://www.eclipse.org/eclipselink 2.7.7
- Eclipse Public License v1.0
+   <copyright url="https://www.eclipse.org/eclipselink">
+      Copyright © 2012, 2013 by The Eclipse Foundation
    </copyright>
 
    <license url="http://www.eclipse.org/legal/epl-v10.html">
-      Copyright (c) 2020 Lablicate GmbH.
-      
-This feature encapsulates the following libraries:
-EclipseLink https://www.eclipse.org/eclipselink 2.7.7
-
-All rights reserved. This program and the accompanying materials
+      All rights reserved. This program and the accompanying materials
 are made available under the terms of the Eclipse Public License
 v1.0
 which accompanies this distribution, and is available at
 http://www.eclipse.org/legal/epl-v10.html
    </license>
-
-   <url>
-      <discovery label="EclipseLink" url="https://www.eclipse.org/eclipselink"/>
-   </url>
 
    <plugin
          id="net.openchrom.thirdpartylibraries.eclipselink"

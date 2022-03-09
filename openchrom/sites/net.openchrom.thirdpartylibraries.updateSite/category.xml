@@ -87,7 +87,7 @@
    <feature url="features/net.openchrom.thirdpartylibraries.derby.feature_10.14.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.derby.feature" version="10.14.2.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.eclipselink.feature_2.7.7.qualifier.jar" id="net.openchrom.thirdpartylibraries.eclipselink.feature" version="2.7.7.qualifier">
+   <feature url="features/net.openchrom.thirdpartylibraries.eclipselink.feature_2.7.10.qualifier.jar" id="net.openchrom.thirdpartylibraries.eclipselink.feature" version="2.7.10.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.mfl.feature_0.5.6.qualifier.jar" id="net.openchrom.thirdpartylibraries.mfl.feature" version="0.5.6.qualifier">
