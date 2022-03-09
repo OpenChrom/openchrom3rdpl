@@ -4,7 +4,7 @@ Eclipse-BuddyPolicy: registered
 Bundle-ManifestVersion: 2
 Bundle-Name: Eclipselink
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.eclipselink
-Bundle-Version: 2.7.7.qualifier
+Bundle-Version: 2.7.10.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.eclipselink.Activator
 Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
@@ -57,6 +57,7 @@ Export-Package: commonj.sdo.impl,
  org.eclipse.persistence.internal.expressions,
  org.eclipse.persistence.internal.helper,
  org.eclipse.persistence.internal.helper.linkedlist,
+ org.eclipse.persistence.internal.helper.type,
  org.eclipse.persistence.internal.history,
  org.eclipse.persistence.internal.identitymaps,
  org.eclipse.persistence.internal.indirection,
@@ -138,8 +139,6 @@ Export-Package: commonj.sdo.impl,
  org.eclipse.persistence.internal.libraries.asm.signature,
  org.eclipse.persistence.internal.libraries.asm.tree,
  org.eclipse.persistence.internal.libraries.asm.tree.analysis,
- org.eclipse.persistence.internal.libraries.asm.util,
- org.eclipse.persistence.internal.libraries.asm.xml,
  org.eclipse.persistence.internal.localization,
  org.eclipse.persistence.internal.localization.i18n,
  org.eclipse.persistence.internal.mappings.converters,
