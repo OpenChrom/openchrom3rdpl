@@ -4,14 +4,14 @@ Eclipse-BuddyPolicy: registered
 Bundle-ManifestVersion: 2
 Bundle-Name: CDK (Chemistry Development Kit)
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.cdk;singleton:=true
-Bundle-Version: 2.6.0.qualifier
+Bundle-Version: 2.7.1.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.cdk.Activator
 Bundle-Vendor: The OpenScience Project
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
- libraries/cdk-2.6.jar
+ libraries/cdk-2.7.1.jar
 Export-Package: 
  javax.vecmath,
  org.openscience.cdk,
@@ -150,5 +150,4 @@ Export-Package:
  org.xmlcml.cml.interfacex,
  org.xmlcml.euclid,
  org.xmlcml.molutil,
- signature,
  uk.ac.ebi.beam
