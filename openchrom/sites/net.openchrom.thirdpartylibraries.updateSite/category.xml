@@ -24,7 +24,7 @@
    <feature url="features/net.openchrom.thirdpartylibraries.neuroph.feature_2.9.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.neuroph.feature" version="2.9.2.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.odfdom.feature_0.8.7.qualifier.jar" id="net.openchrom.thirdpartylibraries.odfdom.feature" version="0.8.7.qualifier">
+   <feature url="features/net.openchrom.thirdpartylibraries.odfdom.feature_0.10.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.odfdom.feature" version="0.10.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.opsin.feature_2.6.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.opsin.feature" version="2.6.0.qualifier">
