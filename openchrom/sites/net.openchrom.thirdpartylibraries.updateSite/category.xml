@@ -36,7 +36,7 @@
    <feature url="features/net.openchrom.thirdpartylibraries.lzf.feature_1.0.4.qualifier.jar" id="net.openchrom.thirdpartylibraries.lzf.feature" version="1.0.4.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.netcdf.feature_4.3.19.qualifier.jar" id="net.openchrom.thirdpartylibraries.netcdf.feature" version="4.3.19.qualifier">
+   <feature url="features/net.openchrom.thirdpartylibraries.netcdf.feature_5.5.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.netcdf.feature" version="5.5.1.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.jython.feature_2.7.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jython.feature" version="2.7.0.qualifier">

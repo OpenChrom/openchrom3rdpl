@@ -2,7 +2,7 @@
 <feature
       id="net.openchrom.thirdpartylibraries.netcdf.feature"
       label="NetCDF"
-      version="4.3.19.qualifier"
+      version="5.5.1.qualifier"
       provider-name="ChemClipse">
 
    <description url="http://www.chemclipse.net">
