@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2020 Lablicate GmbH.
+ * Copyright (c) 2020, 2022 Lablicate GmbH.
  * 
  * All rights reserved.
  * This program and the accompanying materials are made available under the
@@ -8,6 +8,7 @@
  * 
  * Contributors:
  * Christoph Läubrich - initial api and implementation
+ * Philip Wenig - reduce compiler warnings
  *******************************************************************************/
 package net.openchrom.thirdpartylibraries.oracle;
 
@@ -30,6 +31,7 @@ public class OracleDataSourceFactory implements DataSourceFactory {
 	private URLClassLoader classLoader;
 
 	public OracleDataSourceFactory(URLClassLoader classLoader) {
+
 		this.classLoader = classLoader;
 	}
 
@@ -66,10 +68,9 @@ public class OracleDataSourceFactory implements DataSourceFactory {
 	private <T> T createInstance(Class<T> clazz, String implementation) throws SQLException {
 
 		try {
-			return clazz.cast(classLoader.loadClass(implementation).newInstance());
-		} catch(InstantiationException | IllegalAccessException
-				| ClassNotFoundException e) {
-			throw new SQLException("can't load driver, check provided libraries", e);
+			return clazz.cast(classLoader.loadClass(implementation).getDeclaredConstructor().newInstance());
+		} catch(Exception e) {
+			throw new SQLException("Can't load the driver. Check provided libraries.", e);
 		}
 	}
 
