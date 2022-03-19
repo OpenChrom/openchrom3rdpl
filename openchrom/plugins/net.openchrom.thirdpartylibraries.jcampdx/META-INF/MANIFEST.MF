@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Automatic-Module-Name: net.openchrom.thirdpartylibraries.mfl
+Automatic-Module-Name: net.openchrom.thirdpartylibraries.jcampdx
 Bundle-ManifestVersion: 2
 Bundle-Name: JCAMP-DX
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.jcampdx
