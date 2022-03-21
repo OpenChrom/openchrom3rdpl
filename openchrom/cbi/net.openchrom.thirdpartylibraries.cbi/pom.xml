@@ -18,7 +18,7 @@
   <packaging>pom</packaging>
   <!--
 	DESCRIPTION
-  --> 
+  -->
   <name>OpenChrom Third-Party Libraries</name>
   <description>
 	This bundle offers several third party libraries.
@@ -26,7 +26,7 @@
   <url>http://sourceforge.net/projects/openchrom3rdpl</url>
   <!--
 	LICENSES
-  -->  
+  -->
   <licenses>
     <!--
 	  Plug-ins that are part of compilation.
@@ -34,7 +34,7 @@
     <license>
       <comments>NetCDF 4.3.19 (http://www.unidata.ucar.edu/software/netcdf-java)</comments>
       <name>MIT</name>
-      <url>http://opensource.org/licenses/MIT</url> 
+      <url>http://opensource.org/licenses/MIT</url>
     </license>
     <license>
       <comments>JCAMP-DX 0.9.7 (https://github.com/fracpete/jcamp-dx)</comments>
@@ -55,7 +55,7 @@
       <comments>JOGL 2.0.0 (http://jogamp.org/jogl/www)</comments>
       <name>BSD License</name>
       <url>http://opensource.org/licenses/BSD-2-Clause</url>
-    </license>      
+    </license>
     <license>
       <comments>jzy3d 1.0.1 (http://jzy3d.org)</comments>
       <name>BSD License</name>
@@ -89,13 +89,13 @@
     <license>
       <comments>Jython 2.7.0 (http://www.jython.org)</comments>
       <name>Python Software Foundation License v2.0</name>
-      <url>http://opensource.org/licenses/Python-2.0</url> 
+      <url>http://opensource.org/licenses/Python-2.0</url>
     </license>
     <license>
       <comments>Jettison 1.1.0 (https://github.com/codehaus/jettison)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>      
+    </license>
     <license>
       <comments>XZing 3.3.2 (https://github.com/zxing/zxing)</comments>
       <name>Apache License v2.0</name>
@@ -117,26 +117,26 @@
     <license>
       <comments>BioJava 4.2.2 (http://www.biojava.org)</comments>
       <name>LGPL v2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
-    </license>     
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
+    </license>
     <license>
       <comments>Jmol 13.0.8 (http://jmol.sourceforge.net)</comments>
       <name>LGPL v2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
     </license>
     <license>
       <comments>VectorGraphics 0.13.0 (https://github.com/eseifert/vectorgraphics2d)</comments>
       <name>LGPL v3.0</name>
-      <url>http://www.gnu.org/licenses/lgpl-3.0.html</url> 
+      <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
     </license>
     <license>
       <comments>Apache Commons Imaging (https://commons.apache.org/proper/commons-imaging)</comments>
       <name>Apache v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url> 
-    </license>       
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
     <!--
 	  Plug-ins that are not part of compilation.
-    -->        
+    -->
     <license>
       <comments>ODFDOM 0.8.7 (http://odftoolkit.org/projects/odfdom)</comments>
       <name>Apache License v2.0</name>
@@ -180,18 +180,18 @@
     <license>
       <comments>Mockito 2.0.2 (https://github.com/mockito)</comments>
       <name>MIT</name>
-      <url>http://opensource.org/licenses/MIT</url> 
-    </license>        
+      <url>http://opensource.org/licenses/MIT</url>
+    </license>
 
     <!--
 	  DON'T BUNDLE -> GPL, AGPL
-    -->    
+    -->
     <license>
       <comments>Rserve 1.8.5 (https://www.rforge.net/Rserve)</comments>
       <name>GPL v2.0</name>
-      <url>http://www.gnu.org/licenses/gpl-2.0.html</url> 
-    </license>       
-  </licenses>    
+      <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+    </license>
+  </licenses>
   <!--
 	DEVELOPERS
   -->
@@ -232,14 +232,14 @@
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl</module>
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.linux.x86</module>
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.linux.x86_64</module>
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.macosx</module>  
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.macosx</module>
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.solaris.x86</module>
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.win32.x86_64</module>
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.win32.x86</module>  
-    <module>../../features/net.openchrom.thirdpartylibraries.jogl.feature</module>    
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.win32.x86</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.jogl.feature</module>
     <!-- jzy3d -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jzy3d</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.jzy3d.feature</module>    
+    <module>../../features/net.openchrom.thirdpartylibraries.jzy3d.feature</module>
     <!-- Barcode4J -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.barcode4j</module>
     <module>../../features/net.openchrom.thirdpartylibraries.barcode4j.feature</module>
@@ -260,7 +260,7 @@
     <module>../../features/net.openchrom.thirdpartylibraries.matlabcontrol.feature</module>
     <!-- BioJava -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.biojava</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.biojava.feature</module>   
+    <module>../../features/net.openchrom.thirdpartylibraries.biojava.feature</module>
     <!-- Jmol -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jmol</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jmol.feature</module>
@@ -278,7 +278,7 @@
     <module>../../features/net.openchrom.thirdpartylibraries.concurrentlinkedhashmap.feature</module>
     <!-- Javassist -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.javassist</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.javassist.feature</module>  
+    <module>../../features/net.openchrom.thirdpartylibraries.javassist.feature</module>
     <!-- Jettison -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jettison</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jettison.feature</module>
@@ -287,16 +287,16 @@
     <module>../../features/net.openchrom.thirdpartylibraries.jhdf5.feature</module>
     <!-- RServe -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.rserve</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.rserve.feature</module> 
+    <module>../../features/net.openchrom.thirdpartylibraries.rserve.feature</module>
     <!-- EasyMock -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.easymock</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.easymock.feature</module> 
+    <module>../../features/net.openchrom.thirdpartylibraries.easymock.feature</module>
     <!-- Mockito -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.mockito</module>
     <module>../../features/net.openchrom.thirdpartylibraries.mockito.feature</module>
     <!-- VectorGraphics2D -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.vectorgraphics2d</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.vectorgraphics2d.feature</module>     
+    <module>../../features/net.openchrom.thirdpartylibraries.vectorgraphics2d.feature</module>
     <!-- XZing -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.xzing</module>
     <module>../../features/net.openchrom.thirdpartylibraries.xzing.feature</module>
@@ -306,9 +306,6 @@
     <!-- EclipseLink -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.eclipselink</module>
     <module>../../features/net.openchrom.thirdpartylibraries.eclipselink.feature</module>
-    <!-- Matlab File Library -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.mfl</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.mfl.feature</module>
     <!-- Healthmarketscience Jackcess -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jackcess</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jackcess.feature</module>
