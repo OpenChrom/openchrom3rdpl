@@ -115,11 +115,6 @@
       <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
     </license>
     <license>
-      <comments>BioJava 4.2.2 (http://www.biojava.org)</comments>
-      <name>LGPL v2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
-    </license>
-    <license>
       <comments>Jmol 13.0.8 (http://jmol.sourceforge.net)</comments>
       <name>LGPL v2.1</name>
       <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
@@ -258,9 +253,6 @@
     <!-- Matlabcontrol -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.matlabcontrol</module>
     <module>../../features/net.openchrom.thirdpartylibraries.matlabcontrol.feature</module>
-    <!-- BioJava -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.biojava</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.biojava.feature</module>
     <!-- Jmol -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jmol</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jmol.feature</module>
