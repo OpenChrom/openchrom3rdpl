@@ -31,11 +31,4 @@ This feature encapsulates libraries acting as JDBC drivers.
          version="0.0.0"
          unpack="false"/>
 
-   <plugin
-         id="net.openchrom.thirdpartylibraries.sqlite"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
 </feature>
