@@ -303,9 +303,6 @@
     <module>../../features/net.openchrom.thirdpartylibraries.jackcess.feature</module>
     <!-- JDBC meta bundle -->
     <module>../../features/net.openchrom.thirdpartylibraries.jdbc.feature</module>
-    <!-- SQLite driver -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.sqlite</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.sqlite.feature</module>
     <!-- Oracle database driver finder -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.oracle</module>
     <module>../../features/net.openchrom.thirdpartylibraries.oracle.feature</module>
