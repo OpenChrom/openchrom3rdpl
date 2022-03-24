@@ -274,9 +274,6 @@
     <!-- Jettison -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jettison</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jettison.feature</module>
-    <!-- JHDF5 -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jhdf5</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.jhdf5.feature</module>
     <!-- RServe -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.rserve</module>
     <module>../../features/net.openchrom.thirdpartylibraries.rserve.feature</module>
