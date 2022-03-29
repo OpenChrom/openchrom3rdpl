@@ -120,11 +120,6 @@
       <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
     </license>
     <license>
-      <comments>VectorGraphics 0.13.0 (https://github.com/eseifert/vectorgraphics2d)</comments>
-      <name>LGPL v3.0</name>
-      <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
-    </license>
-    <license>
       <comments>Apache Commons Imaging (https://commons.apache.org/proper/commons-imaging)</comments>
       <name>Apache v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -286,9 +281,6 @@
     <!-- Mockito -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.mockito</module>
     <module>../../features/net.openchrom.thirdpartylibraries.mockito.feature</module>
-    <!-- VectorGraphics2D -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.vectorgraphics2d</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.vectorgraphics2d.feature</module>
     <!-- XZing -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.xzing</module>
     <module>../../features/net.openchrom.thirdpartylibraries.xzing.feature</module>

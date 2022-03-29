@@ -63,9 +63,6 @@
    <feature url="features/net.openchrom.thirdpartylibraries.mockito.feature_2.0.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.mockito.feature" version="2.0.2.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.vectorgraphics2d.feature_0.13.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.vectorgraphics2d.feature" version="0.13.0.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.xzing.feature_3.3.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.xzing.feature" version="3.3.2.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
