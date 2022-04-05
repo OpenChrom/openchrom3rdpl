@@ -276,17 +276,12 @@
     <!-- XZing -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.xzing</module>
     <module>../../features/net.openchrom.thirdpartylibraries.xzing.feature</module>
-    <!-- Derby -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.derby</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.derby.feature</module>
     <!-- EclipseLink -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.eclipselink</module>
     <module>../../features/net.openchrom.thirdpartylibraries.eclipselink.feature</module>
     <!-- Healthmarketscience Jackcess -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jackcess</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jackcess.feature</module>
-    <!-- JDBC meta bundle -->
-    <module>../../features/net.openchrom.thirdpartylibraries.jdbc.feature</module>
     <!-- Oracle database driver finder -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.oracle</module>
     <module>../../features/net.openchrom.thirdpartylibraries.oracle.feature</module>
