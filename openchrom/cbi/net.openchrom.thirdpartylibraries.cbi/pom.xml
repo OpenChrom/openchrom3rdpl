@@ -77,11 +77,6 @@
       <url>https://www.mozilla.org/MPL/1.1</url>
     </license>
     <license>
-      <comments>Jython 2.7.0 (http://www.jython.org)</comments>
-      <name>Python Software Foundation License v2.0</name>
-      <url>http://opensource.org/licenses/Python-2.0</url>
-    </license>
-    <license>
       <comments>Jettison 1.1.0 (https://github.com/codehaus/jettison)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -112,11 +107,6 @@
     <!--
 	  Plug-ins that are not part of compilation.
     -->
-    <license>
-      <comments>ODFDOM 0.8.7 (http://odftoolkit.org/projects/odfdom)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
     <license>
       <comments>OPSIN (http://opsin.ch.cam.ac.uk)</comments>
       <name>Artistic v2.0</name>
@@ -174,9 +164,6 @@
     <!-- NetCDF -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.netcdf</module>
     <module>../../features/net.openchrom.thirdpartylibraries.netcdf.feature</module>
-    <!-- ODFDOM -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.odfdom</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.odfdom.feature</module>
     <!-- PDFJet -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.pdfjet</module>
     <module>../../features/net.openchrom.thirdpartylibraries.pdfjet.feature</module>
@@ -201,9 +188,6 @@
     <!-- LZF -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.lzf</module>
     <module>../../features/net.openchrom.thirdpartylibraries.lzf.feature</module>
-    <!-- Jython -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jython</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.jython.feature</module>
     <!-- JNA -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jna</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jna.feature</module>
