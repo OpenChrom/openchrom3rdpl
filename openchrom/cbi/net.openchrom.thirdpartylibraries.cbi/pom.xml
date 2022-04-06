@@ -105,11 +105,6 @@
       <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
     </license>
     <license>
-      <comments>Jmol 13.0.8 (http://jmol.sourceforge.net)</comments>
-      <name>LGPL v2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
-    </license>
-    <license>
       <comments>Apache Commons Imaging (https://commons.apache.org/proper/commons-imaging)</comments>
       <name>Apache v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -227,9 +222,6 @@
     <!-- Matlabcontrol -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.matlabcontrol</module>
     <module>../../features/net.openchrom.thirdpartylibraries.matlabcontrol.feature</module>
-    <!-- Jmol -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jmol</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.jmol.feature</module>
     <!-- LZF -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.lzf</module>
     <module>../../features/net.openchrom.thirdpartylibraries.lzf.feature</module>

@@ -6,9 +6,6 @@
    <feature url="features/net.openchrom.thirdpartylibraries.imagej.feature_1.47.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.imagej.feature" version="1.47.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.jmol.feature_13.2.8.qualifier.jar" id="net.openchrom.thirdpartylibraries.jmol.feature" version="13.2.8.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.matlabcontrol.feature_4.1.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.matlabcontrol.feature" version="4.1.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
