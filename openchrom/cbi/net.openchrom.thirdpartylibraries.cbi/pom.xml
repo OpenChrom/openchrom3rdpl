@@ -128,11 +128,6 @@
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
     <license>
-      <comments>Matlabcontrol 4.1.0 (http://code.google.com/p/matlabcontrol)</comments>
-      <name>BSD License</name>
-      <url>http://opensource.org/licenses/BSD-3-Clause</url>
-    </license>
-    <license>
       <comments>JHDF5 14.12.6 (https://wiki-bsse.ethz.ch/pages/viewpage.action?pageId=26609113)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -211,9 +206,6 @@
     <!-- Neuroph -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.neuroph</module>
     <module>../../features/net.openchrom.thirdpartylibraries.neuroph.feature</module>
-    <!-- Matlabcontrol -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.matlabcontrol</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.matlabcontrol.feature</module>
     <!-- LZF -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.lzf</module>
     <module>../../features/net.openchrom.thirdpartylibraries.lzf.feature</module>
