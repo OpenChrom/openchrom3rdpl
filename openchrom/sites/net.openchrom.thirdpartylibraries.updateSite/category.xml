@@ -15,9 +15,6 @@
    <feature url="features/net.openchrom.thirdpartylibraries.netcdf.feature_5.5.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.netcdf.feature" version="5.5.1.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.javassist.feature_3.20.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.javassist.feature" version="3.20.0.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.jettison.feature_1.1.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jettison.feature" version="1.1.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>

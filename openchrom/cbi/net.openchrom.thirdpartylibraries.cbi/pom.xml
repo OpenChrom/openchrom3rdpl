@@ -67,11 +67,6 @@
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
     <license>
-      <comments>Javassist 3.20.0 (https://github.com/jboss-javassist/javassist/releases)</comments>
-      <name>MPL v1.1</name>
-      <url>https://www.mozilla.org/MPL/1.1</url>
-    </license>
-    <license>
       <comments>Jettison 1.1.0 (https://github.com/codehaus/jettison)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -183,9 +178,6 @@
     <!-- LZF -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.lzf</module>
     <module>../../features/net.openchrom.thirdpartylibraries.lzf.feature</module>
-    <!-- Javassist -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.javassist</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.javassist.feature</module>
     <!-- Jettison -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jettison</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jettison.feature</module>
