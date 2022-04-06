@@ -42,11 +42,6 @@
       <url>http://www.gnu.org/licenses/lgpl-2.0.html</url>
     </license>
     <license>
-      <comments>Groovy 2.0.2 (http://groovy.codehaus.org)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
       <comments>PDFJet 2.81.0 (http://pdfjet.com/os/edition.html)</comments>
       <name>Open Source License</name>
       <url>http://pdfjet.com/os/download.html</url>
@@ -199,9 +194,6 @@
     <!-- NetCDF -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.netcdf</module>
     <module>../../features/net.openchrom.thirdpartylibraries.netcdf.feature</module>
-    <!-- Groovy -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.groovy</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.groovy.feature</module>
     <!-- ODFDOM -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.odfdom</module>
     <module>../../features/net.openchrom.thirdpartylibraries.odfdom.feature</module>
