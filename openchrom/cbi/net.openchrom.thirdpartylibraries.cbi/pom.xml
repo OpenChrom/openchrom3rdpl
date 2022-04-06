@@ -42,11 +42,6 @@
       <url>http://www.gnu.org/licenses/lgpl-2.0.html</url>
     </license>
     <license>
-      <comments>Groovy 2.0.2 (http://groovy.codehaus.org)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
       <comments>PDFJet 2.81.0 (http://pdfjet.com/os/edition.html)</comments>
       <name>Open Source License</name>
       <url>http://pdfjet.com/os/download.html</url>
@@ -72,31 +67,6 @@
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
     <license>
-      <comments>JNA 4.2.2 (https://github.com/java-native-access/jna)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
-      <comments>Javassist 3.20.0 (https://github.com/jboss-javassist/javassist/releases)</comments>
-      <name>MPL v1.1</name>
-      <url>https://www.mozilla.org/MPL/1.1</url>
-    </license>
-    <license>
-      <comments>Jython 2.7.0 (http://www.jython.org)</comments>
-      <name>Python Software Foundation License v2.0</name>
-      <url>http://opensource.org/licenses/Python-2.0</url>
-    </license>
-    <license>
-      <comments>Jettison 1.1.0 (https://github.com/codehaus/jettison)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
-      <comments>XZing 3.3.2 (https://github.com/zxing/zxing)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
       <comments>Jackcess 3.2.1 (https://github.com/jahlborn/jackcess)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -110,11 +80,6 @@
       <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
     </license>
     <license>
-      <comments>Jmol 13.0.8 (http://jmol.sourceforge.net)</comments>
-      <name>LGPL v2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
-    </license>
-    <license>
       <comments>Apache Commons Imaging (https://commons.apache.org/proper/commons-imaging)</comments>
       <name>Apache v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -123,34 +88,9 @@
 	  Plug-ins that are not part of compilation.
     -->
     <license>
-      <comments>ODFDOM 0.8.7 (http://odftoolkit.org/projects/odfdom)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
-      <comments>Barcode4J 2.1.0 (http://barcode4j.sourceforge.net)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
       <comments>OPSIN (http://opsin.ch.cam.ac.uk)</comments>
       <name>Artistic v2.0</name>
       <url>http://opensource.org/licenses/Artistic-2.0</url>
-    </license>
-    <license>
-      <comments>Neuroph 2.9.2 (http://neuroph.sourceforge.net)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
-      <comments>ImageJ 1.47.0 (rsb.info.nih.gov/ij)</comments>
-      <name>Public Domain</name>
-      <url>http://en.wikipedia.org/wiki/Public_domain</url>
-    </license>
-    <license>
-      <comments>Matlabcontrol 4.1.0 (http://code.google.com/p/matlabcontrol)</comments>
-      <name>BSD License</name>
-      <url>http://opensource.org/licenses/BSD-3-Clause</url>
     </license>
     <license>
       <comments>JHDF5 14.12.6 (https://wiki-bsse.ethz.ch/pages/viewpage.action?pageId=26609113)</comments>
@@ -166,15 +106,6 @@
       <comments>Mockito 2.0.2 (https://github.com/mockito)</comments>
       <name>MIT</name>
       <url>http://opensource.org/licenses/MIT</url>
-    </license>
-
-    <!--
-	  DON'T BUNDLE -> GPL, AGPL
-    -->
-    <license>
-      <comments>Rserve 1.8.5 (https://www.rforge.net/Rserve)</comments>
-      <name>GPL v2.0</name>
-      <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
     </license>
   </licenses>
   <!--
@@ -204,12 +135,6 @@
     <!-- NetCDF -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.netcdf</module>
     <module>../../features/net.openchrom.thirdpartylibraries.netcdf.feature</module>
-    <!-- Groovy -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.groovy</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.groovy.feature</module>
-    <!-- ODFDOM -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.odfdom</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.odfdom.feature</module>
     <!-- PDFJet -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.pdfjet</module>
     <module>../../features/net.openchrom.thirdpartylibraries.pdfjet.feature</module>
@@ -225,57 +150,24 @@
     <!-- jzy3d -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jzy3d</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jzy3d.feature</module>
-    <!-- Barcode4J -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.barcode4j</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.barcode4j.feature</module>
     <!-- CDK -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.cdk</module>
     <module>../../features/net.openchrom.thirdpartylibraries.cdk.feature</module>
     <!-- OPSIN -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.opsin</module>
     <module>../../features/net.openchrom.thirdpartylibraries.opsin.feature</module>
-    <!-- Neuroph -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.neuroph</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.neuroph.feature</module>
-    <!-- ImageJ -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.imagej</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.imagej.feature</module>
-    <!-- Matlabcontrol -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.matlabcontrol</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.matlabcontrol.feature</module>
-    <!-- Jmol -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jmol</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.jmol.feature</module>
     <!-- LZF -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.lzf</module>
     <module>../../features/net.openchrom.thirdpartylibraries.lzf.feature</module>
-    <!-- Jython -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jython</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.jython.feature</module>
-    <!-- JNA -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jna</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.jna.feature</module>
-    <!-- Javassist -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.javassist</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.javassist.feature</module>
-    <!-- Jettison -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jettison</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.jettison.feature</module>
     <!-- JHDF5 -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jhdf5</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jhdf5.feature</module>
-    <!-- RServe -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.rserve</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.rserve.feature</module>
     <!-- EasyMock -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.easymock</module>
     <module>../../features/net.openchrom.thirdpartylibraries.easymock.feature</module>
     <!-- Mockito -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.mockito</module>
     <module>../../features/net.openchrom.thirdpartylibraries.mockito.feature</module>
-    <!-- XZing -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.xzing</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.xzing.feature</module>
     <!-- EclipseLink -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.eclipselink</module>
     <module>../../features/net.openchrom.thirdpartylibraries.eclipselink.feature</module>

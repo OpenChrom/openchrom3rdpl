@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/net.openchrom.thirdpartylibraries.barcode4j.feature_2.1.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.barcode4j.feature" version="2.1.0.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.cdk.feature_2.7.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.cdk.feature" version="2.7.1.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.groovy.feature_2.0.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.groovy.feature" version="2.0.2.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.imagej.feature_1.47.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.imagej.feature" version="1.47.0.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.jmol.feature_13.2.8.qualifier.jar" id="net.openchrom.thirdpartylibraries.jmol.feature" version="13.2.8.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.matlabcontrol.feature_4.1.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.matlabcontrol.feature" version="4.1.0.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.neuroph.feature_2.9.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.neuroph.feature" version="2.9.2.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.odfdom.feature_0.10.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.odfdom.feature" version="0.10.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.opsin.feature_2.6.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.opsin.feature" version="2.6.0.qualifier">
@@ -36,31 +15,13 @@
    <feature url="features/net.openchrom.thirdpartylibraries.netcdf.feature_5.5.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.netcdf.feature" version="5.5.1.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.jython.feature_2.7.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jython.feature" version="2.7.0.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.jna.feature_4.2.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.jna.feature" version="4.2.2.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.javassist.feature_3.20.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.javassist.feature" version="3.20.0.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.jettison.feature_1.1.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jettison.feature" version="1.1.0.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.jhdf5.feature_14.12.6.qualifier.jar" id="net.openchrom.thirdpartylibraries.jhdf5.feature" version="14.12.6.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.rserve.feature_1.8.5.qualifier.jar" id="net.openchrom.thirdpartylibraries.rserve.feature" version="1.8.5.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.easymock.feature_3.4.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.easymock.feature" version="3.4.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.mockito.feature_2.0.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.mockito.feature" version="2.0.2.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.xzing.feature_3.3.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.xzing.feature" version="3.3.2.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.jogl.feature_2.4.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jogl.feature" version="2.4.0.qualifier">
