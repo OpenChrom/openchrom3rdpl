@@ -18,9 +18,6 @@
    <feature url="features/net.openchrom.thirdpartylibraries.jhdf5.feature_14.12.6.qualifier.jar" id="net.openchrom.thirdpartylibraries.jhdf5.feature" version="14.12.6.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.rserve.feature_1.8.5.qualifier.jar" id="net.openchrom.thirdpartylibraries.rserve.feature" version="1.8.5.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.easymock.feature_3.4.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.easymock.feature" version="3.4.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>

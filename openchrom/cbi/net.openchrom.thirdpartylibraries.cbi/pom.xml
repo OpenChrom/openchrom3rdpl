@@ -112,15 +112,6 @@
       <name>MIT</name>
       <url>http://opensource.org/licenses/MIT</url>
     </license>
-
-    <!--
-	  DON'T BUNDLE -> GPL, AGPL
-    -->
-    <license>
-      <comments>Rserve 1.8.5 (https://www.rforge.net/Rserve)</comments>
-      <name>GPL v2.0</name>
-      <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
-    </license>
   </licenses>
   <!--
 	DEVELOPERS
@@ -176,9 +167,6 @@
     <!-- JHDF5 -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jhdf5</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jhdf5.feature</module>
-    <!-- RServe -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.rserve</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.rserve.feature</module>
     <!-- EasyMock -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.easymock</module>
     <module>../../features/net.openchrom.thirdpartylibraries.easymock.feature</module>
