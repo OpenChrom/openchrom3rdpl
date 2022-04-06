@@ -128,11 +128,6 @@
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
     <license>
-      <comments>Barcode4J 2.1.0 (http://barcode4j.sourceforge.net)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
       <comments>OPSIN (http://opsin.ch.cam.ac.uk)</comments>
       <name>Artistic v2.0</name>
       <url>http://opensource.org/licenses/Artistic-2.0</url>
@@ -225,9 +220,6 @@
     <!-- jzy3d -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jzy3d</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jzy3d.feature</module>
-    <!-- Barcode4J -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.barcode4j</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.barcode4j.feature</module>
     <!-- CDK -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.cdk</module>
     <module>../../features/net.openchrom.thirdpartylibraries.cdk.feature</module>

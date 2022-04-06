@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/net.openchrom.thirdpartylibraries.barcode4j.feature_2.1.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.barcode4j.feature" version="2.1.0.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.cdk.feature_2.7.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.cdk.feature" version="2.7.1.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
