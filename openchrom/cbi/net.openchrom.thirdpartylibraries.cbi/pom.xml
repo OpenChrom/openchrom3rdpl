@@ -67,11 +67,6 @@
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
     <license>
-      <comments>XZing 3.3.2 (https://github.com/zxing/zxing)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
       <comments>Jackcess 3.2.1 (https://github.com/jahlborn/jackcess)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -173,9 +168,6 @@
     <!-- Mockito -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.mockito</module>
     <module>../../features/net.openchrom.thirdpartylibraries.mockito.feature</module>
-    <!-- XZing -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.xzing</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.xzing.feature</module>
     <!-- EclipseLink -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.eclipselink</module>
     <module>../../features/net.openchrom.thirdpartylibraries.eclipselink.feature</module>
