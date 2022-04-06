@@ -123,11 +123,6 @@
       <url>http://opensource.org/licenses/Artistic-2.0</url>
     </license>
     <license>
-      <comments>Neuroph 2.9.2 (http://neuroph.sourceforge.net)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
       <comments>JHDF5 14.12.6 (https://wiki-bsse.ethz.ch/pages/viewpage.action?pageId=26609113)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -203,9 +198,6 @@
     <!-- OPSIN -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.opsin</module>
     <module>../../features/net.openchrom.thirdpartylibraries.opsin.feature</module>
-    <!-- Neuroph -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.neuroph</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.neuroph.feature</module>
     <!-- LZF -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.lzf</module>
     <module>../../features/net.openchrom.thirdpartylibraries.lzf.feature</module>
