@@ -30,13 +30,7 @@
    <feature url="features/net.openchrom.thirdpartylibraries.jzy3d.feature_1.0.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.jzy3d.feature" version="1.0.2.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.unirest.feature_3.3.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.unirest.feature" version="3.3.0.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.eclipselink.feature_2.7.10.qualifier.jar" id="net.openchrom.thirdpartylibraries.eclipselink.feature" version="2.7.10.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.jackcess.feature_4.0.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.jackcess.feature" version="4.0.1.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.imaging.feature_1.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.imaging.feature" version="1.0.0.qualifier">
