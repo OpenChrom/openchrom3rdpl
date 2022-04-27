@@ -9,9 +9,6 @@
    <feature url="features/net.openchrom.thirdpartylibraries.pdfjet.feature_2.81.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.pdfjet.feature" version="2.81.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.lzf.feature_1.0.4.qualifier.jar" id="net.openchrom.thirdpartylibraries.lzf.feature" version="1.0.4.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.netcdf.feature_5.5.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.netcdf.feature" version="5.5.1.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>

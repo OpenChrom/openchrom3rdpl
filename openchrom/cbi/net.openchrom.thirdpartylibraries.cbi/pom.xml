@@ -57,11 +57,6 @@
       <url>http://opensource.org/licenses/BSD-3-Clause</url>
     </license>
     <license>
-      <comments>LZF Java (https://github.com/ning/compress)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
       <comments>OrientDB 2.1.16 (http://www.orientechnologies.com)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -156,9 +151,6 @@
     <!-- OPSIN -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.opsin</module>
     <module>../../features/net.openchrom.thirdpartylibraries.opsin.feature</module>
-    <!-- LZF -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.lzf</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.lzf.feature</module>
     <!-- JHDF5 -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jhdf5</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jhdf5.feature</module>
