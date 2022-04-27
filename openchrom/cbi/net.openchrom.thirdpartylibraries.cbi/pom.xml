@@ -37,11 +37,6 @@
       <url>http://opensource.org/licenses/MIT</url>
     </license>
     <license>
-      <comments>JCAMP-DX 0.9.7 (https://github.com/fracpete/jcamp-dx)</comments>
-      <name>LGPL v2</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.0.html</url>
-    </license>
-    <license>
       <comments>PDFJet 2.81.0 (http://pdfjet.com/os/edition.html)</comments>
       <name>Open Source License</name>
       <url>http://pdfjet.com/os/download.html</url>
@@ -119,9 +114,6 @@
     <module>../thirdpartylibraries.targetplatform</module>
     <module>../../plugins</module>
     <module>../../features</module>
-    <!-- JCAMP-DX -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jcampdx</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.jcampdx.feature</module>
     <!-- NetCDF -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.netcdf</module>
     <module>../../features/net.openchrom.thirdpartylibraries.netcdf.feature</module>

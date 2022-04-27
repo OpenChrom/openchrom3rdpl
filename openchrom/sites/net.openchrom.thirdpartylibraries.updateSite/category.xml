@@ -30,9 +30,6 @@
    <feature url="features/net.openchrom.thirdpartylibraries.eclipselink.feature_2.7.10.qualifier.jar" id="net.openchrom.thirdpartylibraries.eclipselink.feature" version="2.7.10.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.jcampdx.feature_0.9.7.qualifier.jar" id="net.openchrom.thirdpartylibraries.jcampdx.feature" version="0.9.7.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <category-def name="net.openchrom.thirdpartylibraries" label="OpenChrom Third Party Libraries">
       <description>
          This update site provides third party libraries.
