@@ -74,11 +74,6 @@
       <name>LGPL v2.1</name>
       <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
     </license>
-    <license>
-      <comments>Apache Commons Imaging (https://commons.apache.org/proper/commons-imaging)</comments>
-      <name>Apache v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
     <!--
 	  Plug-ins that are not part of compilation.
     -->
@@ -166,9 +161,6 @@
     <!-- Oracle database driver finder -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.oracle</module>
     <module>../../features/net.openchrom.thirdpartylibraries.oracle.feature</module>
-    <!-- Apache Imaging -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.imaging</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.imaging.feature</module>
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>

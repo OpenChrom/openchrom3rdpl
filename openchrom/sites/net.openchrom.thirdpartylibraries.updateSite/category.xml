@@ -30,9 +30,6 @@
    <feature url="features/net.openchrom.thirdpartylibraries.eclipselink.feature_2.7.10.qualifier.jar" id="net.openchrom.thirdpartylibraries.eclipselink.feature" version="2.7.10.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.imaging.feature_1.0.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.imaging.feature" version="1.0.0.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.jcampdx.feature_0.9.7.qualifier.jar" id="net.openchrom.thirdpartylibraries.jcampdx.feature" version="0.9.7.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
