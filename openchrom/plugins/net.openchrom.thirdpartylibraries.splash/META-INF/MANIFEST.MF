@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: net.openchrom.thirdpartylibraries.splash
+Bundle-ManifestVersion: 2
+Bundle-Name: Splash
+Bundle-SymbolicName: net.openchrom.thirdpartylibraries.splash
+Bundle-Version: 1.8.0.qualifier
+Bundle-Activator: net.openchrom.thirdpartylibraries.splash.Activator
+Bundle-Vendor: UC Davis
+Require-Bundle: org.eclipse.core.runtime,
+ org.apache.commons.codec;bundle-version="1.10.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ libraries/core-1.8.jar,
+ libraries/core-1.8-javadoc.jar,
+ libraries/core-1.8-sources.jar
+Export-Package: edu.ucdavis.fiehnlab.spectra.hash.core,
+ edu.ucdavis.fiehnlab.spectra.hash.core.impl,
+ edu.ucdavis.fiehnlab.spectra.hash.core.io,
+ edu.ucdavis.fiehnlab.spectra.hash.core.listener,
+ edu.ucdavis.fiehnlab.spectra.hash.core.sort,
+ edu.ucdavis.fiehnlab.spectra.hash.core.types,
+ edu.ucdavis.fiehnlab.spectra.hash.core.util

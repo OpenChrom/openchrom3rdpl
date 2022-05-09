@@ -153,6 +153,9 @@
     <!-- Oracle database driver finder -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.oracle</module>
     <module>../../features/net.openchrom.thirdpartylibraries.oracle.feature</module>
+    <!-- SPectraL hASH -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.splash</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.splash.feature</module>
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
