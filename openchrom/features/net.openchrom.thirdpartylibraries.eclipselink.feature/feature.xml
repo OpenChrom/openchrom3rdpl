@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="net.openchrom.thirdpartylibraries.eclipselink.feature"
-      label="Feature"
+      label="EclipseLink"
       version="2.7.10.qualifier"
       provider-name="OpenChrom">
 
