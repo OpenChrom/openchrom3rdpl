@@ -8,7 +8,7 @@ Bundle-Version: 2.7.1.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.cdk.Activator
 Bundle-Vendor: The OpenScience Project
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
  libraries/cdk-2.7.1.jar

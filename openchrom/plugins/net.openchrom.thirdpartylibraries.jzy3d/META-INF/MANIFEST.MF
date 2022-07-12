@@ -10,7 +10,7 @@ Require-Bundle: org.eclipse.core.runtime,
  org.apache.log4j;bundle-version="1.2.15",
  net.openchrom.thirdpartylibraries.jogl;bundle-version="2.4.0",
  org.eclipse.swt;bundle-version="3.103.2"
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/miglayout-3.7.3.1.jar,
  libraries/opencsv-2.1.jar,

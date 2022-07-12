@@ -8,7 +8,7 @@ Bundle-Version: 2.81.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.pdfjet.Activator
 Bundle-Vendor: ChemClipse
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: libraries/PDFjet.jar,
  .
