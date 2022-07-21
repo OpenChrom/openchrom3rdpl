@@ -42,16 +42,6 @@
       <url>http://pdfjet.com/os/download.html</url>
     </license>
     <license>
-      <comments>JOGL 2.0.0 (http://jogamp.org/jogl/www)</comments>
-      <name>BSD License</name>
-      <url>http://opensource.org/licenses/BSD-2-Clause</url>
-    </license>
-    <license>
-      <comments>jzy3d 1.0.1 (http://jzy3d.org)</comments>
-      <name>BSD License</name>
-      <url>http://opensource.org/licenses/BSD-3-Clause</url>
-    </license>
-    <license>
       <comments>OrientDB 2.1.16 (http://www.orientechnologies.com)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -120,18 +110,6 @@
     <!-- PDFJet -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.pdfjet</module>
     <module>../../features/net.openchrom.thirdpartylibraries.pdfjet.feature</module>
-    <!-- JOGL -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jogl</module>
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.linux.x86</module>
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.linux.x86_64</module>
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.macosx</module>
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.solaris.x86</module>
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.win32.x86_64</module>
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.win32.x86</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.jogl.feature</module>
-    <!-- jzy3d -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jzy3d</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.jzy3d.feature</module>
     <!-- CDK -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.cdk</module>
     <module>../../features/net.openchrom.thirdpartylibraries.cdk.feature</module>

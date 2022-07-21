@@ -21,12 +21,6 @@
    <feature url="features/net.openchrom.thirdpartylibraries.mockito.feature_2.0.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.mockito.feature" version="2.0.2.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.jogl.feature_2.4.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.jogl.feature" version="2.4.0.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.jzy3d.feature_1.0.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.jzy3d.feature" version="1.0.2.qualifier">
-      <category name="net.openchrom.thirdpartylibraries"/>
-   </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.eclipselink.feature_2.7.10.qualifier.jar" id="net.openchrom.thirdpartylibraries.eclipselink.feature" version="2.7.10.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
