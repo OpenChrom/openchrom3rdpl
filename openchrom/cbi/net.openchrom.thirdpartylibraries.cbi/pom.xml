@@ -32,11 +32,6 @@
 	  Plug-ins that are part of compilation.
     -->
     <license>
-      <comments>NetCDF 4.3.19 (http://www.unidata.ucar.edu/software/netcdf-java)</comments>
-      <name>MIT</name>
-      <url>http://opensource.org/licenses/MIT</url>
-    </license>
-    <license>
       <comments>PDFJet 2.81.0 (http://pdfjet.com/os/edition.html)</comments>
       <name>Open Source License</name>
       <url>http://pdfjet.com/os/download.html</url>
@@ -94,9 +89,6 @@
     <module>../thirdpartylibraries.targetplatform</module>
     <module>../../plugins</module>
     <module>../../features</module>
-    <!-- NetCDF -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.netcdf</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.netcdf.feature</module>
     <!-- PDFJet -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.pdfjet</module>
     <module>../../features/net.openchrom.thirdpartylibraries.pdfjet.feature</module>
