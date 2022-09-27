@@ -6,7 +6,7 @@
    <feature url="features/net.openchrom.thirdpartylibraries.pdfjet.feature_2.81.0.qualifier.jar" id="net.openchrom.thirdpartylibraries.pdfjet.feature" version="2.81.0.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
-   <feature url="features/net.openchrom.thirdpartylibraries.jhdf5.feature_14.12.6.qualifier.jar" id="net.openchrom.thirdpartylibraries.jhdf5.feature" version="14.12.6.qualifier">
+   <feature url="features/net.openchrom.thirdpartylibraries.jhdf5.feature_19.4.1.qualifier.jar" id="net.openchrom.thirdpartylibraries.jhdf5.feature" version="19.4.1.qualifier">
       <category name="net.openchrom.thirdpartylibraries"/>
    </feature>
    <feature url="features/net.openchrom.thirdpartylibraries.mockito.feature_2.0.2.qualifier.jar" id="net.openchrom.thirdpartylibraries.mockito.feature" version="2.0.2.qualifier">

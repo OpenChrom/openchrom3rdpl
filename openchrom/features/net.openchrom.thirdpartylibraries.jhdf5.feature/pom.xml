@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>net.openchrom.thirdpartylibraries.jhdf5.feature</artifactId>
-  <version>14.12.6-SNAPSHOT</version>
+  <version>19.4.1-SNAPSHOT</version>
   <packaging>eclipse-feature</packaging>
   
 </project>
