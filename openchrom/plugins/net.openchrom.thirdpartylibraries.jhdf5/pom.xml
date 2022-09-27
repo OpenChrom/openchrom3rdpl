@@ -10,6 +10,6 @@
 
   <artifactId>net.openchrom.thirdpartylibraries.jhdf5</artifactId>
   <packaging>eclipse-plugin</packaging>
-  <version>14.12.6-SNAPSHOT</version>
+  <version>19.4.1-SNAPSHOT</version>
   
 </project>

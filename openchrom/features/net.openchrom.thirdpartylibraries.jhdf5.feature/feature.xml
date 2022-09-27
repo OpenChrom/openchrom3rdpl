@@ -2,7 +2,7 @@
 <feature
       id="net.openchrom.thirdpartylibraries.jhdf5.feature"
       label="JHDF5"
-      version="14.12.6.qualifier"
+      version="19.4.1.qualifier"
       provider-name="OpenChrom">
 
    <description url="https://sissource.ethz.ch/sispub/jhdf5/">

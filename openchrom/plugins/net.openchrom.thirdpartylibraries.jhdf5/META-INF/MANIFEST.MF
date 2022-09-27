@@ -3,19 +3,8 @@ Automatic-Module-Name: net.openchrom.thirdpartylibraries.jhdf5
 Bundle-ManifestVersion: 2
 Bundle-Name: JHDF5
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.jhdf5
-Bundle-Version: 14.12.6.qualifier
-Bundle-Activator: net.openchrom.thirdpartylibraries.jhdf5.Activator
-Bundle-Vendor: SISD
-Require-Bundle: org.eclipse.core.runtime,
- org.apache.commons.lang;bundle-version="2.4.0",
- org.apache.commons.io;bundle-version="1.4.0"
-Bundle-RequiredExecutionEnvironment: JavaSE-17
-Bundle-ActivationPolicy: lazy
-Bundle-ClassPath: .,
- libraries/jhdf5-14.12.6.jar
-Export-Package: ch.systemsx.cisd.args4j,
- ch.systemsx.cisd.args4j.spi,
- ch.systemsx.cisd.base,
+Bundle-Version: 19.4.1.qualifier
+Export-Package: ch.systemsx.cisd.base,
  ch.systemsx.cisd.base.annotation,
  ch.systemsx.cisd.base.convert,
  ch.systemsx.cisd.base.exceptions,
@@ -28,10 +17,24 @@ Export-Package: ch.systemsx.cisd.args4j,
  ch.systemsx.cisd.base.utilities,
  ch.systemsx.cisd.hdf5,
  ch.systemsx.cisd.hdf5.cleanup,
+ ch.systemsx.cisd.hdf5.exceptions,
+ ch.systemsx.cisd.hdf5.h5ar,
  ch.systemsx.cisd.hdf5.h5ar,
  ch.systemsx.cisd.hdf5.hdf5lib,
  ch.systemsx.cisd.hdf5.io,
- ncsa.hdf.hdf5lib,
- ncsa.hdf.hdf5lib.callbacks,
- ncsa.hdf.hdf5lib.exceptions,
- ncsa.hdf.hdf5lib.structs
+ hdf.hdf5lib,
+ hdf.hdf5lib.callbacks,
+ hdf.hdf5lib.exceptions,
+ hdf.hdf5lib.structs
+Bundle-Activator: net.openchrom.thirdpartylibraries.jhdf5.Activator
+Bundle-Vendor: SISD
+Require-Bundle: org.eclipse.core.runtime,
+ org.apache.commons.io;bundle-version="2.8.0",
+ org.apache.commons.lang3;bundle-version="3.12.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ libraries/sis-base-18.09.0.jar,
+ libraries/sis-jhdf5-19.04.1.jar,
+ libraries/sis-base-18.09.0-sources.jar,
+ libraries/sis-jhdf5-19.04.1-sources.jar

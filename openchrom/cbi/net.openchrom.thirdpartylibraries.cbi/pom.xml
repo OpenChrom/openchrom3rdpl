@@ -58,7 +58,7 @@
 	  Plug-ins that are not part of compilation.
     -->
     <license>
-      <comments>JHDF5 14.12.6 (https://wiki-bsse.ethz.ch/pages/viewpage.action?pageId=26609113)</comments>
+      <comments>JHDF5 19.04.1 (https://unlimited.ethz.ch/pages/viewpage.action?pageId=92865195)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
