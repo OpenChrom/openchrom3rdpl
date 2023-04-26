@@ -27,7 +27,6 @@
 		<tycho.groupid>org.eclipse.tycho</tycho.groupid>
 		<maven.groupid>org.apache.maven.plugins</maven.groupid>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<skip.install>true</skip.install>
 	</properties>
 	<build>
 		<!-- PLUGINS -->
