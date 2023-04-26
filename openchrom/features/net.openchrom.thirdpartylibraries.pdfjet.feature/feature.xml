@@ -3,29 +3,19 @@
       id="net.openchrom.thirdpartylibraries.pdfjet.feature"
       label="PDFJet"
       version="2.81.0.qualifier"
-      provider-name="ChemClipse">
+      provider-name="OpenChrom">
 
-   <description url="http://www.chemclipse.net">
+   <description url="http://pdfjet.com/os/edition.html">
       This feature encapsulates the following libraries:
 PDFJet http://pdfjet.com/os/edition.html 2.81.0
-BSD License
    </description>
 
-   <copyright url="http://www.chemclipse.net">
-This feature encapsulates the following libraries:
-PDFJet http://pdfjet.com/os/edition.html 2.81.0
-BSD License
-   </copyright>
-
-   <license url="http://www.chemclipse.net">
-Copyright (c) 2011, 2018 Lablicate GmbH.
- 
-This feature encapsulates the following libraries:
-PDFJet http://pdfjet.com/os/edition.html 2.81.0
-BSD License
-
+   <copyright url="http://pdfjet.com/os/edition.html">
 PDFjet for Java and C# - Open Source Edition License
 © 2011 Innovatics Inc.
+   </copyright>
+
+   <license url="https://opensource.org/license/bsd-2-clause/">
 All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
@@ -51,7 +41,7 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
    </license>
 
    <url>
-      <discovery label="ChemClipse ThirdPartyLibraries" url="http://www.chemclipse.net"/>
+      <discovery label="OpenChrom ThirdPartyLibraries" url="http://www.openchrom.net"/>
       <discovery label="PDFJet Open Source Edition" url="http://pdfjet.com/os/edition.html"/>
    </url>
 
