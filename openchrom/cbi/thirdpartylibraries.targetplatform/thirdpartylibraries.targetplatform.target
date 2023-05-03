@@ -8,7 +8,7 @@
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="osgi.enterprise" version="0.0.0"/>
-<repository location="https://download.eclipse.org/tools/orbit/downloads/drops/R20191126223242/repository"/>
+<repository location="https://download.eclipse.org/tools/orbit/downloads/2022-03/"/>
 </location>
 </locations>
 </target>
