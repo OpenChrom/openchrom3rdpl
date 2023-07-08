@@ -4,14 +4,14 @@ Eclipse-BuddyPolicy: registered
 Bundle-ManifestVersion: 2
 Bundle-Name: CDK (Chemistry Development Kit)
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.cdk;singleton:=true
-Bundle-Version: 2.7.1.qualifier
+Bundle-Version: 2.8.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.cdk.Activator
 Bundle-Vendor: The OpenScience Project
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
- libraries/cdk-2.7.1.jar
+ libraries/cdk-2.8.jar
 Export-Package: 
  org.openscience.cdk,
  org.openscience.cdk.aromaticity,
@@ -130,6 +130,7 @@ Export-Package:
  org.openscience.cdk.smsd.tools,
  org.openscience.cdk.stereo,
  org.openscience.cdk.structgen,
+ org.openscience.cdk.structgen.maygen,
  org.openscience.cdk.structgen.stochastic,
  org.openscience.cdk.structgen.stochastic.operator,
  org.openscience.cdk.tautomers,
