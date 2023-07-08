@@ -13,7 +13,6 @@ Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
  libraries/cdk-2.7.1.jar
 Export-Package: 
- javax.vecmath,
  org.openscience.cdk,
  org.openscience.cdk.aromaticity,
  org.openscience.cdk.atomtype,
@@ -143,11 +142,4 @@ Export-Package:
  org.openscience.cdk.tools.manipulator,
  org.openscience.cdk.tools.periodictable,
  org.openscience.cdk.validate,
- org.xmlcml.cml.attribute,
- org.xmlcml.cml.attribute.main,
- org.xmlcml.cml.base,
- org.xmlcml.cml.element,
- org.xmlcml.cml.interfacex,
- org.xmlcml.euclid,
- org.xmlcml.molutil,
  uk.ac.ebi.beam
