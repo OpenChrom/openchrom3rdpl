@@ -1,5 +1,6 @@
 Manifest-Version: 1.0
 Automatic-Module-Name: net.openchrom.thirdpartylibraries.jhdf5
+Eclipse-BundleShape: dir
 Bundle-ManifestVersion: 2
 Bundle-Name: JHDF5
 Bundle-SymbolicName: net.openchrom.thirdpartylibraries.jhdf5
