@@ -110,9 +110,6 @@
     <!-- SPectraL hASH -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.splash</module>
     <module>../../features/net.openchrom.thirdpartylibraries.splash.feature</module>
-    <!-- Kerner Utils -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.kerner.utils</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.kerner.utils.feature</module>
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
