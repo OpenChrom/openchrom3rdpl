@@ -32,16 +32,6 @@
 	  Plug-ins that are part of compilation.
     -->
     <license>
-      <comments>PDFJet 2.81.0 (http://pdfjet.com/os/edition.html)</comments>
-      <name>Open Source License</name>
-      <url>http://pdfjet.com/os/download.html</url>
-    </license>
-    <license>
-      <comments>OrientDB 2.1.16 (http://www.orientechnologies.com)</comments>
-      <name>Apache License v2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-    </license>
-    <license>
       <comments>Jackcess 3.2.1 (https://github.com/jahlborn/jackcess)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -89,9 +79,6 @@
     <module>../thirdpartylibraries.targetplatform</module>
     <module>../../plugins</module>
     <module>../../features</module>
-    <!-- PDFJet -->
-    <module>../../plugins/net.openchrom.thirdpartylibraries.pdfjet</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.pdfjet.feature</module>
     <!-- CDK -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.cdk</module>
     <module>../../features/net.openchrom.thirdpartylibraries.cdk.feature</module>
