@@ -142,5 +142,4 @@ Export-Package:
  org.openscience.cdk.tools.features,
  org.openscience.cdk.tools.manipulator,
  org.openscience.cdk.tools.periodictable,
- org.openscience.cdk.validate,
- uk.ac.ebi.beam
+ org.openscience.cdk.validate
