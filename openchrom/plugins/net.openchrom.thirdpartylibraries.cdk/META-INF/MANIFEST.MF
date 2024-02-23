@@ -7,7 +7,9 @@ Bundle-SymbolicName: net.openchrom.thirdpartylibraries.cdk;singleton:=true
 Bundle-Version: 2.9.0.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.cdk.Activator
 Bundle-Vendor: The OpenScience Project
-Require-Bundle: org.eclipse.core.runtime
+Require-Bundle: org.eclipse.core.runtime,
+ javax.vecmath;bundle-version="1.5.2",
+ wrapped.uk.ac.ebi.beam.beam-core;bundle-version="1.3.5"
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
