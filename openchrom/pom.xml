@@ -13,7 +13,7 @@
 	<packaging>pom</packaging>
 	<properties>
 		<!-- versions for plugins to use -->
-		<tycho.version>3.0.4</tycho.version>
+		<tycho.version>4.0.6</tycho.version>
 		<pmd.version>3.16.0</pmd.version>
 		<checkstyle.version>3.1.2</checkstyle.version>
 		<maven-install-plugin.version>2.5.2</maven-install-plugin.version>
@@ -150,4 +150,34 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+
+	<profiles>
+		<profile>
+			<id>codesign</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-jarsigner-plugin</artifactId>
+						<version>3.0.0</version>
+						<configuration>
+							<keystore>${jarsigner.keystore}</keystore>
+							<alias>${jarsigner.alias}</alias>
+							<storepass>${jarsigner.storepass}</storepass>
+							<keypass>${jarsigner.keypass}</keypass>
+						</configuration>
+						<executions>
+							<execution>
+								<id>sign</id>
+								<goals>
+									<goal>sign</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
 </project>
