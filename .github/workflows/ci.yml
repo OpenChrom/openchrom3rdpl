@@ -30,4 +30,4 @@ jobs:
       with:
         path: openchrom3rdparty
     - name: Build with Maven
-      run: cd openchrom3rdparty && mvn -f openchrom/cbi/net.openchrom.thirdpartylibraries.cbi/pom.xml install --batch-mode --no-transfer-progress
+      run: cd openchrom3rdparty && mvn -f openchrom/cbi/net.openchrom.thirdparty.cbi/pom.xml install --batch-mode --no-transfer-progress
