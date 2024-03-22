@@ -20,7 +20,7 @@
 		<cbi-version>1.1.5</cbi-version>
 		<!-- definition of the target to use -->
 		<tycho.target.groupId>net.openchrom</tycho.target.groupId>
-		<tycho.target.artifactId>thirdpartylibraries.targetplatform</tycho.target.artifactId>
+		<tycho.target.artifactId>thirdparty.targetplatform</tycho.target.artifactId>
 		<tycho.target.version>1.0.0-SNAPSHOT</tycho.target.version>
 		<skip.install>false</skip.install>
 		<!-- other settings -->
