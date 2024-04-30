@@ -9,7 +9,7 @@
    <feature url="features/net.openchrom.thirdparty.mockito.feature_2.0.2.qualifier.jar" id="net.openchrom.thirdparty.mockito.feature" version="2.0.2.qualifier">
       <category name="net.openchrom.thirdparty"/>
    </feature>
-   <feature url="features/net.openchrom.thirdparty.eclipselink.feature_2.7.10.qualifier.jar" id="net.openchrom.thirdparty.eclipselink.feature" version="2.7.10.qualifier">
+   <feature url="features/net.openchrom.thirdparty.eclipselink.feature_4.0.2.qualifier.jar" id="net.openchrom.thirdparty.eclipselink.feature" version="4.0.2.qualifier">
       <category name="net.openchrom.thirdparty"/>
    </feature>
    <category-def name="net.openchrom.thirdparty" label="OpenChrom Third Party Libraries">
