@@ -2,7 +2,7 @@
 <feature
       id="net.openchrom.thirdparty.eclipselink.feature"
       label="EclipseLink"
-      version="2.7.10.qualifier"
+      version="4.0.2.qualifier"
       provider-name="OpenChrom">
 
    <description url="https://www.eclipse.org/eclipselink">
@@ -11,7 +11,7 @@
    </description>
 
    <copyright url="https://www.eclipse.org/eclipselink">
-      Copyright © 2012, 2013 by The Eclipse Foundation
+      Copyright © 2012, 2024 by The Eclipse Foundation
    </copyright>
 
    <license url="http://www.eclipse.org/legal/epl-v10.html">
